@@ -1,0 +1,65 @@
+---
+title: 'The Beer Bucket List For The Aspiring Connoisseur'
+slug: 'the-beer-bucket-list-for-the-aspiring-connoisseur'
+creationDate: '2020-08-05'
+category: 'Lifestyle'
+excerpt: 'This comprehensive and regularly updated list includes all the beers that I drank since around 2018.'
+tags:
+  - Craft beer
+  - Tools
+  - Community
+---
+
+<script>
+  import Image from 'svelte-image';
+</script>
+
+<figure class="mb-10">
+  <Image src="https://images.unsplash.com/photo-1507310951869-fe0941df4dbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format" alt="Beer collection" class="block mx-auto" />
+  <figcaption class="text-center">
+    You gotta try them all. - Photo by
+    <a href="https://unsplash.com/@juniperphoton" target="_blank" rel="noopener noreferrer">
+      JuniperPhoton
+    </a>
+    on
+    <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>
+  </figcaption>
+</figure>
+
+Beer is one of the most popular alcoholic beverages in the world. There are countless different and complex styles brewed in an ever-growing number of craft beer breweries around the globe.
+
+Compared to other alcoholic drinks like wine or gin, I am fascinated by the fact that beer can vary so much in flavor, bitterness, and alcohol by volume. Depending on your mood and personal preference, you can go for a refreshing, hoppy, and bitter IPA on a warm summer day or enjoy a strong, full-bodied, and creamy stout which makes you drunk fast.
+
+I’ve always loved trying out new beers and especially the first sip when you are really thirsty is always a blessing. At the beginning of 2018, I decided to start a spreadsheet and track every new beer that I discover and drink.
+
+Although the ranking is highly subjective, it can be helpful for you to go through the list and see if you can buy any of them locally in your area and potentially avoid the ones that I disliked.
+
+The comprehensive and regularly updated list mostly contains beers that are available in the DACH region since I live in Vienna, Austria, but you can also find a great number of beers from places that I visited for vacation.
+
+With a simple three-grade rating system, I have a reference to look up whenever I am unsure if I had a beer already and If I liked it or not.
+
+To make the list easily understandable and avoid overcomplicating the rating process, these are the three grades:
+
+- **I like** - for the beer that I definitely would buy again.
+- **Meh** - for the beer that didn’t impress me but that also wasn’t bad.
+- **Not my taste** - for the beer that certainly has its fans, but doesn’t work for me.
+
+Without further ado, here is the [Google Docs spreadsheet](https://docs.google.com/document/d/1WM_uH-Y7XL8UEGuC8oWeXP23KSTCzyEswVYG_qa3VIA/edit?usp=sharing).
+
+Be aware that I tend to dislike IPA and lighter beers in favor of wheat beers, sours, and porter/stouts.
+
+For a good general overview of top-rated beers across the globe, you can also check reviews on [Untappd](https://untappd.com/beer/top_rated).
+
+## Some of my all time favorite beers include
+
+- Edelweiß Weizen, Wheat
+- Kozel Dark, Lager
+- Kriek Boon, Lambic
+- Sakiškių Sour Beetroot Ale, Sour
+- Idylwilde Brewing Mountain Fair Confluence Cream Ale, Cream Ale
+
+## Do you have any recommendations to try for me?
+
+Do you have a different opinion on a beer than me? You can leave inline comments directly in the spreadsheet or in the comment section below the post.
+
+Drink on!

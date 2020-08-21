@@ -1,0 +1,37 @@
+<script>
+  // import { differenceInDays, parseISO } from 'date-fns';
+  import InfoTags from './InfoTags.svelte';
+  import type { Post } from '../models/post';
+
+  export let post: Post;
+</script>
+
+<div class="card">
+  <div class="px-6 py-8">
+    <div class="my-3 text-xl font-bold">
+      <a rel="prefetch" href="blog/{post.slug}" class="link-inherit">{post.title}</a>
+    </div>
+
+    <!-- {#if differenceInDays(parseISO(post.creationDate), new Date()) > -7}
+        <div class="absolute top-0 right-0 px-3 py-1 text-teal-600 bg-gray-200">New!</div>
+      {/if} -->
+
+    <div class="my-3">
+      <InfoTags {post} />
+    </div>
+
+    {#if post.excerpt}
+      <p class="mt-3 mb-12">{post.excerpt.substr(0, 100)}...</p>
+    {/if}
+  </div>
+  <div class="absolute bottom-0 right-0 pt-4 pl-6 text-right">
+    <a
+      rel="prefetch"
+      aria-label="{post.slug}"
+      href="blog/{post.slug}"
+      class="inline-block rounded-br btn-primary"
+    >
+      Read more
+    </a>
+  </div>
+</div>

@@ -1,0 +1,201 @@
+---
+title: 'Become The Best Version Of Yourself'
+slug: 'become-the-best-version-of-yourself'
+creationDate: '2020-07-02'
+category: 'Lifestyle'
+excerpt: 'Through my personal experience, the character traits mentioned below can help you out in life tremendously, no matter if you find yourself in a job interview situation, relationship, or with friends.'
+tags:
+  - Personal development
+  - Awareness
+  - Success
+---
+
+<script>
+  import Image from 'svelte-image';
+</script>
+
+<figure class="mb-10">
+  <Image src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format" alt="Black sailing boat" class="block mx-auto" />
+  <figcaption class="text-center">
+    You have it all in you. - Photo by
+    <a href="https://unsplash.com/@coopery" target="_blank" rel="noopener noreferrer">
+      Mohamed Nohassi
+    </a>
+    on
+    <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>
+  </figcaption>
+</figure>
+
+We all want to be attractive to our peers. Contrary to our looks which are given by nature and can only be changed up to a certain degree, we can improve our personality in a myriad of ways.
+
+A strong and noble character can help you cope with various moments of life, no matter if you find yourself in a job interview, during a heated discussion in your relationship, or while spending time with your friends.
+
+With a collection of real-world experiences that I have had and think about frequently, I want to show you how you can change your character traits for the better.
+
+Through my personal experience, I have found that the following character traits can lead you to live a happier life:
+
+## Be bold
+
+We are scared and anxious about what other people think of us.
+
+**What if I told you that people don't care about you at all?**
+
+A common test as a newbie in the self-development area - who might need a boost of confidence and self-awareness - is to go to a public place and randomly begin to do pushups or sing a song.
+
+It will shoot up your adrenaline and you will feel embarrassed because these actions are not socially acceptable within that certain setting.
+
+You are thinking: **"Oh no! People are looking at me!"**
+
+They are wondering how to interpret your actions and if you could potentially cause any harm. But then they just keep on moving and probably forget about you after 5 minutes.
+
+**The harsh truth is that people think about themselves 99% of the time!**
+
+Their financial situation, social status, and the picture that they are about to post online are just much more important than you. Find the people who matter to you in your life and don’t care too much about the rest.
+
+**You can use this knowledge to your advantage and act with more confidence!**
+
+Maybe asking your boss for the raise that you wanted for so long is easier for you now that you know that there is no reason to be scared?
+
+## Be in balance
+
+Expect only the best from people that you encounter during your journey of life. Don't let yourself get influenced negatively by factors that are out of your reach.
+
+My dad is the perfect example: if you mention certain topics at lunch, he begins to complain about things that he can't change. Yet still, he reads the newspaper every day and gets more upset about the news that he doesn't like.
+
+**Does this sound like you?**
+
+Based on my experience there are three optimal ways to proceed in this specific situation:
+
+- don't read the information that upsets you
+- read it but don't let it affect you emotionally
+- read it and join a movement to improve the situation around the topic at hand
+
+Even better when it comes to news, reconsider your choices of media sources.
+
+Realizing the inherent bias in every piece of information that you consume is a good start.
+
+**Don't let your bias get in the way**
+
+There is a great website called [All Sides](https://www.allsides.com/) that provides you with articles and opinions on topics from news sources from the left, the center, and the right political spectrum.
+
+Watching from an ideological bird's eye view is an excellent start to getting an objective look of things.
+
+You can make up your mind and consume a somewhat balanced news coverage when you decide to step out of your filter bubble.
+
+**Take action**
+
+It is natural and human that there are things that annoy us, but take action and change your situation or no one will take you seriously when you complain all the time.
+
+It might not seem like a big deal at first, but in my opinion, every anger that generates in your body can potentially turn into pain or sickness. Additionally, negative thoughts and behavior usually attract more negativity as a result. This turns into a vicious circle which is very difficult to get out of again.
+
+A frustrating topic for me is noise and pollution of any kind. A lot of it comes from too many cars in the city where I live.
+
+Instead of finding myself in a situation of cognitive dissonance for not taking action but feeling strongly about it, I decided to join a local bicycle organization a while ago.
+
+With a peer group that also believes in alternative means of transportation, there are regular political actions to make the city more livable for its population.
+
+What I can highly recommend you to do next time when you are about to get angry is, ask yourself:
+
+**Is the problem I am facing really worth it getting angry about?**
+
+Yeah we know, political party X did this bad thing again. Oh no, your neighbor took your favorite parking spot. Argh, you didn't win the lottery.
+
+**Who cares?**
+
+Think about it in a global context. Other people have it way worse but they get up every day and still have a smile on their faces.
+
+Save your breath and don't let your day get ruined by irrelevant problems. You will see, when you compare your problems to others, most of them will seem insignificant.
+
+## Be one step ahead of yourself
+
+Everyday life keeps you busy and one day feels like the other.
+
+The monotony and predictability of your actions drag you down into disregard for all the beautiful things and experiences that are waiting for you right around the corner.
+
+**Challenge yourself constantly!**
+
+No matter if it means trying out a new restaurant, going for a bungee jump, or signing up for a marathon, it will make you feel awesome because you extend the boundaries of your comfort zone.
+
+For me, taking cold showers is an easy way of implementing a challenge into my daily routine.
+
+If you don't fight against your inner couch potato, it will win and everything will seem like a big effort because your comfort zone shrank to a minimum.
+
+## Be a good listener
+
+There are some simple improvements you can implement into conversations which will have a huge impact:
+
+**Don't prepare your answer in a conversation while another person still speaks!**
+
+We all know this type of person: you tell them about how your weekend was and the other person cuts in and tells you how much more they did, completely overruling you.
+
+Rather listen closely and try to find a solution for the problems of your conversation partner.
+
+Reciprocity is a strong determining factor in human behavior.
+
+**If you give, you will receive back 10x times.**
+
+Be active in your communication and try to learn from every sentence that could hold valuable information for you.
+
+**Don't try to win the argument**
+
+This frequently happens in political showdowns or relationships.
+Instead of acknowledging valid points of the opponent, both conversation partners try to be dominant and have the last word.
+
+When both people who are involved in the conversation try to come out on top instead of finding a compromise, there will be no useful outcome.
+
+It can be a very powerful move to just take a step back and say: **"You know what? I agree with you on this topic".**
+
+It shows your ability to respect other opinions and that you see past your subjective truth.
+
+The irony is that by agreeing to the opponent, you might win the discussion automatically because you unarmed their arguments.
+
+After all, you learned how to make a compromise and you don't try to cling to your limited arguments and biased experience.
+
+## Be in the moment
+
+You are missing out on enjoying the present and all the small things that make life worth without you realizing it.
+
+Stopping time is impossible, but there is a good exercise to slow it down.
+
+Close your eyes and sharpen your senses:
+
+- what do you feel in your body?
+- what taste is in your mouth?
+- are you hearing any unusual sounds?
+- open your eyes again and try to spot things in your surroundings that are new to you
+
+Often, **we can avoid missing out on life if we choose to consciously focus on one task at a time.**
+
+No matter if you are a parent or child, don’t bring your phone to the dinner table and put it on silent for those few minutes. Enjoy the time with your loved ones, and appreciate the delicious meal you are eating.
+
+Your phone will passively or even worse actively distract you from enjoying all the good talks and you might even miss out on some subtext of the spoken words.
+
+Recently I was at the playground for a workout and I saw something that made me smirk in an "I lost faith in humanity" kind of way: A mother pushed her young daughter with one hand on a swing. Her phone was in her other hand, endlessly scrolling through her news feed.
+
+**Wow, great parenting!**
+
+It was clear that she was completely distracted by her phone instead of enjoying the outdoors and an afternoon with her daughter.
+
+You might think your child doesn't mind but especially kids want your undivided attention, don't neglect them! You don’t want to wake up in 15 years and realize that you have been too preoccupied with your phone and that you missed out on so many great experiences with your kids.
+
+## Be aware
+
+In our daily lives, we are often confronted with inconsiderate people around us.
+
+Instead of taking initiative and starting a discussion with the person responsible, we tend to look away, ignore it, and continue our path.
+
+When you walk through the streets next time, count how many individual pieces of trash you can find on the ground.
+
+**Unfortunately, littering is still very much a thing in today's modern world.**
+
+Even when there are no trash cans around, there are zero excuses to throw any waste on the ground.
+
+The next time you encounter a person littering, shouting around at night time, or behaving inappropriately in front of other people, **make it your priority to step in.**
+
+## Conclusion
+
+I hope that you can take my advice to heart and apply it!
+
+If you are still skeptical, realize that the character traits and examples that I mentioned above are achievable no matter your background.
+
+They don't require money or a certain IQ, you just need to be willing to change to **become the best version of yourself!**

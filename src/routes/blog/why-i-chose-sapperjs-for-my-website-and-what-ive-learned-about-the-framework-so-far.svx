@@ -1,0 +1,191 @@
+---
+title: 'Why I Chose SapperJS For My Website, And What I`ve Learned About The Framework So Far'
+slug: 'why-i-chose-sapperjs-for-my-website-and-what-ive-learned-about-the-framework-so-far'
+creationDate: '2020-06-13'
+category: 'Programming'
+excerpt: 'Since I wanted to go for a website built on a modern JAMStack setup, I had these options based on framework popularity and matureness.'
+tags:
+  - Website
+  - SapperJS
+  - JAMStack
+  - Javascript Frameworks
+---
+
+<script>
+  import Image from 'svelte-image';
+</script>
+
+<figure class="mb-10">
+  <Image src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format" alt="Code on laptop" class="block mx-auto" />
+  <figcaption class="text-center">
+    All you need is code. - Photo by
+    <a href="https://unsplash.com/@clemhlrdt" target="_blank" rel="noopener noreferrer">
+      Clément H
+    </a>
+    on
+    <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>
+  </figcaption>
+</figure>
+
+<div class="alert-grey mb-3">
+  A Javascript framework is a collection of components and libraries that provides code for routine programming tasks like routing, HTTP calls, and more, so you don't have to write everything from scratch!
+</div>
+
+Wow, what a framework!
+
+In this post, I will explain my thought process of how I was able to single out a tech-stack that would fulfill all the criteria I need to build a well-structured website:
+
+- snappy, lightning-fast performance
+- optimized SEO for being visible on the web
+- developer friendliness for hacking away efficiently
+- innovation in the field of website tools
+- natural curiousness as a developer to try out new technologies
+
+Since I wanted to go for a website built on a modern [JAMStack](https://jamstack.wtf/) setup, I had these options based on framework popularity and matureness:
+
+- Next.js
+- Gatsby
+- Hugo
+- Nuxt.js
+- and maaaany more
+
+You can see a full list of available static site generators provided by Netlify on [StaticGen](https://www.staticgen.com/), there are a lot of competitors!
+
+## Next.js
+
+Since I have about 2 years of professional experience working with React, it would have made a lot of sense to choose Next.js as my preferred framework, but that would have been too easy, right?
+
+To be more versatile with different Javascript frameworks out there, I decided against a React-based framework like Next.js.
+
+## Gatsby
+
+I didn't want to pick Gatsby again because I am already using it for another project of mine that I recently started working on called [DAW Comparison](https://dawcomparison.com).
+
+Apart from wanting to try different tools, I didn't fully enjoy the developer experience using Gatsby as I ran into issues with performance, having a difficult time figuring out how to get [gatsby-image](https://www.gatsbyjs.org/packages/gatsby-image/) working the way I want and getting frustrated by unmaintained/duplicated plugins.
+
+Nevertheless, I am certain that **Gatsby is here to stay and will grow into an excellent framework**, especially since it is already very popular and received [\$28M in Series B Funding](https://www.businesswire.com/news/home/20200527005268/en/Gatsby-Raises-28M-Series-Funding-Web-Built) in May 2020.
+
+## Hugo
+
+Although I am interested in trying out the Go language for writing a backend project at some point, I was not interested in [Hugo](https://gohugo.io/) due to it not being on my radar, but also because of its **confusing-looking templating syntax**, for example:
+
+```html
+{{ define "main" }}
+<main aria-role="main">
+  <header class="homepage-header">
+    <h1>{{.Title}}</h1>
+    {{ with .Params.subtitle }}
+    <span class="subtitle">{{.}}</span>
+    {{ end }}
+  </header>
+  <div class="homepage-content">
+    {{.Content}}
+  </div>
+  <div>
+    {{ range first 10 .Site.RegularPages }} {{ .Render "summary"}} {{ end }}
+  </div>
+</main>
+{{ end }}
+```
+
+It might be a really powerful site generator, but I aim for simplicity for my website project.
+
+## Nuxt.js
+
+Building the website with [Nuxt.js](https://nuxtjs.org/) would have made a lot of sense as I would have gained some hands-on experience with all three major Javascript frameworks (React, Angular and Vue).
+
+**VueJS is gaining a lot of popularity on Github** and across the JS scene because it pretty much combines the best features of React and Angular, but as you will read further below, I eventually decided to go with the underdog.
+
+## Small detour
+
+A while ago, I found out about [Svelte](https://svelte.dev/) and felt intrigued and fascinated by its promise to be **a radical new approach to building user interfaces**.
+
+As seen on their website, "Svelte shifts the bulk of work that is usually done in the browser into a compile step that happens when you build your app". Hey, that sounds like a great way to solve performance issues for me!
+
+After working through the whole [Svelte tutorial](https://svelte.dev/tutorial/basics), I had a few WTF moments (in the most positive sense) where I was impressed by its absolute simplicity and smooth developer experience.
+
+Nevertheless, after acknowledging that it's too underground and might die a horrible "Just another Javascript framework" death sooner or later and lacking a real-world project to try it out on, I dismissed it and forgot about Svelte again.
+
+## SapperJS
+
+Fast forward to the initial research of the potential JAMStack setup of this website.
+
+I coincidentally ran across [SapperJS](https://sapper.svelte.dev/) and realized that it is "powered by Svelte" and developed by the same core team.
+
+After a short moment of triumphing, I saw this notice on their documentation:
+
+<figure class="mb-10">
+  <Image src="sapper-notice.png" alt="Sapper early development notice" class="block mx-auto" />
+  <figcaption class="text-center">
+    This will be a risky choice. - Early development notice on
+    <a href="https://sapper.svelte.dev/docs" target="_blank" rel="noopener noreferrer">
+      Sapper documentation
+    </a>
+  </figcaption>
+</figure>
+
+Oh, snap! That sounds like a lot of potential headaches, I still remember the upgrades from Angular 2 to 4 and Webpack 3 to 4 much too well.
+
+So my choices came down to
+
+- go with stable and mature Nuxt.js, be relevant to the job market and profit from a large community in case I get stuck and have to rely on StackOverflow
+- choose early development SapperJS, which did not hit a major version yet and potentially run into a few breaking changes along the way
+
+## In doubt, get a second opinion
+
+Not an easy choice, am I right? I decided to ask a former work colleague that I can always rely on for good information and advice.
+
+He is smart as hell and has about 20 years of experience in the Javascript ecosystem, so that helps in situations like this.
+
+I asked: "Hey Pete, I would love to use SapperJS for my website, but it is still in early development, it's a stupid idea, right?"
+
+He responded: "It's not stupid at all, just be aware that you might need to refactor or redo a lot of code. But especially with personal projects, it's great to try out new tools and grow from the experience."
+
+Kind of surprised that he wouldn't turn down the idea right away and that he even encouraged me to try it out, I felt motivated and jumped right into it!
+
+Starting with an underdog framework also meant that there would be a lacking ecosystem of plugins and solutions, but I was aware of that and accepted it as part of building the website from scratch and seeing it as a great learning experience.
+
+## Progressing fast with Sapper
+
+I started with the [sapper-template-rollup](https://github.com/sveltejs/sapper-template-rollup) and quickly set up the first few pages.
+
+Now after working on the website on and off for about a month, I am proud to have reached these goals:
+
+- fast, performant and fully-responsive site
+- a blog site with filtering options and sub-pages for categories/tags
+- GDPR-compliance with own cookie notice and opt-in to Google Analytics
+- a commenting system with [ReplyBox](https://getreplybox.com/)
+- fast styling of layouts with [TailwindCSS](https://tailwindcss.com/)
+- shipping less than 300kb of resources and ~20 requests across each page
+- lazy loading and image optimization with [svelte-image](https://github.com/matyunya/svelte-image)
+- easy deployment to [Github Pages](https://pages.github.com/)
+- close to 100% on Lighthouse audit
+
+I was able to focus almost exclusively on these goals without worrying about site performance because Sapper comes with advanced features and optimizations like route prefetching, server-side rendering, automatic code-splitting, and offline support out of the box!
+
+## My experience so far
+
+In case you feel inspired to start with SapperJS as well, these are my thoughts and experiences so far about what works well and what doesn't:
+
+Pros
+
+- great starter template with plenty of optimization options provided
+- it works smoothly without any hiccups or weird errors even though it is in its early development stages
+- you automatically profit from awesome Svelte features like concise syntax, built-in linting, a11y, marking of unused CSS, and more
+- development server starts fast and does hot module reloading
+- no framework-specific `<Link>` components, just `<a>` tags which support prefetching
+- guaranteed smooth integration with [Rollup](https://github.com/rollup/rollup), which was also created by Rich Harris, the founder of Svelte
+- Discord channel with a nice community for all your potential questions
+
+Cons
+
+- Sapper documentation is good but doesn't cover various edge cases which happen in development
+- a lot of necessary SEO attributes are not set by default, e.g. meta description
+- lacking ecosystem and component libraries either not existent or early development e.g. Svelma (Bulma components for Svelte)
+
+All in all, I didn't encounter any severe cons at the time of writing and I am optimistic that with all the hype around SvelteJS we will see the ecosystem steadily grow into a mature and well-respected web application framework.
+
+If building a website with JAMStack doesn't sound interesting to you, you can check out my other post about [Wix, WordPress, JAMStack- Oh My!
+](/blog/wix-wordpress-jamstack-oh-my) for some great alternatives.
+
+Thanks for reading!

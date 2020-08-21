@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "ES2017", "WebWorker"],
+    "target": "es2017",
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "importsNotUsedAsValues": "error",
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "removeComments": true,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noImplicitThis": false,
+    "strict": true,
+    "types": ["svelte", "@sapper"],
+    "typeRoots": ["types"],
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "src/node_modules/**/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "static/*"]
+}

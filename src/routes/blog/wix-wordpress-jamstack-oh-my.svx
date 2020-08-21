@@ -1,0 +1,144 @@
+---
+title: 'Wix, WordPress, JAMStack - Oh My!'
+slug: 'wix-wordpress-jamstack-oh-my'
+creationDate: '2020-06-14'
+category: 'Programming'
+excerpt: 'How to choose where to set up your website when you have so many options and so little time.'
+tags:
+  - Website
+  - Tools
+  - WordPress
+  - WYSIWYG
+---
+
+<script>
+  import Image from 'svelte-image';
+</script>
+
+<figure class="mb-10">
+  <Image src="https://images.unsplash.com/photo-1507494924047-60b8ee826ca9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format" alt="Information Overload" class="block mx-auto" />
+  <figcaption class="text-center">
+    So many options, so little time. - Photo by
+    <a href="https://unsplash.com/@impatrickt" target="_blank" rel="noopener noreferrer">
+      Patrick Tomasso
+    </a>
+    on
+    <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>
+  </figcaption>
+</figure>
+
+There are many options to choose from when building your website:
+
+- [WordPress](https://wordpress.org/) is the go-to option for many people who are not coders
+- different WYSIWYG ("What you see is what you get") tools like [Wix](https://www.wix.com)
+- [JAMStack](https://jamstack.wtf/) solutions like [Gatsby](https://www.gatsbyjs.org/) or [Next.js](https://nextjs.org/)
+
+## Why I didn't choose a CMS like WordPress
+
+Due to its big ecosystem of plugins and popularity, you can **bootstrap a website in no time with WordPress and release your MVP**.
+
+Nevertheless, having experienced various WordPress sites either through building them for clients, browsing the web myself or helping out my girlfriend with hiccups of her company's website, I can clearly say that **WordPress sites feel slow, sluggish and laggy to me** and don't provide the performance that I would expect from a simple website.
+
+As a coder, I am interested in the code quality and want to have control over as many aspects of the website as possible.
+
+When you start with a theme or template, there is **way too much magic happening** under the hood, and only some customization options are surfaced for the user to benefit from.
+
+If you lack the coding skills or time for working on your website, I can understand why it’s a good choice to take the shortcut and fire up a WordPress site, install a handful of plugins, and focus solely on content creation.
+
+In a single day, you can probably finish the MVP of your website depending on the complexity, while with a classic HTML/CSS/Javascript framework you would be still working on the first page or even stuck with configurations.
+
+### This is of course very subjective, but here are my pro & cons regarding WordPress:
+
+**Pros**
+
+- no coding skills necessary
+- open-source and free
+- huge community
+- extend functionality with endless plugins
+- ready fast with UI themes
+- strong focus on blogging and SEO
+
+**Cons**
+
+- fresh install lacks in security
+- updating plugins can break site easily
+- attractive for potential hackers due to popularity
+- bad page performance out of the box
+- further customization not provided through plugins and themes is difficult
+- spaghetti code
+- no version history e.g. Git
+
+## Why I didn't choose a WYSIWYG editor like Wix
+
+The big upside of WYSIWYG tools is the **possibility to drag and drop content** and building the website in a way that a user can relate to since changes are immediately visualized and impactful.
+
+It resembles a Microsoft Word editor with a lot of shortcut buttons e.g. bolding the text or attaching an image.
+
+### Compared to WordPress, my subjective pros & cons for a WYSIWYG editor look like this:
+
+**Pros**
+
+- fast workflow with drag and drop
+- strong focus on the visual aspect of a page
+- no coding skills necessary
+- ready fast with UI themes
+
+**Cons**
+
+- spaghetti code
+- bad page performance out of the box
+- weak SEO optimization
+- further customization without provided plugins or themes is difficult
+- the site can look like a clone of another one fast
+
+## Hello JAMStack!
+
+Building my website with a [JAMStack](https://jamstack.wtf/) solution came naturally.
+
+When you receive various programming newsletters, there are always clickbait articles like "Why you have to try XYZ" or "Check out the the fastest framework called XYZ".
+
+There is the ever-present need for staying relevant and up to date on the job market and also having some fear of missing out when not using the latest and greatest bleeding-edge technology.
+
+So it happened that I worked on a project with Gatsby to satisfy my developer curiosity for trying out new technologies and got in touch with JAMStack.
+
+It can best be described as a **nostalgic reliving of the good old static website days**.
+
+### A classic JAMStack project looks like this:
+
+- provide website content through Markdown files or write static HTML, no database is needed
+- since the content is generally static, minimal or no backend setup needed
+- the production bundle goes through steps like tree shaking, minification and is stripped of development tooling to become a small and performant end product
+- you deploy your site with a hosting provider e.g. Netlify
+- serve assets through a CDN
+- the website loads fast for the user due to server-side rendering optimizations and cached content
+
+You can find a detailed explanation of JAMStack on [jamstack.wtf](https://jamstack.wtf/). Choosing JAMStack or not depends a lot on the scope of your website. Most of the content needs to be requested on runtime e.g a corporate website with a lot of dynamic forms and user input? Don't use it. Is the content mostly images and text which rarely gets updated e.g. a blog post or a one-page product website? Yes, do it!
+
+**Pros**
+
+- great performance out of the box
+- excellent developer experience
+- very cheap due delivering cached static files
+- fast deployment
+- just a static HTML page
+- free and open-source frameworks
+- extend functionality with plugins
+- all your changes are version-controlled
+
+**Cons**
+
+- coding skills required
+- dependent on 3rd party services
+- cannot request dynamic data on runtime
+- the time required for learning the stack
+- no GUI
+
+## Wrapping it up
+
+Using a JAMStack setup for your next project can be a great choice, depending on the scope of the project, possible company requirements, and many more factors. You will benefit immensely from a blazing fast page performance and an enjoyable developer experience.
+
+In case you are not a programmer or need to get a project bootstrapped really quickly, it is advisable to stick with either WordPress or Wix where you can manage your project through a graphical user interface.
+
+If you are interested in building a JAMStack website, you can read in my article ["Why I Chose SapperJS For My Website, and What I've Learned About the Framework So Far"](/blog/why-i-chose-sapperjs-for-my-website-and-what-ive-learned-about-the-framework-so-far) about how I was able to work and choose the perfect solution for me.
+
+Thank you for reading! I hope you found the information useful in this article. If you have any questions, feel free to leave a response below.

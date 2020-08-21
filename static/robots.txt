@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://markushatvan.com/sitemap.xml

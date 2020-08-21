@@ -1,0 +1,12 @@
+---
+title: 'Barefoot Hike'
+slug: 'barefoot-hike'
+creationDate: '2020-08-18'
+category: 'Lifestyle'
+excerpt: 'ASDF.'
+tags:
+  - Hiking
+hidden: true
+---
+
+barefoot hike: do 10min,30 1h 2h, cons have to clean feet, might get cut, avoid small stones they hurt the most, you can go right through water puddles and mud!
