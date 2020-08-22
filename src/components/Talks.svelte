@@ -1,5 +1,5 @@
 <script>
-  import Fa from 'svelte-fa';
+  import Icon from 'svelte-awesome/components/Icon.svelte';
   import { faAngular, faJs, faNpm } from '@fortawesome/free-brands-svg-icons';
 
   import ExternalLink from './ExternalLink.svelte';
@@ -14,7 +14,7 @@
 
   <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
     <div class="inline-flex items-center w-full lg:w-2/4">
-      <Fa icon="{faNpm}" size="2.5x" class="mr-3 text-red-700" />
+      <Icon data="{faNpm}" scale="{2}" class="mr-3 text-red-700" />
       <span>
         <b>Betcha didn't know that?!</b>
         &middot;
@@ -39,7 +39,7 @@
 
   <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
     <div class="inline-flex items-center w-full lg:w-2/4">
-      <Fa icon="{faJs}" size="2.5x" class="mr-3 text-yellow-500" />
+      <Icon data="{faJs}" scale="{2}" class="mr-3 text-yellow-500" />
       <span>
         <b>Best practices for open source contributions</b>
         &middot;
@@ -72,7 +72,7 @@
 
   <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
     <div class="inline-flex items-center w-full lg:w-2/4">
-      <Fa icon="{faAngular}" size="2.5x" class="mr-3 text-red-700" />
+      <Icon data="{faAngular}" scale="{2}" class="mr-3 text-red-700" />
       <span>
         <b>How to boost web dev efficiency</b>
         &middot;

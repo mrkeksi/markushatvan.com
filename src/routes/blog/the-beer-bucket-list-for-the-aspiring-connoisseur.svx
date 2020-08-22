@@ -15,7 +15,7 @@ tags:
 </script>
 
 <figure class="mb-10">
-  <Image src="https://images.unsplash.com/photo-1507310951869-fe0941df4dbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format" alt="Beer collection" class="block mx-auto" />
+  <Image src="variety-of-different-beer-styles.jpeg" alt="Variety of different beer styles" class="block mx-auto" />
   <figcaption class="text-center">
     You gotta try them all. - Photo by
     <a href="https://unsplash.com/@juniperphoton" target="_blank" rel="noopener noreferrer">

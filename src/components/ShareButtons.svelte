@@ -1,5 +1,5 @@
 <script>
-  import Fa from 'svelte-fa';
+  import Icon from 'svelte-awesome/components/Icon.svelte';
   import {
     faReddit,
     faPinterest,
@@ -26,7 +26,7 @@
   class="inline-flex text-teal-900 hover:text-teal-700"
   title="Share on Facebook"
 >
-  <Fa icon="{faFacebook}" class="mr-3" size="1.5x" />
+  <Icon data="{faFacebook}" class="mr-3" scale="{1.5}" />
 </a>
 <a
   href="https://www.linkedin.com/shareArticle?mini=true&url={encodedURL}&title={encodedPostTitle}&summary={encodedPostExcerpt}&source=LinkedIn"
@@ -35,7 +35,7 @@
   class="inline-flex text-teal-900 hover:text-teal-700"
   title="Share on LinkedIn"
 >
-  <Fa icon="{faLinkedin}" class="mx-3" size="1.5x" />
+  <Icon data="{faLinkedin}" class="mx-3" scale="{1.5}" />
 </a>
 <a
   href="https://twitter.com/intent/tweet?text={encodedPostTitle}&url={encodedURL}"
@@ -44,7 +44,7 @@
   class="inline-flex text-teal-900 hover:text-teal-700"
   title="Share on Twitter"
 >
-  <Fa icon="{faTwitter}" class="mx-3" size="1.5x" />
+  <Icon data="{faTwitter}" class="mx-3" scale="{1.5}" />
 </a>
 <a
   href="https://www.reddit.com/submit?url={encodedURL}&title={encodedPostTitle}"
@@ -53,7 +53,7 @@
   class="inline-flex text-teal-900 hover:text-teal-700"
   title="Share on Reddit"
 >
-  <Fa icon="{faReddit}" class="mx-3" size="1.5x" />
+  <Icon data="{faReddit}" class="mx-3" scale="{1.5}" />
 </a>
 <a
   href="https://www.linkedin.com/sharing/share-offsite/?url={encodedURL}"
@@ -62,5 +62,5 @@
   class="inline-flex text-teal-900 hover:text-teal-700"
   title="Share on Pinterest"
 >
-  <Fa icon="{faPinterest}" class="mx-3" size="1.5x" />
+  <Icon data="{faPinterest}" class="mx-3" scale="{1.5}" />
 </a>

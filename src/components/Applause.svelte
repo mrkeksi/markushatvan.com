@@ -1,5 +1,5 @@
 <script>
-  import Fa from 'svelte-fa';
+  import Icon from 'svelte-awesome/components/Icon.svelte';
   import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 </script>
 
@@ -12,7 +12,7 @@
       <div class="flex flex-col w-full p-2 md:w-1/2">
         <div class="lg:px-6 lg:py-4">
           <div class="flex justify-start">
-            <Fa icon="{faQuoteLeft}" class="text-white" size="1.5x" />
+            <Icon data="{faQuoteLeft}" class="text-white" scale="{1.5}" />
           </div>
           <q class="px-5 mx-4 text-center text-white">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut laborum repudiandae magni
@@ -23,7 +23,7 @@
             Rerum, ea!
           </q>
           <div class="flex justify-end">
-            <Fa icon="{faQuoteRight}" class="text-white" size="1.5x" />
+            <Icon data="{faQuoteRight}" class="text-white" scale="{1.5}" />
           </div>
         </div>
         <div>
@@ -35,7 +35,7 @@
       <div class="flex flex-col w-full p-2 md:w-1/2">
         <div class="lg:px-6 lg:py-4">
           <div class="flex justify-start">
-            <Fa icon="{faQuoteLeft}" class="text-white" size="1.5x" />
+            <Icon data="{faQuoteLeft}" class="text-white" scale="{1.5}" />
           </div>
           <q class="px-5 mx-4 text-center text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sit, quas nemo aspernatur
@@ -43,7 +43,7 @@
             dolorem magnam, facilis ullam! Rerum, ea!
           </q>
           <div class="flex justify-end">
-            <Fa icon="{faQuoteRight}" class="text-white" size="1.5x" />
+            <Icon data="{faQuoteRight}" class="text-white" scale="{1.5}" />
           </div>
         </div>
         <div>

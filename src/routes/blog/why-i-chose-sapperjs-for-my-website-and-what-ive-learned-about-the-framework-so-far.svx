@@ -16,7 +16,7 @@ tags:
 </script>
 
 <figure class="mb-10">
-  <Image src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format" alt="Code on laptop" class="block mx-auto" />
+  <Image src="laptop-with-displayed-code.jpeg" alt="Code on laptop" class="block mx-auto" />
   <figcaption class="text-center">
     All you need is code. - Photo by
     <a href="https://unsplash.com/@clemhlrdt" target="_blank" rel="noopener noreferrer">

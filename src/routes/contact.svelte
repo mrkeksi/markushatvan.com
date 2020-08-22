@@ -1,5 +1,5 @@
 <script>
-  import Fa from 'svelte-fa';
+  import Icon from 'svelte-awesome/components/Icon.svelte';
   import { faTwitter, faMedium, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
   import { faEnvelope, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
   import SEO from '../components/SEO.svelte';
@@ -33,14 +33,14 @@
       ariaLabel="Write me a mail"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
-      <Fa icon="{faEnvelope}" size="2x" />
+      <Icon data="{faEnvelope}" scale="{2}" />
     </ExternalLink>
     <ExternalLink
       href="https://github.com/mhatvan"
       ariaLabel="Follow me on Github"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
-      <Fa icon="{faGithub}" class="ml-5" size="2x" />
+      <Icon data="{faGithub}" class="ml-5" scale="{2}" />
     </ExternalLink>
 
     <ExternalLink
@@ -48,7 +48,7 @@
       ariaLabel="Network with me on Linkedin"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
-      <Fa icon="{faLinkedin}" class="ml-5" size="2x" />
+      <Icon data="{faLinkedin}" class="ml-5" scale="{2}" />
     </ExternalLink>
 
     <ExternalLink
@@ -56,7 +56,7 @@
       ariaLabel="Tweet with me on Twitter"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
-      <Fa icon="{faTwitter}" class="ml-5" size="2x" />
+      <Icon data="{faTwitter}" class="ml-5" scale="{2}" />
     </ExternalLink>
 
     <ExternalLink
@@ -64,7 +64,7 @@
       ariaLabel="Follow me on Medium"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
-      <Fa icon="{faMedium}" class="ml-5" size="2x" />
+      <Icon data="{faMedium}" class="ml-5" scale="{2}" />
     </ExternalLink>
   </div>
 
@@ -76,7 +76,7 @@
         customClass="inline-flex"
       >
         Submit issue
-        <Fa icon="{faExternalLinkAlt}" class="mt-1 ml-2" />
+        <Icon data="{faExternalLinkAlt}" class="mt-1 ml-2" />
       </ExternalLink>
 
     </div>
@@ -87,7 +87,7 @@
         customClass="inline-flex"
       >
         Request feature
-        <Fa icon="{faExternalLinkAlt}" class="mt-1 ml-2" />
+        <Icon data="{faExternalLinkAlt}" class="mt-1 ml-2" />
       </ExternalLink>
     </div>
     <div class="w-full sm:w-1/3">
@@ -97,7 +97,7 @@
         customClass="inline-flex"
       >
         Suggest content
-        <Fa icon="{faExternalLinkAlt}" class="mt-1 ml-2" />
+        <Icon data="{faExternalLinkAlt}" class="mt-1 ml-2" />
       </ExternalLink>
     </div>
   </div>

@@ -12,8 +12,6 @@
     iframe.src = `https://app.getreplybox.com/embed/sites/${replyBoxSiteID}?url=${encodedURL}&amp;identifier=demo&amp;title=${document.title}&amp;childId=replybox&amp;parentTitle=${document.title}&amp;parentUrl=${encodedURL}`;
     iframe.width = '100%';
     // iframe.scrolling = 'no';
-    iframe.marginHeight = '0';
-    iframe.frameBorder = '0';
     iframe.title = 'ReplyBox';
 
     // Hack until replybox loading works as expected

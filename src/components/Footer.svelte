@@ -41,7 +41,7 @@
 </style>
 
 <script>
-  import Fa from 'svelte-fa';
+  import Icon from 'svelte-awesome/components/Icon.svelte';
   import { faTwitter, faMedium, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
   import { faEnvelope, faRss } from '@fortawesome/free-solid-svg-icons';
   import ExternalLink from './ExternalLink.svelte';
@@ -120,7 +120,7 @@
         ariaLabel="Write me a mail"
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
       >
-        <Fa icon="{faEnvelope}" class="mr-3" />
+        <Icon data="{faEnvelope}" class="mr-3" />
       </ExternalLink>
 
       <ExternalLink
@@ -128,7 +128,7 @@
         ariaLabel="Follow me on Github"
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
       >
-        <Fa icon="{faGithub}" class="mr-3" />
+        <Icon data="{faGithub}" class="mr-3" />
       </ExternalLink>
 
       <ExternalLink
@@ -136,7 +136,7 @@
         ariaLabel="Network with me on Linkedin"
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
       >
-        <Fa icon="{faLinkedin}" class="mr-3" />
+        <Icon data="{faLinkedin}" class="mr-3" />
       </ExternalLink>
 
       <ExternalLink
@@ -144,7 +144,7 @@
         ariaLabel="Tweet with me on Twitter"
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
       >
-        <Fa icon="{faTwitter}" class="mr-3" />
+        <Icon data="{faTwitter}" class="mr-3" />
       </ExternalLink>
 
       <ExternalLink
@@ -152,7 +152,7 @@
         ariaLabel="Follow me on Medium"
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
       >
-        <Fa icon="{faMedium}" class="mr-3" />
+        <Icon data="{faMedium}" class="mr-3" />
       </ExternalLink>
 
       <ExternalLink
@@ -160,7 +160,7 @@
         ariaLabel="Read the RSS feed"
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
       >
-        <Fa icon="{faRss}" class="mr-3" />
+        <Icon data="{faRss}" class="mr-3" />
       </ExternalLink>
     </nav>
     <div class="w-full mt-0 sm:w-1/3 sm:mt-6">

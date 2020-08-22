@@ -1,5 +1,5 @@
 <script>
-  import Fa from 'svelte-fa';
+  import Icon from 'svelte-awesome/components/Icon.svelte';
   import { faTwitter, faMedium, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
   import { faRss } from '@fortawesome/free-solid-svg-icons';
   import ExternalLink from './ExternalLink.svelte';
@@ -15,7 +15,7 @@
       ariaLabel="Follow me on Github"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
-      <Fa icon="{faGithub}" class="mx-3 mb-3" size="2x" />
+      <Icon data="{faGithub}" class="mx-3 mb-3" scale="{2}" />
     </ExternalLink>
 
     <ExternalLink
@@ -23,7 +23,7 @@
       ariaLabel="Network with me on Linkedin"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
-      <Fa icon="{faLinkedin}" class="mx-3 mb-3" size="2x" />
+      <Icon data="{faLinkedin}" class="mx-3 mb-3" scale="{2}" />
     </ExternalLink>
 
     <ExternalLink
@@ -31,7 +31,7 @@
       ariaLabel="Tweet with me on Twitter"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
-      <Fa icon="{faTwitter}" class="mx-3 mb-3" size="2x" />
+      <Icon data="{faTwitter}" class="mx-3 mb-3" scale="{2}" />
     </ExternalLink>
 
     <ExternalLink
@@ -39,7 +39,7 @@
       ariaLabel="Follow me on Medium"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
-      <Fa icon="{faMedium}" class="mx-3 mb-3" size="2x" />
+      <Icon data="{faMedium}" class="mx-3 mb-3" scale="{2}" />
     </ExternalLink>
 
     <ExternalLink
@@ -47,7 +47,7 @@
       ariaLabel="Read the RSS feed"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
-      <Fa icon="{faRss}" class="mx-3 mb-3" size="2x" />
+      <Icon data="{faRss}" class="mx-3 mb-3" scale="{2}" />
     </ExternalLink>
   </div>
 </div>

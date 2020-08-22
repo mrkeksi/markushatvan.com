@@ -17,7 +17,7 @@ tags:
 </script>
 
 <figure class="mb-10">
-  <Image src="https://images.unsplash.com/photo-1473186505569-9c61870c11f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format" alt="Writer's journey" class="block mx-auto" />
+  <Image src="pen-writing-on-a-paper.jpeg" alt="Writer's journey" class="block mx-auto" />
   <figcaption class="text-center">
     Let's start this journey! - Photo by
     <a href="https://unsplash.com/@alvaroserrano" target="_blank" rel="noopener noreferrer">

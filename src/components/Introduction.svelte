@@ -1,5 +1,5 @@
 <script>
-  import Fa from 'svelte-fa';
+  import Icon from 'svelte-awesome/components/Icon.svelte';
   import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
   import Image from 'svelte-image';
@@ -25,7 +25,7 @@
           class="inline-flex mt-3"
         >
           Check me out on Github here
-          <Fa icon="{faGithub}" size="1.5x" class="hidden ml-3 sm:block" />
+          <Icon data="{faGithub}" scale="{1.5}" class="hidden ml-3 sm:block" />
         </a>
       </div>
       <div class="w-full mx-auto sm:w-1/2 md:w-1/3" style="max-width: 250px">

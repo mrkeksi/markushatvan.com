@@ -15,7 +15,7 @@
 
 <script>
   // @ts-nocheck
-  import Fa from 'svelte-fa';
+  import Icon from 'svelte-awesome/components/Icon.svelte';
   import { faGithub } from '@fortawesome/free-brands-svg-icons';
   import ClickOutside from 'svelte-click-outside';
 
@@ -43,7 +43,8 @@
     <div class="block md:hidden">
       <ClickOutside on:clickoutside="{() => (open = false)}">
         <button
-          class="flex items-center px-3 py-2 text-teal-600 border border-gray-400 hover:text-teal-800 hover:border-gray-500"
+          class="flex items-center px-3 py-2 text-teal-600 border border-gray-400
+          hover:text-teal-800 hover:border-gray-500"
           on:click="{toggleHamburgerMenu}"
         >
           <svg class="w-3 h-3 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -91,10 +92,11 @@
           href="https://github.com/mhatvan"
           target="_blank"
           rel="noopener noreferrer"
+          style="line-height: 23px;"
           class="inline-flex mr-0 nav-link md:mt-0"
         >
           Github
-          <Fa icon="{faGithub}" class="mt-1 ml-3" />
+          <Icon data="{faGithub}" class="mt-1 ml-3" />
         </a>
       </nav>
     </div>

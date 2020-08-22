@@ -24,20 +24,13 @@
   import CurrentGoals from '../../components/CurrentGoals.svelte';
   import SEO from '../../components/SEO.svelte';
   import { stores } from '@sapper/app';
-  import { afterUpdate } from 'svelte';
   import type { Post } from '../../models/post';
   const { page } = stores();
 
   export let postsByCategory: Post[];
-  export let slug: string;
   export let posts: Post[];
 
-  let readableSlug = convertToSentenceCase(slug);
-
-  // We navigate to other category, but since slug is preloaded, we need to react to route change here to update UI
-  afterUpdate(() => {
-    readableSlug = convertToSentenceCase($page.params.slug);
-  });
+  $: readableSlug = convertToSentenceCase($page.params.slug);
 </script>
 
 <svelte:head>

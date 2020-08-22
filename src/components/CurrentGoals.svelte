@@ -1,6 +1,6 @@
 <script>
   import Image from 'svelte-image';
-  import Fa from 'svelte-fa';
+  import Icon from 'svelte-awesome/components/Icon.svelte';
   import { faCheck } from '@fortawesome/free-solid-svg-icons';
   import { faClock } from '@fortawesome/free-regular-svg-icons';
 
@@ -64,9 +64,9 @@
   {#each goals as goal}
     <div class="flex items-baseline italic">
       {#if goal.reached}
-        <Fa icon="{faCheck}" class="mr-3 text-green-500" />
+        <Icon data="{faCheck}" class="mr-3 text-green-500" />
       {:else}
-        <Fa icon="{faClock}" class="mr-3 text-gray-600" />
+        <Icon data="{faClock}" class="mr-3 text-gray-600" />
       {/if}
       <p>{goal.text}</p>
     </div>

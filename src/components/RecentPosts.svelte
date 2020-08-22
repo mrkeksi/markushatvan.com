@@ -1,5 +1,5 @@
 <script>
-  import Fa from 'svelte-fa';
+  import Icon from 'svelte-awesome/components/Icon.svelte';
   import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
   import BlogPostCard from './BlogPostCard.svelte';
   import type { Post } from '../models/post';
@@ -21,6 +21,6 @@
 
   <a rel="prefetch" href="/blog" class="inline-flex mt-8 font-bold rounded text-md btn-primary">
     View more
-    <Fa icon="{faAngleRight}" class="ml-3" size="1.5x" />
+    <Icon data="{faAngleRight}" class="ml-3" scale="{1.5}" />
   </a>
 </section>

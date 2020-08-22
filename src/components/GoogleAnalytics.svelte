@@ -12,6 +12,13 @@
 
   const gaProperty = 'UA-81701707-3';
 
+  const gtagHit = () =>
+    gtag('config', gaProperty, {
+      page_path: $page.path,
+      anonymize_ip: true,
+      cookie_flags: 'SameSite=None;Secure',
+    });
+
   onMount(() => {
     const ga = document.createElement('script');
     ga.type = 'text/javascript';
@@ -24,19 +31,13 @@
     gtag('js', new Date());
 
     // Collect initial page hit after page load
-    gtag('config', gaProperty, {
-      page_path: $page.path,
-      anonymize_ip: true,
-    });
+    gtagHit();
   });
 
   $: {
     if (typeof gtag !== 'undefined') {
       // Collect page hits on navigate to other pages
-      gtag('config', gaProperty, {
-        page_path: $page.path,
-        anonymize_ip: true,
-      });
+      gtagHit();
     }
   }
 </script>

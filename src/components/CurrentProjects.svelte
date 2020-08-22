@@ -1,5 +1,5 @@
 <script>
-  import Fa from 'svelte-fa';
+  import Icon from 'svelte-awesome/components/Icon.svelte';
   import { faGithub } from '@fortawesome/free-brands-svg-icons';
   import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
@@ -49,7 +49,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Fa icon="{faExternalLinkAlt}" class="ml-3" />
+            <Icon data="{faExternalLinkAlt}" class="ml-3" />
           </a>
         {/if}
         <a
@@ -58,7 +58,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Fa icon="{faGithub}" class="ml-3" />
+          <Icon data="{faGithub}" class="ml-3" />
         </a>
       </div>
       <div class="w-full my-3 lg:w-3/4">
