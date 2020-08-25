@@ -95,7 +95,7 @@
           style="line-height: 23px;"
           class="inline-flex mr-0 nav-link md:mt-0"
         >
-          Github
+          GitHub
           <Icon data="{faGithub}" class="mt-1 ml-3" />
         </a>
       </nav>

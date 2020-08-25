@@ -1,7 +1,7 @@
 <script>
   import GithubButton from './GithubButton.svelte';
 
-  // Unfortunately have to add the repos manually, since I would be running into rate limiting of Github API all the time
+  // Unfortunately have to add the repos manually, since I would be running into rate limiting of GitHub API all the time
   const repos = [
     {
       name: 'React Boilerplate',

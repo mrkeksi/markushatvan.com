@@ -5,6 +5,7 @@
   import { faClock } from '@fortawesome/free-regular-svg-icons';
 
   // adding types throws compiler error for some reason
+  // need https://github.com/sveltejs/svelte/pull/4282 to get merged
   export let readableSlug;
 
   const programmingGoals = [

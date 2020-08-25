@@ -72,7 +72,7 @@ I can recommend creating calendars for categories like "Business", "Meetups & So
 
 Additionally, **it works out great for me and my girlfriend to have a shared calendar** where we can easily put in a joint restaurant visit or show unavailability.
 
-There will always be days where you 100% cannot procrastinate on tasks, therefore I also suggest using an "URGENT" calendar, color-coded in red, you will not miss these entries.
+There will always be days when you 100% cannot procrastinate on tasks, therefore I also suggest using an "URGENT" calendar, color-coded in red, you will not miss these entries.
 
 Oftentimes you will be on the go and need to **write down your thoughts somewhere as soon as possible** so you don't forget about it again. I use a "Reminders" calendar for simple entries like "Contact person XYZ" or "Sign up for service XYZ".
 
@@ -81,9 +81,9 @@ Oftentimes you will be on the go and need to **write down your thoughts somewher
   <figcaption class="text-center">The differently colored calendar entries make it easy to distinguish them visually.</figcaption>
 </figure>
 
-Compared to a dedicated todo list, a calendar entry gives you an idea if you delayed acting on a task for a while and you generally **have a feel for how much you still have to do for that week**.
+Compared to a dedicated to-do list, a calendar entry gives you an idea if you delayed acting on a task for a while and you generally **have a feel for how much you still have to do for that week**.
 
-Additionally, with a calendar that syncs across all devices, you are always up to date. With a todo list, you would probably end up splitting it up into categories to be effective and then you have to context switch to your calendar to check your time slots anyways.
+Additionally, with a calendar that syncs across all devices, you are always up to date. With a to-do list, you would probably end up splitting it up into categories to be effective and then you have to context switch to your calendar to check your time slots anyways.
 
 In contrast to entries from e.g. "Concerts" or "Workout", which I keep in the calendar **to be able to always go back in history and see what happened on day XYZ**, "Reminders" will be deleted after the necessary action was taken.
 
@@ -99,11 +99,11 @@ Oftentimes, I see that work colleagues, friends, and family members just have a 
 
 In total, I have ~2000 browser bookmarks divided into categories for easily finding links, even when they are a couple of years old. You can think of your bookmarks collection like a library, which holds a vast amount of knowledge, ready for you to read anytime!
 
-New bookmarks usually go into a Todo folder first where I read and delete them whenever I find the time. If I find a link very useful, I will put it into a bookmark subfolder for future usage, similar to working with the email inbox.
+New bookmarks usually go into a to-do folder first where I read and delete them whenever I find the time. If I find a link very useful, I will put it into a bookmark subfolder for future usage, similar to working with the email inbox.
 
 To give you some ideas for a useful bookmarks structure that you can use, I will show you some folders that work for me and help me split up information.
 
-- Todo
+- To-do
   - Own projects
   - Ways to make money
   - Let's Plays + Games + Videos
@@ -135,7 +135,7 @@ Of course, this also gets messy from time to time unfortunately, then it will re
 
 Put them into an "old" folder instead, who knows when they will be of use again!
 
-The folder that I am using for this contains links for bike repair shops, past jobs, and workplaces, what to do against migraines, and links for finding a new flat. I don't need these links regularly but they can be helpful one day, so I keep them stashed away.
+The folder that I am using for this contains links for bike repair shops, past jobs, and workplaces, what to do against migraines, and links for finding a new flat. I don't need these links regularly, but they can be helpful one day, so I keep them stashed away.
 
 ## All-in-one bookmark manager
 
@@ -179,13 +179,13 @@ A common workflow for me is the following:
 
 - **When checking emails:** read and delete the email right away or move it into a subfolder for future reference.
 
-- **When an email contains interesting links:** read the content right away or open the external links and save them for later with Raindrop.io (e.g. a blog post) or bookmark them into your Todo folder (e.g. a service to register or a video to watch). Sometimes taking a quick screenshot is also enough to keep information available for later.
+- **When an email contains interesting links:** read the content right away or open the external links and save them for later with Raindrop.io (e.g. a blog post) or bookmark them into your To-do folder (e.g. a service to register or a video to watch). Sometimes taking a quick screenshot is also enough to keep information available for later.
 
 - **While commuting or having spare time:** read articles in Raindrop.io and delete or move valuable information into browser bookmarks.
 
 - **Getting new ideas or schedule new activities:** put them into the respective calendar. Work off temporary reminders regularly and act on urgent tasks right away. Keep concerts and other events long term to be able to look back in history.
 
-- **When going through Todo browser bookmarks:** read and delete or move valuable information into bookmarks subfolders for long term.
+- **When going through To-do browser bookmarks:** read and delete or move valuable information into bookmarks subfolders for long term.
 
 - **Keeping up with chat messages and notifications:** read them all in a single application window with Rambox or snooze messages for undisturbed productivity.
 

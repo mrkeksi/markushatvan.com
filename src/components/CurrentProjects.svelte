@@ -7,14 +7,14 @@
     {
       name: 'markushatvan',
       description: 'Personal website and blog written from scratch with SapperJS and TailwindCSS.',
-      techStack: 'SapperJS, Svelte, TailwindCSS, NodeJS, Rollup, Markdown, Github, Github Pages',
+      techStack: 'SapperJS, Svelte, TailwindCSS, NodeJS, Rollup, Markdown, GitHub, Netlify',
       websiteLink: 'https://markushatvan.com',
       githubLink: 'https://github.com/mhatvan/markushatvan.com',
     },
     {
       name: 'DAW Comparison',
       description: 'Compare and find the ideal DAW for your needs.',
-      techStack: 'Gatsby, React, Ant Design, Markdown, Github, Netlify',
+      techStack: 'Gatsby, React, Ant Design, Markdown, GitHub, Netlify',
       websiteLink: 'https://dawcomparison.com',
       githubLink: 'https://github.com/mhatvan/dawcomparison',
     },
@@ -22,7 +22,7 @@
       name: 'Jooblr',
       description: 'Helping people find a side job.',
       techStack:
-        'React Native, Typescript, GraphQL, Formik, Jest, Sentry, Slack, Github, Hasura, Firebase',
+        'React Native, Typescript, GraphQL, Formik, Jest, Sentry, Slack, GitHub, Hasura, Firebase',
       githubLink: 'https://github.com/jooblr',
     },
     {

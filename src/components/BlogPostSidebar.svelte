@@ -10,7 +10,11 @@
 </script>
 
 <AboutMe />
+
 <Newsletter />
+
 <PopularArticles {posts} />
+
 <Categories {posts} />
+
 <SubscribeAndFollow />

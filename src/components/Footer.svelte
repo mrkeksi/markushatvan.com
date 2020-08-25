@@ -125,7 +125,7 @@
 
       <ExternalLink
         href="https://github.com/mhatvan"
-        ariaLabel="Follow me on Github"
+        ariaLabel="Follow me on GitHub"
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
       >
         <Icon data="{faGithub}" class="mr-3" />

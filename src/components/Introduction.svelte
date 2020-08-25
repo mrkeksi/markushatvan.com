@@ -24,7 +24,7 @@
           rel="noopener noreferrer"
           class="inline-flex mt-3"
         >
-          Check me out on Github here
+          Check me out on GitHub here
           <Icon data="{faGithub}" scale="{1.5}" class="hidden ml-3 sm:block" />
         </a>
       </div>

@@ -37,7 +37,7 @@
     </ExternalLink>
     <ExternalLink
       href="https://github.com/mhatvan"
-      ariaLabel="Follow me on Github"
+      ariaLabel="Follow me on GitHub"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
       <Icon data="{faGithub}" class="ml-5" scale="{2}" />

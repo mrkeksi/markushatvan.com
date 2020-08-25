@@ -40,9 +40,10 @@
   </p>
 
   <p>
-    I want to provide value to the public and share my thoughts. You can read about all the reasons
-    why I started this blog
-    <ExternalLink href="/blog/6-reasons-why-i-started-this-blog">here</ExternalLink>
+    I want to provide value to the public and share my thoughts. I wrote an article explaining
+    <a rel="prefetch" href="/blog/6-reasons-why-i-started-this-blog">
+      my reasons why I started this blog
+    </a>
     .
   </p>
 
@@ -55,8 +56,7 @@
     <li>invests in the stock market and owns ~30 crypto coins</li>
     <li>goes everywhere with his mountain bike</li>
     <li>tries to improve everyday life with zero waste options</li>
-    <!-- <li>took part in a spartan race</li>
-      <li>took part in a 140km bike event</li> -->
+    <!-- <li>took part in a spartan race</li> -->
     <li>can do a full split</li>
     <li>loves to go ice swimming or having a cold shower</li>
     <li>loves to play video games on the hardest difficulty</li>

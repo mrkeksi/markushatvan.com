@@ -6,7 +6,7 @@ category: 'Programming'
 excerpt: 'ASDF.'
 tags:
   - Svelte
-  - Javascript Frameworks
+  - JavaScript Frameworks
   - Web development
   - Beginners
 hidden: true
@@ -28,17 +28,17 @@ hidden: true
   </figcaption>
 </figure> -->
 
-Although Svelte's initial release was already back in November 2016, it is still the underdog of the Javascript frameworks and just started recently to get its much deserved attention by the community.
+Although Svelte's initial release was already back in November 2016, it is still the underdog of the JavaScript frameworks and just started recently to get its much deserved attention by the community.
 
-You might heard about it appearing here and there in articles and developer surveys like the [State of JS 2019 Survey](https://2019.stateofjs.com/front-end-frameworks/) as one of the best ranked framework when it comes to bundle size, performance, lines of code and most important developer satisfaction. Now you might be asking yourself the question:
+You might have heard about it appearing here and there in articles and developer surveys like the [State of JS 2019 Survey](https://2019.stateofjs.com/front-end-frameworks/) as one of the best ranked framework when it comes to bundle size, performance, lines of code and most important developer satisfaction. Now you might be asking yourself the question:
 
 ## What makes Svelte different?
 
-Compared to the popular React and Vue libraries, which are using a technique called virtual DOM diffing and operate on runtime, Svelte is compiled into framework-less vanilla JS as build step and can therefore benefit from a lot of code optimizations.
+Compared to the popular React and Vue.js libraries, which are using a technique called virtual DOM diffing and operate on runtime, Svelte is compiled into framework-less vanilla JS as build step and can therefore benefit from a lot of code optimizations.
 
-Although I am experienced with all three major Javascript frameworks (Angular, React and Vue) I never felt deeply connected to any of them or that I had the impression they were groundbreaking. With Svelte, it feels so natural to write it and you can tell that the creator was sick of all the other frameworks required abstractions and boilerplate to learn and just wanted to create something simple, powerful and elegant.
+Although I am experienced with all three major JavaScript frameworks (Angular, React and Vue.js) I never felt deeply connected to any of them or that I had the impression they were groundbreaking. With Svelte, it feels so natural to write it and you can tell that the creator was sick of all the other frameworks required abstractions and boilerplate to learn and just wanted to create something simple, powerful and elegant.
 
-I was wondering if Svelte is just hyped or really that good, so after a couple months of using it, I can give you a definitive answer. These are the top 10 reasons why I recommend Svelte to every new web developer who is starting to learn programming:
+I was wondering if Svelte is just hyped or really that good, so after a couple of months of using it, I can give you a definitive answer. These are the top 10 reasons why I recommend Svelte to every new web developer who is starting to learn programming:
 
 ## 1. Svelte components are easy to understand
 
@@ -64,13 +64,13 @@ If you have never seen the Svelte syntax before, this is how a simple example wo
 <p>I hope you are having a good day!</p>
 ```
 
-Compared to other frontend frameworks which introduce a lot of abstract concepts and take a while to learn and understand, it is really refreshing to see that Svelte just uses plain old HTML, CSS and Javascript side by side. You can see and recognize easily what is happening here with its beginner-friendly syntax.
+Compared to other frontend frameworks which introduce a lot of abstract concepts and take a while to learn and understand, it is really refreshing to see that Svelte just uses plain old HTML, CSS and JavaScript side by side. You can see and recognize easily what is happening here with its beginner-friendly syntax.
 
 ## 2. Simply write concise code
 
-As you can see in the code example above, the business logic that you write is simple but powerful at the same time. After all, the less code you write, the less bugs it can have, right?
+As you can see in the code example above, the business logic that you write is simple but powerful at the same time. After all, the less code you write, the fewer bugs it can have, right?
 
-Rich Harris, the genius creator of Svelte provided some good comparisons with React and Vue here: [Write less code](https://svelte.dev/blog/write-less-code). According to a check up on characters needed to write the logic for a simple addition of two numbers, a React component is typically around 40% larger than its Svelte equivalent!
+Rich Harris, the genius creator of Svelte provided some good comparisons with React and Vue.js here: [Write less code](https://svelte.dev/blog/write-less-code). According to a check up on characters needed to write the logic for a simple addition of two numbers, a React component is typically around 40% larger than its Svelte equivalent!
 
 ## X. Reactivity with labeled statements
 
@@ -109,17 +109,17 @@ In this example, we check the current environment as a store value and use it to
 
 With Svelte stores, you also never have to worry about memory leaks, because store variables prefixed with a `$` sign act as auto-subscriptions and unsubscribe automatically.
 
-## X. built in a11y checks and displays unused css
+## X. built in a11y checks and displays unused CSS
 
 Svelte wants to make the internet a better place and helps you out with useful hints in the code.
 
 Whenever you forget to put the `alt` attribute on an `<img>` tag, Svelte will display a nice `A11y: <img> element should have an alt attribute` reminder for you.
 
-To keep the code as concise and avoid leftover snippets, Svelte flags unused css selectors for you whenever there is no respective markup in a component.
+To keep the code as concise and avoid leftover snippets, Svelte flags unused CSS selectors for you whenever there is no respective markup in a component.
 
 ## X. Styling is scoped by default
 
-Similar to CSS-in-JS libraries, Svelte styles are scoped by default which means that a `svelte-<unique-hash>` classname will be attached to your styles so they don't leak and influence any other components styling. Of course, you have the option for styles to be applied globally by simply prefixing them with the `:global()` modifier or just use a `.css` file if you want to.
+Similar to CSS-in-JS libraries, Svelte styles are scoped by default which means that a `svelte-<unique-hash>` class name will be attached to your styles, so they don't leak and influence any other components styling. Of course, you have the option for styles to be applied globally by simply prefixing them with the `:global()` modifier or just use a `.css` file if you want to.
 
 ## X. built-in motion/transition/ animation and easing effects like tweening, spring, fly, fade and flip
 
@@ -159,7 +159,7 @@ I didn't encounter any issues with this way of writing logic, but I would prefer
 
 ### Receiving props in a child component
 
-When you want to pass values from the parent to the child component, you need to pass a value as attribute to `Child.svelte` and you can receive it by using `export let`. In modern Javascript, export is usually used to export a module and let to declare a variable, so I feel that the syntax is misusing existing keywords, but I got used to it and it works well.
+When you want to pass values from the parent to the child component, you need to pass a value as attribute to `Child.svelte` and you can receive it by using `export let`. In modern JavaScript, export is usually used to export a module and let to declare a variable, so I feel that the syntax is misusing existing keywords, but I got used to it and it works well.
 
 ```html
 <!-- Parent.svelte -->
@@ -177,7 +177,7 @@ When you want to pass values from the parent to the child component, you need to
 
 This is not directly related to the development experience with Svelte, but you should definitely be aware that Svelte can't compete with bigger and sponsored projects like React, Angular, Vue.js and others in terms of financial support, number of contributors and popularity as of now.
 
-I like Svelte's ease of use, small bundle size, developer experience and other positive factors that were mentioned above so much that I can accept the development speed as tradeoff. If you always need the newest features to land as fast as with other projects, then you might want to look into other available Javascript frameoworks.
+I like Svelte's ease of use, small bundle size, developer experience and other positive factors that were mentioned above so much that I can accept the development speed as trade off. If you always need the newest features to land as fast as with other projects, then you might want to look into other available JavaScript frameworks.
 
 ### Lack of jobs around
 
@@ -189,7 +189,7 @@ BLBLA
 
 If Svelte sounds like a great choice to you, I would recommend to start hacking away with the [Svelte tutorial](https://svelte.dev/tutorial/basics). The tutorial is really detailed and you can get an understanding fast of how powerful the framework is.
 
-Things can definitely change fast in the world of Javascript frameworks and I hope you are as convinced as me that Svelte has all the upsides that can make it become the new #1 Javascript framework around.
+Things can definitely change fast in the world of JavaScript frameworks and I hope you are as convinced as me that Svelte has all the upsides that can make it become the new #1 JavaScript framework around.
 
 ## Additional resources
 
@@ -201,4 +201,4 @@ Things can definitely change fast in the world of Javascript frameworks and I ho
 
 After getting into touch with the framework through using [Sapper](https://sapper.svelte.dev/), I am a big fanboy and try to promote the way of Svelte whenever I get the chance.
 
-In case you are about to setup a website and are looking for the right tool, I published an article about my experience so far with Sapper for you to read about here: ["Why I Chose SapperJS For My Website, And What I`ve Learned About The Framework So Far"](why-i-chose-sapperjs-for-my-website-and-what-ive-learned-about-the-framework-so-far).
+In case you are about to set up a website and are looking for the right tool, I published an article about my experience so far with Sapper for you to read about here: ["Why I Chose SapperJS For My Website, And What I've Learned About The Framework So Far"](why-i-chose-sapperjs-for-my-website-and-what-ive-learned-about-the-framework-so-far).

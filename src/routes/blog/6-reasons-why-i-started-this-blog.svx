@@ -44,7 +44,7 @@ These can be found in my upcoming blog posts.
 
 ## Challenges ahead
 
-Since I am specialized as a programmer, it will be challenging to dive into a variety of new topics and skills necessary to acquire when writing a blog like:
+Since I am specialized as a programmer, it will be a challenge to dive into a variety of new topics and skills necessary to acquire when writing a blog like:
 
 - promoting myself and building a network
 - writing posts that can reach audiences of different cultures & backgrounds
@@ -66,7 +66,7 @@ In contrast to blogs which focus on a single topic, I want to cover these and po
 
 - Programming
 
-  - Javascript Frameworks e.g. React or Svelte
+  - JavaScript Frameworks e.g. React or Svelte
   - Code quality tools like ESLint or Prettier
   - UI Framework comparison
   - My coding setup
@@ -78,7 +78,7 @@ In contrast to blogs which focus on a single topic, I want to cover these and po
   - Inbox zero
   - Saving articles on the go
 
-- Lifehacks
+- Life hacks
 
   - Ice swimming and exposure to cold
   - Barefoot shoes
@@ -110,11 +110,11 @@ Through the avid reading of articles and newsletters every day, I gather knowled
 
 Oftentimes, I read through posts about programming tricks, framework documentation, or even cooking recipes and there is information missing that I would need to proceed.
 
-Especially for lifehacks, I will be very detailed about "how many minutes of this", "mix 2 tbsp with that", etc.
+Especially for life hacks, I will be very detailed about "how many minutes of this", "mix 2 tbsp with that", etc.
 
 I think we have all experienced, that sometimes it takes much more research effort on a topic just because there is a tiny but essential detail missing.
 
-I will be writing my posts in a detailed manner so that you don't have to go through that extensive research process to find the correct answer that you are looking for.
+I will be writing my posts with great detail so that you don't have to go through that extensive research process to find the correct answer that you are looking for.
 
 ## 4) Document my thoughts and processes within a certain time frame
 
@@ -145,7 +145,7 @@ The blood, sweat, and tears that I will put into the content will not be inherit
 
 Every written article could still generate income in a few years through affiliate links or ad revenue, without any extra effort.
 
-Today, as the web is such an important medium, the **access to an almost infinite stream of information is available** and many people have found smart ways of making money outside of the classic 9-5 job.
+Today, as the web is such an important medium, the **access to an almost infinite stream of information is available** and many people have found smart ways of making money apart from the classic 9-5 job.
 
 Generating a side income through blogging is part of the **work smarter, not harder** mantra that I follow and I recommend you to watch [The 4 Hour Work Week by Tim Ferriss](https://www.youtube.com/watch?v=AICVkm1txUU) for inspiration.
 

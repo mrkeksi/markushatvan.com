@@ -28,7 +28,7 @@
     <b>Rambox:</b>
     I actually used
     <ExternalLink href="https://meetfranz.com/">Franz</ExternalLink>
-    for a couple of years, but it is not regularly and actively maintained anymore so I switched
+    for a couple of years, but it is not regularly and actively maintained anymore, so I switched
     over to
     <ExternalLink href="https://rambox.pro/">Rambox Community Edition</ExternalLink>
     for that reason. I am very happy with it because it does exactly what it is supposed to: having
@@ -47,7 +47,7 @@
     browsers. With BAT (Basic Attention Token) as a built-in cryptocurrency token for rewarding and
     supporting content creators, automatic HTTPS Everywhere, blocking autoplay, and many other
     features, I was hooked. When I find the time, I plan on supporting Brave by contributing to its
-    projects on Github.
+    projects on GitHub.
   </p>
 
   <p>
@@ -106,8 +106,8 @@
   <p>
     <b>Bluehost:</b>
     This domain & hosting provider powers over 2 million websites worldwide and is the perfect
-    choice for bloggers. Officially recommended by Wordpress, Bluehost comes with a handy 1-click
-    Wordpress install, a free domain for the first year, a free SSL certificate and 24/7 customer
+    choice for bloggers. Officially recommended by WordPress, Bluehost comes with a handy 1-click
+    WordPress install, a free domain for the first year, a free SSL certificate and 24/7 customer
     support. With my
     <ExternalLink href="https://www.bluehost.com/track/markushatvan/">
       promotional link
@@ -119,7 +119,7 @@
 
   <p>
     <b>The Movement Athlete:</b>
-    While I was searching for a good app to do bodyweight training, I found the app of
+    While I was searching for a good app to do body weight training, I found the app of
     <ExternalLink href="https://themovementathlete.com/?ref=markushatvan">
       The Movement Athlete
     </ExternalLink>
@@ -132,9 +132,9 @@
 
   <p>
     <b>Zooplus:</b>
-    My girlfriend and I are customers at Zooplus since 2017 and we find everything we need for our
+    My girlfriend and I are customers at Zooplus since 2017, and we find everything we need for our
     cat King Noodlez. We always bulk buy pet supplies here and don't ever have to go to the store
-    and carry home 10kg bags of food anymore.
+    and carry home 10 kg bags of food anymore.
     <ExternalLink href="https://www.zooplus.de/invitations/Markus.Hatvan/1">
       You can sign up here and get 10% off your first purchase.
     </ExternalLink>

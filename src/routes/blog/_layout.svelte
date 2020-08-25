@@ -24,6 +24,7 @@
   // import type { Post } from '../../models/post';
 
   // adding types throws compiler error for some reason
+  // need https://github.com/sveltejs/svelte/pull/4282 to get merged
   export let posts;
   export let segment;
 

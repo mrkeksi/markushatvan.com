@@ -11,3 +11,4 @@ static/g
 !.vscode/extensions.json
 *.code-workspace
 .history/
+stats.html

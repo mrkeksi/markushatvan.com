@@ -12,7 +12,7 @@
   <div class="flex flex-wrap justify-center mt-5">
     <ExternalLink
       href="https://github.com/mhatvan"
-      ariaLabel="Follow me on Github"
+      ariaLabel="Follow me on GitHub"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
       <Icon data="{faGithub}" class="mx-3 mb-3" scale="{2}" />

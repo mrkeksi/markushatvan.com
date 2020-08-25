@@ -1,5 +1,4 @@
 <script>
-  // import { differenceInDays, parseISO } from 'date-fns';
   import InfoTags from './InfoTags.svelte';
   import type { Post } from '../models/post';
 
@@ -11,10 +10,6 @@
     <div class="my-3 text-xl font-bold">
       <a rel="prefetch" href="blog/{post.slug}" class="link-inherit">{post.title}</a>
     </div>
-
-    <!-- {#if differenceInDays(parseISO(post.creationDate), new Date()) > -7}
-        <div class="absolute top-0 right-0 px-3 py-1 text-teal-600 bg-gray-200">New!</div>
-      {/if} -->
 
     <div class="my-3">
       <InfoTags {post} />

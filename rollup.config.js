@@ -13,6 +13,8 @@ import pkg from './package.json';
 import { mdsvex } from 'mdsvex';
 // import remarkSlug from 'remark-slug';
 // import remarkAutolinkHeadings from 'remark-autolink-headings';
+// import analyze from 'rollup-plugin-analyzer';
+// import visualizer from 'rollup-plugin-visualizer';
 
 const { defaults } = require('./svelte.config.js');
 
@@ -89,6 +91,11 @@ export default {
         terser({
           module: true,
         }),
+
+      // analyze({
+      //   summaryOnly: true,
+      // }),
+      // visualizer(),
     ],
 
     preserveEntrySignatures: false,
@@ -117,6 +124,10 @@ export default {
       commonjs(),
       typescript({ sourceMap: !!sourcemap }),
       json(),
+      // analyze({
+      //   summaryOnly: true,
+      // }),
+      // visualizer(),
     ],
     external: Object.keys(pkg.dependencies).concat(
       require('module').builtinModules || Object.keys(process.binding('natives')),
