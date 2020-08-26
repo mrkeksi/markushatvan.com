@@ -15,7 +15,7 @@ tags:
 </script>
 
 <figure class="mb-10">
-  <Image src="variety-of-different-beer-styles.jpeg" alt="Variety of different beer styles" class="block mx-auto" />
+  <Image src="variety-of-different-beer-styles.jpeg" alt="Variety of different beer styles"  />
   <figcaption class="text-center">
     You gotta try them all. - Photo by
     <a href="https://unsplash.com/@juniperphoton" target="_blank" rel="noopener noreferrer">

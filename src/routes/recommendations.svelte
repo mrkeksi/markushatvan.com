@@ -89,6 +89,48 @@
     case you ever need help, there is 24/7 support available for you.
   </p>
 
+  <p>
+    <b>Frase:</b>
+    I recently purchased this content optimization tool to help me write better blog posts.
+    <ExternalLink href="http://www.frase.io/?via=markus">Frase.io</ExternalLink>
+    can pull in the top Google search results and compare your content writing to it. You will be
+    able to improve your SEO relevance by adding more keywords, knowing the average word count of
+    competitors and being able to answer the specific questions that users ask through different
+    platforms.
+  </p>
+
+  <p>
+    <b>Linguix:</b>
+    When you write blog posts, it happens quickly to produce typos or other unwanted grammatical
+    mistakes while typing.
+    <ExternalLink href="https://linguix.com/r/tzfltd">Linguix</ExternalLink>
+    is an intelligent AI-based grammar checking tool, which detects spelling issues, provides
+    synonyms and gives you advanced document statistics about the readability of your content. Apart
+    from grammar corrections, you can also insert snippets to automate everyday typing tasks and
+    phrases or use premade templates for e.g. emails or essays.
+  </p>
+
+  <p>
+    <b>AppSumo:</b>
+    I found out about this website not long ago but I love it! AppSumo provides you with big
+    discounts on software & tools that are available on the market. So far, I bought Crello, Frase,
+    and Linguix through the website, and I am happy with the value that all three tools provide me.
+    In case you are tight on cash, they also have a generous collection of
+    <ExternalLink href="https://appsumo.com/tools/freebies/">Freebies</ExternalLink>
+    for you to enjoy.
+  </p>
+
+  <p>
+    <b>Wix:</b>
+    I wrote about
+    <ExternalLink href="https://wixstats.com/?a=39870&c=124&s1=">Wix</ExternalLink>
+    in my blog post about
+    <a rel="preload" href="/blog/wix-wordpress-jamstack-oh-my">Wix, WordPress, JAMStack - Oh My!</a>
+    and compared it to websites built with a CMS and JAMstack sites. The big upsides of building
+    websites with Wix is that you can drag and drop content to your liking which results in a fast
+    workflow and there are no coding skills required.
+  </p>
+
   <h2>Domain & Hosting</h2>
 
   <p>
@@ -157,6 +199,15 @@
     in 2018 because it offers a wide array of cryptocurrency alt-coins to buy. In early 2020, I
     compared cryptocurrency exchanges for fees, popularity, supported coins, and usability to see if
     I should switch to some other exchange, but Binance still excels in these areas.
+  </p>
+  <p>
+    <b>Blockfolio:</b>
+    This mobile app is super handy for tracking the value of cryptocurrencies. You can track a high
+    amount of cryptos, set price alerts and read news about individual coins.
+    <ExternalLink href="https://blockfolio.com/">Blockfolio</ExternalLink>
+    is starting its own trading experience and you can win crypto and prizes with
+    <ExternalLink href="https://blockfolio.com/trading?r=j8TyxVihE7">my referral code</ExternalLink>
+    .
   </p>
 
   <div class="alert-grey mt-12" role="alert">

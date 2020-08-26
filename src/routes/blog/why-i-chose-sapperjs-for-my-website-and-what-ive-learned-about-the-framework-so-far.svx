@@ -16,7 +16,7 @@ tags:
 </script>
 
 <figure class="mb-10">
-  <Image src="laptop-with-displayed-code.jpeg" alt="Code on laptop" class="block mx-auto" />
+  <Image src="laptop-with-displayed-code.jpeg" alt="Code on laptop"  />
   <figcaption class="text-center">
     All you need is code. - Photo by
     <a href="https://unsplash.com/@clemhlrdt" target="_blank" rel="noopener noreferrer">
@@ -78,12 +78,8 @@ Although I am interested in trying out the Go language for writing a backend pro
     <span class="subtitle">{{.}}</span>
     {{ end }}
   </header>
-  <div class="homepage-content">
-    {{.Content}}
-  </div>
-  <div>
-    {{ range first 10 .Site.RegularPages }} {{ .Render "summary"}} {{ end }}
-  </div>
+  <div class="homepage-content">{{.Content}}</div>
+  <div>{{ range first 10 .Site.RegularPages }} {{ .Render "summary"}} {{ end }}</div>
 </main>
 {{ end }}
 ```
@@ -115,7 +111,7 @@ I coincidentally ran across [SapperJS](https://sapper.svelte.dev/) and realized 
 After a short moment of triumphing, I saw this notice on their documentation:
 
 <figure class="mb-10">
-  <Image src="sapper-notice.png" alt="Sapper early development notice" class="block mx-auto" />
+  <Image src="sapper-notice.png" alt="Sapper early development notice"  />
   <figcaption class="text-center">
     This will be a risky choice. - Early development notice on
     <a href="https://sapper.svelte.dev/docs" target="_blank" rel="noopener noreferrer">

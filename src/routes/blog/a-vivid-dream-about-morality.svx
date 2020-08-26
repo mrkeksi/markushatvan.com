@@ -15,7 +15,7 @@ tags:
 </script>
 
 <figure class="mb-10">
-  <Image src="boat-sailing-into-the-night.jpeg" alt="Black sailing boat" class="block mx-auto" />
+  <Image src="boat-sailing-into-the-night.jpeg" alt="Black sailing boat"  />
   <figcaption class="text-center">
     Sailing into the dream. - Photo by
     <a href="https://unsplash.com/@jplenio" target="_blank" rel="noopener noreferrer">

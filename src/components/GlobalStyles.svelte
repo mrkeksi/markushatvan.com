@@ -186,4 +186,43 @@
       ),
       linear-gradient(90deg, rgb(9, 201, 186), rgb(18, 131, 221));
   }
+
+  /* 
+    These styles are from Image.svelte of svelte-image
+    Currently, they dont end up in the bundle, so I had to copy them here
+    Related issue: https://github.com/matyunya/svelte-image/issues/67  
+  */
+  :global(img) {
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    will-change: opacity;
+  }
+
+  :global(.blur) {
+    filter: blur(10px);
+    transition: opacity 0.4s ease, filter 0.5s ease;
+  }
+
+  :global(.placeholder) {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    transition-delay: 0.7s;
+  }
+
+  :global(.main) {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    transition-delay: 0.7s;
+  }
+
+  :global(.loaded .placeholder) {
+    opacity: 0;
+  }
+
+  :global(.loaded .main) {
+    opacity: 1;
+  }
 </style>

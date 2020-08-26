@@ -16,7 +16,7 @@ tags:
 </script>
 
 <figure class="mb-10">
-  <Image src="close-up-of-different-light-bulbs.jpeg" alt="Close up of different light bulbs" class="block mx-auto" />
+  <Image src="close-up-of-different-light-bulbs.jpeg" alt="Close up of different light bulbs"  />
   <figcaption class="text-center">
     So many options, so little time. - Photo by
     <a href="https://unsplash.com/@impatrickt" target="_blank" rel="noopener noreferrer">
@@ -30,7 +30,7 @@ tags:
 There are many options to choose from when building your website:
 
 - [WordPress](https://wordpress.org/) is the go-to option for many people who are not coders
-- different WYSIWYG ("What you see is what you get") tools like [Wix](https://www.wix.com)
+- different WYSIWYG ("What you see is what you get") tools like [Wix](https://wixstats.com/?a=39870&c=124&s1=)
 - [JAMStack](https://jamstack.wtf/) solutions like [Gatsby](https://www.gatsbyjs.org/) or [Next.js](https://nextjs.org/)
 
 ## Why I didn't choose a CMS like WordPress
