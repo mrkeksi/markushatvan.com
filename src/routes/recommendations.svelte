@@ -40,7 +40,7 @@
   <p>
     <b>Brave Browser:</b>
     I found out about
-    <ExternalLink href="https://brave.com/rez638">Brave Browser</ExternalLink>
+    <ExternalLink href="https://brave.com/rez638" isAffiliateLink>Brave Browser</ExternalLink>
     in 2019 when I was looking for a privacy-focused browser alternative to Google Chrome. Brave is
     built on top of a tracking-stripped version of Chromium and I really love the ad and tracker
     blocker, which is part of Brave and promises to load sites up to six times faster than other
@@ -72,7 +72,9 @@
   <p>
     <b>LegalWeb:</b>
     Great
-    <ExternalLink href="https://legalweb.io?aff=4254">cookie opt-in plugin</ExternalLink>
+    <ExternalLink href="https://legalweb.io?aff=4254" isAffiliateLink>
+      cookie opt-in plugin
+    </ExternalLink>
     for WordPress developed by two developers and an information technology lawyer. It receives
     regular updates so you can be sure that you will be always conforming to the newest GDPR laws
     and standards. A rollout of a CMS-independent cookie notice is also planned in the near future.
@@ -82,7 +84,7 @@
     <b>NordVPN:</b>
     Increase your privacy and protect your data while surfing the web with
     <ExternalLink href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=42699&url_id=902">
-      NordVPN
+      NordVPN*
     </ExternalLink>
     . You can choose to tunnel your online traffic through any of 5000+ servers in ~60 countries and
     hide your IP address from others. A single account supports up to 6 connected devices and in
@@ -92,7 +94,7 @@
   <p>
     <b>Frase:</b>
     I recently purchased this content optimization tool to help me write better blog posts.
-    <ExternalLink href="http://www.frase.io/?via=markus">Frase.io</ExternalLink>
+    <ExternalLink href="http://www.frase.io/?via=markus" isAffiliateLink>Frase.io</ExternalLink>
     can pull in the top Google search results and compare your content writing to it. You will be
     able to improve your SEO relevance by adding more keywords, knowing the average word count of
     competitors and being able to answer the specific questions that users ask through different
@@ -103,7 +105,7 @@
     <b>Linguix:</b>
     When you write blog posts, it happens quickly to produce typos or other unwanted grammatical
     mistakes while typing.
-    <ExternalLink href="https://linguix.com/r/tzfltd">Linguix</ExternalLink>
+    <ExternalLink href="https://linguix.com/r/tzfltd" isAffiliateLink>Linguix</ExternalLink>
     is an intelligent AI-based grammar checking tool, which detects spelling issues, provides
     synonyms and gives you advanced document statistics about the readability of your content. Apart
     from grammar corrections, you can also insert snippets to automate everyday typing tasks and
@@ -123,7 +125,7 @@
   <p>
     <b>Wix:</b>
     I wrote about
-    <ExternalLink href="https://wixstats.com/?a=39870&c=124&s1=">Wix</ExternalLink>
+    <ExternalLink href="https://wixstats.com/?a=39870&c=124&s1=" isAffiliateLink>Wix</ExternalLink>
     in my blog post about
     <a rel="preload" href="/blog/wix-wordpress-jamstack-oh-my">Wix, WordPress, JAMStack - Oh My!</a>
     and compared it to websites built with a CMS and JAMstack sites. The big upsides of building
@@ -136,7 +138,9 @@
   <p>
     <b>World4You:</b>
     I first got into contact with
-    <ExternalLink href="https://www.world4you.com/?affid=FGF4AWWCCG0">World4You</ExternalLink>
+    <ExternalLink href="https://www.world4you.com/?affid=FGF4AWWCCG0" isAffiliateLink>
+      World4You
+    </ExternalLink>
     around 10 years ago because it was the selected domain & hosting provider for a website of a
     client that I was working on. Since I was happy with the service and also liked the UI and user
     experience, I also bought this domain (markushatvan.com) and another one for a side-project of
@@ -151,7 +155,7 @@
     choice for bloggers. Officially recommended by WordPress, Bluehost comes with a handy 1-click
     WordPress install, a free domain for the first year, a free SSL certificate and 24/7 customer
     support. With my
-    <ExternalLink href="https://www.bluehost.com/track/markushatvan/">
+    <ExternalLink href="https://www.bluehost.com/track/markushatvan/" isAffiliateLink>
       promotional link
     </ExternalLink>
     you can get the hosting costs from $7.99 down to $3.95 per month!
@@ -162,7 +166,7 @@
   <p>
     <b>The Movement Athlete:</b>
     While I was searching for a good app to do body weight training, I found the app of
-    <ExternalLink href="https://themovementathlete.com/?ref=markushatvan">
+    <ExternalLink href="https://themovementathlete.com/?ref=markushatvan" isAffiliateLink>
       The Movement Athlete
     </ExternalLink>
     . The initial onboarding assessment is great and it tells you exactly how fit you are with e.g.
@@ -177,14 +181,14 @@
     My girlfriend and I are customers at Zooplus since 2017, and we find everything we need for our
     cat King Noodlez. We always bulk buy pet supplies here and don't ever have to go to the store
     and carry home 10 kg bags of food anymore.
-    <ExternalLink href="https://www.zooplus.de/invitations/Markus.Hatvan/1">
+    <ExternalLink href="https://www.zooplus.de/invitations/Markus.Hatvan/1" isAffiliateLink>
       You can sign up here and get 10% off your first purchase.
     </ExternalLink>
   </p>
   <p>
     <b>Himalayan salt lamp:</b>
     This was one of the best buys for our flat. Initially, we decided for a
-    <ExternalLink href="https://amzn.to/2YMmI4o">Himalayan salt lamp</ExternalLink>
+    <ExternalLink href="https://amzn.to/2YMmI4o" isAffiliateLink>Himalayan salt lamp</ExternalLink>
     to see if it can help to combat migraine, sleep problems, and other health issues and it worked!
     With its air-purifying qualities and cool look, I can highly recommend getting one. It is also a
     great gift for friends and family.
@@ -195,7 +199,9 @@
   <p>
     <b>Binance:</b>
     I started using
-    <ExternalLink href="https://www.binance.com/en/register?ref=15702911">Binance</ExternalLink>
+    <ExternalLink href="https://www.binance.com/en/register?ref=15702911" isAffiliateLink>
+      Binance
+    </ExternalLink>
     in 2018 because it offers a wide array of cryptocurrency alt-coins to buy. In early 2020, I
     compared cryptocurrency exchanges for fees, popularity, supported coins, and usability to see if
     I should switch to some other exchange, but Binance still excels in these areas.
@@ -206,7 +212,9 @@
     amount of cryptos, set price alerts and read news about individual coins.
     <ExternalLink href="https://blockfolio.com/">Blockfolio</ExternalLink>
     is starting its own trading experience and you can win crypto and prizes with
-    <ExternalLink href="https://blockfolio.com/trading?r=j8TyxVihE7">my referral code</ExternalLink>
+    <ExternalLink href="https://blockfolio.com/trading?r=j8TyxVihE7">
+      my referral code*
+    </ExternalLink>
     .
   </p>
 

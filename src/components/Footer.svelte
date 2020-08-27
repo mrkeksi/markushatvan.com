@@ -127,6 +127,7 @@
         href="https://github.com/mhatvan"
         ariaLabel="Follow me on GitHub"
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
+        rel="me"
       >
         <Icon data="{faGithub}" class="mr-3" />
       </ExternalLink>
@@ -143,6 +144,7 @@
         href="https://twitter.com/HatvanMarkus"
         ariaLabel="Tweet with me on Twitter"
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
+        rel="me"
       >
         <Icon data="{faTwitter}" class="mr-3" />
       </ExternalLink>

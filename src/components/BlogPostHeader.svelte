@@ -23,6 +23,14 @@
         <div class="flex flex-wrap justify-center my-5">
           <ShareButtons {post} />
         </div>
+
+        {#if post.hasAffiliateLink}
+          <div class="text-sm text-gray-700 italic" role="alert">
+            Disclosure: This article may contain affiliate links, meaning I receive a commission for
+            purchases made through these links, at no cost to you.
+          </div>
+        {/if}
+
       </div>
     </div>
   </div>

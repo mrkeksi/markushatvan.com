@@ -22,7 +22,7 @@
       reached: false,
     },
     {
-      text: 'Contribute to Rambox, SapperJS & Brave Browser',
+      text: 'Contribute to Svelte and Sapper',
       reached: false,
     },
     {

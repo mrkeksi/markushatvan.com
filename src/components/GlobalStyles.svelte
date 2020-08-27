@@ -1,80 +1,84 @@
-<style lang="postcss">
-  :global(body) {
+<style global lang="postcss">
+  body {
     font-family: 'Lato', sans-serif;
     padding-top: 58px;
     @apply relative leading-relaxed text-lg;
   }
 
-  :global(.mh a) {
+  .mh a {
     @apply text-teal-700;
   }
 
-  :global(.mh a:hover) {
+  .mh a:hover {
     @apply underline text-teal-800;
   }
 
-  :global(.mh h1) {
+  .mh h1 {
     @apply text-3xl mb-3 mt-6 font-bold;
   }
 
-  :global(.mh h2) {
+  .mh h2 {
     @apply text-2xl mb-3 mt-6 font-bold;
   }
 
-  :global(.mh h3, .mh h4, .mh h5, .mh h6) {
+  .mh h3,
+  .mh h4,
+  .mh h5,
+  .mh h6 {
     @apply text-xl mb-3 mt-6 font-semibold;
   }
 
-  :global(.mh p) {
+  .mh p {
     @apply mb-4 text-gray-800;
   }
 
-  :global(.mh .blog code p) {
+  .mh .blog code p {
     @apply mb-0;
     color: inherit;
   }
 
-  :global(.mh pre > p) {
+  .mh pre > p {
     @apply m-0;
   }
 
-  :global(.mh ol) {
+  .mh ol {
     @apply list-decimal text-gray-800 mb-4 ml-8;
   }
 
-  :global(.mh ul) {
+  .mh ul {
     @apply list-disc text-gray-800 mb-4 ml-8;
   }
 
-  :global(.mh ul ul) {
+  .mh ul ul {
     @apply mb-4 ml-8 text-gray-800 list-circle;
   }
 
-  :global(.mh blockquote) {
+  .mh blockquote {
     @apply p-2 bg-gray-100 mb-4 border-l-4 border-gray-400 italic;
   }
 
-  :global(.mh blockquote > p) {
+  .mh blockquote > p {
     @apply mb-0;
   }
 
-  :global(.mh pre[class*='language-']) {
+  .mh pre[class*='language-'] {
     margin: 16px 0 32px 0 !important;
   }
 
-  :global(.mh td, .mh th) {
+  .mh td,
+  .mh th {
     @apply mx-2 my-1 border border-gray-400;
   }
 
-  :global(.mh tr:nth-child(odd)) {
+  .mh tr:nth-child(odd) {
     @apply bg-gray-100;
   }
 
-  :global(.mh table) {
+  .mh table {
     @apply mb-6;
   }
 
-  :global(.mh hr) {
+  .mh hr {
     display: block;
     unicode-bidi: isolate;
     margin-block-start: 0.5em;
@@ -86,11 +90,13 @@
     border-width: 1px;
   }
 
-  :global(.mh figcaption) {
+  .mh figcaption {
     @apply text-gray-600 text-sm;
   }
 
-  :global(.mh p > code:not([class*='language-']), .mh li > code, .mh figcaption > code) {
+  .mh p > code:not([class*='language-']),
+  .mh li > code,
+  .mh figcaption > code {
     font-size: calc(1em - 2px);
     color: #555;
     page-break-inside: avoid;
@@ -99,55 +105,56 @@
     border-radius: 2px;
   }
 
-  :global(.nav-link) {
-    @apply block text-teal-600 mt-4 mr-4;
+  .nav-link {
+    @apply block text-teal-700 mt-4 mr-4;
   }
 
-  :global(.nav-link:hover) {
+  .nav-link:hover {
     @apply text-teal-800;
   }
 
-  :global(.footer-link) {
+  .footer-link {
     @apply block text-teal-200 mt-4 mr-4;
   }
 
-  :global(.footer-link:hover) {
+  .footer-link:hover {
     @apply text-white;
   }
 
-  :global(.mh .link-inherit, .mh .link-inherit:hover) {
+  .mh .link-inherit,
+  .mh .link-inherit:hover {
     color: inherit !important;
   }
 
-  :global(.mh .mh-container) {
+  .mh .mh-container {
     @apply px-3 py-12 mx-auto;
   }
 
-  :global(.mh .btn-primary) {
+  .mh .btn-primary {
     @apply px-5 py-3 text-sm font-semibold text-white bg-teal-700;
   }
 
-  :global(.mh .btn-primary:hover) {
+  .mh .btn-primary:hover {
     @apply bg-teal-800 text-white no-underline;
   }
 
-  :global(.mh .card) {
+  .mh .card {
     @apply relative bg-white border rounded shadow-xl w-full;
   }
 
-  :global(.mh .topic-box) {
+  .mh .topic-box {
     @apply text-center border-b-4 border-teal-700;
   }
 
-  :global(.mh .info-tag) {
+  .mh .info-tag {
     @apply inline-flex items-center bg-gray-200 rounded py-1 my-1 text-sm font-semibold mr-2 px-3;
   }
 
-  :global(.mh .alert-grey) {
+  .mh .alert-grey {
     @apply p-4 text-gray-600 bg-gray-300 border-l-4 border-gray-500;
   }
 
-  :global(.mh .applause-gradient) {
+  .mh .applause-gradient {
     background-image: linear-gradient(
         306deg,
         rgba(54, 54, 54, 0.05) 0%,
@@ -192,7 +199,8 @@
     Currently, they dont end up in the bundle, so I had to copy them here
     Related issue: https://github.com/matyunya/svelte-image/issues/67  
   */
-  :global(img.main, img.placeholder) {
+  img.main,
+  img.placeholder {
     object-position: center;
     position: absolute;
     top: 0;
@@ -201,28 +209,28 @@
     will-change: opacity;
   }
 
-  :global(.blur) {
+  .blur {
     filter: blur(10px);
     transition: opacity 0.4s ease, filter 0.5s ease;
   }
 
-  :global(.placeholder) {
+  .placeholder {
     opacity: 1;
     transition: opacity 0.5s ease;
     transition-delay: 0.7s;
   }
 
-  :global(.main) {
+  .main {
     opacity: 0;
     transition: opacity 0.5s ease;
     transition-delay: 0.7s;
   }
 
-  :global(.loaded .placeholder) {
+  .loaded .placeholder {
     opacity: 0;
   }
 
-  :global(.loaded .main) {
+  .loaded .main {
     opacity: 1;
   }
 </style>

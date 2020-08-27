@@ -104,7 +104,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          here
+          on the GitHub project page
         </a>
         or through my socials.
       </p>

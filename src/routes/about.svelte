@@ -36,7 +36,8 @@
   <p>
     Hey, I am Markus Hatvan, a full stack developer, Calisthenics enthusiast, craft beer lover, and
     biohacker. I created this website to be visible on the web as a developer and to share the
-    knowledge that I gathered over the years.
+    knowledge that I gathered over the years. I care a lot about website performance, accessibility
+    and clean code practices like linting and formatting.
   </p>
 
   <p>
@@ -50,12 +51,17 @@
   <h2>Facts about me</h2>
   <ul>
     <li>does 16-8 intermittent fasting pretty much every day</li>
-    <li>keeps a growing list of over ~100 beers that he drank</li>
+    <li>
+      keeps a growing
+      <a href="/blog/the-beer-bucket-list-for-the-aspiring-connoisseur">list of over ~100 beers</a>
+      that he drank
+    </li>
     <li>did a smoothie cleanse for 10 days</li>
     <li>loves to go to metal concerts & drum and bass shows</li>
     <li>invests in the stock market and owns ~30 crypto coins</li>
     <li>goes everywhere with his mountain bike</li>
     <li>tries to improve everyday life with zero waste options</li>
+    <li>enjoys going for a barefoot hike on mountains</li>
     <!-- <li>took part in a spartan race</li> -->
     <li>can do a full split</li>
     <li>loves to go ice swimming or having a cold shower</li>
@@ -86,19 +92,23 @@
     </li>
     <li>
       <b>Headphones:</b>
-      <ExternalLink href="https://amzn.to/3imgiAw">Audio-Technica ATH-M50x</ExternalLink>
+      <ExternalLink href="https://amzn.to/3imgiAw" isAffiliateLink>
+        Audio-Technica ATH-M50x
+      </ExternalLink>
     </li>
     <li>
       <b>Speakers:</b>
-      <ExternalLink href="https://amzn.to/2BsWj2v">Yamaha HS7</ExternalLink>
+      <ExternalLink href="https://amzn.to/2BsWj2v" isAffiliateLink>Yamaha HS7</ExternalLink>
     </li>
     <li>
       <b>Monitors:</b>
-      <ExternalLink href="https://amzn.to/2BT495t">BenQ GL2580H</ExternalLink>
+      <ExternalLink href="https://amzn.to/2BT495t" isAffiliateLink>BenQ GL2580H</ExternalLink>
     </li>
     <li>
       <b>Audio interface:</b>
-      <ExternalLink href="https://amzn.to/2VBCD3w">Focusrite Scarlett 2i2</ExternalLink>
+      <ExternalLink href="https://amzn.to/2VBCD3w" isAffiliateLink>
+        Focusrite Scarlett 2i2
+      </ExternalLink>
     </li>
   </ul>
 

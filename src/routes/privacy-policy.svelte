@@ -157,13 +157,8 @@
 
   <p>
     If you do not wish to do so, you can set up your browser to inform you when cookies are set and
-    to allow this only in individual cases. You can delete cookies that are already on your computer
-    or deactivate cookies at any time. The procedure for doing this varies from browser to browser,
-    but the best way to do this is to look up the instructions in Google using the search term
-    "Delete Chrome cookies" or "Disable Chrome cookies" in the case of a Chrome browser, or replace
-    the word "Chrome" with the name of your browser, e.g. Edge, Firefox, Safari. If you do not
-    generally allow us to use cookies, i.e. disable them in your browser settings, some functions
-    and pages may not work as expected.
+    to allow this only in individual cases. You can learn how to do that in the "Disable cookies"
+    section.
   </p>
 
   <h2>Google Fonts Privacy Policy</h2>
@@ -306,10 +301,10 @@
 
   <p>
     You can delete cookies that are already on your computer or deactivate cookies at any time. The
-    procedure for doing this varies by browser, but the best way to do this is to look up the
-    instructions in Google using the search term "delete cookies chrome" or "disable cookies chrome"
-    in the case of a chrome browser, or replace the word "chrome" with the name of your browser,
-    e.g. edge, firefox, safari.
+    procedure for doing this varies from browser to browser, but the best way to do this is to look
+    up the instructions in Google using the search term "Delete Chrome cookies" or "Disable Chrome
+    cookies" in the case of a Chrome browser, or replace the word "Chrome" with the name of your
+    browser, e.g. Edge, Firefox, Safari.
   </p>
 
   <p>

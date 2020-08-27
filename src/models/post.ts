@@ -6,4 +6,5 @@ export type Post = {
   excerpt: string;
   tags: string[];
   html: string;
+  hasAffiliateLink: boolean;
 };
