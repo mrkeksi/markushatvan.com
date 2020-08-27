@@ -1,7 +1,7 @@
 ---
 title: '10 Reasons Why I Recommend Svelte To Every New Web Developer'
 slug: '10-reasons-why-i-recommend-svelte-to-every-new-web-developer'
-creationDate: '2020-08-19'
+creationDate: '2020-08-26'
 category: 'Programming'
 excerpt: 'ASDF.'
 tags:
@@ -28,17 +28,26 @@ hidden: true
   </figcaption>
 </figure> -->
 
-Although Svelte's initial release was already back in November 2016, it is still the underdog of the JavaScript frameworks and just started recently to get its much deserved attention by the community.
+<div class="alert-grey mb-3"
+     role="alert">
+  The code blocks are currently not highlighted with Svelte, so syntax highlighting and formatting might not be 100% correct.
+</div>
 
-You might have heard about it appearing here and there in articles and developer surveys like the [State of JS 2019 Survey](https://2019.stateofjs.com/front-end-frameworks/) as one of the best ranked framework when it comes to bundle size, performance, lines of code and most important developer satisfaction. Now you might be asking yourself the question:
+Although Svelte's initial release was already back in November 2016, it is still more of an underdog amongst the JavaScript frameworks and just started recently to get its much deserved attention by the community.
+
+You might have heard about it appearing here and there in articles and developer surveys like the [State of JS 2019 Survey](https://2019.stateofjs.com/front-end-frameworks/) as one of the highest ranking frameworks when it comes to bundle size, performance, lines of code and most important developer satisfaction.
+
+Now you might be asking yourself the question:
 
 ## What makes Svelte different?
 
-Compared to the popular React and Vue.js libraries, which are using a technique called virtual DOM diffing and operate on runtime, Svelte is compiled into framework-less vanilla JS as build step and can therefore benefit from a lot of code optimizations.
+Compared to the popular React and Vue.js libraries, which do the bulk work during runtime and are using a technique called "virtual DOM diffing" for detecting changes, Svelte is compiled into framework-less vanilla JS as a build step and can therefore benefit from a lot of code optimizations.
 
-Although I am experienced with all three major JavaScript frameworks (Angular, React and Vue.js) I never felt deeply connected to any of them or that I had the impression they were groundbreaking. With Svelte, it feels so natural to write it and you can tell that the creator was sick of all the other frameworks required abstractions and boilerplate to learn and just wanted to create something simple, powerful and elegant.
+Although I have worked with all three major JavaScript frameworks (Angular, React and Vue.js) before, I never felt deeply connected to any of them in a way that I had the impression that they were groundbreaking. With Svelte, it feels so natural to write it and you can tell that the creator was tired of all the necessary abstractions and boilerplate code that the other frameworks require you to learn.
 
-I was wondering if Svelte is just hyped or really that good, so after a couple of months of using it, I can give you a definitive answer. These are the top 10 reasons why I recommend Svelte to every new web developer who is starting to learn programming:
+I was wondering if Svelte is just hyped or really that good, so after a couple of months of using it, I can give you a definitive answer. Svelte is simple, powerful, elegant and you will love it!
+
+Without further ado, these are the top 10 reasons why I recommend Svelte to every new web developer who is starting to learn programming:
 
 ## 1. Svelte components are easy to understand
 
@@ -70,17 +79,64 @@ Compared to other frontend frameworks which introduce a lot of abstract concepts
 
 As you can see in the code example above, the business logic that you write is simple but powerful at the same time. After all, the less code you write, the fewer bugs it can have, right?
 
-Rich Harris, the genius creator of Svelte provided some good comparisons with React and Vue.js here: [Write less code](https://svelte.dev/blog/write-less-code). According to a check up on characters needed to write the logic for a simple addition of two numbers, a React component is typically around 40% larger than its Svelte equivalent!
+Rich Harris, the genius creator of Svelte provided some good comparisons with React and Vue.js about how to [write less code](https://svelte.dev/blog/write-less-code). According to a check up on characters needed to write the logic for a simple addition of two numbers, a React component is typically around 40% larger than its Svelte equivalent!
 
 ## X. Reactivity with labeled statements
 
+Whenever you want your variable values to update and recompute based on other variables, you can use reactive declarations. Just put a dollar sign in front of the variable that you want to be reactive and you're good to go!
+
+```html
+<script>
+  let count = 0;
+  $: doubled = count * 2;
+
+  function handleClick() {
+    count += 1;
+  }
+</script>
+
+<button on:click="{handleClick}">Click me!</button>
+
+<p>{count} doubled is {doubled}</p>
+```
+
+Any time the button is clicked, `count` will increase by 1 and `doubled` will know that the value of `count` changed and update accordingly. It is really refreshing to think in terms of reactivity.
+
 ## X. Components are exported automatically
 
-Whenever you want to use a component in another component, you would usually need to write code to export it first, so it can get imported by the other component. With Svelte, you don't need to worry about forgetting that, a .svelte component is always a default export and ready to be imported.
+Whenever you want to use a component in another component, you would usually need to write code to export it first, so it can get imported by the other component. With Svelte, you don't need to worry about forgetting that, a `.svelte` component is always default exported for you and ready to be imported by any other component.
 
 ## X. Shorthand attributes for passing props
 
-class and props
+In case we have a prop name that is the same as a variable name, we can pass it to the component as shorthand attribute like `{message}` below. There is no advantage over using `message="{message}"`, but it is more concise and again, less code to write!
+
+```html
+<!-- Parent.svelte -->
+<script>
+  let message = 'hello child!';
+</script>
+
+<Child {message} />
+```
+
+We can also use shorthands for assigning classes.
+
+```html
+<script>
+  let round = true;
+</script>
+
+<style>
+  .round {
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+</style>
+
+<button class:round>C</button>
+```
+
+Above you can see the `class:round` attribute getting applied to the button based on if `round` is true or false. This could easily become a reusable component where you pass the value of `round` from the outside to decide the component styling conditionally.
 
 ## X. Easy global state management out of the box
 
@@ -121,7 +177,18 @@ To keep the code as concise and avoid leftover snippets, Svelte flags unused CSS
 
 Similar to CSS-in-JS libraries, Svelte styles are scoped by default which means that a `svelte-<unique-hash>` class name will be attached to your styles, so they don't leak and influence any other components styling. Of course, you have the option for styles to be applied globally by simply prefixing them with the `:global()` modifier or just use a `.css` file if you want to.
 
-## X. built-in motion/transition/ animation and easing effects like tweening, spring, fly, fade and flip
+## X. Built-in effects and animations
+
+Svelte comes prepacked with powerful modules:
+
+- `svelte/motion` effects like tweened and spring
+- `svelte/transition` effects like fade, blur, fly, slide, scale, draw
+- `svelte/animate` effects like flip
+- `svelte/easing` effects like bounce, cubic, elastic, and many more
+
+There are a couple of examples in the official Svelte tutorial, but I like [this progress bar example](https://svelte.dev/tutorial/tweened) the most to show its simplicity.
+
+Animations is a topic where you usually look for an external dependency to handle it for you, so it is great that you can use these right out of the box.
 
 ## X. #await blocks
 
@@ -157,6 +224,10 @@ For displaying conditional logic, Svelte uses a syntax that resembles of the wel
 
 I didn't encounter any issues with this way of writing logic, but I would prefer a more concise syntax and the option to use the ternary operator shorthand similar to `{value ? 'Hide' : 'Show'}` here, like it is used in React.
 
+### .svelte files cannot export multiple components
+
+On one hand, we profit from `.svelte` files being default exported automatically, but this also means that we cannot export multiple components from a single file. I don't think that this is such a big deal since it forces you to follow best practices to write your application with many small isolated components, which keeps them easy to understand and unit testable.
+
 ### Receiving props in a child component
 
 When you want to pass values from the parent to the child component, you need to pass a value as attribute to `Child.svelte` and you can receive it by using `export let`. In modern JavaScript, export is usually used to export a module and let to declare a variable, so I feel that the syntax is misusing existing keywords, but I got used to it and it works well.
@@ -185,6 +256,8 @@ BLBLA
 
 ### No backing by big companies
 
+BLBLA
+
 ## Conclusion
 
 If Svelte sounds like a great choice to you, I would recommend to start hacking away with the [Svelte tutorial](https://svelte.dev/tutorial/basics). The tutorial is really detailed and you can get an understanding fast of how powerful the framework is.
@@ -202,3 +275,14 @@ Things can definitely change fast in the world of JavaScript frameworks and I ho
 After getting into touch with the framework through using [Sapper](https://sapper.svelte.dev/), I am a big fanboy and try to promote the way of Svelte whenever I get the chance.
 
 In case you are about to set up a website and are looking for the right tool, I published an article about my experience so far with Sapper for you to read about here: ["Why I Chose SapperJS For My Website, And What I've Learned About The Framework So Far"](why-i-chose-sapperjs-for-my-website-and-what-ive-learned-about-the-framework-so-far).
+
+### Helpful resources
+
+- [Svelte tutorial](https://svelte.dev/tutorial/basics)
+- [Svelte REPL](https://svelte.dev/repl)
+- [Why Svelte](https://github.com/feltcoop/why-svelte)
+- [Why SvelteJS may be the best framework for new web devs](https://dev.to/bholmesdev/why-sveltejs-may-be-the-best-framework-for-new-web-devs-205i)
+- [Why We Moved From React to Svelte](https://medium.com/better-programming/why-we-moved-from-react-to-svelte-f20afb1dc5d5)
+- [What I Like About Writing Styles with Svelte](https://css-tricks.com/what-i-like-about-writing-styles-with-svelte/)
+
+###### add hyperlinks and company namesfor all terms that might be unknown

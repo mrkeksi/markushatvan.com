@@ -6,8 +6,8 @@
   export let post: Post;
 </script>
 
-<span class="text-teal-600">{formatDate(post.creationDate)}</span>
+<span class="text-teal-700">{formatDate(post.creationDate)}</span>
 &middot;
-<span class="text-teal-600">{readingTime(post.html).text}</span>
+<span class="text-teal-700">{readingTime(post.html).text}</span>
 &middot;
 <a rel="prefetch" href="/categories/{convertToSlug(post.category)}">{post.category}</a>

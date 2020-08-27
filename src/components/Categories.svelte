@@ -14,7 +14,7 @@
     <h2>Categories</h2>
   </header>
 
-  <nav>
+  <nav role="complementary">
     {#each uniqueCategories as category}
       <a class="block py-4 border-b border-gray-600" href="/categories/{convertToSlug(category)}">
         {category}

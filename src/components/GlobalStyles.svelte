@@ -6,23 +6,23 @@
   }
 
   :global(.mh a) {
-    @apply text-teal-600;
+    @apply text-teal-700;
   }
 
   :global(.mh a:hover) {
-    @apply underline text-teal-700;
+    @apply underline text-teal-800;
   }
 
   :global(.mh h1) {
-    @apply text-3xl pb-3 pt-6 font-bold;
+    @apply text-3xl mb-3 mt-6 font-bold;
   }
 
   :global(.mh h2) {
-    @apply text-2xl pb-3 pt-6 font-bold;
+    @apply text-2xl mb-3 mt-6 font-bold;
   }
 
   :global(.mh h3, .mh h4, .mh h5, .mh h6) {
-    @apply text-xl pb-3 pt-6 font-semibold;
+    @apply text-xl mb-3 mt-6 font-semibold;
   }
 
   :global(.mh p) {
@@ -63,7 +63,7 @@
   }
 
   :global(.mh td, .mh th) {
-    @apply px-2 py-1 border border-gray-400;
+    @apply mx-2 my-1 border border-gray-400;
   }
 
   :global(.mh tr:nth-child(odd)) {
@@ -124,11 +124,11 @@
   }
 
   :global(.mh .btn-primary) {
-    @apply px-5 py-3 text-sm font-semibold text-white bg-teal-500;
+    @apply px-5 py-3 text-sm font-semibold text-white bg-teal-700;
   }
 
   :global(.mh .btn-primary:hover) {
-    @apply bg-teal-600 text-white no-underline;
+    @apply bg-teal-800 text-white no-underline;
   }
 
   :global(.mh .card) {
@@ -140,7 +140,7 @@
   }
 
   :global(.mh .info-tag) {
-    @apply inline-flex items-center bg-gray-200 text-teal-600 rounded py-1 my-1 text-sm font-semibold mr-2 px-3;
+    @apply inline-flex items-center bg-gray-200 rounded py-1 my-1 text-sm font-semibold mr-2 px-3;
   }
 
   :global(.mh .alert-grey) {
@@ -192,7 +192,7 @@
     Currently, they dont end up in the bundle, so I had to copy them here
     Related issue: https://github.com/matyunya/svelte-image/issues/67  
   */
-  :global(img) {
+  :global(img.main, img.placeholder) {
     object-position: center;
     position: absolute;
     top: 0;

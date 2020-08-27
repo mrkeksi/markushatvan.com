@@ -50,8 +50,8 @@
             value="Subscribe"
             name="subscribe"
             id="mc-embedded-subscribe"
-            class="w-full px-5 py-3 font-semibold text-white bg-teal-500 rounded cursor-pointer
-            hover:bg-teal-600"
+            class="w-full px-5 py-3 font-semibold text-white bg-teal-700 rounded cursor-pointer
+            hover:bg-teal-800"
           />
         </div>
       </div>

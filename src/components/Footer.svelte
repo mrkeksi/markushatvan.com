@@ -52,7 +52,7 @@
 <footer class="text-teal-200 border-t-4 border-teal-700 applause-gradient">
   <div class="container flex flex-wrap items-baseline justify-between px-3 py-5 mx-auto">
     <div class="w-full mb-6 sm:mb-0 sm:w-1/3">Markus Hatvan</div>
-    <nav class="w-full mb-6 sm:mb-0 sm:w-1/3">
+    <nav aria-label="Left footer navigation" class="w-full mb-6 sm:mb-0 sm:w-1/3">
       <a
         rel="prefetch"
         aria-current="{segment === 'blog' ? 'page' : undefined}"
@@ -80,7 +80,7 @@
         </a>
       </div>
     </nav>
-    <nav class="w-full mb-6 sm:mb-0 sm:w-1/3">
+    <nav aria-label="Right footer navigation" class="w-full mb-6 sm:mb-0 sm:w-1/3">
       <a
         rel="prefetch"
         aria-current="{segment === 'about' ? 'page' : undefined}"

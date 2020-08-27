@@ -8,7 +8,7 @@
 <section class="container mh-container">
   <h2 class="border-b-4 border-teal-700">Talks</h2>
 
-  <small class="block text-sm text-gray-600 mt-6">
+  <small class="block mt-6 text-sm text-gray-600">
     <em>Upcoming</em>
   </small>
 

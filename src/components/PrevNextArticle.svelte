@@ -12,7 +12,7 @@
         <small class="block text-sm text-gray-600">
           <em>Previous article</em>
         </small>
-        <h3 class="pt-0">
+        <h3 class="my-0">
           <a rel="prefetch" href="blog/{previousArticle.slug}" class="link-inherit">
             {previousArticle.title}
           </a>
@@ -26,7 +26,7 @@
         <small class="block text-sm text-gray-600">
           <em>Next article</em>
         </small>
-        <h3 class="pt-0">
+        <h3 class="my-0">
           <a rel="prefetch" href="blog/{nextArticle.slug}" class="link-inherit">
             {nextArticle.title}
           </a>

@@ -30,7 +30,7 @@
 
 <header class="fixed top-0 w-full bg-white header-box-shadow">
   <div class="container flex flex-wrap items-baseline justify-between p-3 mx-auto bg-white">
-    <div class="flex items-center flex-shrink-0 mr-6 text-white">
+    <div class="flex">
       <a
         rel="prefetch"
         aria-current="{segment === undefined ? 'page' : undefined}"
@@ -40,10 +40,10 @@
         Markus Hatvan
       </a>
     </div>
-    <div class="block md:hidden">
+    <div class="ml-auto md:hidden">
       <ClickOutside on:clickoutside="{() => (open = false)}">
         <button
-          class="flex items-center px-3 py-2 text-teal-600 border border-gray-400
+          class="flex items-center px-3 py-2 text-teal-700 border border-gray-400
           hover:text-teal-800 hover:border-gray-500"
           on:click="{toggleHamburgerMenu}"
         >
@@ -54,51 +54,52 @@
         </button>
       </ClickOutside>
     </div>
-    <div class:hidden="{!open}" class="w-full md:flex md:w-auto">
-      <nav>
-        <a
-          rel="prefetch"
-          aria-current="{segment === 'about' ? 'page' : undefined}"
-          href="/about"
-          class="nav-link md:inline-block md:mt-0"
-        >
-          About
-        </a>
-        <a
-          rel="prefetch"
-          aria-current="{segment === 'blog' ? 'page' : undefined}"
-          href="/blog"
-          class="nav-link md:inline-block md:mt-0"
-        >
-          Blog
-        </a>
-        <a
-          rel="prefetch"
-          aria-current="{segment === 'recommendations' ? 'page' : undefined}"
-          href="/recommendations"
-          class="nav-link md:inline-block md:mt-0"
-        >
-          Recommendations
-        </a>
-        <a
-          rel="prefetch"
-          aria-current="{segment === 'contact' ? 'page' : undefined}"
-          href="/contact"
-          class="nav-link md:inline-block md:mt-0"
-        >
-          Contact
-        </a>
-        <a
-          href="https://github.com/mhatvan"
-          target="_blank"
-          rel="noopener noreferrer"
-          style="line-height: 23px;"
-          class="inline-flex mr-0 nav-link md:mt-0"
-        >
-          GitHub
-          <Icon data="{faGithub}" class="mt-1 ml-3" />
-        </a>
-      </nav>
-    </div>
+    <nav
+      aria-label="Header navigation"
+      class:hidden="{!open}"
+      class="w-full ml-auto md:flex md:w-auto"
+    >
+      <a
+        rel="prefetch"
+        aria-current="{segment === 'about' ? 'page' : undefined}"
+        href="/about"
+        class="nav-link md:inline-block md:mt-0"
+      >
+        About
+      </a>
+      <a
+        rel="prefetch"
+        aria-current="{segment === 'blog' ? 'page' : undefined}"
+        href="/blog"
+        class="nav-link md:inline-block md:mt-0"
+      >
+        Blog
+      </a>
+      <a
+        rel="prefetch"
+        aria-current="{segment === 'recommendations' ? 'page' : undefined}"
+        href="/recommendations"
+        class="nav-link md:inline-block md:mt-0"
+      >
+        Recommendations
+      </a>
+      <a
+        rel="prefetch"
+        aria-current="{segment === 'contact' ? 'page' : undefined}"
+        href="/contact"
+        class="nav-link md:inline-block md:mt-0"
+      >
+        Contact
+      </a>
+      <a
+        href="https://github.com/mhatvan"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="mr-0 nav-link md:inline-block md:mt-0"
+      >
+        GitHub
+        <Icon data="{faGithub}" class="ml-3 -mt-1" />
+      </a>
+    </nav>
   </div>
 </header>

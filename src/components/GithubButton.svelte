@@ -143,7 +143,6 @@
     href="https://github.com/{urlSlug}/stargazers"
     rel="noopener noreferrer"
     target="_blank"
-    aria-hidden="true"
   >
     {count}
   </a>

@@ -20,7 +20,7 @@
   </div>
 
   <a rel="prefetch" href="/blog" class="inline-flex mt-8 font-bold rounded text-md btn-primary">
-    View more
+    View all blog posts
     <Icon data="{faAngleRight}" class="ml-3" scale="{1.5}" />
   </a>
 </section>

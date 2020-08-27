@@ -8,7 +8,7 @@
       description:
         '🔥 A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices.',
       full_name: 'react-boilerplate/react-boilerplate',
-      avatar_url: 'https://avatars2.githubusercontent.com/u/25323389?v=4',
+      avatar_url: 'https://avatars2.githubusercontent.com/u/25323389',
       stargazers_count: 25586,
     },
     {
@@ -16,7 +16,7 @@
       description:
         '💌 A beautiful, fast and maintained fork of @nylas Mail by one of the original authors.',
       full_name: 'Foundry376/Mailspring',
-      avatar_url: 'https://avatars1.githubusercontent.com/u/1065759?v=4',
+      avatar_url: 'https://avatars1.githubusercontent.com/u/1065759',
       stargazers_count: 8553,
     },
     {
@@ -24,21 +24,21 @@
       description:
         'Microsoft Web Template Studio quickly builds web applications using a wizard-based UI to turn your needs into a foundation of best patterns and practices',
       full_name: 'microsoft/WebTemplateStudio',
-      avatar_url: 'https://avatars2.githubusercontent.com/u/6154722?v=4',
+      avatar_url: 'https://avatars2.githubusercontent.com/u/6154722',
       stargazers_count: 1806,
     },
     {
       name: 'Semantic-UI-React',
       description: 'The official Semantic-UI-React integration',
       full_name: 'Semantic-Org/Semantic-UI-React',
-      avatar_url: 'https://avatars0.githubusercontent.com/u/5796209?v=4',
+      avatar_url: 'https://avatars0.githubusercontent.com/u/5796209',
       stargazers_count: 11326,
     },
     {
       name: 'eslint-plugin-unicorn',
       description: 'Various awesome ESLint rules',
       full_name: 'sindresorhus/eslint-plugin-unicorn',
-      avatar_url: 'https://avatars1.githubusercontent.com/u/170270?v=4',
+      avatar_url: 'https://avatars1.githubusercontent.com/u/170270',
       stargazers_count: 1169,
     },
   ];
@@ -55,7 +55,7 @@
           class="w-12 h-auto bg-cover rounded-t"
           loading="lazy"
         />
-        <p class="mb-0 ml-3 font-bold break-all">{repo.name}</p>
+        <h3 class="my-0 ml-3 font-bold break-all">{repo.name}</h3>
       </div>
       <div class="w-full my-3 lg:w-2/4">
         <p class="my-0">{repo.description}</p>

@@ -97,7 +97,7 @@ Oftentimes, I see that work colleagues, friends, and family members just have a 
 
 **I think we can do better here!**
 
-In total, I have ~2000 browser bookmarks divided into categories for easily finding links, even when they are a couple of years old. You can think of your bookmarks collection like a library, which holds a vast amount of knowledge, ready for you to read anytime!
+In total, I have ~2000 browser bookmarks divided into categories in [Brave Browser](https://brave.com/rez638) for easily finding links, even when they are a couple of years old. You can think of your bookmarks collection like a library, which holds a vast amount of knowledge, ready for you to read anytime!
 
 New bookmarks usually go into a to-do folder first where I read and delete them whenever I find the time. If I find a link very useful, I will put it into a bookmark subfolder for future usage, similar to working with the email inbox.
 
@@ -191,6 +191,6 @@ A common workflow for me is the following:
 
 I hope this article has been helpful to you and let me know if there are any open questions left.
 
-If you liked the software & tool recommendations, you can find a detailed list of all my personal recommendations [here](/recommendations).
+If you liked the software & tool recommendations, I compiled a detailed list of all [my personal recommendations](/recommendations).
 
 Thank you for reading!
