@@ -6,7 +6,7 @@ category: 'Lifestyle'
 excerpt: 'ASDF.'
 tags:
   - Alternative
-  - No Waste
+  - Zero waste
   - Hack
 hidden: true
 ---

@@ -166,9 +166,8 @@
       </ExternalLink>
     </nav>
     <div class="w-full mt-0 sm:w-1/3 sm:mt-6">
-      <small class="text-sm ">
-        <span class="hidden md:inline">Copyright</span>
-        © 2020 Markus Hatvan
+      <small class="text-sm">
+        <span class="hidden md:inline">Copyright</span> © 2020 Markus Hatvan
       </small>
     </div>
   </div>

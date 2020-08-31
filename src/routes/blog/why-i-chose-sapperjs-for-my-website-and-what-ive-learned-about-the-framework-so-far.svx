@@ -1,5 +1,5 @@
 ---
-title: 'Why I Chose SapperJS For My Website, And What I`ve Learned About The Framework So Far'
+title: "Why I Chose SapperJS For My Website, And What I've Learned About The Framework So Far"
 slug: 'why-i-chose-sapperjs-for-my-website-and-what-ive-learned-about-the-framework-so-far'
 creationDate: '2020-06-13'
 category: 'Programming'
@@ -8,7 +8,7 @@ tags:
   - Website
   - SapperJS
   - JAMStack
-  - JavaScript Frameworks
+  - JavaScript frameworks
 ---
 
 <script>

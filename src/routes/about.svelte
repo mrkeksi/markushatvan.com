@@ -41,20 +41,20 @@
   </p>
 
   <p>
-    I want to provide value to the public and share my thoughts. I wrote an article explaining
-    <a rel="prefetch" href="/blog/6-reasons-why-i-started-this-blog">
+    I want to provide value to the public and share my thoughts. I wrote an article explaining <a
+      rel="prefetch"
+      href="/blog/6-reasons-why-i-started-this-blog"
+    >
       my reasons why I started this blog
-    </a>
-    .
+    </a>.
   </p>
 
   <h2>Facts about me</h2>
   <ul>
     <li>does 16-8 intermittent fasting pretty much every day</li>
     <li>
-      keeps a growing
-      <a href="/blog/the-beer-bucket-list-for-the-aspiring-connoisseur">list of over ~100 beers</a>
-      that he drank
+      keeps a growing <a href="/blog/the-beer-bucket-list-for-the-aspiring-connoisseur">list of over
+        ~100 beers</a> that he drank
     </li>
     <li>did a smoothie cleanse for 10 days</li>
     <li>loves to go to metal concerts & drum and bass shows</li>
@@ -66,7 +66,6 @@
     <li>can do a full split</li>
     <li>loves to go ice swimming or having a cold shower</li>
     <li>loves to play video games on the hardest difficulty</li>
-
   </ul>
 
   <h2>Current office setup</h2>
@@ -119,21 +118,8 @@
     <ExternalLink href="https://www.buymeacoffee.com/mhatvan">mhatvan</ExternalLink>
   </p>
 
-  <p>
-    BTC:
-    <code>15UgBxhsGAUPmtqMQAFpkVUuqLa6e3rzGp</code>
-  </p>
-  <p>
-    ETH:
-    <code>0xc7f207503E83F74bF4628c5b60d2Fb8fdd7977E4</code>
-  </p>
-  <p>
-    XRP:
-    <code>rpkbvS8QG9pzcVPMQux8ug4T5L2B74eGfo</code>
-  </p>
-  <p>
-    LTC:
-    <code>Le7jKe5Y5s8EHXLMVHruSzcj2PJbnyeD53</code>
-  </p>
-
+  <p>BTC: <code>15UgBxhsGAUPmtqMQAFpkVUuqLa6e3rzGp</code></p>
+  <p>ETH: <code>0xc7f207503E83F74bF4628c5b60d2Fb8fdd7977E4</code></p>
+  <p>XRP: <code>rpkbvS8QG9pzcVPMQux8ug4T5L2B74eGfo</code></p>
+  <p>LTC: <code>Le7jKe5Y5s8EHXLMVHruSzcj2PJbnyeD53</code></p>
 </section>

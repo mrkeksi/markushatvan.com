@@ -91,15 +91,14 @@
   }
 
   .mh figcaption {
-    @apply text-gray-600 text-sm;
+    @apply text-gray-600 text-sm italic;
   }
 
   .mh p > code:not([class*='language-']),
+  .mh h3 > code,
   .mh li > code,
   .mh figcaption > code {
-    font-size: calc(1em - 2px);
-    color: #555;
-    page-break-inside: avoid;
+    word-break: break-word;
     background-color: #f0f0f0;
     padding: 0.2em 0.4em;
     border-radius: 2px;

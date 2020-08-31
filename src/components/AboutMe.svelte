@@ -17,10 +17,12 @@
   <h2 class="text-center">Markus Hatvan</h2>
   <p>
     Full stack developer, Calisthenics enthusiast, craft beer lover, and biohacker. If you like my
-    content, please consider supporting me and
-    <a href="https://www.buymeacoffee.com/mhatvan" target="_blank" rel="noopener noreferrer">
+    content, please consider supporting me and <a
+      href="https://www.buymeacoffee.com/mhatvan"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       buy me a coffee
-    </a>
-    !
+    </a>!
   </p>
 </div>

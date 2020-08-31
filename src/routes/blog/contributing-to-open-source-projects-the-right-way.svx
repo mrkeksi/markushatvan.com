@@ -30,23 +30,23 @@ There were so many questions that I had to find answers to:
 
 Although there were articles and tips and tricks available on the web, it was tedious to gather all the necessary information bit by bit.
 
-After contributing to open source projects regularly for a while now and feeling comfortable with the workflow, I decided to share my knowledge with you so you don't have to start from zero like me.
+After contributing to open source projects regularly for a while now and feeling comfortable with the workflow, I decided to share my knowledge with you so you don't have to start from zero like I did.
 
-Additionally, my motivation is to bring people hesitant to start with open source contributions to do the first step. More developers contributing to open source projects mean better quality of code, more documentation is written and faster development speed as a benefit for all of us.
+Additionally, my motivation is to bring people who are hesitant to start with open source contributions to take the first step. More developers contributing to open source projects means better quality of code, more documentation written and faster development speed which is a benefit for all of us.
 
 ## Why you should contribute to open source projects
 
-- **Improve your coding skills:** working with different code bases is a great way of getting better at coding fast. Contrary to a work environment where you might work on one project for a longer period, with open source projects you can switch to another project whenever you want and get to know various toolings and setups.
-- **Give back to the community:** you are probably using a lot of different repositories daily for free and now is the chance to contribute as a way of thanking the project.
-- **Improve your prestige:** you will be easier to hire with merged pull requests for well-known projects or you might even turn into a thought leader for a certain topic.
-- **Work with different teams:** each repository has different contributors and coding conventions that you will need to adapt to.
-- **Solve interesting problems:** finding solutions to complex problems can be fulfilling and a lot of fun and you get to pick which issues you want to work on.
+- **Improve your coding skills.** Working with different code bases is a great way of getting better at coding fast. Contrary to a work environment where you might work on one project for a longer period, with open source projects you can switch to another project whenever you want and get to know various tooling and setups.
+- **Give back to the community.** You are probably using a lot of different repositories daily for free and this is your chance to contribute as a way of thanking the project.
+- **Improve your prestige.** You will be easier to hire with merged pull requests for well-known projects or you might even turn into a thought leader for a certain topic.
+- **Work with different teams.** Each repository has different contributors and coding conventions that you will need to adapt to.
+- **Solve interesting problems.** Finding solutions to complex problems can be fulfilling and a lot of fun. You are also able to choose which issues you want to work on.
 
 If you think that you don't have enough experience to contribute to projects with code, don't worry. You can always help out by improving documentation, answering issues, or with the internationalization of a project until you feel ready.
 
 ## Some of my contributions
 
-To give you a bit of an overview of projects that you could be working on, here are some of the open source contributions that I did:
+To give you a bit of an overview of projects that you could be working on, here are some of the open source contributions that I worked on:
 
 - [sveltejs/svelte](https://github.com/sveltejs/svelte): add accessibility rule
 - [sindresorhus/eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn/): add lint rule
@@ -57,7 +57,7 @@ To give you a bit of an overview of projects that you could be working on, here 
 
 As you can see, my favorite areas in web development include working on code quality improvements like linting and accessibility as well as dependency upgrades.
 
-One of the great things about open source contributions is that you get to choose whatever issue you feel like working on right now!
+One of the great things about open source contributions is that you get to choose whichever issue you feel like working on right now!
 
 ## Contribution flow
 
@@ -75,9 +75,9 @@ Although most pull requests can be created, reviewed, and merged within the same
 - **GitHub:** there is an [Explore](https://github.com/explore) page where GitHub recommends repositories based on your interests and previous contributions.
 - **Work:** you are actively using a repository for a project at work. You want to fix a bug or add a feature that is necessary for your progress at work or you simply want to contribute as a way of giving back to the project.
 - **Contacts:** you hear from co-workers or friends about cool repositories and want to be part of them too.
-- **Stockmarket:** not the most obvious way, but you could be invested in a company and want it to flourish.
+- **Stock Market:** not the most obvious way, but you could be invested in a company and want it to flourish.
 
-Naturally, starting an open-source project yourself if you got a great idea is an option as well.
+Naturally, starting an open-source project yourself if you have a great idea is an option as well.
 
 ### Bug bounty programs
 
@@ -99,11 +99,11 @@ No matter how great the project sounds, if you have no prior experience with the
 
 ### Check the popularity of the project
 
-I recommend going for a project that is not too popular yet - all the good issues would be gone too fast - but also not so small that the chance is high that the project might become unmaintained at some point. Aiming for a star count on GitHub between 1000 and 50k is usually a good bet, but exceptions make the rule.
+I recommend going for a project that is not too popular yet - all the good issues would be gone too quickly - but also not so small that the chance is high that the project might become unmaintained at some point. Aiming for a star count on GitHub between 1000 and 50k is usually a good bet, but there are some exceptions.
 
 ### Check the latest commit in the master branch
 
-Don't contribute to a repository if you see that there was no commit added to master for more than a couple of months, it can be a sign of a deserted project. When having doubts about the ongoing development of the project, try to ask some of the contributors or open up a new issue.
+Don't contribute to a repository if you see that there was no commit added to master for more than a couple of months, it can be a sign of a deserted project. When having doubts about the ongoing development of the project, ask some of the contributors or open up a new issue.
 
 ### Take a look at the number of open pull requests
 
@@ -129,7 +129,7 @@ If you are unsure about how to generate an SSH key and put it into your GitHub a
 
 ### (Optional) Add a GPG key for verified commits
 
-Although you can commit to a repository just fine without your commits being verified, I recommend to set up a GPG key because of three reasons:
+Although you can commit to a repository just fine without your commits being verified, I recommend setting up a GPG key for these three reasons:
 
 - your commit will receive a green "Verified" label which gives it improved authenticity
 - you show other people involved in the project that the commit comes from a trusted source
@@ -161,7 +161,7 @@ git clone git@github.com:facebook/react.git
 git clone https://github.com/facebook/react.git
 ```
 
-After the project is successfully cloned to your local disk, you can find the repository available under the file path that you were located in the terminal.
+After the project is successfully cloned to your local disk, you can find the repository available under the file path that you were located in when cloning it.
 
 ### Find the used branch for development
 
@@ -173,26 +173,26 @@ Depending on the size of the project, it can be quite the challenge to figure ou
 
 ### Don't get discouraged!
 
-Starting in a large project can be overwhelming at first. Often I wanted to give up on issues already only to find the ideal solution a moment later. It can pay off to be perseverant.
+Starting with a large project can be overwhelming at first. I often wanted to give up on issues already only to find the ideal solution a moment later. It can pay off to be perseverant.
 
 Nevertheless, you will encounter projects - especially older ones - which can suffer from bad developer experience. When you realize that it will take you a lot of time to even get the project setup or the tests and linting to pass, focusing your work on another repository might be a better idea.
 
 ## Getting things done
 
-At this point, you familiarized yourself with the project and you are sure that you can make some meaningful code changes.
+At this point, you have familiarized yourself with the project and you are sure that you can make some meaningful code changes.
 
 ### Reserve the issue of your choice
 
 You can signal the contributors of the repository that you want to take an issue by simply writing "I want to work on this" as a comment.
 Ideally, you will get assigned to an issue and avoid that your issue will be taken by someone else.
 
-Be aware that you are expected to deliver a PR or a status update once you volunteered for an issue. Some contributors also might ask about the progress if it is a high priority bug fix.
+Be aware that you are expected to deliver a PR or a status update once you volunteered for an issue. Some contributors also might ask about the progress if is a high priority bug fix.
 
 ### Save work into a branch
 
-Since we are still in the default branch that we cloned the project from, it is about time to checkout into a separate branch to be able to commit.
+Since we are still in the default branch that we cloned the project from, it's about time to check out into a separate branch to be able to commit.
 
-I recommend to name a branch according to the `<issue-number>-<issue-name>` naming convention.
+I recommend naming a branch according to the `<issue-number>-<issue-name>` naming convention.
 
 An example of checking out into an issue-specific branch would look like this:
 
@@ -202,7 +202,7 @@ git checkout -b 345-expose-options-for-gtag
 
 If you want to read up more on the topic, there is plenty of information available about [Git branch naming conventions](https://deepsource.io/blog/git-branch-naming-conventions/).
 
-## Ready for commit
+## Ready to commit
 
 We already learned that there are naming conventions for creating branches in Git, so we also want to follow the best practices for the structure of a commit message. [Conventional Commits](https://www.conventionalcommits.org/) is a good resource of "a specification for adding human and machine-readable meaning to commit messages".
 
@@ -222,7 +222,7 @@ This can be helpful especially for pull requests that span across a longer time 
 
 ### Check how commits are done in the repository of your choice
 
-Although you are good to go most of the time with sticking to the conventional commit structure for commits, I advise running `git log` in a project where you contribute to for the first time to see how strict commit messages are handled.
+Although you are good to go most of the time with sticking to the conventional commit structure for commits, I advise running `git log` in a project where you contribute for the first time to see how strict commit messages are handled.
 
 ### Make sure you comply with the outlined contribution guidelines
 
@@ -242,7 +242,7 @@ In case you are unfamiliar with squashing commits, this [beginner's guide to squ
 
 ## Ready for pushing
 
-If you've got this far, great! You are almost ready to open your first PR! There are only a couple of steps left.
+If you've gotten this far, great! You're almost ready to open your first PR! There are only a few steps left.
 
 ### Fork repository
 
@@ -282,7 +282,7 @@ git remote add upstream git@github.com:facebook/react.git
 git remote set-url origin git@github.com:<username>/react.git
 ```
 
-When you did everything correctly, the output of `git remote -v` should display `origin` and `upstream` set up:
+If you did everything correctly, the output of `git remote -v` should display `origin` and `upstream` set up:
 
 <figure class="my-10">
   <Image src="setup-git-remote.png" alt="Git remote set up"  />
@@ -304,7 +304,7 @@ git push origin <branch-name>
 
 Super, we are almost through!
 
-## Ready for opening a PR
+## Ready to open a PR
 
 If you did everything correctly, you will be presented with an alert box at the location of your forked repository, notifying you of your recent push.
 
@@ -314,7 +314,7 @@ If you did everything correctly, you will be presented with an alert box at the 
 <a href="https://github.com/brainhubeu/react-carousel" target="_blank" rel="noopener noreferrer">React Carousel</a>.</figcaption>
 </figure>
 
-After you are done 100% with your work, click the "Compare & pull request" button.
+After you are 100% done with your work, click the "Compare & pull request" button.
 
 ### Write a useful pull request description
 
@@ -332,14 +332,14 @@ GitHub will parse the "Closes" keyword and automatically close the issue when th
 
 The `<explanation>` part can be very different depending on your contribution. It might be that you want to explain the bug that you fixed, notify about potential problems that could show up in the future, or discuss breaking changes that your PR might lead to.
 
-Additionally, some repositories might have dedicated pull request templates set up. Then you would need to check checkboxes that you made sure that e.g. linting goes through without errors, you added unit test cases for your new feature, no formatting changes were committed, depending on the repository.
+Additionally, some repositories might have dedicated pull request templates set up. Then you would need to check checkboxes making sure that e.g. linting goes through without errors, you added unit test cases for your new feature, no formatting changes were committed, depending on the repository.
 
 When you are content with your pull request description,
-the only thing left to do is to click that juicy, green "Create pull request" button!
+the only thing left to do is to click that rewarding, green "Create pull request" button and voilà!
 
 ### Wait for approval
 
-Depending on the project, this can be fast or take a while. Sometimes you will have to do multiple iterations of improvements for a pull request, other times your work will be merged right away.
+Depending on the project, this can happen quickly or take a while. Sometimes you will have to do multiple iterations of improvements for a pull request, other times your work will be merged right away.
 
 ## That's all folks!
 
@@ -354,7 +354,7 @@ Thank you for wanting to give back to the open source community, a lot of projec
 
 I know this was a lot to digest, but you should have all the necessary steps laid out to go from zero to hero.
 
-I hope this article has been helpful to you and let me know if there are any open questions left or passages to add.
+I hope this article has been helpful to you, let me know if there are any open questions left or passages to add.
 
 Thank you for reading!
 
