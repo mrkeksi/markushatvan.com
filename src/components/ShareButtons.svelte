@@ -58,7 +58,7 @@
   <Icon data="{faReddit}" class="mx-3" scale="{1.5}" />
 </a>
 <a
-  href="https://www.linkedin.com/sharing/share-offsite/?url={encodedURL}"
+  href="https://pinterest.com/pin/create/button/?url={encodedURL}"
   target="_blank"
   rel="noopener noreferrer"
   class="{shareButtonStyle}"

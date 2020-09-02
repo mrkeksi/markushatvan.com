@@ -1,6 +1,13 @@
 <script>
   import Icon from 'svelte-awesome/components/Icon.svelte';
-  import { faTwitter, faMedium, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+  import {
+    faTwitter,
+    faMedium,
+    faGithub,
+    faLinkedin,
+    faDev,
+    faReddit,
+  } from '@fortawesome/free-brands-svg-icons';
   import { faRss } from '@fortawesome/free-solid-svg-icons';
   import ExternalLink from './ExternalLink.svelte';
 </script>
@@ -15,7 +22,15 @@
       ariaLabel="Follow me on GitHub"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
-      <Icon data="{faGithub}" class="mx-3 mb-3" scale="{2}" />
+      <Icon data="{faGithub}" class="m-3" scale="{2}" />
+    </ExternalLink>
+
+    <ExternalLink
+      href="https://dev.to/mhatvan"
+      ariaLabel="Follow me on dev.to"
+      customClass="inline-flex text-teal-900 hover:text-teal-700"
+    >
+      <Icon data="{faDev}" class="m-3" scale="{2}" />
     </ExternalLink>
 
     <ExternalLink
@@ -23,7 +38,7 @@
       ariaLabel="Network with me on Linkedin"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
-      <Icon data="{faLinkedin}" class="mx-3 mb-3" scale="{2}" />
+      <Icon data="{faLinkedin}" class="m-3" scale="{2}" />
     </ExternalLink>
 
     <ExternalLink
@@ -31,7 +46,7 @@
       ariaLabel="Tweet with me on Twitter"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
-      <Icon data="{faTwitter}" class="mx-3 mb-3" scale="{2}" />
+      <Icon data="{faTwitter}" class="m-3" scale="{2}" />
     </ExternalLink>
 
     <ExternalLink
@@ -39,7 +54,15 @@
       ariaLabel="Follow me on Medium"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
-      <Icon data="{faMedium}" class="mx-3 mb-3" scale="{2}" />
+      <Icon data="{faMedium}" class="m-3" scale="{2}" />
+    </ExternalLink>
+
+    <ExternalLink
+      href="https://www.reddit.com/user/chimpcmder"
+      ariaLabel="Follow me Reddit"
+      customClass="inline-flex text-teal-900 hover:text-teal-700"
+    >
+      <Icon data="{faReddit}" class="m-3" scale="{2}" />
     </ExternalLink>
 
     <ExternalLink
@@ -47,7 +70,7 @@
       ariaLabel="Read the RSS feed"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
-      <Icon data="{faRss}" class="mx-3 mb-3" scale="{2}" />
+      <Icon data="{faRss}" class="m-3" scale="{2}" />
     </ExternalLink>
   </div>
 </div>

@@ -8,6 +8,7 @@ tags:
   - Open source
   - GitHub
   - Community
+  - Beginners
 ---
 
 <script>
@@ -46,7 +47,7 @@ If you think that you don't have enough experience to contribute to projects wit
 
 ## Some of my contributions
 
-To give you a bit of an overview of projects that you could be working on, here are some of the open source contributions that I worked on:
+To give you a bit of an overview of projects that you could be working on, here are some open source contributions that I worked on:
 
 - [sveltejs/svelte](https://github.com/sveltejs/svelte): add accessibility rule
 - [sindresorhus/eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn/): add lint rule
@@ -68,7 +69,7 @@ Before starting to work on open source contributions, it is essential to know ho
   <figcaption class="text-center">A high-level overview of the step by step flow that open source contributions follow.</figcaption>
 </figure>
 
-Although most pull requests can be created, reviewed, and merged within the same day, it is not uncommon for PRs to take even multiple months from start to finish! I have pull requests which are open for more than a year and they are not merged yet because the project is maintained irregularly or project focus moved away from that issue.
+Although most pull requests can be created, reviewed, and merged within the same day, it is not uncommon for pull requests to take even multiple months from start to finish! I have pull requests which are open for more than a year, and they are not merged yet because the project is maintained irregularly or project focus moved away from that issue.
 
 ## How to find a project to contribute to
 
@@ -103,7 +104,7 @@ I recommend going for a project that is not too popular yet - all the good issue
 
 ### Check the latest commit in the master branch
 
-Don't contribute to a repository if you see that there was no commit added to master for more than a couple of months, it can be a sign of a deserted project. When having doubts about the ongoing development of the project, ask some of the contributors or open up a new issue.
+Don't contribute to a repository if you see that there was no commit added to master for more than a couple of months, it can be a sign of a deserted project. When having doubts about the ongoing development of the project, ask some contributors or open up a new issue.
 
 ### Take a look at the number of open pull requests
 
@@ -165,11 +166,11 @@ After the project is successfully cloned to your local disk, you can find the re
 
 ### Find the used branch for development
 
-Before you start to work on the project and begin modifying files, it is a good idea to check the branches on the GitHub repo. Although most of the time you branch away from the `master` branch for your contributions, there are repositories that use a separate `dev` or `development` branch. These intermediate branches are used for PRs and get merged back into `master` regularly when deciding on pushing out a new release.
+Before you start to work on the project and begin modifying files, it is a good idea to check the branches on the GitHub repo. Although most of the time you branch away from the `master` branch for your contributions, there are repositories that use a separate `dev` or `development` branch. These intermediate branches are used for pull requests and get merged back into `master` regularly when deciding on pushing out a new release.
 
 ### Familiarize yourself with the project
 
-Depending on the size of the project, it can be quite the challenge to figure out which files require a change for providing a bugfix/feature. Try to scan over the file structure once at least before using the search in your IDE for pinpointing the location for your code changes.
+Depending on the size of the project, it can be quite the challenge to figure out which files require a change for providing a bug fix/feature. Try to scan over the file structure once at least before using the search in your IDE for pinpointing the location for your code changes.
 
 ### Don't get discouraged!
 
@@ -177,7 +178,7 @@ Starting with a large project can be overwhelming at first. I often wanted to gi
 
 Nevertheless, you will encounter projects - especially older ones - which can suffer from bad developer experience. When you realize that it will take you a lot of time to even get the project setup or the tests and linting to pass, focusing your work on another repository might be a better idea.
 
-## Getting things done
+## Get things done
 
 At this point, you have familiarized yourself with the project and you are sure that you can make some meaningful code changes.
 
@@ -240,7 +241,7 @@ Do as many commits as you need while the pull request is in a work in progress s
 
 In case you are unfamiliar with squashing commits, this [beginner's guide to squashing commits with git rebase](https://medium.com/@slamflipstrom/a-beginners-guide-to-squashing-commits-with-git-rebase-8185cf6e62ec) can help you out.
 
-## Ready for pushing
+## Ready to push
 
 If you've gotten this far, great! You're almost ready to open your first PR! There are only a few steps left.
 
@@ -257,11 +258,11 @@ It can be done by clicking the Fork button on the right upper corner on any repo
 
 The reason why we need to fork a repository is to be able to submit a pull request against it.
 By default, you don't have push permissions to a repository that doesn't belong to you.
-Therefore we fork a repository under our username where we are allowed to push to and then we can submit a PR against the original GitHub repository.
+Therefore, we fork a repository under our username where we are allowed to push to, and then we can submit a PR against the original GitHub repository.
 
 So if you would decide to fork [React](https://github.com/facebook/react), it would take a few seconds, and then you would have an exact copy of the repository available under `https://github.com/<username>/react`.
 
-Although the step of forking can be done earlier in the workflow, at this point we already made a `git commit` previously so we know for sure that we have a meaningful contribution to push. If you fork a repository before checking out the project locally and finding out if you can do valuable changes, it can be that you decide against working on it and then you forked it in vain.
+Although the step of forking can be done earlier in the workflow, at this point we already made a `git commit` previously, so we know for sure that we have a meaningful contribution to push. If you fork a repository before checking out the project locally and finding out if you can do valuable changes, it can be that you decide against working on it and then you forked it in vain.
 
 ### Set up a git remote
 
@@ -347,7 +348,9 @@ You successfully created your first pull request!
 
 <figure class="my-10">
   <Image src="children-success.jpg" alt="Children happy in front of computer"  />
-  <figcaption class="text-center">Wow, you did it! I hope you are as enthusiastic as these kids ;)</figcaption>
+  <figcaption class="text-center">Wow, you did it! I hope you are as enthusiastic as these kids ;) - Photo by
+    <a href="https://pxhere.com/en/photo/764632" target="_blank" rel="noopener noreferrer">Pxhere</a> (CC0)
+  </figcaption>
 </figure>
 
 Thank you for wanting to give back to the open source community, a lot of projects can only thrive with support from people like you!

@@ -4,6 +4,7 @@ slug: 'the-beer-bucket-list-for-the-aspiring-connoisseur'
 creationDate: '2020-08-05'
 category: 'Lifestyle'
 excerpt: 'This comprehensive and regularly updated list includes all the beers that I drank since around 2018.'
+cover: variety-of-different-beer-styles.jpeg
 tags:
   - Craft beer
   - Tools

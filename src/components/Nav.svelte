@@ -44,7 +44,7 @@
       <ClickOutside on:clickoutside="{() => (open = false)}">
         <button
           class="flex items-center px-3 py-2 text-teal-700 border border-gray-400
-          hover:text-teal-800 hover:border-gray-500"
+            hover:text-teal-800 hover:border-gray-500"
           on:click="{toggleHamburgerMenu}"
         >
           <svg class="w-3 h-3 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -98,7 +98,7 @@
         class="mr-0 nav-link md:inline-block md:mt-0"
       >
         GitHub
-        <Icon data="{faGithub}" class="ml-3 -mt-1" />
+        <Icon data="{faGithub}" class="ml-2 -mt-1" />
       </a>
     </nav>
   </div>

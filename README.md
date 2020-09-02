@@ -14,7 +14,7 @@ The main focus of the website is to provide value to visitors through the [blog]
 
 - [Website](https://markushatvan.com)
 - [GitHub](https://github.com/mhatvan)
-- [LinkedIn](markus-hatvan-b912b91aa)
+- [LinkedIn](https://www.linkedin.com/in/markus-hatvan-b912b91aa/)
 - [Twitter](https://twitter.com/HatvanMarkus)
 
 ## 🤝 Contributing

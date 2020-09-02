@@ -1,9 +1,10 @@
 ---
 title: '10 Reasons Why I Recommend Svelte To Every New Web Developer'
 slug: '10-reasons-why-i-recommend-svelte-to-every-new-web-developer'
-creationDate: '2020-08-26'
+creationDate: '2020-08-31'
 category: 'Programming'
 excerpt: "Although the initial release of Svelte was back in November 2016, it's still more of an underdog amongst the JavaScript front end frameworks and just recently started to get its well deserved attention by the community."
+cover: svelte-logo-on-brickwall-background.jpg
 tags:
   - Svelte
   - JavaScript frameworks
@@ -184,6 +185,7 @@ In case there's a prop name that is the same as a variable name, we can pass it 
 We can also use a shorthand for assigning classes:
 
 ```html
+<!-- Child.svelte -->
 <script>
   let round = true;
 </script>

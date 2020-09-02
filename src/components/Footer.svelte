@@ -42,7 +42,14 @@
 
 <script>
   import Icon from 'svelte-awesome/components/Icon.svelte';
-  import { faTwitter, faMedium, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+  import {
+    faTwitter,
+    faMedium,
+    faGithub,
+    faLinkedin,
+    faDev,
+    faReddit,
+  } from '@fortawesome/free-brands-svg-icons';
   import { faEnvelope, faRss } from '@fortawesome/free-solid-svg-icons';
   import ExternalLink from './ExternalLink.svelte';
 
@@ -114,13 +121,14 @@
         Privacy policy
       </a>
     </nav>
-    <nav class="w-full mt-6 ml-auto sm:w-1/3">
+
+    <nav class="w-full mt-6 sm:w-2/3">
       <ExternalLink
         href="mailto:markus_hatvan@aon.at"
         ariaLabel="Write me a mail"
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
       >
-        <Icon data="{faEnvelope}" class="mr-3" />
+        <Icon data="{faEnvelope}" class="mr-3" scale="{1.5}" />
       </ExternalLink>
 
       <ExternalLink
@@ -129,7 +137,15 @@
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
         rel="me"
       >
-        <Icon data="{faGithub}" class="mr-3" />
+        <Icon data="{faGithub}" class="mr-3" scale="{1.5}" />
+      </ExternalLink>
+
+      <ExternalLink
+        href="https://dev.to/mhatvan"
+        ariaLabel="Follow me on dev.to"
+        customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
+      >
+        <Icon data="{faDev}" class="mr-3" scale="{1.5}" />
       </ExternalLink>
 
       <ExternalLink
@@ -137,7 +153,7 @@
         ariaLabel="Network with me on Linkedin"
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
       >
-        <Icon data="{faLinkedin}" class="mr-3" />
+        <Icon data="{faLinkedin}" class="mr-3" scale="{1.5}" />
       </ExternalLink>
 
       <ExternalLink
@@ -146,7 +162,7 @@
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
         rel="me"
       >
-        <Icon data="{faTwitter}" class="mr-3" />
+        <Icon data="{faTwitter}" class="mr-3" scale="{1.5}" />
       </ExternalLink>
 
       <ExternalLink
@@ -154,7 +170,15 @@
         ariaLabel="Follow me on Medium"
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
       >
-        <Icon data="{faMedium}" class="mr-3" />
+        <Icon data="{faMedium}" class="mr-3" scale="{1.5}" />
+      </ExternalLink>
+
+      <ExternalLink
+        href="https://www.reddit.com/user/chimpcmder"
+        ariaLabel="Follow me Reddit"
+        customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
+      >
+        <Icon data="{faReddit}" class="mr-3" scale="{1.5}" />
       </ExternalLink>
 
       <ExternalLink
@@ -162,9 +186,10 @@
         ariaLabel="Read the RSS feed"
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
       >
-        <Icon data="{faRss}" class="mr-3" />
+        <Icon data="{faRss}" class="mr-3" scale="{1.5}" />
       </ExternalLink>
     </nav>
+
     <div class="w-full mt-0 sm:w-1/3 sm:mt-6">
       <small class="text-sm">
         <span class="hidden md:inline">Copyright</span> © 2020 Markus Hatvan
