@@ -4,6 +4,7 @@ slug: 'contributing-to-open-source-projects-the-right-way'
 creationDate: '2020-07-28'
 category: 'Programming'
 excerpt: 'When I started with open source contributions in April 2019, I remember being scared about doing everything wrong.'
+cover: contributing-to-open-source-projects-the-right-way.jpeg
 tags:
   - Open source
   - GitHub
@@ -17,7 +18,7 @@ tags:
 
 <figure class="mb-10">
   <Image src="contributing-to-open-source-projects-the-right-way.jpeg" alt="Contribution to open source projects the right way banner"  />
-  <figcaption class="text-center">You can skip all the books with this easy to follow guide.</figcaption>
+  <figcaption class="text-center">You can skip all the books with this easy to follow guide.- Photo by Author</figcaption>
 </figure>
 
 When I started with open source contributions in April 2019, I remember being scared about doing everything wrong.

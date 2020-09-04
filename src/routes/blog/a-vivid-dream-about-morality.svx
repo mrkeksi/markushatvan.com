@@ -4,6 +4,7 @@ slug: 'a-vivid-dream-about-morality'
 creationDate: '2020-07-01'
 category: 'Lifestyle'
 excerpt: 'Yesterday, I experienced an intense and vivid dream and I knew right away after waking up that I had to write it down and share it.'
+cover: boat-sailing-into-the-night.jpeg
 tags:
   - Dreams
   - Awareness

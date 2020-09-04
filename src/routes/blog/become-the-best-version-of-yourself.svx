@@ -4,6 +4,7 @@ slug: 'become-the-best-version-of-yourself'
 creationDate: '2020-07-02'
 category: 'Lifestyle'
 excerpt: 'Through my personal experience, the character traits mentioned below can help you out in life tremendously, no matter if you find yourself in a job interview situation, relationship, or with friends.'
+cover: person-standing-in-front-of-sundown.jpeg
 tags:
   - Personal development
   - Awareness

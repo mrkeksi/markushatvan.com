@@ -4,6 +4,7 @@ slug: '6-reasons-why-i-started-this-blog'
 creationDate: '2020-06-12'
 category: 'Lifestyle'
 excerpt: 'In contrast to blogs who focus on a single topic, I want to write about and cover these topics in depth.'
+cover: pen-writing-on-a-paper.jpeg
 tags:
   - Hustle
   - Creativity

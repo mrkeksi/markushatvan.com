@@ -4,6 +4,7 @@ slug: 'why-i-chose-sapperjs-for-my-website-and-what-ive-learned-about-the-framew
 creationDate: '2020-06-13'
 category: 'Programming'
 excerpt: 'Since I wanted to go for a website built on a modern JAMStack setup, I had these options based on framework popularity and matureness.'
+cover: laptop-with-displayed-code.jpeg
 tags:
   - Website
   - SapperJS

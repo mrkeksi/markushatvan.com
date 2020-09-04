@@ -4,7 +4,7 @@
 
 <div class="mb-16">
   <header class="topic-box">
-    <h2>About Me</h2>
+    <h2 class="mt-0">About Me</h2>
   </header>
   <div class="flex justify-center w-1/2 mx-auto mt-5">
     <Image

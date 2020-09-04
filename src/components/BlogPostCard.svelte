@@ -1,12 +1,11 @@
 <script>
   import InfoTags from './InfoTags.svelte';
-  import type { Post } from '../models/post';
 
-  export let post: Post;
+  export let post;
 </script>
 
 <div class="card">
-  <!-- <img src="{post.cover}" alt="asdf" /> -->
+  <!-- <a href="blog/{post.slug}"> <img src="{post.cover}" alt="asdf" /> </a> -->
   <div class="px-6 py-8">
     <div class="my-3 text-xl font-bold">
       <a rel="prefetch" href="blog/{post.slug}" class="link-inherit">{post.title}</a>

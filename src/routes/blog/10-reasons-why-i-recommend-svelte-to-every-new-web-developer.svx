@@ -19,7 +19,7 @@ tags:
 <figure class="mb-10">
     <Image src="svelte-logo-on-brickwall-background.jpg" alt="Svelte logo on brickwall background"  />
   <figcaption class="text-center">
-    Svelte will give you developer superpowers!
+    Svelte will give you developer superpowers! - Photo by Author
   </figcaption>
 </figure>
 

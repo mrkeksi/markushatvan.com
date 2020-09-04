@@ -4,6 +4,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/eae4cbc6-27fb-4953-b6d4-e5b9959b8992/deploy-status)](https://app.netlify.com/sites/markushatvan/deploys)
 
+[![HitCount](https://hits.dwyl.com/mhatvan/markushatvancom.svg)](https://hits.dwyl.com/mhatvan/markushatvancom)
+
 My personal website hosted on Netlify built with SapperJS.
 
 The main focus of the website is to provide value to visitors through the [blog](https://markushatvan.com/blog), which will contain articles about various programming topics, personal development and tool recommendations.
@@ -14,8 +16,11 @@ The main focus of the website is to provide value to visitors through the [blog]
 
 - [Website](https://markushatvan.com)
 - [GitHub](https://github.com/mhatvan)
+- [Dev.to](https://dev.to/mhatvan)
+- [Medium](https://medium.com/@markushatvan)
 - [LinkedIn](https://www.linkedin.com/in/markus-hatvan-b912b91aa/)
 - [Twitter](https://twitter.com/HatvanMarkus)
+- [Reddit](https://www.reddit.com/user/chimpcmder)
 
 ## 🤝 Contributing
 

@@ -40,6 +40,7 @@
         title: pageTitle,
         excerpt: post?.excerpt,
         creationDate: post?.creationDate,
+        cover: post?.cover,
       }
     : {};
 </script>
@@ -53,33 +54,30 @@
 </svelte:head>
 
 {#if segment}
-  <SEO {blogPostInfo} />
+  <SEO blogPostInfo="{blogPostInfo}" />
 
-  <BlogPostHeader {post} />
+  <BlogPostHeader post="{post}" />
 
   <section class="container flex flex-wrap mh-container">
     <article class="w-full pb-12 blog lg:w-9/12 lg:pr-16">
       <slot />
 
       <div class="p-5 my-8 text-center border-4 border-teal-700">
-        <p>
-          <b>If you liked this post, share it:</b>
-        </p>
-        <ShareButtons {post} />
+        <p><b>If you liked this post, share it:</b></p>
+        <ShareButtons post="{post}" />
       </div>
 
       <div class="flex items-center my-8">
         <BackToBlogOverviewBtn />
       </div>
 
-      <PrevNextArticle {previousArticle} {nextArticle} />
+      <PrevNextArticle previousArticle="{previousArticle}" nextArticle="{nextArticle}" />
 
       <ReplyBox />
-
     </article>
 
     <aside class="w-full mt-8 lg:mt-0 lg:w-3/12">
-      <BlogPostSidebar {posts} />
+      <BlogPostSidebar posts="{posts}" />
     </aside>
   </section>
 {:else}
@@ -89,24 +87,22 @@
     <div class="w-full md:w-2/3 md:pr-10">
       <h1>Blog</h1>
       <p>
-        Opinions and viewpoints about
-        <a href="/categories/programming" rel="prefetch">Programming</a>
-        ,
-        <a href="/categories/lifestyle" rel="prefetch">Lifestyle</a>
-        and other topics. I am here to share my knowledge in an expressive manner and there will be
-        guest authors from time to time.
+        Opinions and viewpoints about <a
+          href="/categories/programming"
+          rel="prefetch"
+        >Programming</a>, <a href="/categories/lifestyle" rel="prefetch">Lifestyle</a> and other topics.
+        I am here to share my knowledge in an expressive manner and there will be guest authors from
+        time to time.
       </p>
       <h2>Got a blog post topic proposal?</h2>
       <p>
-        You can suggest content
-        <a
+        You can suggest content <a
           href="https://github.com/mhatvan/markushatvan.com/issues/new"
           target="_blank"
           rel="noopener noreferrer"
         >
           on the GitHub project page
-        </a>
-        or through my socials.
+        </a> or through my socials.
       </p>
     </div>
     <div class="w-full mx-auto sm:w-1/2 md:w-1/3" style="max-width: 250px">
@@ -115,11 +111,10 @@
   </BlogOverviewHeader>
 
   <section class="container flex flex-wrap mh-container">
-
-    <BlogPostFilters {posts} />
+    <BlogPostFilters posts="{posts}" />
 
     <aside class="w-full mt-8 lg:mt-0 lg:w-3/12">
-      <BlogPostSidebar {posts} />
+      <BlogPostSidebar posts="{posts}" />
     </aside>
   </section>
 {/if}

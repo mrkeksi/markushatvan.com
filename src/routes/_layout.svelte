@@ -23,6 +23,7 @@
   import NProgress from '../components/NProgress.svelte';
   import Nav from '../components/Nav.svelte';
   import Footer from '../components/Footer.svelte';
+  import Insights from '../components/Insights.svelte';
   import { isDev } from '../helpers/stores.js';
 
   import 'prismjs/themes/prism-okaidia.css';
@@ -36,14 +37,16 @@
 
 <NProgress />
 
-<Nav {segment} />
+<Nav segment="{segment}" />
 
 <main class="pb-12 mh">
   <slot />
 </main>
 
-<Footer {segment} />
+<Footer segment="{segment}" />
 
 {#if !$isDev}
   <CookieNotice />
 {/if}
+
+<Insights />

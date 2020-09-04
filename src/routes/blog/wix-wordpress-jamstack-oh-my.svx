@@ -4,6 +4,7 @@ slug: 'wix-wordpress-jamstack-oh-my'
 creationDate: '2020-06-14'
 category: 'Programming'
 excerpt: 'How to choose where to set up your website when you have so many options and so little time.'
+cover: close-up-of-different-light-bulbs.jpeg
 tags:
   - Website
   - Tools

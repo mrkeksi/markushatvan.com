@@ -3,13 +3,20 @@
   import { onMount } from 'svelte';
   const { page } = stores();
 
-  const fullURL = `https://markushatvan.com${$page.path}`;
+  const baseURL = `https://markushatvan.com`;
 
-  export let blogPostInfo: { title?: string; excerpt?: string; creationDate?: string } = {};
+  const fullURL = `${baseURL}${$page.path}`;
 
-  const siteLogo = 'https://markushatvan.com/logo-192.png';
+  const siteLogo = `${baseURL}/logo-192.png`;
 
   const schemaOrgURL = 'http://schema.org';
+
+  export let blogPostInfo: {
+    title?: string;
+    excerpt?: string;
+    creationDate?: string;
+    cover?: string;
+  } = {};
 
   const fallbackTitle = 'Markus Hatvan - Full Stack Developer';
   const fallbackDescription =
@@ -17,6 +24,7 @@
 
   const socialTitle = blogPostInfo.title || fallbackTitle;
   const socialDescription = blogPostInfo.excerpt || fallbackDescription;
+  const socialImage = `${baseURL}/${blogPostInfo.cover}` || siteLogo;
 
   const authorJSONLD = {
     '@type': 'Person',
@@ -29,7 +37,7 @@
     {
       '@context': schemaOrgURL,
       '@type': 'WebSite',
-      url: 'https://markushatvan.com',
+      url: baseURL,
       name: fallbackTitle,
       alternateName: fallbackTitle,
     },
@@ -45,8 +53,8 @@
           position: 1,
           item: {
             '@id': fullURL,
-            name: blogPostInfo.title,
-            // image,
+            name: socialTitle,
+            image: socialImage,
           },
         },
       ],
@@ -55,10 +63,10 @@
       '@context': schemaOrgURL,
       '@type': 'BlogPosting',
       url: fullURL,
-      name: blogPostInfo.title,
-      alternateName: blogPostInfo.title,
-      headline: blogPostInfo.title,
-      // image: { '@type': 'ImageObject', url: image },
+      name: socialTitle,
+      alternateName: socialTitle,
+      headline: socialTitle,
+      image: { '@type': 'ImageObject', url: socialImage },
       author: authorJSONLD,
       publisher: {
         ...authorJSONLD,
@@ -69,7 +77,7 @@
         },
       },
       datePublished: blogPostInfo.creationDate,
-      description: blogPostInfo.excerpt,
+      description: socialDescription,
     },
   ];
 
@@ -97,13 +105,11 @@
 </script>
 
 <svelte:head>
-  <meta name="image" content="{siteLogo}" />
-
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="{socialTitle}" />
   <meta property="og:description" content="{socialDescription}" />
   <meta property="og:url" content="{fullURL}" />
-  <meta property="og:image" content="{siteLogo}" />
+  <meta property="og:image" content="{socialImage}" />
 
   {#if isBlogDetailsPage}
     <meta property="og:type" content="article" />
@@ -113,6 +119,6 @@
   <meta property="twitter:title" content="{socialTitle}" />
   <meta property="twitter:description" content="{socialDescription}" />
   <meta property="twitter:url" content="{fullURL}" />
-  <meta property="twitter:image" content="{siteLogo}" />
+  <meta property="twitter:image" content="{socialImage}" />
   <meta property="twitter:card" content="summary_large_image" />
 </svelte:head>
