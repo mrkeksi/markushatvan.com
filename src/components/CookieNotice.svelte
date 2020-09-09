@@ -2,11 +2,16 @@
   .cookie-notice-btn {
     @apply px-5 py-2 mr-3 font-semibold text-white bg-teal-700 rounded text-sm;
   }
+
+  .cookie-notice-btn:hover {
+    @apply bg-teal-800;
+  }
 </style>
 
 <script>
   import { onMount } from 'svelte';
   import GoogleAnalytics from './GoogleAnalytics.svelte';
+  import ExternalLink from './ExternalLink.svelte';
 
   const gaProperty = 'UA-81701707-3';
   const disableStr = `ga-disable-${gaProperty}`;
@@ -44,11 +49,14 @@
 
 {#if showCookieNotice}
   <div class="fixed bottom-0 w-full p-3 text-sm text-center text-white bg-gray-800">
-    <div class="mb-3">
+    <p class="mb-3">
       Our website uses cookies to analyze how the site is used and to ensure your experience is
       consistent between visits.
+      <ExternalLink href="https://www.cookiesandyou.com/" customClass="underline mx-2">
+        Learn More
+      </ExternalLink>
       <a rel="prefetch" href="/privacy-policy" class="underline">Privacy Policy</a>
-    </div>
+    </p>
 
     <div class="text-center">
       <button class="mr-3 cookie-notice-btn" on:click="{onConfirm}">Accept</button>

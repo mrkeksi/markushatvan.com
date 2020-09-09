@@ -35,12 +35,12 @@
         rel="prefetch"
         aria-current="{segment === undefined ? 'page' : undefined}"
         href="."
-        class="mt-0 text-xl font-semibold tracking-tight nav-link md:inline-block"
+        class="mt-0 text-xl font-semibold tracking-tight nav-link sm:inline-block"
       >
         Markus Hatvan
       </a>
     </div>
-    <div class="ml-auto md:hidden">
+    <div class="ml-auto sm:hidden">
       <ClickOutside on:clickoutside="{() => (open = false)}">
         <button
           class="flex items-center px-3 py-2 text-teal-700 border border-gray-400
@@ -57,13 +57,13 @@
     <nav
       aria-label="Header navigation"
       class:hidden="{!open}"
-      class="w-full ml-auto md:flex md:w-auto"
+      class="w-full ml-auto sm:flex sm:w-auto"
     >
       <a
         rel="prefetch"
         aria-current="{segment === 'about' ? 'page' : undefined}"
         href="/about"
-        class="nav-link md:inline-block md:mt-0"
+        class="nav-link sm:inline-block sm:mt-0"
       >
         About
       </a>
@@ -71,7 +71,7 @@
         rel="prefetch"
         aria-current="{segment === 'blog' ? 'page' : undefined}"
         href="/blog"
-        class="nav-link md:inline-block md:mt-0"
+        class="nav-link sm:inline-block sm:mt-0"
       >
         Blog
       </a>
@@ -79,7 +79,7 @@
         rel="prefetch"
         aria-current="{segment === 'recommendations' ? 'page' : undefined}"
         href="/recommendations"
-        class="nav-link md:inline-block md:mt-0"
+        class="nav-link sm:inline-block sm:mt-0"
       >
         Recommendations
       </a>
@@ -87,7 +87,7 @@
         rel="prefetch"
         aria-current="{segment === 'contact' ? 'page' : undefined}"
         href="/contact"
-        class="nav-link md:inline-block md:mt-0"
+        class="nav-link sm:inline-block sm:mt-0"
       >
         Contact
       </a>
@@ -95,7 +95,7 @@
         href="https://github.com/mhatvan"
         target="_blank"
         rel="noopener noreferrer"
-        class="mr-0 nav-link md:inline-block md:mt-0"
+        class="mr-0 nav-link sm:inline-block sm:mt-0"
       >
         GitHub
         <Icon data="{faGithub}" class="ml-2 -mt-1" />

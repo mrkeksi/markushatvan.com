@@ -2,7 +2,7 @@ module.exports = {
   important: true,
   purge: {
     enabled: process.env.NODE_ENV === 'production',
-    content: ['./src/**/*.html', './src/**/*.svelte'],
+    content: ['./src/**/*.svelte'],
     options: {
       whitelist: ['my-10'],
     },
@@ -22,5 +22,6 @@ module.exports = {
   plugins: [],
   future: {
     removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
   },
 };

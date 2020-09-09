@@ -1,45 +1,3 @@
-<style>
-  .applause-gradient {
-    background-image: linear-gradient(
-        306deg,
-        rgba(54, 54, 54, 0.05) 0%,
-        rgba(54, 54, 54, 0.05) 33.333%,
-        rgba(85, 85, 85, 0.05) 33.333%,
-        rgba(85, 85, 85, 0.05) 66.666%,
-        rgba(255, 255, 255, 0.05) 66.666%,
-        rgba(255, 255, 255, 0.05) 99.999%
-      ),
-      linear-gradient(
-        353deg,
-        rgba(81, 81, 81, 0.05) 0%,
-        rgba(81, 81, 81, 0.05) 33.333%,
-        rgba(238, 238, 238, 0.05) 33.333%,
-        rgba(238, 238, 238, 0.05) 66.666%,
-        rgba(32, 32, 32, 0.05) 66.666%,
-        rgba(32, 32, 32, 0.05) 99.999%
-      ),
-      linear-gradient(
-        140deg,
-        rgba(192, 192, 192, 0.05) 0%,
-        rgba(192, 192, 192, 0.05) 33.333%,
-        rgba(109, 109, 109, 0.05) 33.333%,
-        rgba(109, 109, 109, 0.05) 66.666%,
-        rgba(30, 30, 30, 0.05) 66.666%,
-        rgba(30, 30, 30, 0.05) 99.999%
-      ),
-      linear-gradient(
-        189deg,
-        rgba(77, 77, 77, 0.05) 0%,
-        rgba(77, 77, 77, 0.05) 33.333%,
-        rgba(55, 55, 55, 0.05) 33.333%,
-        rgba(55, 55, 55, 0.05) 66.666%,
-        rgba(145, 145, 145, 0.05) 66.666%,
-        rgba(145, 145, 145, 0.05) 99.999%
-      ),
-      linear-gradient(90deg, rgb(9, 201, 186), rgb(18, 131, 221));
-  }
-</style>
-
 <script>
   import Icon from 'svelte-awesome/components/Icon.svelte';
   import {
@@ -50,7 +8,7 @@
     faDev,
     faReddit,
   } from '@fortawesome/free-brands-svg-icons';
-  import { faEnvelope, faRss } from '@fortawesome/free-solid-svg-icons';
+  import { faBlog, faEnvelope, faRss } from '@fortawesome/free-solid-svg-icons';
   import ExternalLink from './ExternalLink.svelte';
 
   export let segment: string;
@@ -179,6 +137,14 @@
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
       >
         <Icon data="{faReddit}" class="mr-3" scale="{1.5}" />
+      </ExternalLink>
+
+      <ExternalLink
+        href="https://www.bloglovin.com/blog/20634177/?claim=dgqenakg8xy"
+        ariaLabel="Follow my blog on Bloglovin"
+        customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
+      >
+        <Icon data="{faBlog}" class="mr-3" scale="{1.5}" />
       </ExternalLink>
 
       <ExternalLink

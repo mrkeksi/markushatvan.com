@@ -153,7 +153,7 @@
     @apply p-4 text-gray-600 bg-gray-300 border-l-4 border-gray-500;
   }
 
-  .mh .applause-gradient {
+  .applause-gradient {
     background-image: linear-gradient(
         306deg,
         rgba(54, 54, 54, 0.05) 0%,
@@ -191,45 +191,5 @@
         rgba(145, 145, 145, 0.05) 99.999%
       ),
       linear-gradient(90deg, rgb(9, 201, 186), rgb(18, 131, 221));
-  }
-
-  /* 
-    These styles are from Image.svelte of svelte-image
-    Currently, they dont end up in the bundle, so I had to copy them here
-    Related issue: https://github.com/matyunya/svelte-image/issues/67  
-  */
-  img.main,
-  img.placeholder {
-    object-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    will-change: opacity;
-  }
-
-  .blur {
-    filter: blur(10px);
-    transition: opacity 0.4s ease, filter 0.5s ease;
-  }
-
-  .placeholder {
-    opacity: 1;
-    transition: opacity 0.5s ease;
-    transition-delay: 0.7s;
-  }
-
-  .main {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    transition-delay: 0.7s;
-  }
-
-  .loaded .placeholder {
-    opacity: 0;
-  }
-
-  .loaded .main {
-    opacity: 1;
   }
 </style>

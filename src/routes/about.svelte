@@ -86,6 +86,14 @@
       <ExternalLink href="https://rambox.pro/">Rambox</ExternalLink>
     </li>
     <li>
+      <b>Browser:</b>
+      <ExternalLink href="https://brave.com/rez638" isAffiliateLink>Brave Browser</ExternalLink>
+    </li>
+    <li>
+      <b>Email:</b>
+      <ExternalLink href="https://www.thunderbird.net/">Thunderbird</ExternalLink>
+    </li>
+    <li>
       <b>Music:</b>
       <ExternalLink href="https://www.spotify.com/">Spotify</ExternalLink>
     </li>

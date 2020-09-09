@@ -8,16 +8,36 @@
 <section class="container mh-container">
   <h2 class="border-b-4 border-teal-700">Talks</h2>
 
-  <small class="block mt-6 text-sm text-gray-600">
-    <em>Upcoming</em>
-  </small>
+  <small class="block mt-6 text-sm text-gray-600"> <em>Upcoming</em> </small>
+  <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
+    <div class="inline-flex items-center w-full lg:w-2/4">
+      <Icon data="{faJs}" scale="{2}" class="mr-3 text-yellow-500" />
+      <span>
+        <b>How I built a Sapper blog with all the must-have features</b>
+        <!-- <a
+          href="https://www.youtube.com/watch?v=708el7zgGfY"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Video
+        </a>
+        &middot; -->
+        <!-- <ExternalLink href="https://slides.com/chimpcmder/betcha-didn-t-know-that">
+          Slides
+        </ExternalLink> -->
+      </span>
+    </div>
+    <div class="w-full my-3 lg:my-0 lg:w-2/4">
+      <ExternalLink href="https://www.mmtdigital.co.uk/">MMT Tech</ExternalLink>
+      &middot; Remote
+    </div>
+  </div>
 
   <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
     <div class="inline-flex items-center w-full lg:w-2/4">
       <Icon data="{faNpm}" scale="{2}" class="mr-3 text-red-700" />
       <span>
-        <b>Betcha didn't know that?!</b>
-        &middot;
+        <b>Betcha didn't know that?!</b> &middot;
         <!-- <a
           href="https://www.youtube.com/watch?v=708el7zgGfY"
           target="_blank"
@@ -41,8 +61,7 @@
     <div class="inline-flex items-center w-full lg:w-2/4">
       <Icon data="{faJs}" scale="{2}" class="mr-3 text-yellow-500" />
       <span>
-        <b>Best practices for open source contributions</b>
-        &middot;
+        <b>Best practices for open source contributions</b> &middot;
         <!-- <a
           href="https://www.youtube.com/watch?v=708el7zgGfY"
           target="_blank"
@@ -66,16 +85,13 @@
     </div>
   </div>
 
-  <small class="block text-sm text-gray-600">
-    <em>Past</em>
-  </small>
+  <small class="block text-sm text-gray-600"> <em>Past</em> </small>
 
   <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
     <div class="inline-flex items-center w-full lg:w-2/4">
       <Icon data="{faAngular}" scale="{2}" class="mr-3 text-red-700" />
       <span>
-        <b>How to boost web dev efficiency</b>
-        &middot;
+        <b>How to boost web dev efficiency</b> &middot;
         <ExternalLink href="https://www.youtube.com/watch?v=708el7zgGfY">Video</ExternalLink>
         &middot;
         <ExternalLink

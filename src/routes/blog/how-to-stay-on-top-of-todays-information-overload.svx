@@ -4,7 +4,7 @@ slug: 'how-to-stay-on-top-of-todays-information-overload'
 creationDate: '2020-06-22'
 category: 'Lifestyle'
 excerpt: 'As a naturally curious person with a thirst for knowledge, it is easy to get swamped by the sheer amount of information that is available and directed at you.'
-cover: man-with-sticky-notes.jpeg
+cover: assorted-book-lot.jpg
 tags:
   - Productivity
   - Tools
@@ -16,11 +16,11 @@ hasAffiliateLink: true
 </script>
 
 <figure class="mb-10">
-  <Image src="man-with-sticky-notes.jpeg" alt="Man with sticky notes"  />
+  <Image src="assorted-book-lot.jpg" alt="Assorted book lot"  />
   <figcaption class="text-center">
     How I feel waking up to new emails and notifications in the morning. - Photo by
-    <a href="https://unsplash.com/@villxsmil" target="_blank" rel="noopener noreferrer">
-      Luis Villasmil
+    <a href="https://unsplash.com/@freestocks" target="_blank" rel="noopener noreferrer">
+      freestocks
     </a>
     on
     <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>

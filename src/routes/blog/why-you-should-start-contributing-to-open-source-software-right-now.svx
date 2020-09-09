@@ -1,9 +1,9 @@
 ---
 title: 'Why You Should Start Contributing to Open Source Software Right Now'
 slug: 'why-you-should-start-contributing-to-open-source-software-right-now'
-creationDate: '2020-09-04'
+creationDate: '2020-09-08'
 category: 'Programming'
-excerpt: 'ASDF.'
+excerpt: 'The open source movement is growing and you should become a part of it too!'
 cover: work-desk-with-various-items.png
 tags:
   - Open source
@@ -31,53 +31,73 @@ WordPress is used by [38% of all websites](https://w3techs.com/technologies/deta
 
 Linux is powering [30% of all websites](https://w3techs.com/technologies/details/os-linux) globally. It is open source and free.
 
-Not only the open source project usage is rising, the participation in the open source movement is growing as well.
+These are just two examples out of a myriad of projects that got created to solve a problem or serve a use case. They became highly popular due to a community forming around the effort to deliver the best product possible in terms of user experience, stability, security and other aspects.
 
-You should become a part of it too!
+But not only the usage of open source projects is rising, the participation in the open source movement as a whole is growing as well. According to the [State of the Octoverse report](https://octoverse.github.com/) by GitHub, out of 40 million+ developers on GitHub, 10 million new users joined in 2019 alone!
 
-Whenever I see a new update for my operating system or new software releases of projects that I use actively in web development, it makes me smile. I love the thought of products getting better and more sophisticated every day.
+The open source movement is growing and you should become a part of it too!
 
-Do you feel the same?
+Whenever I see a new update for my operating system or new software releases of tools that I use actively every day, it makes me smile. I enjoy the thought of products getting better and more sophisticated continuously.
+
+Do you feel the same way?
 
 Here are my best arguments why I am convinced that you should start contributing to open source software right now:
 
 ## You can learn a lot from the source code
 
-First of all, it is great that the source code is available to read for anyone, so people will point out privacy or security issues. While the main goal of a company is to become profitable, which leads to questionable decisions a lot of times, an open source software always focuses on solving the needs of its users as the highest priority.
+Since the source code in open source projects is available to read for anyone, that means that a high number of developers can battle-test and better a project. Developers point out privacy or security issues, update the documentation and improve source code to the newest web development standards all the time.
+Especially when you go through the code of projects with hundreds or even thousands of contributors, you can gain immense knowledge about best practices and code quality. Not only the code itself can be a learning experience, but also the structure and folder hierarchy in larger projects is well-thought-out to work in the long run.
 
-## There is a potentially unlimited supply of contributors
+## You will work with the smartest people
 
-Another aspect that always impressed me about open source software is that everyone in the world can join a project and improve it. In my head, I am seeing it as a swarm intelligence, which can solve every problem that there is. Compared to a company that has a limited amount of employees to work on features and fix bugs, you have the brightest minds working in open source development. The more people that join, the better a project can scale ideally. It can be like a buzzing bee hive, where you could have pull requests to your code base from users all around the world 24/7, non-stop. A good example is [Visual Studio Code](https://github.com/microsoft/vscode) which got very popular with a total of 1,200+ contributors. You won't see a single day without any pull requests.
+Compared to a company that has a limited number of employees to work on feature requests and bug fixes, you have the brightest minds working in open source development. In my imagination, I see it as a swarm intelligence, which can solve every problem that there is.
+
+The more people that join, the better a project can scale. It can be like a buzzing bee hive, where you could have pull requests to a code base from users all around the world 24/7, non-stop. A good example is the popular code editor [Visual Studio Code](https://github.com/microsoft/vscode) which got very popular with a total of 1,200+ contributors on GitHub. You won't see a single day without any pull requests on GitHub and the monthly release cycles always bring out new amazing features.
+
+When you participate in a project and submit a pull request, you will receive super helpful feedback from highly experienced maintainers that you can implement to grow as a developer.
 
 ## Your own code could be used globally
 
-Since some web development projects are used daily by millions of users, it can be very rewarding to see your own code helping out so many people. I wrote lint rules for [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn) and [svelte](https://github.com/sveltejs/svelte) and it makes me happy to improve the code quality of many developers around the world. From my personal experience, it is also nice to get positive feedback in form of a thankful comment sometimes. It is great to be part of the open source movement!
+Since some software development projects are used by millions of users daily, it can be very rewarding to see your own code helping out so many people.
 
-## Free open source software is inclusive
+I wrote lint rules for the JavaScript projects called [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn) and [svelte](https://github.com/sveltejs/svelte) and it makes me happy to know that my pull request will improve the code quality of many developers all around the world. From my personal experience, it is also motivating to get positive feedback in the form of a thankful comment.
 
-A great advantage of free software is the fact that no one is excluded due to not being able to afford the product. Additionally, a lot of the bigger projects have a code of conduct to ensure that every contributor is on the same page and doesn't disturb the community feeling.
+## Open source projects are inclusive
+
+A great advantage of free open source software is the fact that no one is excluded due to not being able to afford the product. While there are some open source projects that cost money to use it, most of them do not. When contributing to a project on GitHub, a lot of the bigger projects have a code of conduct to make sure that every contributor feels welcome and accepted in a project.
 
 ## Projects are starting to become sustainable
 
-Although most projects are entirely voluntary and project maintainers will never see any financial reward, there are great ways nowadays to help out to make at least the most important ones sustainable. With websites like [OpenCollective](https://opencollective.com/) or [GitHub Sponsors](https://github.com/sponsors), you can donate to speed up the development of e.g. Webpack or React.
+While the main goal of a company is to become profitable, which leads to questionable decisions a lot of times, open source software focuses on solving the needs of its users as the highest priority.
 
-Personally, I think that it would be great if every company donates to open source software projects because they profit from it. If a company doesn't want to fund the open source development process, there is another way to help out indirectly. Do us all a favor and try the following: ask your boss if you can work on open source projects some time. Since your project will most likely use popular libraries, you can fix bugs in the 3rd party library.
+Most projects are entirely voluntary and project maintainers will never see any financial reward, but there are great ways nowadays to help out to make at least the most important ones sustainable. With websites like [OpenCollective](https://opencollective.com/) or [GitHub Sponsors](https://github.com/sponsors), you can donate to speed up the development of major projects.
 
-## How to start contributing to open source
+Personally, I think that it would be great if every company would donate at least a small sum to open source software projects because they profit from it. That would reduce the stress for a lot of maintainers and some surely could take up the work full-time.
 
-Contributing to open source doesn't have to be scary. There are plenty of projects out there which even encourage first time contributors and want their help by labeling issues as "Good first issue", "Beginner friendly" or "Help wanted".
+If a company doesn't want to fund the open source development process, there is another way to help out indirectly. You could try to ask your boss if you can work on open source projects some time.
 
-Don't know where to start? Ask yourself: what is an application that you enjoy using every day and where you want to give back?
+## How to contribute to open source
 
-It can be as simple as searching for that application on GitHub and looking through the open issues. It doesn't have to be code contributions to support a project, you can also help out by creating a pull request to update the documentation, fix typos that you find or by doing a thorough code review.
+Contributing to open source doesn't have to be scary. There are plenty of projects out there on GitHub which encourage first time contributors and newbies by labeling issues as "Good first issue", "Beginner friendly" or "Help wanted".
 
-If you decide to contribute to a project, I can recommend you my article about [Contributing To Open Source Projects The Right Way](/blog/contributing-to-open-source-projects-the-right-way) for a detailed step-by-step guide. I wrote it to be very beginner friendly, so don't worry about becoming overwhelmed. You will be able to find your first project and submit a contribution in no time!
+Don't know where to start?
+
+Ask yourself: what is an application that you enjoy using every day and where you want to give back?
+
+It can be as simple as searching for that application on GitHub and looking through the open issues. It doesn't have to be code contributions, you can also help out by creating a pull request to update the documentation, fix typos that you find or by doing a thorough code review. The `README.md` file of a project usually includes a passage of how to contribute.
+
+If you decide to contribute to a project, I can recommend to you my article about [Contributing To Open Source Projects The Right Way](/blog/contributing-to-open-source-projects-the-right-way) for a detailed step-by-step guide about the contribution workflow. I wrote it to be very beginner friendly, so don't worry about becoming overwhelmed. You will be able to find your first project and submit a contribution in no time!
 
 ## Wrapping up
 
-Open source software is
+It always impressed me that everyone in the world can join an open source software project and work on it. Open source software only works as a collaborative effort. The goal is to produce the best product or service without compromising on important factors like stability, security or user privacy.
+
+I hope you understand the importance of open source software and that you value its benefits. No matter what your reasons are for giving back to the open source community, just know that you are highly appreciated!
+
+A lot of projects can only thrive with support and contributions from developers like you!
 
 ## Helpful resources
 
-- asd
-- asd
+- [The State of the Octoverse](https://octoverse.github.com/)
+- [What is open source?](https://opensource.com/resources/what-open-source)
+- [What Motivates a Developer to Contribute to Open-Source Software?](https://clearcode.cc/blog/why-developers-contribute-open-source-software/)

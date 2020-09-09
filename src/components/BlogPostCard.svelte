@@ -16,7 +16,9 @@
     </div>
 
     {#if post.excerpt}
-      <p class="mt-3 mb-12">{post.excerpt.substr(0, 100)}...</p>
+      <p class="mt-3 mb-12">
+        {post.excerpt.length > 100 ? `${post.excerpt.substr(0, 100)}...` : post.excerpt}
+      </p>
     {/if}
   </div>
   <div class="absolute bottom-0 right-0 pt-4 pl-6 text-right">

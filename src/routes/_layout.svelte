@@ -23,7 +23,6 @@
   import NProgress from '../components/NProgress.svelte';
   import Nav from '../components/Nav.svelte';
   import Footer from '../components/Footer.svelte';
-  import Insights from '../components/Insights.svelte';
   import { isDev } from '../helpers/stores.js';
 
   import 'prismjs/themes/prism-okaidia.css';
@@ -48,5 +47,3 @@
 {#if !$isDev}
   <CookieNotice />
 {/if}
-
-<Insights />

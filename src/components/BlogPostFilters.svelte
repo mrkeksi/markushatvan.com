@@ -1,6 +1,8 @@
 <script>
   import BlogPostCard from './BlogPostCard.svelte';
   import flatten from 'flatten';
+  import Icon from 'svelte-awesome/components/Icon.svelte';
+  import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
   import type { Post } from '../models/post';
 
   export let posts: Post[];
@@ -16,9 +18,9 @@
     (tag: string, idx: number, arr: string[]) => arr.indexOf(tag) === idx,
   );
 
-  let textSearch = '';
-  let categorySearch = '';
-  let tagSearch = '';
+  let textSearch: string = '';
+  let categorySearch: string = '';
+  let tagSearch: string = '';
 
   let filteredPosts: Post[] = [];
 
@@ -48,7 +50,7 @@
         id="text-search"
         bind:value="{textSearch}"
         class="w-full py-2 pl-4 pr-8 text-gray-700 bg-white border border-gray-400 rounded
-        appearance-none hover:border-gray-500"
+          appearance-none hover:border-gray-500"
         type="text"
         placeholder="e.g: 6 Reasons why I started this blog"
       />
@@ -66,7 +68,7 @@
           <select
             bind:value="{categorySearch}"
             class="block w-full px-4 py-3 pr-8 leading-tight text-gray-700 bg-white border
-            border-gray-400 rounded appearance-none hover:border-gray-500"
+              border-gray-400 rounded appearance-none hover:border-gray-500"
             id="category-search"
           >
             <option value="">Select a category</option>
@@ -75,20 +77,8 @@
             {/each}
           </select>
 
-          <div
-            class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700
-            pointer-events-none"
-          >
-            <svg
-              class="w-4 h-4 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              aria-label="Dropdown icon"
-            >
-              <path
-                d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-              ></path>
-            </svg>
+          <div class="absolute inset-y-0 right-0 flex items-center px-3 text-gray-700">
+            <Icon data="{faAngleDown}" />
           </div>
         </div>
       </div>
@@ -101,7 +91,7 @@
           <select
             bind:value="{tagSearch}"
             class="block w-full px-4 py-3 pr-8 leading-tight text-gray-700 bg-white border
-            border-gray-400 rounded appearance-none hover:border-gray-500"
+              border-gray-400 rounded appearance-none hover:border-gray-500"
             id="tag-search"
           >
             <option value="">Select a tag</option>
@@ -110,20 +100,8 @@
             {/each}
           </select>
 
-          <div
-            class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700
-            pointer-events-none"
-          >
-            <svg
-              class="w-4 h-4 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              aria-label="Dropdown icon"
-            >
-              <path
-                d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-              ></path>
-            </svg>
+          <div class="absolute inset-y-0 right-0 flex items-center px-3 text-gray-700">
+            <Icon data="{faAngleDown}" />
           </div>
         </div>
       </div>
@@ -131,22 +109,18 @@
   </div>
 
   {#if filteredPosts.length > 0}
-    <p>
-      Displaying
-      <strong>{filteredPosts.length}</strong>
-      of {posts.length} posts
-    </p>
+    <p>Displaying <strong>{filteredPosts.length}</strong> of {posts.length} posts</p>
     <div class="flex flex-wrap -m-2">
       {#each filteredPosts as post}
         <div class="flex items-stretch w-full p-2 sm:w-1/2">
-          <BlogPostCard {post} />
+          <BlogPostCard post="{post}" />
         </div>
       {/each}
     </div>
   {:else}
     <div
       class="relative w-full px-4 py-3 font-bold text-gray-700 bg-gray-100 border border-gray-400
-      rounded"
+        rounded"
       role="alert"
     >
       No blog posts found. Try another search.

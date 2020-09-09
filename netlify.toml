@@ -2,5 +2,6 @@
   for = "/*"
   [headers.values]
     X-Content-Type-Options = "nosniff"
-    X-Frame-Options = "SAMEORIGIN"
+    Content-Security-Policy = "frame-ancestors frame.bloglovin.com"
+    X-Frame-Options = "DENY" # Fallback value for browsers that don't support CSP2+, will also disallow frame.bloglovin.com unfortunately 
     X-XSS-Protection = "1; mode=block"

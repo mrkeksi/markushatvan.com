@@ -23,7 +23,7 @@ const renderXmlRssFeed = (posts: Post[]): string => `<?xml version="1.0" encodin
       <link>${siteUrl}/blog/${post.slug}</link>
       <guid isPermaLink="false">${siteUrl}/blog/${post.slug}</guid>
       <pubDate>${new Date(post.creationDate).toUTCString()}</pubDate>
-      <content:encoded><![CDATA[${post.html}]]></content:encoded>
+      <content:encoded><![CDATA[${post.excerpt}]]></content:encoded>
     </item>
     `,
       )

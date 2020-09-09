@@ -1,9 +1,11 @@
-const fs = require('fs');
-const frontMatter = require('front-matter');
-const marked = require('marked');
+import fs from 'fs';
+import frontMatter from 'front-matter';
+import marked from 'marked';
 import Prism from 'prismjs';
 import 'prism-svelte';
 const loadLanguages = require('prismjs/components/');
+import readingTime from 'reading-time';
+
 loadLanguages(['shell']);
 
 const posts = fs
@@ -28,6 +30,7 @@ const posts = fs
     return {
       ...postFrontMatter.attributes,
       html: marked(html),
+      readingTime: readingTime(postFrontMatter.body).text,
     };
   });
 
