@@ -23,6 +23,9 @@ const legacy = !!process.env.SAPPER_LEGACY_BUILD;
 
 const preprocess = createPreprocessors({ sourceMap: !!sourcemap });
 
+// Changes in these files will trigger a rebuild of the global CSS
+const globalCSSWatchFiles = ['postcss.config.js', 'tailwind.config.js', 'src/global.pcss'];
+
 const onwarn = (warning, onwarn) =>
   (warning.code === 'MISSING_EXPORT' && /'preload'/.test(warning.message)) ||
   (warning.code === 'CIRCULAR_DEPENDENCY' && /[/\\]@sapper[/\\]/.test(warning.message)) ||
@@ -124,6 +127,7 @@ export default {
           name: 'build-global-css',
           buildStart() {
             buildGlobalCSS();
+            globalCSSWatchFiles.forEach((file) => this.addWatchFile(file));
           },
           generateBundle: buildGlobalCSS,
         };
