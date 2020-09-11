@@ -29,7 +29,7 @@ tags:
 
 Yesterday, I experienced an intense and vivid dream and I knew right away after waking up that I had to write it down and share it with you!
 
-Often, dreams don't seem to make a lot of sense, they contain plot holes or you end waking up before the dream has reached a logical conclusion.
+Often, dreams don’t seem to make a lot of sense, they contain plot holes or you end waking up before the dream has reached a logical conclusion.
 
 But this time, it all seemed to make sense!
 
@@ -67,6 +67,18 @@ The man responded in a distrusting tone: "I don't believe you. I have never hear
 
 Deciding for the non-confrontational choice, I stepped to the chessboard and made the first move hoping to win fast to be able to get back on the hunt for the money package.
 
+<figure class="my-10">
+  <Image src="chess-game.jpg" alt="Chess pieces on a chess board" />
+  <figcaption class="text-center">
+    Photo by
+    <a href="https://unsplash.com/@hpzworkz" target="_blank" rel="noopener noreferrer">
+      Hassan Pasha
+    </a>
+    on
+    <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>
+  </figcaption>
+</figure>
+
 Even though the man was blind, he played extraordinarily well and seemed to have every chess piece visualized and its position memorized in his mind by simply touching it briefly after it was moved.
 
 After a couple of moves, it already looked grim for me! I started to talk to the old man and asked him questions to see if I would be able to distract him from the game.
@@ -74,6 +86,18 @@ After a couple of moves, it already looked grim for me! I started to talk to the
 ## A Feline Distraction
 
 In the meantime, Ben also found himself on the top floor and had to hide away from personnel. He ended up in a room with an orange cat and similar to my own messed up situation, the cat would threaten to reveal his position by knocking inventory to the ground and meowing loudly if he would not do a good enough job at petting and entertaining her.
+
+<figure class="my-10">
+  <Image src="orange-cat.jpg" alt="Orange cat looking at the viewer" />
+  <figcaption class="text-center">
+    Photo by
+    <a href="https://unsplash.com/@stefanobg" target="_blank" rel="noopener noreferrer">
+      Stéfano Girardelli
+    </a>
+    on
+    <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>
+  </figcaption>
+</figure>
 
 After a while, the cat fell asleep in Ben's lap and it was impossible to try to get up without disturbing her.
 

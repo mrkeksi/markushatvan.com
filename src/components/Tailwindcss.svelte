@@ -1,9 +1,3 @@
-<style global lang="postcss">
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-</style>
-
 <script>
   import { isDev } from '../helpers/stores.js';
 </script>

@@ -1,3 +1,4 @@
+import { spawn } from 'child_process';
 import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 import commonjs from '@rollup/plugin-commonjs';
@@ -7,30 +8,20 @@ import svelte from 'rollup-plugin-svelte';
 import babel from '@rollup/plugin-babel';
 import { terser } from 'rollup-plugin-terser';
 import config from 'sapper/config/rollup';
-import sveltePreprocess from 'svelte-preprocess';
-import image from 'svelte-image';
 import pkg from './package.json';
-import { mdsvex } from 'mdsvex';
 // import remarkSlug from 'remark-slug';
 // import remarkAutolinkHeadings from 'remark-autolink-headings';
 // import analyze from 'rollup-plugin-analyzer';
 // import visualizer from 'rollup-plugin-visualizer';
 
-const { defaults } = require('./svelte.config.js');
-
-const preprocess = [
-  // mdsvex({
-  //   remarkPlugins: [remarkSlug, remarkAutolinkHeadings],
-  // }),
-  mdsvex(),
-  image({ placeholder: 'blur', optimizeRemote: true }),
-  sveltePreprocess({ defaults, postcss: true, preserve: ['ld+json'] }),
-];
+const { createPreprocessors } = require('./svelte.config.js');
 
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
 const sourcemap = dev ? 'inline' : false;
 const legacy = !!process.env.SAPPER_LEGACY_BUILD;
+
+const preprocess = createPreprocessors({ sourceMap: !!sourcemap });
 
 const onwarn = (warning, onwarn) =>
   (warning.code === 'MISSING_EXPORT' && /'preload'/.test(warning.message)) ||
@@ -91,6 +82,52 @@ export default {
         terser({
           module: true,
         }),
+
+      (() => {
+        let builder;
+        let rebuildNeeded = false;
+
+        const buildGlobalCSS = () => {
+          if (builder) {
+            rebuildNeeded = true;
+            return;
+          }
+          rebuildNeeded = false;
+
+          try {
+            builder = spawn('node', [
+              '--experimental-modules',
+              '--unhandled-rejections=strict',
+              'build-global-css.mjs',
+              sourcemap,
+            ]);
+            builder.stdout.pipe(process.stdout);
+            builder.stderr.pipe(process.stderr);
+
+            builder.on('close', (code) => {
+              if (code !== 0) {
+                console.error(`global css builder exited with code ${code}`);
+              }
+
+              builder = undefined;
+
+              if (rebuildNeeded) {
+                buildGlobalCSS();
+              }
+            });
+          } catch (err) {
+            console.error(err);
+          }
+        };
+
+        return {
+          name: 'build-global-css',
+          buildStart() {
+            buildGlobalCSS();
+          },
+          generateBundle: buildGlobalCSS,
+        };
+      })(),
 
       // analyze({
       //   summaryOnly: true,
