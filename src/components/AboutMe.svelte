@@ -8,7 +8,7 @@
   </header>
   <div class="flex justify-center w-1/2 mx-auto mt-5">
     <Image
-      src="markus_hatvan-800x800.jpeg"
+      src="markus-hatvan.jpeg"
       alt="Markus Hatvan"
       placeholderClass="rounded-full"
       class="rounded-full"

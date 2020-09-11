@@ -8,7 +8,7 @@ const autoprefixer = require('autoprefixer')();
 
 module.exports = {
   plugins: [
-    tailwindcss('./tailwind.js'),
+    tailwindcss('./tailwind.config.js'),
     autoprefixer,
     // only needed if you want to purge
     ...(process.env.NODE_ENV === 'production' ? [cssnano] : []),

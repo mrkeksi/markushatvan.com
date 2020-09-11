@@ -51,11 +51,11 @@
   <div class="fixed bottom-0 w-full p-3 text-sm text-center text-white bg-gray-800">
     <p class="mb-3">
       Our website uses cookies to analyze how the site is used and to ensure your experience is
-      consistent between visits.
-      <ExternalLink href="https://www.cookiesandyou.com/" customClass="underline mx-2">
-        Learn More
+      consistent between visits. <a rel="prefetch" href="/privacy-policy" class="underline mx-2">Privacy
+        Policy</a>
+      <ExternalLink href="https://www.cookiesandyou.com/" customClass="underline">
+        Learn more about cookies
       </ExternalLink>
-      <a rel="prefetch" href="/privacy-policy" class="underline">Privacy Policy</a>
     </p>
 
     <div class="text-center">

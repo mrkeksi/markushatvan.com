@@ -1,12 +1,29 @@
 const sveltePreprocess = require('svelte-preprocess');
+const postcss = require('./postcss.config');
+const image = require('svelte-image');
+const { mdsvex } = require('mdsvex');
 
 const defaults = {
   script: 'typescript',
+  style: 'postcss',
 };
 
+const createPreprocessors = ({ sourceMap }) => [
+  // mdsvex({
+  //   remarkPlugins: [remarkSlug, remarkAutolinkHeadings],
+  // }),
+  mdsvex(),
+  image({ placeholder: 'blur', optimizeRemote: true }),
+  sveltePreprocess({
+    defaults,
+    sourceMap,
+    postcss,
+    preserve: ['ld+json'],
+  }),
+];
+
 module.exports = {
-  // Real svelte-preprocess configuration is in `rollup.config.js`
-  // This is only for the language server for VS Code and svelte-check
-  preprocess: sveltePreprocess({ defaults }),
-  defaults,
+  createPreprocessors,
+  // Options for `svelte-check` and the VS Code extension
+  preprocess: createPreprocessors({ sourceMap: true }),
 };

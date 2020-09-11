@@ -12,3 +12,5 @@ static/g
 *.code-workspace
 .history/
 stats.html
+static/global.css
+static/global.css.map

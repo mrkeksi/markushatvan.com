@@ -17,8 +17,7 @@
 </script>
 
 <script>
-  import Tailwindcss from '../components/Tailwindcss.svelte';
-  import GlobalStyles from '../components/GlobalStyles.svelte';
+  import BreakpointHelper from '../components/BreakpointHelper.svelte';
   import CookieNotice from '../components/CookieNotice.svelte';
   import NProgress from '../components/NProgress.svelte';
   import Nav from '../components/Nav.svelte';
@@ -30,9 +29,7 @@
   export let segment: string;
 </script>
 
-<Tailwindcss />
-
-<GlobalStyles />
+<BreakpointHelper />
 
 <NProgress />
 
