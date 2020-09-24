@@ -23,7 +23,7 @@ tags:
   </figcaption>
 </figure>
 
-<div class="alert-grey mb-3"
+<div class="mb-3 alert-grey"
      role="alert">
   The code blocks are currently not highlighted with Svelte, so syntax highlighting and formatting might not be 100% correct.
 </div>
@@ -45,13 +45,11 @@ You might have heard about Svelte appearing here and there in articles like [A R
 
 Compared to the popular [React](https://reactjs.org/) and [Vue.js](https://vuejs.org/) libraries, which do the bulk work during runtime and are using a technique called "virtual DOM diffing" for detecting changes, Svelte is compiled into framework-less vanilla JavaScript as a build step and can therefore benefit from a lot of code optimizations.
 
-Naturally hesitant, I dismissed Svelte at first as "just another JavaScript framework" and didn't bother looking into it. After hearing about it a second time, I wondered: is Svelte just hyped or could it really be that good? I decided to battle-test it and use it on a personal project of mine.
+Naturally hesitant, I dismissed Svelte at first as "just another JavaScript framework" and didn't bother looking into it. After hearing about it a second time, I wondered: "Is Svelte just hyped or could it really be that good?" I decided to battle-test it and use it on a personal project of mine.
 
-Now after a few months, I can give you a definitive answer:
+Now after a few months, I can give you a definitive answer: Svelte is simple, powerful, and elegant — and you will love it!
 
-## Svelte is simple, powerful and elegant and you will love it!
-
-Without further ado, these are the top 10 reasons why I recommend Svelte to every new web developer who is starting to learn programming:
+Without further ado, these are the top ten reasons why I recommend Svelte to every new web developer who is starting to learn programming:
 
 ## 1. Svelte components are easy to understand
 
@@ -83,7 +81,7 @@ Compared to other frontend frameworks which introduce a lot of abstract concepts
 
 As you can see in the code example above, the business logic that you write is simple and easily readable at the same time. After all, the less code you write, the fewer bugs it can have, right?
 
-Rich Harris, the genius creator of Svelte provided some good comparisons with React and Vue.js in his article called [Write less code](https://svelte.dev/blog/write-less-code). According to his check up on characters needed to write the logic for a simple addition of two numbers, a React component is typically around 40% larger than its Svelte equivalent!
+Rich Harris, the genius creator of Svelte provided some good comparisons with React and Vue.js in his article called "[Write less code](https://svelte.dev/blog/write-less-code)". According to his check up on characters needed to write the logic for a simple addition of two numbers, a React component is typically around 40% larger than its Svelte equivalent!
 
 ## 3. Reactivity with labeled statements
 
@@ -147,11 +145,11 @@ To keep the code as concise as possible and to avoid snippets of left over code,
 
 ## 6. Components are exported automatically
 
-Whenever you would want to use component A in component B, you would usually need to write code to export component A first, so it can get imported by component B. With Svelte, you don't ever need to worry about forgetting to export, a `.svelte` component is always default exported for you automatically and ready to be imported by any other component.
+Whenever you would want to use component A in component B, you would usually need to write code to export component A first so it can get imported by component B. With Svelte, you don’t ever need to worry about forgetting to export. A .svelte component is always exported by default for you automatically and ready to be imported by any other component.
 
 ## 7. Styling is scoped by default
 
-Similar to [CSS-in-JS](https://webdesign.tutsplus.com/articles/an-introduction-to-css-in-js-examples-pros-and-cons--cms-33574) libraries, Svelte styles are scoped by default which means that a `svelte-<unique-hash>` class name will be attached to your styles, so they don't leak and influence any other components styling. Of course, you have the option for styles to be applied globally by simply prefixing them with the `:global()` modifier or just using a `.css` file if you want to.
+Similar to [CSS-in-JS](https://webdesign.tutsplus.com/articles/an-introduction-to-css-in-js-examples-pros-and-cons--cms-33574) libraries, Svelte styles are scoped by default, which means that a `svelte-<unique-hash>` class name will be attached to your styles, so they don't leak and influence any other components styling. Of course, you have the option for styles to be applied globally by simply prefixing them with the `:global()` modifier or just using a `.css` file if you want to.
 
 ## 8. #await blocks
 
@@ -206,10 +204,10 @@ Above you can see the `class:round` attribute getting applied to the button base
 
 Svelte comes prepacked with powerful effect modules:
 
-- `svelte/motion` effects like tweened and spring
-- `svelte/transition` effects like fade, blur, fly, slide, scale, draw
-- `svelte/animate` effects like flip
-- `svelte/easing` effects like bounce, cubic, elastic, and many more
+- `svelte/motion` effects like `tweened` and `spring`
+- `svelte/transition` effects like `fade`, `blur`, `fly`, `slide`, `scale`, `draw`
+- `svelte/animate` effects like `flip`
+- `svelte/easing` effects like `bounce`, `cubic`, `elastic`, and many more
 
 There are a few examples in the official Svelte tutorial, but I like [this progress bar example](https://svelte.dev/tutorial/tweened) the most because of its simplicity.
 
@@ -257,7 +255,7 @@ When you want to pass values from the parent to the child component, you need to
 <p>{message}</p>
 ```
 
-In modern JavaScript, `export` is usually used as a keyword for exporting a module and `let` to declare a block-scoped variable, so I feel that the syntax is misusing existing keywords, but I got used to it and it works well.
+In modern JavaScript, `export` is usually used as a keyword for exporting a module and `let` to declare a block-scoped variable, so I feel that the syntax is misusing existing keywords. However, I got used to it and it works well.
 
 ### Development speed
 
@@ -269,15 +267,17 @@ I like Svelte's ease of use, small bundle size and developer experience amongst 
 
 ### Lack of available jobs
 
-Most companies are still looking for developers who are experienced with the major three front end frameworks but there are various, well-known early adopters of Svelte like IBM, Apple, Philips, GoDaddy, 1Password or The New York Times, just to name a few. You can find an extensive list of companies who are using Svelte at the bottom of the [Svelte website](https://svelte.dev/). Usually, the adoption of a new framework takes a while to show up in job offers of companies. Nevertheless, Svelte is fun to learn and many developers enjoy using Svelte especially for their own personal projects or small scale applications.
+Most companies are still looking for developers who are experienced with the major three front end frameworks but there are various, well-known early adopters of Svelte like IBM, Apple, Philips, GoDaddy, 1Password or The New York Times, just to name a few. You can find an extensive list of companies who are using Svelte at the bottom of the [Svelte website](https://svelte.dev/).
+
+Usually, the adoption of a new framework takes a while to show up in job offers of companies. Nevertheless, Svelte is fun to learn and many developers enjoy using Svelte especially for their own personal projects or small scale applications.
 
 ## Conclusion
 
 If a beginner-friendly syntax, a small bundle size output and an insane performance with Svelte sounds like a great choice to you, I would recommend you to start hacking away with the [Svelte tutorial](https://svelte.dev/tutorial/basics). The tutorial is really detailed and you can quickly get an understanding of how powerful the framework is.
 
-Things can definitely change fast in the world of JavaScript frameworks and I hope you are as convinced as I am that Svelte has all the upsides and potential that can make it become the new #1 JavaScript front end framework around!
+Things can definitely change fast in the world of JavaScript frameworks and I hope you are as convinced as I am that Svelte has all the upsides and potential that can make it become the new No. 1 JavaScript front end framework around!
 
-Did you work with Svelte before? What is your experience?
+Have you worked with Svelte before? How was your experience?
 
 Tell me about it in the comments, I am curious to know.
 
