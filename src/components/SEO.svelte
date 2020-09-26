@@ -24,7 +24,7 @@
 
   const socialTitle = blogPostInfo.title || fallbackTitle;
   const socialDescription = blogPostInfo.excerpt || fallbackDescription;
-  const socialImage = `${baseURL}/${blogPostInfo.cover}` || siteLogo;
+  const socialImage = blogPostInfo.cover ? `${baseURL}/${blogPostInfo.cover}` : siteLogo;
 
   const authorJSONLD = {
     '@type': 'Person',

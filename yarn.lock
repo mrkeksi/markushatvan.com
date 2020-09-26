@@ -4468,10 +4468,10 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prettier-plugin-svelte@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-svelte/-/prettier-plugin-svelte-1.2.1.tgz#2af472cb7ebf7f8254a132e44cce18ed3bf2ef6f"
-  integrity sha512-oULQ6cmqAVA3PmtgagM3139UXJHbLOLQjzGOKkH/pRQbT9vXcWQtbWXEO1fAePWQis5TiDgm2p/PIKh5w1fd/A==
+prettier-plugin-svelte@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-svelte/-/prettier-plugin-svelte-1.3.0.tgz#2193231127a38d38f1a180ba5459d8ee53ab813d"
+  integrity sha512-YGUOXR/WkIVSDEEjtTYd1koaTsPezSVH5b5bLNxo1pWaIvZeT0Nzj21wHTdt2IpHxv8wAgyLr8R/fHbq+wIzww==
 
 prettier-plugin-svelte@~1.2.0:
   version "1.2.0"
@@ -4818,10 +4818,10 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^2.28.1:
-  version "2.28.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.28.1.tgz#ceedca3cdb013c2fa8f22f958a29c203368159ea"
-  integrity sha512-DOtVoqOZt3+FjPJWLU8hDIvBjUylc9s6IZvy76XklxzcLvAQLtVAG/bbhsMhcWnYxC0TKKcf1QQ/tg29zeID0Q==
+rollup@^2.28.2:
+  version "2.28.2"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.28.2.tgz#599ec4978144a82d8a8ec3d37670a8440cb04e4b"
+  integrity sha512-8txbsFBFLmm9Xdt4ByTOGa9Muonmc8MfNjnGAR8U8scJlF1ZW7AgNZa7aqBXaKtlvnYP/ab++fQIq9dB9NWUbg==
   optionalDependencies:
     fsevents "~2.1.2"
 
@@ -4840,14 +4840,14 @@ safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@~5.2.0:
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
   integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
 
-sapper@^0.28.8:
-  version "0.28.8"
-  resolved "https://registry.yarnpkg.com/sapper/-/sapper-0.28.8.tgz#90674bda8bbae3f6915688421ebbeb558c51af04"
-  integrity sha512-CLXI2mlTBWC5ztk8l/2bqJRvzWpkZzzCDJLPOHrvU3z5pfc2M4UlENMXACDLd8kf8vq3xmWnOfmO5MmhNyJB8w==
+sapper@^0.28.9:
+  version "0.28.9"
+  resolved "https://registry.yarnpkg.com/sapper/-/sapper-0.28.9.tgz#9e1f5813df3d8a432134d3cc86ce9582cd511668"
+  integrity sha512-ngowemh3h4wCKE+/EYCn0OZWhuavbqYnR9O2ZavFzdlszE5AznDXuQOwEgnX73U8hS4y9kN3kOudErYmKCjdDg==
   dependencies:
     html-minifier "^4.0.0"
     http-link-header "^1.0.2"
-    shimport "^2.0.3"
+    shimport "^2.0.4"
     source-map "^0.6.1"
     sourcemap-codec "^1.4.6"
     string-hash "^1.1.3"
@@ -4933,10 +4933,10 @@ shell-quote@^1.6.1:
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.2.tgz#67a7d02c76c9da24f99d20808fcaded0e0e04be2"
   integrity sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==
 
-shimport@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/shimport/-/shimport-2.0.3.tgz#ba0d127c8a385d53707729ea389f9dc08c2f10c5"
-  integrity sha512-cI6ZhAblQUqZz2xnQxQpcA6lQUbB5YBSodcxGp+FeN8kgBLtXeiC7ZpM+5eGrH5OMNWDRiGTD0rRUnmuA+T6uw==
+shimport@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/shimport/-/shimport-2.0.4.tgz#02a36fbe53b141c39732df54f8338f3c8b31146d"
+  integrity sha512-5YOyQqYkOFSkPFnpS87De6BYzDiZBc8FS4/aTuGZiST+WmXSwWRoaNRHqyVOeEpSx9wlgYWg9WYfCuzD/11/qA==
 
 signal-exit@^3.0.0:
   version "3.0.3"
@@ -5225,10 +5225,10 @@ svelte-awesome@^2.3.0:
   dependencies:
     svelte "^3.15.0"
 
-svelte-check@^1.0.49:
-  version "1.0.49"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-1.0.49.tgz#54c639fff8b503aa8c0b02ff9e25a4087a01c2a7"
-  integrity sha512-oPreGVlGYPz06bSXHk3v3a2X8DwFnQJZ9Fdwr6sYQONr7qUn0pBUm35VwfuIWWfjgfc2NKV8AHr6kBbHGklX6A==
+svelte-check@^1.0.50:
+  version "1.0.50"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-1.0.50.tgz#b2e120732a731bcbdf740e2555db718d6f98095e"
+  integrity sha512-VLMFqGbMbSkVrTENJNqZtY90BT0jSCpvgPMXl4vCYxAkmR1BQql5QUufvkdSbGynWbCSz95zzMt7zcO6mh/mnw==
   dependencies:
     chalk "^4.0.0"
     chokidar "^3.4.1"
@@ -5279,10 +5279,10 @@ svelte-language-server@*:
     vscode-languageserver-types "3.15.1"
     vscode-uri "2.1.2"
 
-svelte-preprocess@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.3.0.tgz#7db318e9da4ac3fe22ec9671095533806ad76219"
-  integrity sha512-7FGpPrnRWMqNuQ/FnP0T52yHw1qgFYXisTM3JnQCzXkSdPMNDU2Wts0O3x1ovM+mPzWiAQ0PWHFeFhP5+fnRJQ==
+svelte-preprocess@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.3.2.tgz#a05a98e59c64044e835b1401346be41665f19971"
+  integrity sha512-CmIsCr62y34qGS10/SC1l1VkmX0kZR6wncbGgRJ1qJftLDMEaazC3bWqoqAlrqyQFvpO0+xb44GQm4RKi/9sLQ==
   dependencies:
     "@types/pug" "^2.0.4"
     "@types/sass" "^1.16.0"
@@ -5317,10 +5317,10 @@ svelte@3.24.1, svelte@^3.15.0, svelte@latest:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.24.1.tgz#aca364937dd1df27fe131e2a4c234acb6061db4b"
   integrity sha512-OX/IBVUJSFo1rnznXdwf9rv6LReJ3qQ0PwRjj76vfUWyTfbHbR9OXqJBnUrpjyis2dwYcbT2Zm1DFjOOF1ZbbQ==
 
-svelte@^3.26.0:
-  version "3.26.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.26.0.tgz#20ae354e55689ad37d872d2ce3276aeaa9bf305d"
-  integrity sha512-9tclNfffORwbSewfofEHddqXhfhFvFcgJlkF3QhZfMuoh6whPOPY87eHiJRHph4na3VxQoGDyEWAZcNAl1K/2A==
+svelte@^3.28.0:
+  version "3.28.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.28.0.tgz#e257fab5666701cf230bea583ceb470bdda1344c"
+  integrity sha512-WJW8wD+aTmU5GUnTUjdhVF35mve2MjylubLgB6fGWoXHpYENdwcwWsWvjMQLayzMynqNH733h1Ck8wJzNR7gdQ==
 
 svgo@^1.0.0, svgo@^1.2.2:
   version "1.3.2"

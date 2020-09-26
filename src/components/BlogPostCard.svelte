@@ -28,7 +28,7 @@
       href="blog/{post.slug}"
       class="inline-block rounded-br btn-primary"
     >
-      Read more
+      Read the article
     </a>
   </div>
 </div>

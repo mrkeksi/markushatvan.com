@@ -38,7 +38,7 @@
 
   <meta
     name="description"
-    content="Opinions and viewpoints about Programming, Lifestyle and other topics."
+    content="Opinions and viewpoints about {readableSlug}."
   />
 </svelte:head>
 

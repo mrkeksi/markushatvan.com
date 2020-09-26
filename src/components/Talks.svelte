@@ -1,111 +1,119 @@
 <script>
   import Icon from 'svelte-awesome/components/Icon.svelte';
   import { faAngular, faJs, faNpm } from '@fortawesome/free-brands-svg-icons';
-
   import ExternalLink from './ExternalLink.svelte';
+  import { dateIsBefore } from '../helpers/utils.js';
+  
+  const talks = [
+    {
+      title: 'How to boost web dev efficiency',
+      date: "2018-04-12",
+      logo: faAngular,
+      logoColor: "text-red-700",
+      videoLink: "https://www.youtube.com/watch?v=708el7zgGfY",
+      slidesLink: "https://slides.com/chimpcmder/how-to-boost-your-web-development-efficiency",
+      organizer: "Angular Vienna",
+      organizerLink: "https://www.meetup.com/de-DE/Angular-Vienna/",
+      location: "Vienna, Austria"
+    },
+    {
+      title: 'How I built a Sapper blog with all the must-have features',
+      date: "2020-09-24",
+      logo: faJs,
+      logoColor: "text-yellow-500",
+      videoLink: "",
+      slidesLink: "https://www.beautiful.ai/player/-MI0JqYe0oPmQRIf08NQ/How-I-built-a-Sapper-blog-with-all-the-must-have-features",
+      organizer: "MMT Tech",
+      organizerLink: "https://www.mmtdigital.co.uk/",
+      location: "Remote"
+    },
+    {
+      title: `Betcha didn't know that?!`,
+      date: "",
+      logo: faNpm,
+      logoColor: "text-red-700",
+      videoLink: "",
+      slidesLink: "https://slides.com/chimpcmder/betcha-didn-t-know-that",
+      organizer: "Vienna.js",
+      organizerLink: "https://www.meetup.com/de-DE/viennajs/",
+      location: "Vienna, Austria"
+    },
+    {
+      title: 'Best practices for open source contributions',
+      date: "",
+      logo: faJs,
+      logoColor: "text-yellow-500",
+      videoLink: "",
+      slidesLink: "https://www.beautiful.ai/player/-MCCJc2bhl1Tizg5YvKe/Best-practices-for-open-source-contributions",
+      organizer: "freeCodeCamp Vienna",
+      organizerLink: "https://www.meetup.com/de-DE/fccvienna/",
+      location: "Vienna, Austria"
+    }
+  ];
 </script>
 
 <section class="container mh-container">
   <h2 class="border-b-4 border-teal-700">Talks</h2>
 
-  <small class="block mt-6 text-sm text-gray-600"> <em>Upcoming</em> </small>
-  <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
-    <div class="inline-flex items-center w-full lg:w-2/4">
-      <Icon data="{faJs}" scale="{2}" class="mr-3 text-yellow-500" />
-      <span>
-        <b>How I built a Sapper blog with all the must-have features</b>
-        <!-- <a
-          href="https://www.youtube.com/watch?v=708el7zgGfY"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Video
-        </a>
-        &middot; -->
-        <!-- <ExternalLink href="https://slides.com/chimpcmder/betcha-didn-t-know-that">
-          Slides
-        </ExternalLink> -->
-      </span>
-    </div>
-    <div class="w-full my-3 lg:my-0 lg:w-2/4">
-      <ExternalLink href="https://www.mmtdigital.co.uk/">MMT Tech</ExternalLink>
-      &middot; Remote
-    </div>
-  </div>
+  <small class="block mt-6 text-sm text-gray-800"> <em>Upcoming</em> </small>
 
-  <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
-    <div class="inline-flex items-center w-full lg:w-2/4">
-      <Icon data="{faNpm}" scale="{2}" class="mr-3 text-red-700" />
-      <span>
-        <b>Betcha didn't know that?!</b> &middot;
-        <!-- <a
-          href="https://www.youtube.com/watch?v=708el7zgGfY"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Video
-        </a>
-        &middot; -->
-        <ExternalLink href="https://slides.com/chimpcmder/betcha-didn-t-know-that">
-          Slides
-        </ExternalLink>
-      </span>
+  {#each talks as talk}
+  {#if !dateIsBefore(talk.date)}
+    <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
+      <div class="inline-flex items-center w-full lg:w-2/4">
+        <Icon data="{talk.logo}" scale="{2}" class="mr-3 {talk.logoColor}" />
+        <span>
+          <b>{talk.title}</b>
+          {#if talk.videoLink}
+              &middot;
+          <ExternalLink href="{talk.videoLink}">Video</ExternalLink>
+          {/if}
+          {#if talk.slidesLink}
+          &middot;
+          <ExternalLink
+          href="{talk.slidesLink}"
+            >
+            Slides
+          </ExternalLink>
+          {/if}
+        </span>
+      </div>
+      <div class="w-full my-3 lg:my-0 lg:w-2/4">
+        <ExternalLink href="{talk.organizerLink}">{talk.organizer}</ExternalLink>
+        &middot; {talk.location}
+      </div>
     </div>
-    <div class="w-full my-3 lg:my-0 lg:w-2/4">
-      <ExternalLink href="https://www.meetup.com/de-DE/viennajs/">Vienna.js</ExternalLink>
-      &middot; Vienna, Austria
-    </div>
-  </div>
+    {/if}
+  {/each}
 
-  <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
-    <div class="inline-flex items-center w-full lg:w-2/4">
-      <Icon data="{faJs}" scale="{2}" class="mr-3 text-yellow-500" />
-      <span>
-        <b>Best practices for open source contributions</b> &middot;
-        <!-- <a
-          href="https://www.youtube.com/watch?v=708el7zgGfY"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Video
-        </a>
-        &middot; -->
-        <ExternalLink
-          href="https://www.beautiful.ai/player/-MCCJc2bhl1Tizg5YvKe/Best-practices-for-open-source-contributions"
-        >
-          Slides
-        </ExternalLink>
-      </span>
-    </div>
-    <div class="w-full my-3 lg:my-0 lg:w-2/4">
-      <ExternalLink href="https://www.meetup.com/de-DE/fccvienna/">
-        freeCodeCamp Vienna
-      </ExternalLink>
-      &middot; Vienna, Austria
-    </div>
-  </div>
+  <small class="block mt-6 text-sm text-gray-800"> <em>Past</em> </small>
 
-  <small class="block text-sm text-gray-600"> <em>Past</em> </small>
-
-  <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
-    <div class="inline-flex items-center w-full lg:w-2/4">
-      <Icon data="{faAngular}" scale="{2}" class="mr-3 text-red-700" />
-      <span>
-        <b>How to boost web dev efficiency</b> &middot;
-        <ExternalLink href="https://www.youtube.com/watch?v=708el7zgGfY">Video</ExternalLink>
-        &middot;
-        <ExternalLink
-          href="http://slides.com/chimpcmder/how-to-boost-your-web-development-efficiency"
-        >
-          Slides
-        </ExternalLink>
-      </span>
+  {#each talks as talk}
+  {#if dateIsBefore(talk.date)}
+    <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
+      <div class="inline-flex items-center w-full lg:w-2/4">
+        <Icon data="{talk.logo}" scale="{2}" class="mr-3 {talk.logoColor}" />
+        <span>
+          <b>{talk.title}</b>
+          {#if talk.videoLink}
+              &middot;
+          <ExternalLink href="{talk.videoLink}">Video</ExternalLink>
+          {/if}
+          {#if talk.slidesLink}
+          &middot;
+          <ExternalLink
+          href="{talk.slidesLink}"
+            >
+            Slides
+          </ExternalLink>
+          {/if}
+        </span>
+      </div>
+      <div class="w-full my-3 lg:my-0 lg:w-2/4">
+        <ExternalLink href="{talk.organizerLink}">{talk.organizer}</ExternalLink>
+        &middot; {talk.location}
+      </div>
     </div>
-    <div class="w-full my-3 lg:my-0 lg:w-2/4">
-      <ExternalLink href="https://www.meetup.com/de-DE/Angular-Vienna/">
-        Angular Vienna
-      </ExternalLink>
-      &middot; Vienna, Austria
-    </div>
-  </div>
+    {/if}
+  {/each}
 </section>

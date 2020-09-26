@@ -35,7 +35,7 @@
     Ordinance), we would like to inform you about the Online Dispute Resolution Platform (OS
     Platform). Consumers have the possibility to submit complaints to the Online Dispute Resolution
     Platform of the European Commission at{' '}
-    <a href="http://ec.europa.eu/odr" target="_blank" rel="noopener noreferrer">
+    <a href="https://ec.europa.eu/odr" target="_blank" rel="noopener noreferrer">
       http://ec.europa.eu/odr
     </a>
     . However, we would like to point out that we are not willing or obliged to participate in

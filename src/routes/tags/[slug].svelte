@@ -38,7 +38,7 @@
 <svelte:head>
   <title>{readableSlug} | Markus Hatvan</title>
 
-  <meta name="description" content="Blog posts filtered by selected tag." />
+  <meta name="description" content="Posts tagged with {readableSlug}." />
 </svelte:head>
 
 <SEO />

@@ -1,7 +1,11 @@
-import { format, parseISO } from 'date-fns';
+import { format, isBefore, parseISO } from 'date-fns';
 
 export const formatDate = (isoString: string, dateFormat = 'MMMM do, yyyy'): string => {
   return format(parseISO(isoString), dateFormat);
+};
+
+export const dateIsBefore = (dateA: string, dateB = new Date()): boolean => {
+  return isBefore(new Date(dateA), dateB);
 };
 
 export const convertToSlug = (text: string): string => {

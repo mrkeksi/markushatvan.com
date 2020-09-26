@@ -87,7 +87,7 @@
 
   <p>
     <b>Frase:</b> I recently purchased this content optimization tool to help me write better blog posts.
-    <ExternalLink href="http://www.frase.io/?via=markus" isAffiliateLink>Frase.io</ExternalLink>
+    <ExternalLink href="https://www.frase.io/?via=markus" isAffiliateLink>Frase.io</ExternalLink>
     can pull in the top Google search results and compare your content writing to it. You will be
     able to improve your SEO relevance by adding more keywords, knowing the average word count of
     competitors and being able to answer the specific questions that users ask through different
