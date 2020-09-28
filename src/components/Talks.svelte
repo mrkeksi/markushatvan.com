@@ -3,52 +3,54 @@
   import { faAngular, faJs, faNpm } from '@fortawesome/free-brands-svg-icons';
   import ExternalLink from './ExternalLink.svelte';
   import { dateIsBefore } from '../helpers/utils.js';
-  
+
   const talks = [
     {
       title: 'How to boost web dev efficiency',
-      date: "2018-04-12",
+      date: '2018-04-12',
       logo: faAngular,
-      logoColor: "text-red-700",
-      videoLink: "https://www.youtube.com/watch?v=708el7zgGfY",
-      slidesLink: "https://slides.com/chimpcmder/how-to-boost-your-web-development-efficiency",
-      organizer: "Angular Vienna",
-      organizerLink: "https://www.meetup.com/de-DE/Angular-Vienna/",
-      location: "Vienna, Austria"
+      logoColor: 'text-red-700',
+      videoLink: 'https://www.youtube.com/watch?v=708el7zgGfY',
+      slidesLink: 'https://slides.com/chimpcmder/how-to-boost-your-web-development-efficiency',
+      organizer: 'Angular Vienna',
+      organizerLink: 'https://www.meetup.com/de-DE/Angular-Vienna/',
+      location: 'Vienna, Austria',
     },
     {
       title: 'How I built a Sapper blog with all the must-have features',
-      date: "2020-09-24",
+      date: '2020-09-24',
       logo: faJs,
-      logoColor: "text-yellow-500",
-      videoLink: "",
-      slidesLink: "https://www.beautiful.ai/player/-MI0JqYe0oPmQRIf08NQ/How-I-built-a-Sapper-blog-with-all-the-must-have-features",
-      organizer: "MMT Tech",
-      organizerLink: "https://www.mmtdigital.co.uk/",
-      location: "Remote"
+      logoColor: 'text-yellow-500',
+      videoLink: '',
+      slidesLink:
+        'https://www.beautiful.ai/player/-MI0JqYe0oPmQRIf08NQ/How-I-built-a-Sapper-blog-with-all-the-must-have-features',
+      organizer: 'MMT Tech',
+      organizerLink: 'https://www.mmtdigital.co.uk/',
+      location: 'Remote',
     },
     {
       title: `Betcha didn't know that?!`,
-      date: "",
+      date: '',
       logo: faNpm,
-      logoColor: "text-red-700",
-      videoLink: "",
-      slidesLink: "https://slides.com/chimpcmder/betcha-didn-t-know-that",
-      organizer: "Vienna.js",
-      organizerLink: "https://www.meetup.com/de-DE/viennajs/",
-      location: "Vienna, Austria"
+      logoColor: 'text-red-700',
+      videoLink: '',
+      slidesLink: 'https://slides.com/chimpcmder/betcha-didn-t-know-that',
+      organizer: 'Vienna.js',
+      organizerLink: 'https://www.meetup.com/de-DE/viennajs/',
+      location: 'Vienna, Austria',
     },
     {
       title: 'Best practices for open source contributions',
-      date: "",
+      date: '',
       logo: faJs,
-      logoColor: "text-yellow-500",
-      videoLink: "",
-      slidesLink: "https://www.beautiful.ai/player/-MCCJc2bhl1Tizg5YvKe/Best-practices-for-open-source-contributions",
-      organizer: "freeCodeCamp Vienna",
-      organizerLink: "https://www.meetup.com/de-DE/fccvienna/",
-      location: "Vienna, Austria"
-    }
+      logoColor: 'text-yellow-500',
+      videoLink: '',
+      slidesLink:
+        'https://www.beautiful.ai/player/-MCCJc2bhl1Tizg5YvKe/Best-practices-for-open-source-contributions',
+      organizer: 'freeCodeCamp Vienna',
+      organizerLink: 'https://www.meetup.com/de-DE/fccvienna/',
+      location: 'Vienna, Austria',
+    },
   ];
 </script>
 
@@ -58,62 +60,56 @@
   <small class="block mt-6 text-sm text-gray-800"> <em>Upcoming</em> </small>
 
   {#each talks as talk}
-  {#if !dateIsBefore(talk.date)}
-    <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
-      <div class="inline-flex items-center w-full lg:w-2/4">
-        <Icon data="{talk.logo}" scale="{2}" class="mr-3 {talk.logoColor}" />
-        <span>
-          <b>{talk.title}</b>
-          {#if talk.videoLink}
+    {#if !dateIsBefore(talk.date)}
+      <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
+        <div class="inline-flex items-center w-full lg:w-2/4">
+          <Icon data="{talk.logo}" scale="{2}" class="mr-3 {talk.logoColor}" />
+          <span>
+            <b>{talk.title}</b>
+            {#if talk.videoLink}
               &middot;
-          <ExternalLink href="{talk.videoLink}">Video</ExternalLink>
-          {/if}
-          {#if talk.slidesLink}
+              <ExternalLink href="{talk.videoLink}">Video</ExternalLink>
+            {/if}
+            {#if talk.slidesLink}
+              &middot;
+              <ExternalLink href="{talk.slidesLink}">Slides</ExternalLink>
+            {/if}
+          </span>
+        </div>
+        <div class="w-full my-3 lg:my-0 lg:w-2/4">
+          <ExternalLink href="{talk.organizerLink}">{talk.organizer}</ExternalLink>
           &middot;
-          <ExternalLink
-          href="{talk.slidesLink}"
-            >
-            Slides
-          </ExternalLink>
-          {/if}
-        </span>
+          {talk.location}
+        </div>
       </div>
-      <div class="w-full my-3 lg:my-0 lg:w-2/4">
-        <ExternalLink href="{talk.organizerLink}">{talk.organizer}</ExternalLink>
-        &middot; {talk.location}
-      </div>
-    </div>
     {/if}
   {/each}
 
   <small class="block mt-6 text-sm text-gray-800"> <em>Past</em> </small>
 
   {#each talks as talk}
-  {#if dateIsBefore(talk.date)}
-    <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
-      <div class="inline-flex items-center w-full lg:w-2/4">
-        <Icon data="{talk.logo}" scale="{2}" class="mr-3 {talk.logoColor}" />
-        <span>
-          <b>{talk.title}</b>
-          {#if talk.videoLink}
+    {#if dateIsBefore(talk.date)}
+      <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
+        <div class="inline-flex items-center w-full lg:w-2/4">
+          <Icon data="{talk.logo}" scale="{2}" class="mr-3 {talk.logoColor}" />
+          <span>
+            <b>{talk.title}</b>
+            {#if talk.videoLink}
               &middot;
-          <ExternalLink href="{talk.videoLink}">Video</ExternalLink>
-          {/if}
-          {#if talk.slidesLink}
+              <ExternalLink href="{talk.videoLink}">Video</ExternalLink>
+            {/if}
+            {#if talk.slidesLink}
+              &middot;
+              <ExternalLink href="{talk.slidesLink}">Slides</ExternalLink>
+            {/if}
+          </span>
+        </div>
+        <div class="w-full my-3 lg:my-0 lg:w-2/4">
+          <ExternalLink href="{talk.organizerLink}">{talk.organizer}</ExternalLink>
           &middot;
-          <ExternalLink
-          href="{talk.slidesLink}"
-            >
-            Slides
-          </ExternalLink>
-          {/if}
-        </span>
+          {talk.location}
+        </div>
       </div>
-      <div class="w-full my-3 lg:my-0 lg:w-2/4">
-        <ExternalLink href="{talk.organizerLink}">{talk.organizer}</ExternalLink>
-        &middot; {talk.location}
-      </div>
-    </div>
     {/if}
   {/each}
 </section>
