@@ -1,21 +1,12 @@
 const sveltePreprocess = require('svelte-preprocess');
 const postcss = require('./postcss.config');
-const image = require('svelte-image');
-const { mdsvex } = require('mdsvex');
-
-const defaults = {
-  script: 'typescript',
-  style: 'postcss',
-};
 
 const createPreprocessors = ({ sourceMap }) => [
-  // mdsvex({
-  //   remarkPlugins: [remarkSlug, remarkAutolinkHeadings],
-  // }),
-  mdsvex(),
-  image({ placeholder: 'blur', optimizeRemote: true }),
   sveltePreprocess({
-    defaults,
+    defaults: {
+      script: 'typescript',
+      style: 'postcss',
+    },
     sourceMap,
     postcss,
     preserve: ['ld+json'],

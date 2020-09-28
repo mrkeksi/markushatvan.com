@@ -8,20 +8,34 @@ import svelte from 'rollup-plugin-svelte';
 import babel from '@rollup/plugin-babel';
 import { terser } from 'rollup-plugin-terser';
 import config from 'sapper/config/rollup';
+import image from 'svelte-image';
+import sveltePreprocess from 'svelte-preprocess';
+import { mdsvex } from 'mdsvex';
 import pkg from './package.json';
+const postcss = require('./postcss.config');
 // import remarkSlug from 'remark-slug';
 // import remarkAutolinkHeadings from 'remark-autolink-headings';
 // import analyze from 'rollup-plugin-analyzer';
 // import visualizer from 'rollup-plugin-visualizer';
-
-const { createPreprocessors } = require('./svelte.config.js');
 
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
 const sourcemap = dev ? 'inline' : false;
 const legacy = !!process.env.SAPPER_LEGACY_BUILD;
 
-const preprocess = createPreprocessors({ sourceMap: !!sourcemap });
+const preprocess = [
+  mdsvex(),
+  image({ placeholder: 'blur', optimizeRemote: true }),
+  sveltePreprocess({
+    defaults: {
+      script: 'typescript',
+      style: 'postcss',
+    },
+    sourceMap: !!sourcemap,
+    postcss,
+    preserve: ['ld+json'],
+  }),
+];
 
 // Changes in these files will trigger a rebuild of the global CSS
 const globalCSSWatchFiles = ['postcss.config.js', 'tailwind.config.js', 'src/global.pcss'];
@@ -34,7 +48,7 @@ const onwarn = (warning, onwarn) =>
 export default {
   client: {
     input: config.client.input().replace(/\.js$/, '.ts'),
-    output: config.client.output(),
+    output: { ...config.client.output(), sourcemap },
     plugins: [
       replace({
         'process.browser': true,
@@ -51,7 +65,9 @@ export default {
         browser: true,
         dedupe: ['svelte'],
       }),
-      commonjs(),
+      commonjs({
+        sourceMap: !!sourcemap,
+      }),
 
       legacy &&
         babel({
@@ -162,7 +178,9 @@ export default {
       resolve({
         dedupe: ['svelte'],
       }),
-      commonjs(),
+      commonjs({
+        sourceMap: !!sourcemap,
+      }),
       typescript({ sourceMap: !!sourcemap }),
       json(),
       // analyze({
@@ -180,14 +198,16 @@ export default {
 
   // serviceworker: {
   //   input: config.serviceworker.input().replace(/\.js$/, '.ts'),
-  //   output: config.serviceworker.output(),
+  //   output: { ...config.serviceworker.output(), sourcemap },
   //   plugins: [
   //     resolve(),
   //     replace({
   //       'process.browser': true,
   //       'process.env.NODE_ENV': JSON.stringify(mode),
   //     }),
-  //     commonjs(),
+  //     commonjs({
+  //	     sourceMap: !!sourcemap,
+  //	   }),
   //     typescript({ sourceMap: !!sourcemap }),
   //     !dev && terser(),
   //   ],
