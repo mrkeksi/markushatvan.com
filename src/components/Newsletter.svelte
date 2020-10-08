@@ -1,3 +1,10 @@
+<style>
+  .mailchimp-style {
+    position: absolute;
+    left: -5000px;
+  }
+</style>
+
 <script>
   import ExternalLink from './ExternalLink.svelte';
 </script>
@@ -22,14 +29,13 @@
           type="email"
           value=""
           name="EMAIL"
-          class="w-full px-5 py-3 mb-3 text-gray-700 bg-white border border-gray-400 rounded
-          appearance-none hover:border-gray-500"
+          class="w-full px-5 py-3 mb-3 text-gray-700 bg-white border border-gray-400 rounded appearance-none hover:border-gray-500"
           id="mce-EMAIL"
           placeholder="johndoe@mail.com"
           required
         />
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <div class="mailchimp-style" aria-hidden="true">
           <input
             type="text"
             name="b_5cb357866d79280c8f4a5642a_498b94dcd1"
@@ -50,8 +56,7 @@
             value="Subscribe"
             name="subscribe"
             id="mc-embedded-subscribe"
-            class="w-full px-5 py-3 font-semibold text-white bg-teal-700 rounded cursor-pointer
-            hover:bg-teal-800"
+            class="w-full px-5 py-3 font-semibold text-white bg-teal-700 rounded cursor-pointer hover:bg-teal-800"
           />
         </div>
       </div>

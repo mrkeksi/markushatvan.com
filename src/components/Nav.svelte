@@ -17,6 +17,7 @@
   // @ts-nocheck
   import Icon from 'svelte-awesome/components/Icon.svelte';
   import { faGithub } from '@fortawesome/free-brands-svg-icons';
+  import { faBars } from '@fortawesome/free-solid-svg-icons';
   import ClickOutside from 'svelte-click-outside';
 
   export let segment: string;
@@ -43,14 +44,10 @@
     <div class="ml-auto sm:hidden">
       <ClickOutside on:clickoutside="{() => (open = false)}">
         <button
-          class="flex items-center px-3 py-2 text-teal-700 border border-gray-400
-            hover:text-teal-800 hover:border-gray-500"
+          class="flex items-center px-3 py-2 text-teal-700 border border-gray-400 hover:text-teal-800 hover:border-gray-500"
           on:click="{toggleHamburgerMenu}"
         >
-          <svg class="w-3 h-3 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-          </svg>
+          <Icon data="{faBars}" />
         </button>
       </ClickOutside>
     </div>

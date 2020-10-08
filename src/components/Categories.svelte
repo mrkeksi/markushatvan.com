@@ -1,5 +1,5 @@
 <script>
-  import { convertToSlug } from '../helpers/utils.js';
+  import slugify from 'slugify';
   import type { Post } from '../models/post.js';
 
   export let posts: Post[];
@@ -16,7 +16,7 @@
 
   <nav role="complementary">
     {#each uniqueCategories as category}
-      <a class="block py-4 border-b border-gray-600" href="/categories/{convertToSlug(category)}">
+      <a class="block py-4 border-b border-gray-600" href="/categories/{slugify(category)}">
         {category}
       </a>
     {/each}

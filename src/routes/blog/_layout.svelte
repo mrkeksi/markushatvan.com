@@ -1,3 +1,9 @@
+<style>
+  .max-width {
+    max-width: 250px;
+  }
+</style>
+
 <script context="module">
   export async function preload() {
     try {
@@ -21,6 +27,8 @@
   import BlogOverviewHeader from '../../components/BlogOverviewHeader.svelte';
   import BlogPostFilters from '../../components/BlogPostFilters.svelte';
   import SEO from '../../components/SEO.svelte';
+  import { afterUpdate } from 'svelte';
+  import slugify from 'slugify';
   // import type { Post } from '../../models/post';
 
   // adding types throws compiler error for some reason
@@ -43,6 +51,38 @@
         cover: post?.cover,
       }
     : {};
+
+  afterUpdate(() => {
+    const headings = document.querySelectorAll(
+      'article h1, article h2, article h3, article h4, article h5, article h6',
+    );
+
+    headings.forEach((heading) => {
+      const headingVal = heading.innerHTML;
+      const slug = slugify(headingVal, {
+        remove: /[\d.?:!']/g,
+      });
+
+      heading.innerHTML = `<a href="/blog/${post.slug}#${slug}"># </a>${headingVal}`;
+      heading.id = slug;
+    });
+
+    const locationWithoutHash = window.location.hash.slice(1);
+    let validAnchorLink = locationWithoutHash.replace(/^\d\.\s\-/g, '');
+    validAnchorLink = validAnchorLink.replace(/[!:']/g, '');
+
+    if (validAnchorLink) {
+      const anchorLink = document.querySelector(`#${validAnchorLink}`);
+
+      if (anchorLink) {
+        const fixedNavbarOffset = -60;
+        const offsettedAnchorLink =
+          anchorLink.getBoundingClientRect().top + window.pageYOffset + fixedNavbarOffset;
+
+        window.scrollTo({ top: offsettedAnchorLink, behavior: 'smooth' });
+      }
+    }
+  });
 </script>
 
 <svelte:head>
@@ -87,25 +127,26 @@
     <div class="w-full md:w-2/3 md:pr-10">
       <h1>Blog</h1>
       <p>
-        Opinions and viewpoints about <a
-          href="/categories/programming"
-          rel="prefetch"
-        >Programming</a>, <a href="/categories/lifestyle" rel="prefetch">Lifestyle</a> and other topics.
-        I am here to share my knowledge in an expressive manner and there will be guest authors from
-        time to time.
+        Opinions and viewpoints about
+        <a href="/categories/programming" rel="prefetch">Programming</a>,
+        <a href="/categories/lifestyle" rel="prefetch">Lifestyle</a>
+        and other topics. I am here to share my knowledge in an expressive manner and there will be
+        guest authors from time to time.
       </p>
       <h2>Got a blog post topic proposal?</h2>
       <p>
-        You can suggest content <a
+        You can suggest content
+        <a
           href="https://github.com/mhatvan/markushatvan.com/issues/new"
           target="_blank"
           rel="noopener noreferrer"
         >
           on the GitHub project page
-        </a> or through my socials.
+        </a>
+        or through my socials.
       </p>
     </div>
-    <div class="w-full mx-auto sm:w-1/2 md:w-1/3" style="max-width: 250px">
+    <div class="w-full mx-auto max-width sm:w-1/2 md:w-1/3">
       <Image src="blog-post.png" alt="Blog post card" />
     </div>
   </BlogOverviewHeader>

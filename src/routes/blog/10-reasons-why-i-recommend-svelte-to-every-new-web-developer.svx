@@ -217,7 +217,7 @@ Animations is an area of web development where you usually look for an external 
 
 To avoid making this article sound like one long fanboy post, these are the cons that I experienced with Svelte so far:
 
-### `.svelte` files cannot export multiple components
+### .svelte files cannot export multiple components
 
 On one hand, we profit from `.svelte` files being default exported automatically, but this also means that we cannot export multiple components from a single file. I don't think that this is such a big deal since it forces you to follow best practices writing your application with many small isolated components, which keeps them easy to understand and unit test.
 

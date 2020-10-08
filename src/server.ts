@@ -17,21 +17,22 @@ app.use((_req, res, next) => {
 
 app
   .use(
-    // Wait for CSP relevant issues to get fixed in sapper before using contentSecurityPolicy with nonces
-    // Check here: https://github.com/sveltejs/sapper/issues?q=csp
     helmet({
-      contentSecurityPolicy: false,
-      // contentSecurityPolicy: {
-      //   directives: {
-      //     defaultSrc: ['self'],
-      //     // @ts-expect-error
-      //     scriptSrc: ['self', (_req, res) => `nonce-${res.locals.nonce}`],
-      //     // styleSrc: ['self', 'fonts.googleapis.com'],
-      //     fontSrc: ['fonts.gstatic.com'],
-      //     frameAncestors: 'frame.bloglovin.com',
-      //     imgSrc: ['self', 'data:'],
-      //   },
-      // },
+      contentSecurityPolicy: {
+        directives: {
+          defaultSrc: ["'self'"],
+          // Has to be unsafe-eval because %sapper.scripts% uses eval
+          // @ts-expect-error
+          scriptSrc: ["'self' 'unsafe-eval'", (_req, res) => `'nonce-${res.locals.nonce}'`],
+          // Has to be unsafe-inline currently, because svelte-awesome & svelte-image sets inline style
+          styleSrc: ["'self' 'unsafe-inline'"],
+          frameAncestors: 'frame.bloglovin.com',
+          // data: needed for svelte-image placeholders and svelte-awesome icons
+          imgSrc: ["'self'", 'data:'],
+          // localhost:10000 needed by __sapper__ itself
+          connectSrc: ["'self'", 'http://localhost:10000'],
+        },
+      },
     }),
     compression({ threshold: 0 }),
     sirv('static', { dev }),

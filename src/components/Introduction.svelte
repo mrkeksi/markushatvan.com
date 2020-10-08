@@ -1,3 +1,9 @@
+<style>
+  .max-width {
+    max-width: 250px;
+  }
+</style>
+
 <script>
   import Image from 'svelte-image';
 </script>
@@ -5,8 +11,7 @@
 <section class="applause-gradient">
   <div class="container mh-container">
     <div
-      class="flex flex-col-reverse flex-wrap items-center justify-between px-12 py-8 bg-white
-        rounded shadow-xl md:flex-row"
+      class="flex flex-col-reverse flex-wrap items-center justify-between px-12 py-8 bg-white rounded shadow-xl md:flex-row"
     >
       <div class="w-full md:w-2/3 md:pr-10">
         <h1>Hey there, I'm Markus.</h1>
@@ -16,16 +21,14 @@
         </p>
 
         <p>
-          Check out my <a
-            href="https://github.com/mhatvan"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          Check out my
+          <a href="https://github.com/mhatvan" target="_blank" rel="noopener noreferrer">
             latest activity on GitHub
-          </a> !
+          </a>
+          !
         </p>
       </div>
-      <div class="w-full mx-auto sm:w-1/2 md:w-1/3" style="max-width: 250px">
+      <div class="w-full mx-auto max-width sm:w-1/2 md:w-1/3">
         <Image
           src="markus-hatvan.jpeg"
           alt="Markus Hatvan"

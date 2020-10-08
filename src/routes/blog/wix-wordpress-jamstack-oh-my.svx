@@ -48,7 +48,7 @@ If you lack the coding skills or time for working on your website, I can underst
 
 In a single day, you can probably finish the MVP of your website depending on the complexity, while with a classic HTML/CSS/JavaScript framework you would be still working on the first page or even stuck with configurations.
 
-### This is of course very subjective, but here are my pro & cons regarding WordPress:
+This is of course very subjective, but here are my pro & cons regarding WordPress:
 
 **Pros**
 
@@ -75,7 +75,7 @@ The big upside of WYSIWYG tools is the **possibility to drag and drop content** 
 
 It resembles a Microsoft Word editor with a lot of shortcut buttons e.g. bolding the text or attaching an image.
 
-### Compared to WordPress, my subjective pros & cons for a WYSIWYG editor look like this:
+Compared to WordPress, my subjective pros & cons for a WYSIWYG editor look like this:
 
 **Pros**
 

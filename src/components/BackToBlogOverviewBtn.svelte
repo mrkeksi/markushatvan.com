@@ -5,6 +5,6 @@
 </script>
 
 <a rel="prefetch" href="/blog" class="inline-flex rounded">
-  <Icon data="{faAngleLeft}" class="mr-3" scale="{1.5}" style="padding-top: 5px;" />
+  <Icon data="{faAngleLeft}" class="pt-1 mr-3" scale="{1.5}" />
   Back to Blog overview
 </a>
