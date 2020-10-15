@@ -42,7 +42,9 @@
 <section class="container mh-container">
   <h2 class="border-b-4 border-teal-700">Open Source Contributions</h2>
   {#each repos as repo}
-    <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
+    <div
+      class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300"
+    >
       <div class="inline-flex items-center w-full lg:w-1/4">
         <h3 class="my-0 font-bold break-all">{repo.name}</h3>
       </div>
@@ -51,7 +53,10 @@
       </div>
       <div class="w-full lg:text-right lg:w-1/4">
         <div class="inline-flex">
-          <GithubButton urlSlug="{repo.full_name}" count="{repo.stargazers_count}" />
+          <GithubButton
+            urlSlug="{repo.full_name}"
+            count="{repo.stargazers_count}"
+          />
         </div>
       </div>
     </div>

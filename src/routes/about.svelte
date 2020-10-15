@@ -1,14 +1,3 @@
-<style>
-  code {
-    margin: 0 0.2em;
-    padding: 0.2em 0.4em 0.1em;
-    background: rgba(0, 0, 0, 0.06);
-    border: 1px solid rgba(0, 0, 0, 0.06);
-    border-radius: 3px;
-    word-break: break-all;
-  }
-</style>
-
 <script>
   import SEO from '../components/SEO.svelte';
   import ExternalLink from '../components/ExternalLink.svelte';
@@ -41,10 +30,8 @@
   </p>
 
   <p>
-    I want to provide value to the public and share my thoughts. I wrote an article explaining <a
-      rel="prefetch"
-      href="/blog/6-reasons-why-i-started-this-blog"
-    >
+    I want to provide value to the public and share my thoughts. I wrote an article explaining
+    <a rel="prefetch" href="/blog/6-reasons-why-i-started-this-blog">
       my reasons why I started this blog
     </a>.
   </p>
@@ -53,8 +40,9 @@
   <ul>
     <li>does 16-8 intermittent fasting pretty much every day</li>
     <li>
-      keeps a growing <a href="/blog/the-beer-bucket-list-for-the-aspiring-connoisseur">list of over
-        ~100 beers</a> that he drank
+      keeps a growing
+      <a href="/blog/the-beer-bucket-list-for-the-aspiring-connoisseur">list of over ~100 beers</a>
+      that he drank
     </li>
     <li>did a smoothie cleanse for 10 days</li>
     <li>loves to go to metal concerts & drum and bass shows</li>
@@ -131,3 +119,14 @@
   <p>XRP: <code>rpkbvS8QG9pzcVPMQux8ug4T5L2B74eGfo</code></p>
   <p>LTC: <code>Le7jKe5Y5s8EHXLMVHruSzcj2PJbnyeD53</code></p>
 </section>
+
+<style>
+  code {
+    margin: 0 0.2em;
+    padding: 0.2em 0.4em 0.1em;
+    background: rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 3px;
+    word-break: break-all;
+  }
+</style>

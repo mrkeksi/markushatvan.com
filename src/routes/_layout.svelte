@@ -1,10 +1,3 @@
-<style>
-  main {
-    /* Offset fixed navbar */
-    min-height: calc(100vh - 335px);
-  }
-</style>
-
 <script context="module">
   export async function preload() {
     try {
@@ -24,7 +17,7 @@
   import Footer from '../components/Footer.svelte';
   import { isDev } from '../helpers/stores.js';
 
-  import 'prismjs/themes/prism-okaidia.css';
+  import 'prismjs/themes/prism-tomorrow.css';
 
   export let segment: string;
 </script>
@@ -44,3 +37,10 @@
 {#if !$isDev}
   <CookieNotice />
 {/if}
+
+<style>
+  main {
+    /* Offset fixed navbar */
+    min-height: calc(100vh - 335px);
+  }
+</style>

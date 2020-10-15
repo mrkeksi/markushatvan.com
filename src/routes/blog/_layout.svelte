@@ -1,9 +1,3 @@
-<style>
-  .max-width {
-    max-width: 250px;
-  }
-</style>
-
 <script context="module">
   export async function preload() {
     try {
@@ -63,7 +57,7 @@
         remove: /[\d.?:!']/g,
       });
 
-      heading.innerHTML = `<a href="/blog/${post.slug}#${slug}"># </a>${headingVal}`;
+      heading.innerHTML = `<a href="/blog/${post.slug}#${slug}">#</a> ${headingVal}`;
       heading.id = slug;
     });
 
@@ -159,3 +153,9 @@
     </aside>
   </section>
 {/if}
+
+<style>
+  .max-width {
+    max-width: 250px;
+  }
+</style>

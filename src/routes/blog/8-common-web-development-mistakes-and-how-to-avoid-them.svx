@@ -1,0 +1,222 @@
+---
+title: '8 Common Web Development Mistakes And How To Avoid Them'
+slug: '8-common-web-development-mistakes-and-how-to-avoid-them'
+creationDate: '2020-10-15'
+category: 'Programming'
+excerpt: 'To save you valuable time on your web development projects in the future, make sure to avoid these eight common web development mistakes.'
+cover: 8-common-web-development-mistakes-and-how-to-avoid-them.jpeg
+tags:
+  - Web development
+  - Beginners
+  - Code quality
+---
+
+<script>
+  import Image from 'svelte-image';
+</script>
+
+<figure class="mb-10">
+    <Image src="8-common-web-development-mistakes-and-how-to-avoid-them.jpeg" alt="Clean workspace of a web developer"  />
+  <figcaption class="text-center">
+    Admit it, you do some of these mistakes too. - Photo by Author
+  </figcaption>
+</figure>
+
+I recently joined a small startup with the creation and delivery of a web application for an important clinical study about COVID-19. The only problem was: **the deadline for the project was in two weeks already!** Scary and stressful, but I decided to accept the challenge!
+
+On top of the looming deadline, the junior developer mainly responsible for leading the project was understandably overwhelmed with the enormous workload. As a result, the code output was rushed and looked horrible. The scope of the project was simply unrealistic for a team of two developers to manage in such a short time span.
+
+In the end, the minimal viable product was working with minor hiccups, but it now requires a major overhaul and refactoring effort. It's a daunting task that will require a lot of time but won't lead to any additional revenue for the company.
+
+To save you valuable time on your web development projects in the future, make sure to avoid these eight common web development mistakes:
+
+## 1. Not enabling code quality tools right away
+
+This should always be one of the first things to do when you start to work on a new project. **Make sure code quality tools are set up** in place for the project's needs.
+
+When I joined the aforementioned project, nothing was set up and the code was inconsistent with mixed up usages of quotes, missing `.catch()` blocks and various formatting issues.
+
+[ESLint](https://github.com/eslint/eslint) will save you from producing errors like these, which could have been prevented in the first place.
+After running a lint script on the project for the first time with an opinionated configuration, there were 200+ warnings and errors waiting to be fixed. Fun.
+
+I know, I know, it can be hard to make the configuration work exactly as you want it. Additionally, the project owner wants to see actual results and doesn't care about you spending precious time configuring development tools. But **it is such a worthy time investment** in the long run and shouldn't be delayed.
+
+I recommend using all or some of these packages for your configuration depending on your needs:
+
+- `eslint` or `@typescript-eslint` for a base rule setup
+- `eslint-plugin-import` for clean and ordered imports
+- `eslint-plugin-jest` for writing better and stricter unit tests
+- `eslint-plugin-node` for backend development and supported node version feature checks
+- `eslint-plugin-promise` for avoiding missing `.catch()` blocks and other bad practices when working with asynchronous code
+- `eslint-plugin-jsx-a11y` for writing accessible code in case you use React
+- `eslint-plugin-unicorn` for miscellaneous helpful rules
+
+On top of the recommended configs that give you a base rule setup, I add additional rules like: `eqeqeq`, `prefer-template`, `prefer-const` and `no-var`, which are not included in the recommended config out of the box.
+
+Apart from avoiding nasty bugs and writing bad code, **you can also gain an incredible amount of knowledge from simply following lint suggestions** and looking through the [ESLint documentation](https://eslint.org/docs/rules/) on why a specific rule exists and why it is necessary.
+
+On the other hand, **Prettier will make sure that the whole team conforms to the same stylistic code formatting guidelines** and the achieved readability will save you time as well. The default configuration settings provided by Prettier out of the box are great, so I usually only have to do minor tweaks. This is a minimal `.prettierrc.json` configuration file that I tend to start with:
+
+```json
+{
+  "printWidth": 100, // default is 80
+  "singleQuote": true, // default is false
+  "trailingComma": "all" // default is "es5"
+}
+```
+
+After setting up ESLint and Prettier, you have a solid baseline of code quality tools in place which will greatly improve your developer experience.
+
+## 2. Using outdated dependencies
+
+Various packages of the project are multiple major versions behind. The `package.json` dependencies haven't been upgraded for more than a year. You could delay upgrading and hope you never have too. Believe me, you will have to as soon as support for that old Node.js version drops or when there are new code vulnerabilities discovered in the old dependencies that you are using. Additionally, you would love to use the latest features of a library, but you can't because you are stuck with an old version. Sounds familiar?
+
+Whenever I create a new project or join an existing one, one of the first things I do is check the `package.json` for outdated dependencies. Make sure that the dependencies are at least somewhat up to date to have potential bugs and security vulnerabilities in your 3rd party libraries fixed. For existing projects, ask the main responsible developer if there is a good reason why the dependencies are not up to date.
+
+I personally create a dedicated `package.md` file in projects that I work on that looks like this:
+
+```markdown
+# Dependency upgrade issues
+
+## "postcss-cli": "^7.1.2",
+
+Major version 8 requires peerDep postcss, leads to breakage when running development
+
+## "sapper": "0.28.0",
+
+Keep locked until missing CSS issues are fixed in v0.28.1
+```
+
+This way every collaborator of the project will be informed about known dependency upgrade issues.
+
+**Keep this file always up to date** when you run into dependency issues or resolve some. In the best case scenario, the file stays empty and everything can be upgraded as expected.
+
+## 3. Writing variable names and comments in a language other than English
+
+Easy rule of thumb: if you or others reading your code need to spin up "Google Translate" to understand what is happening in the code, it is a waste of precious development time. Translating code should not be a part of being a web developer.
+
+In the MVP project, the entities that were coming from MongoDB through a Node.js backend had some fields named in German and others in English while the frontend was mostly using English. This required a lot of unnecessary mapping from one naming to the other. It was not possible to use object shorthand and it was easy to forget which field is which. Additionally, any developer that might join the team that is not a German native speaker would have problems understanding what each field is there for.
+
+**Stick to keeping the whole code base in English.** Apart from variable names looking weird in other languages like German, you exclude international developers from understanding what is going on in the code. Whenever you need to have words displayed in another language than English in your UI, you can use libraries like [Format.js](https://formatjs.io/) to handle internationalization needs.
+
+## 4. Different naming conventions throughout the whole project
+
+Try to avoid mixing up different naming conventions for HTML, CSS and JavaScript code. Don't use kebab-case, snake_case and camelCase all over the code base or you will get confused quickly and lose productivity.
+
+**Learn about the different naming conventions and why they exist.** I recommend you stick to the coding conventions of the language that you are using. Native JavaScript methods like `.toLowerCase()` are written in camelCase, so why would you write your variables with any different casing? While JavaScript uses camelCase, remember to use kebab-case for your HTML markup and CSS styles.
+
+## 5. Using meaningless variable names
+
+I am sure you have seen code similar to this before:
+
+```js
+const x = 'Gabriel';
+
+const stuff = x.map((y) => `Hello, ${y}!`);
+```
+
+What values are stored here? Is Gabriel the first name or last name of a person? What is `x` that gets mapped over? Is it even an array? What does the variable `stuff` hold?
+
+**You should not have to waste valuable cognitive energy on deciphering what you and others wrote**, but focus on bug fixes and new feature implementations instead.
+
+You might think that it is cool to write short and cryptic variable names and expressions, but it's not. Coding is not about writing the least amount of characters but about producing business logic that is easy to understand, valuable and doesn't need a refactoring right after writing it.
+
+Let's take a look at a good example:
+
+```js
+// The variable name `firstName` clearly shows the intent of the stored value
+const firstName = 'Gabriel';
+
+/**
+ * The variable `students` is in plural, so it is probably an array.
+ * The value `student` is most likely an object that we are
+ * mapping over.
+ * We seem to collect `greetings` of `students` here as a result.
+ */
+const greetings = students.map((student) => `Hello, ${student.firstName}!`);
+```
+
+Here we can assume a lot more based on good variable naming and clarity which means lesser cognitive overhead for the developer.
+
+Your future self and your co-workers will be thankful when they still understand a year later what each line of code is doing.
+
+## 6. Leaving console logs and to-dos scattered all over the code
+
+This can be bad for the developer and user experience at the same time.
+
+```js
+console.log('Hello from indexing function');
+
+console.log('Result', result.data);
+
+// TODO: Why does this even work?
+
+// TODO: Add error handling
+```
+
+It can be embarrassing and unprofessional to leave `console.log()` messages in the dev tools for every user to read. On the developer side, it can be distracting and discouraging to find to-dos of what needs to be changed without detailed information and `console.log()` which might be needed or not.
+
+I recommend using the [no-console ESLint rule](https://eslint.org/docs/rules/no-console) and to configure it as needed. I tend to mark `console.log()` as an error and use it in conjunction with [lint-staged](https://github.com/okonet/lint-staged) to disallow commits which fail on lint mistakes. When you want to keep logging information you could either use `console.info()` to show the specific intent of requiring outputting information at that point.
+
+If you cannot give up your console logs in the code, you could opt-in for a plugin like [babel-plugin-transform-remove-console](https://www.npmjs.com/package/babel-plugin-transform-remove-console) or [terser-webpack-plugin](https://webpack.js.org/plugins/terser-webpack-plugin/) to strip out console messages for you based on the environment.
+
+**To-dos are preferably put into separate issues** on your repository management tool. Make sure to provide enough information for another developer to start working on it without having to sync up with you first.
+Additionally, when putting To-dos into issues, every developer will be aware of them rather than stumbling over to-do comments in the code base.
+
+## 7. Mixing up async/ await, promises or callback syntax
+
+Producing mistakes in asynchronous code can lead to bugs which are very hard to detect, so make sure to stick to one paradigm at a time.
+
+Let's take a look at one example from the MVP project:
+
+```js
+export const saveLogAuthToken = async (token) => {
+  const jwtToken = jwt.verify(token, JWT_SECRET);
+
+  if (!jwtToken) return false;
+
+  const logoutToken = new logAuthToken({ token, expires: jwtToken.exp });
+
+  await logoutToken.save().catch((err) => {
+    console.log(err);
+  });
+
+  return true;
+};
+```
+
+Even for me with more than 4 years of professional experience, I have a hard time figuring out how the code would flow here based on different outcomes.
+
+The code example above shows missing knowledge about how `async/await` works.
+The code starts with usages of `async/await` which is great for writing readable and concise code, but then it becomes unclear:
+
+- When does the function return `true`?
+- What does it return when we run into the `.catch()` block of the `logoutToken.save()` method?
+
+**With a couple simple changes, we can improve the code flow drastically.**
+
+The code should be wrapped in a `try/catch` block to avoid the well-known `UnhandledPromiseRejectionWarning` message in Node.js. Secondly, stick to either using `async/await` or the Promises syntax. It could also be a good idea to consider not only returning false when `jwt.verify()` fails, but to explicitly throw an error instead.
+
+These code design mistakes can be deadly, especially when there are no tests written for this piece of code.
+
+## 8. No unit or end-to-end tests for complex business logic
+
+This is such a common mistake, that it is a running joke amongst the web development community. I still remember working at my first job and there were zero tests for the project. When I asked about it, everyone said that it would be great to have test coverage, but time is short.
+
+Since unit or end-to-end tests don't bring added value for the customer, they are often skipped and neglected. A common phrase is: "We will do it in the future when we have time" and then guess what? It never happens.
+
+At the second company that I worked for, there were also almost no unit tests written for the frontend part. More experienced as a developer and motivated to do my team and myself a favor, I started to implement unit tests here and there whenever a task was finished earlier than expected.
+
+For one task that I had to work on there were so many potential edge cases, so I started using "Test-driven development" (TDD) and wrote the tests before the actual code. Although I had to write the unit tests in addition to the business logic, **I ended up finishing the issue around 30% faster** in the end due to having the "safety belt" of the unit tests catching all potential errors and edge cases. The test coverage will avoid you from looking for a bug in the wrong place as well.
+
+Bottom line: write unit tests when possible, especially for complex snippets of code and use end-to-end tests at least for the critical parts of an application.
+
+## Wrapping Up
+
+Although I understand that time pressure alone can be reason for some developers to throw code quality standards overboard, I highly advise pushing through and still **try your best at delivering clean code**.
+
+The minimal amount of time that you win by just duplicating code snippets and hacking away until it works will then start to pile up as technical debt and take you even longer to fix afterwards.
+
+It will not always be possible to write the best code possible, but don't let that discourage you. After all, we are all just human beings and make mistakes all the time.
+
+Did you make any of these or similar mistakes before? Leave a comment below!

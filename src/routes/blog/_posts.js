@@ -6,7 +6,7 @@ import 'prism-svelte';
 const loadLanguages = require('prismjs/components/');
 import readingTime from 'reading-time';
 
-loadLanguages(['shell']);
+loadLanguages(['shell', 'markdown', 'json']);
 
 const posts = fs
   .readdirSync('./src/routes/blog')

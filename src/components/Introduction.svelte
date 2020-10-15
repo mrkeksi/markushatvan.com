@@ -23,9 +23,7 @@
         <p>
           Check out my
           <a href="https://github.com/mhatvan" target="_blank" rel="noopener noreferrer">
-            latest activity on GitHub
-          </a>
-          !
+            latest activity on GitHub</a>!
         </p>
       </div>
       <div class="w-full mx-auto max-width sm:w-1/2 md:w-1/3">

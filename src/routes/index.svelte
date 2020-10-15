@@ -36,7 +36,7 @@
 
 <Introduction />
 
-<RecentPosts {posts} />
+<RecentPosts posts="{posts}" />
 
 <InspirationalQuote />
 
