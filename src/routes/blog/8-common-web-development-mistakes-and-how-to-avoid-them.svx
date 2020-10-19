@@ -1,7 +1,7 @@
 ---
-title: '8 Common Web Development Mistakes And How To Avoid Them'
+title: '8 Common Web Development Mistakes and How to Avoid Them'
 slug: '8-common-web-development-mistakes-and-how-to-avoid-them'
-creationDate: '2020-10-15'
+creationDate: '2020-10-19'
 category: 'Programming'
 excerpt: 'To save you valuable time on your web development projects in the future, make sure to avoid these eight common web development mistakes.'
 cover: 8-common-web-development-mistakes-and-how-to-avoid-them.jpeg
@@ -18,7 +18,7 @@ tags:
 <figure class="mb-10">
     <Image src="8-common-web-development-mistakes-and-how-to-avoid-them.jpeg" alt="Clean workspace of a web developer"  />
   <figcaption class="text-center">
-    Admit it, you made some of these mistakes too. - Photo by Author
+    Admit it, you make some of these mistakes too. - Photo by Author
   </figcaption>
 </figure>
 
@@ -81,11 +81,11 @@ I personally create a dedicated `package.md` file in projects that I work on tha
 ```markdown
 # Dependency upgrade issues
 
-## "postcss-cli": "^7.1.2",
+## "postcss-cli": "^7.1.2"
 
-Major version 8 requires peerDep postcss, leads to breakage when running development
+Major version 8 requires postcss as peer dependency, leads to breakage when running development
 
-## "sapper": "0.28.0",
+## "sapper": "0.28.0"
 
 Keep locked until missing CSS issues are fixed in v0.28.1
 ```
@@ -163,8 +163,7 @@ I recommend using the [no-console ESLint rule](https://eslint.org/docs/rules/no-
 
 If you cannot give up your console logs in the code, you could opt-in for a plugin like [babel-plugin-transform-remove-console](https://www.npmjs.com/package/babel-plugin-transform-remove-console) or [terser-webpack-plugin](https://webpack.js.org/plugins/terser-webpack-plugin/) to strip out console messages for you based on the environment.
 
-**To-dos are preferably put into separate issues** on your repository management tool. Make sure to provide enough information for another developer to start working on it without having to sync up with you first.
-Additionally, when putting to-dos into issues, every developer will be aware of them rather than stumbling over random to-do comments in the code base.
+**To-dos are preferably put into separate issues** on your repository management tool. Make sure to provide enough information for another developer to start working on it without having to sync up with you first. Additionally, when putting to-dos into issues, every developer will be aware of them rather than stumbling over random to-do comments in the code base.
 
 ## 7. Mixing up async/ await, promises and callback syntax
 
@@ -196,7 +195,7 @@ The code starts with usages of async/await which is great for writing readable a
 - When does the function return true?
 - What does it return when we run into the catch block of the `logoutToken.save()` method?
 
-**With a few simple changes, we can drastically improve the code flow.**
+With a few simple changes, we can drastically improve the code flow:
 
 - The code should be wrapped in a try/catch block to avoid the well-known `UnhandledPromiseRejectionWarning` message in Node.js.
 - Remove the `.catch()` block on `logoutToken.save()` since errors are caught in the catch statement of try/catch
