@@ -1,0 +1,67 @@
+---
+title: 'Take back your data privacy with these simple steps'
+slug: 'take-back-your-data-privacy-with-these-simple-steps'
+creationDate: '2020-10-17'
+category: 'Programming'
+excerpt: 'ASDF.'
+cover: assorted-book-lot.jpg
+tags:
+  - Data privacy
+  - Open source
+  - Tools
+hidden: true
+---
+
+Did you every worry about your data privacy?
+
+Regular scandals of data leaks and lead to people switching away from mainstream products
+
+protect your data privacy
+make post about alternatives ->> brave statt chrome, startpage, qwant maps, libreoffice et
+
+Big names like
+
+## Google Chrome alternatives
+
+According to [statcounter](https://gs.statcounter.com/browser-market-share) , Google Chrome is used by ~66% of the population worldwide!
+
+Although I don't disagree with the well-deserved popularity of the browser due to constant and innovative updates by Google, it is always scary when a corporate company reaches monopoly in a business sector. A lack of competition is bad for asdf.
+
+If you look for a privacy-focused browser alternative, I can recommend Brave Web Browser.
+
+Another great alternative would be Mozilla Firefox, I personally don't use it because I prefer look and feel of a Chromium-based browser and the Developer Tools are better in my opinion.
+
+## Google Search alternatives
+
+This is probably the hardest switch to do, at least it was for me. The search results and meta information that you would receive through Google Search is simply unparalleled.
+
+I tried privacy-friendly search engines like DuckDuckGo and Qwant, but both didn't always give me the results that I was looking for. Especially during looking for programming-related search resulst, I often found myself receiving unrelated search results.
+
+Fortunately, I found out about StartPage.
+According to the privacy policy of StartPage this is how they operate: "When you search, your query is automatically stripped of unnecessary metadata including your IP address and other identifying information. We send the anonymized search query to Google and return the search results to you. We don’t log your searches."
+
+Basically you are using the capability of great search results by Google without getting tracked. That is an acceptable solution for me for now. I am still sometimes lacking meta results like store opening times, movie ratings or weather forecasts but most of they time, they just require an additional click which is managable.
+
+## Google Maps alternatives
+
+Getting rid of Google Maps is really hard.
+
+## Microsoft Office Suite alternatives
+
+Switching from Microsoft Office Suite to LibreOffice is quite easy in my opinion as long as you don't need any fancy advanced functionality from any of the tools included in the suite. I am using LibreOffice (mainly LibreOffice Writer and LibreOffice Calc) since multiple years and don't feel limited in any way.
+
+## Google Gmail alternatives
+
+Using another service than Gmail shouldn't be that hard. I never liked the user interface of Gmail and I guess I am not the only one.
+
+Thunderbird is a reliable and well-established Email client for me since a long time. Unfortunately, there is no app for Android or iOS so I am using [Spark](https://sparkmailapp.com/) on my phone.
+
+If Thunderbird doesn't seem like the optimal choice for you, you could also take a look into ProtonMail.
+
+## Conclusion
+
+Moving away from popular and well-established services like Google and Microsoft is very difficult. The ease of use and the quality of the applications is superior to
+
+Apart from the tool recommendations above, you find a comprehensive list on my dedicated [recommendations](/recommendations) page
+
+Interested why I am a strong believer of open source software? Read more in my article about [Why You Should Start Contributing to Open Source Software Right Now](/blog/why-you-should-start-contributing-to-open-source-software-right-now)

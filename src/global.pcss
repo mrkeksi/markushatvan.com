@@ -17,7 +17,8 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Lato Bold'), local('Lato-Bold'), url('./lato-v17-latin-700.woff2') format('woff2'),
+  src: local('Lato Bold'), local('Lato-Bold'),
+    url('./lato-v17-latin-700.woff2') format('woff2'),
     url('./lato-v17-latin-700.woff') format('woff');
 }
 
@@ -121,9 +122,18 @@ body {
 .mh li > code,
 .mh figcaption > code {
   word-break: break-word;
-  background-color: #f0f0f0;
-  padding: 0.2em 0.4em;
+  background-color: rgba(240, 240, 240, 0.5);
+  padding: 0.1em 0.2em;
   border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.mh .anchor-link {
+  @apply no-underline text-opacity-25;
+}
+
+.mh .anchor-link:hover {
+  @apply no-underline;
 }
 
 .nav-link {

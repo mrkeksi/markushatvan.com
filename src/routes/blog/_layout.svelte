@@ -54,16 +54,16 @@
     headings.forEach((heading) => {
       const headingVal = heading.innerHTML;
       const slug = slugify(headingVal, {
-        remove: /[\d.?:!']/g,
+        remove: /[\d.?!:',/]/g,
       });
 
-      heading.innerHTML = `<a href="/blog/${post.slug}#${slug}">#</a> ${headingVal}`;
+      heading.innerHTML = `${headingVal} <a href="/blog/${post.slug}#${slug}" class="anchor-link" title="Copy anchor link">#</a>`;
       heading.id = slug;
     });
 
     const locationWithoutHash = window.location.hash.slice(1);
     let validAnchorLink = locationWithoutHash.replace(/^\d\.\s\-/g, '');
-    validAnchorLink = validAnchorLink.replace(/[!:']/g, '');
+    validAnchorLink = validAnchorLink.replace(/[!:',/]/g, '');
 
     if (validAnchorLink) {
       const anchorLink = document.querySelector(`#${validAnchorLink}`);
@@ -71,7 +71,9 @@
       if (anchorLink) {
         const fixedNavbarOffset = -60;
         const offsettedAnchorLink =
-          anchorLink.getBoundingClientRect().top + window.pageYOffset + fixedNavbarOffset;
+          anchorLink.getBoundingClientRect().top +
+          window.pageYOffset +
+          fixedNavbarOffset;
 
         window.scrollTo({ top: offsettedAnchorLink, behavior: 'smooth' });
       }
@@ -105,7 +107,10 @@
         <BackToBlogOverviewBtn />
       </div>
 
-      <PrevNextArticle previousArticle="{previousArticle}" nextArticle="{nextArticle}" />
+      <PrevNextArticle
+        previousArticle="{previousArticle}"
+        nextArticle="{nextArticle}"
+      />
 
       <ReplyBox />
     </article>
@@ -124,8 +129,8 @@
         Opinions and viewpoints about
         <a href="/categories/programming" rel="prefetch">Programming</a>,
         <a href="/categories/lifestyle" rel="prefetch">Lifestyle</a>
-        and other topics. I am here to share my knowledge in an expressive manner and there will be
-        guest authors from time to time.
+        and other topics. I am here to share my knowledge in an expressive
+        manner and there will be guest authors from time to time.
       </p>
       <h2>Got a blog post topic proposal?</h2>
       <p>
