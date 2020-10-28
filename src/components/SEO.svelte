@@ -24,7 +24,9 @@
 
   const socialTitle = blogPostInfo.title || fallbackTitle;
   const socialDescription = blogPostInfo.excerpt || fallbackDescription;
-  const socialImage = blogPostInfo.cover ? `${baseURL}/${blogPostInfo.cover}` : siteLogo;
+  const socialImage = blogPostInfo.cover
+    ? `${baseURL}/${blogPostInfo.cover}`
+    : siteLogo;
 
   const authorJSONLD = {
     '@type': 'Person',
@@ -83,8 +85,12 @@
 
   let isBlogDetailsPage = Object.keys(blogPostInfo).length > 0;
 
+  $: openGraphType = isBlogDetailsPage ? 'article' : 'website';
+
   const ldJson = `${JSON.stringify(
-    isBlogDetailsPage ? [...schemaOrgJSONLD, ...detailSchemaOrgJSONLD] : schemaOrgJSONLD,
+    isBlogDetailsPage
+      ? [...schemaOrgJSONLD, ...detailSchemaOrgJSONLD]
+      : schemaOrgJSONLD,
   )}`;
 
   onMount(() => {
@@ -110,10 +116,7 @@
   <meta property="og:description" content="{socialDescription}" />
   <meta property="og:url" content="{fullURL}" />
   <meta property="og:image" content="{socialImage}" />
-
-  {#if isBlogDetailsPage}
-    <meta property="og:type" content="article" />
-  {/if}
+  <meta property="og:type" content="{openGraphType}" />
 
   <!-- Twitter -->
   <meta property="twitter:title" content="{socialTitle}" />

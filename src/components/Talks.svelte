@@ -11,7 +11,8 @@
       logo: faAngular,
       logoColor: 'text-red-700',
       videoLink: 'https://www.youtube.com/watch?v=708el7zgGfY',
-      slidesLink: 'https://slides.com/chimpcmder/how-to-boost-your-web-development-efficiency',
+      slidesLink:
+        'https://slides.com/chimpcmder/how-to-boost-your-web-development-efficiency',
       organizer: 'Angular Vienna',
       organizerLink: 'https://www.meetup.com/de-DE/Angular-Vienna/',
       location: 'Vienna, Austria',
@@ -21,7 +22,7 @@
       date: '2020-09-24',
       logo: faJs,
       logoColor: 'text-yellow-500',
-      videoLink: '',
+      videoLink: 'https://www.youtube.com/watch?v=8rm12dGk03g',
       slidesLink:
         'https://www.beautiful.ai/player/-MI0JqYe0oPmQRIf08NQ/How-I-built-a-Sapper-blog-with-all-the-must-have-features',
       organizer: 'MMT Tech',
@@ -61,7 +62,9 @@
 
   {#each talks as talk}
     {#if !dateIsBefore(talk.date)}
-      <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
+      <div
+        class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300"
+      >
         <div class="inline-flex items-center w-full lg:w-2/4">
           <Icon data="{talk.logo}" scale="{2}" class="mr-3 {talk.logoColor}" />
           <span>
@@ -77,7 +80,9 @@
           </span>
         </div>
         <div class="w-full my-3 lg:my-0 lg:w-2/4">
-          <ExternalLink href="{talk.organizerLink}">{talk.organizer}</ExternalLink>
+          <ExternalLink href="{talk.organizerLink}">
+            {talk.organizer}
+          </ExternalLink>
           &middot;
           {talk.location}
         </div>
@@ -89,7 +94,9 @@
 
   {#each talks as talk}
     {#if dateIsBefore(talk.date)}
-      <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
+      <div
+        class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300"
+      >
         <div class="inline-flex items-center w-full lg:w-2/4">
           <Icon data="{talk.logo}" scale="{2}" class="mr-3 {talk.logoColor}" />
           <span>
@@ -105,7 +112,9 @@
           </span>
         </div>
         <div class="w-full my-3 lg:my-0 lg:w-2/4">
-          <ExternalLink href="{talk.organizerLink}">{talk.organizer}</ExternalLink>
+          <ExternalLink href="{talk.organizerLink}">
+            {talk.organizer}
+          </ExternalLink>
           &middot;
           {talk.location}
         </div>

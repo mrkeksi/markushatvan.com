@@ -141,9 +141,9 @@ const greetings = students.map((student) => `Hello, ${student.firstName}!`);
 
 Here we can assume a lot more based on good variable naming and clarity which means lesser cognitive overhead for the developer.
 
-Your future self and your co-workers will be thankful when they still understand what each line of code is doing, even a year later.
+Your future self and your co-workers will be thankful when they still understand what each line of code is doing - even a year later.
 
-## 6. Leaving console logs and to-dos scattered all over the code
+## 6. Leaving console.logs and to-dos scattered all over the code
 
 This is bad for the developer and user experience at the same time.
 
@@ -165,11 +165,11 @@ If you cannot give up your console logs in the code, you could opt-in for a plug
 
 **To-dos are preferably put into separate issues** on your repository management tool. Make sure to provide enough information for another developer to start working on it without having to sync up with you first. Additionally, when putting to-dos into issues, every developer will be aware of them rather than stumbling over random to-do comments in the code base.
 
-## 7. Mixing up async/ await, promises and callback syntax
+## 7. Mixing up async/await, promises and callback syntax
 
 Producing mistakes in asynchronous code can lead to bugs which are very hard to detect, so make sure to stick to one paradigm at a time.
 
-Let's take a look at a real world example from the MVP project:
+Let's take a look at a real-world example from the MVP project:
 
 ```js
 export const saveLogAuthToken = async (token) => {
@@ -192,26 +192,26 @@ Even for me with more than 4 years of professional experience, I have a hard tim
 The code example above shows missing knowledge about how async/await works.
 The code starts with usages of async/await which is great for writing readable and concise code, but then it becomes unclear:
 
-- When does the function return true?
-- What does it return when we run into the catch block of the `logoutToken.save()` method?
+- When does the function return `true`?
+- What does it return when we run into the `.catch()` block of the `logoutToken.save()` method?
 
 With a few simple changes, we can drastically improve the code flow:
 
-- The code should be wrapped in a try/catch block to avoid the well-known `UnhandledPromiseRejectionWarning` message in Node.js.
-- Remove the `.catch()` block on `logoutToken.save()` since errors are caught in the catch statement of try/catch
-- Stick to either using async/await or the Promises syntax. It could also be a good idea to consider not only returning false when `jwt.verify()` fails, but to explicitly throw an error instead.
+- The code should be wrapped in a `try/catch` block to avoid the well-known `UnhandledPromiseRejectionWarning` message in Node.js
+- Remove the `.catch()` block on `logoutToken.save()` since errors are caught in the `catch` statement of `try/catch`
+- Stick to either using `async/await` or the Promises syntax. It could also be a good idea to consider not only returning `false` when `jwt.verify()` fails, but to explicitly throw an error instead.
 
-These code design mistakes can be deadly, especially when there are no tests written for this piece of code.
+These code design mistakes can be deadly - especially when there are no tests written for this piece of code.
 
 ## 8. No unit or end-to-end tests for complex business logic
 
-This is so common that it is a running joke amongst the web development community. I still remember working at my first job and there were ZERO unit tests written for the project. When I asked about it, everyone said that "it would be great to have test coverage, but there is not enough time".
+This is so common that it is a running joke amongst the web development community. I still remember working at my first job and there were _zero_ unit tests written for the project. When I asked about it, everyone said: "It would be great to have test coverage, but there is not enough time."
 
-Since unit or end-to-end tests don't bring added value for the customer, they are often skipped and neglected. A common phrase is: "We will do it in the future when we have time" and then guess what? It never happens.
+Since unit or end-to-end tests don't bring added value for the customer, they are often skipped and neglected. A common phrase is: "We will do it in the future when we have time," and then guess what? It never happens.
 
-At the second company that I worked for, there were also almost no unit tests written for the frontend part of the project. By then I was more experienced as a developer and motivated to do my team and myself a favor, so I started to implement unit tests here and there whenever a task was finished earlier than expected.
+At the second company that I worked for, there were also almost no unit tests written for the front-end part of the project. By then, I was more experienced as a developer and motivated to do my team and myself a favor, so I started to implement unit tests here and there whenever a task was finished earlier than expected.
 
-For one task that I had to work on there were so many potential edge cases, so I started using "Test-driven development" (TDD) and wrote the tests before the actual code. Although I had to write the unit tests in addition to the business logic, **I ended up finishing the issue around 30% faster due to having the "safety belt" of the unit tests** catching all potential errors and edge cases. The test coverage will prevent you from looking for a bug in the wrong place as well.
+For one task that I had to work on, there were so many potential edge cases, so I started using "Test-driven development" (TDD) and wrote the tests before the actual code. Although I had to write the unit tests in addition to the business logic, **I ended up finishing the issue around 30% faster due to having the "safety belt" of the unit tests** catching all potential errors and edge cases. The test coverage will prevent you from looking for a bug in the wrong place as well.
 
 Bottom line: write unit tests when possible, especially for complex snippets of code and use end-to-end tests at least for the critical parts of an application.
 
@@ -219,8 +219,8 @@ Bottom line: write unit tests when possible, especially for complex snippets of 
 
 Although I understand that time pressure alone can be the reason for some developers to throw code quality standards overboard, **I highly advise pushing through while still doing your best at delivering clean code**.
 
-The minimal amount of time that you win just by duplicating code snippets and hacking away until it works will then start to pile up as technical debt and take you even longer to fix afterwards.
+The minimal amount of time that you save just by duplicating code snippets and hacking away until it works will then start to pile up as technical debt, and it will take you even longer to fix afterward.
 
 It will not always be possible to write the cleanest code, but don't let that discourage you. **After all, we are just human beings and make mistakes**.
 
-Did you make any of these or similar mistakes before? Leave a comment below!
+Have you made any of these or similar mistakes before? Leave a comment below!

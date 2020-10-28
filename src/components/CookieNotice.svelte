@@ -1,13 +1,3 @@
-<style lang="postcss">
-  .cookie-notice-btn {
-    @apply px-5 py-2 mr-3 font-semibold text-white bg-teal-700 rounded text-sm;
-  }
-
-  .cookie-notice-btn:hover {
-    @apply bg-teal-800;
-  }
-</style>
-
 <script>
   import { onMount } from 'svelte';
   import GoogleAnalytics from './GoogleAnalytics.svelte';
@@ -22,7 +12,8 @@
   export let consentGiven = false;
 
   onMount(() => {
-    const hasDNTEnabled = navigator.doNotTrack === '1' || window.doNotTrack === '1';
+    const hasDNTEnabled =
+      navigator.doNotTrack === '1' || window.doNotTrack === '1';
     // Hide cookie notice if the opt-out cookie exists or user has DNT enabled
     if (document.cookie.includes(`${disableStr}=true`) || hasDNTEnabled) {
       window[disableStr] = true;
@@ -48,18 +39,27 @@
 </script>
 
 {#if showCookieNotice}
-  <div class="fixed bottom-0 w-full p-3 text-sm text-center text-white bg-gray-800">
+  <div
+    class="fixed bottom-0 w-full p-3 text-sm text-center text-white bg-gray-800"
+  >
     <p class="mb-3">
-      Our website uses cookies to analyze how the site is used and to ensure your experience is
-      consistent between visits. <a rel="prefetch" href="/privacy-policy" class="underline mx-2">Privacy
+      Our website uses cookies to analyze how the site is used and to ensure
+      your experience is consistent between visits.
+      <a rel="prefetch" href="/privacy-policy" class="mx-2 underline">Privacy
         Policy</a>
-      <ExternalLink href="https://www.cookiesandyou.com/" customClass="underline">
+      <ExternalLink
+        href="https://www.cookiesandyou.com/"
+        customClass="underline"
+      >
         Learn more about cookies
       </ExternalLink>
     </p>
 
     <div class="text-center">
-      <button class="mr-3 cookie-notice-btn" on:click="{onConfirm}">Accept</button>
+      <button
+        class="mr-3 cookie-notice-btn"
+        on:click="{onConfirm}"
+      >Accept</button>
       <button class="cookie-notice-btn" on:click="{onDecline}">Decline</button>
     </div>
   </div>
@@ -68,3 +68,13 @@
 {#if !didOptOut && consentGiven}
   <GoogleAnalytics />
 {/if}
+
+<style lang="postcss">
+  .cookie-notice-btn {
+    @apply px-5 py-2 mr-3 font-semibold text-white bg-teal-700 rounded text-sm;
+  }
+
+  .cookie-notice-btn:hover {
+    @apply bg-teal-800;
+  }
+</style>

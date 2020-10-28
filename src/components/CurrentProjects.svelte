@@ -6,8 +6,10 @@
   const projects = [
     {
       name: 'markushatvan',
-      description: 'Personal website and blog written from scratch with SapperJS and TailwindCSS.',
-      techStack: 'SapperJS, Svelte, TailwindCSS, NodeJS, Rollup, Markdown, GitHub, Netlify',
+      description:
+        'Personal website and blog written from scratch with SapperJS and TailwindCSS.',
+      techStack:
+        'SapperJS, Svelte, TailwindCSS, NodeJS, Rollup, Markdown, GitHub, Netlify',
       websiteLink: 'https://markushatvan.com',
       githubLink: 'https://github.com/mhatvan/markushatvan.com',
     },
@@ -39,7 +41,9 @@
 <section class="container mh-container">
   <h2 class="border-b-4 border-teal-700">Current Projects</h2>
   {#each projects as project}
-    <div class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300">
+    <div
+      class="flex flex-wrap items-center justify-between pb-3 my-6 border-b border-gray-300"
+    >
       <div class="inline-flex items-baseline w-full lg:w-1/4">
         <h3 class="my-0 font-bold break-all">{project.name}</h3>
         {#if project.websiteLink}
@@ -64,10 +68,8 @@
         </a>
       </div>
       <div class="w-full my-3 lg:w-3/4">
-        <p class="my-0">{project.description}</p>
-      </div>
-      <div class="w-full ml-auto text-sm lg:w-3/4">
-        <p class="my-0">Built with {project.techStack}</p>
+        <p>{project.description}</p>
+        <p class="text-sm">Built with {project.techStack}</p>
       </div>
     </div>
   {/each}

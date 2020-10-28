@@ -23,37 +23,39 @@
   </div>
 
   <p>
-    Hey, I am Markus Hatvan, a full stack developer, Calisthenics enthusiast, craft beer lover, and
-    biohacker. I created this website to be visible on the web as a developer and to share the
-    knowledge that I gathered over the years. I care a lot about website performance, accessibility
-    and clean code practices like linting and formatting.
+    Hey, I am Markus Hatvan, a full stack developer, Calisthenics enthusiast,
+    craft beer lover, and biohacker. I created this website to be visible on the
+    web as a developer and to share the knowledge that I gathered over the
+    years. I care a lot about website performance, accessibility and clean code
+    practices like linting and formatting.
   </p>
 
   <p>
-    I want to provide value to the public and share my thoughts. I wrote an article explaining
+    I want to provide value to the public and share my thoughts. I wrote an
+    article explaining
     <a rel="prefetch" href="/blog/6-reasons-why-i-started-this-blog">
-      my reasons why I started this blog
-    </a>.
+      my reasons why I started this blog</a>.
   </p>
 
   <h2>Facts about me</h2>
   <ul>
-    <li>does 16-8 intermittent fasting pretty much every day</li>
+    <li>does 16-8 intermittent fasting pretty much every day 🍏</li>
     <li>
       keeps a growing
-      <a href="/blog/the-beer-bucket-list-for-the-aspiring-connoisseur">list of over ~100 beers</a>
-      that he drank
+      <a href="/blog/the-beer-bucket-list-for-the-aspiring-connoisseur">list of
+        over ~100 beers</a>
+      that he drank 🍺
     </li>
-    <li>did a smoothie cleanse for 10 days</li>
-    <li>loves to go to metal concerts & drum and bass shows</li>
-    <li>invests in the stock market and owns ~30 crypto coins</li>
-    <li>goes everywhere with his mountain bike</li>
-    <li>tries to improve everyday life with zero waste options</li>
-    <li>enjoys going for a barefoot hike on mountains</li>
+    <li>did a smoothie cleanse for 10 days 🥤</li>
+    <li>loves to go to metal concerts & drum and bass shows 🎸</li>
+    <li>invests in the stock market and owns ~30 crypto coins 💰</li>
+    <li>goes everywhere with his mountain bike 🚴‍♂️</li>
+    <li>tries to improve everyday life with zero waste options 💚</li>
+    <li>enjoys going for a barefoot hike on mountains ⛰️</li>
     <!-- <li>took part in a spartan race</li> -->
-    <li>can do a full split</li>
-    <li>loves to go ice swimming or having a cold shower</li>
-    <li>loves to play video games on the hardest difficulty</li>
+    <li>can do a full split 🤸‍♂️</li>
+    <li>loves to go ice swimming or having a cold shower 🏊‍♂️</li>
+    <li>loves to play video games on the hardest difficulty 🎮</li>
   </ul>
 
   <h2>Current office setup</h2>
@@ -67,7 +69,9 @@
     </li>
     <li>
       <b>Code editor:</b>
-      <ExternalLink href="https://code.visualstudio.com/">Visual Studio Code</ExternalLink>
+      <ExternalLink href="https://code.visualstudio.com/">
+        Visual Studio Code
+      </ExternalLink>
     </li>
     <li>
       <b>Application management:</b>
@@ -75,11 +79,15 @@
     </li>
     <li>
       <b>Browser:</b>
-      <ExternalLink href="https://brave.com/rez638" isAffiliateLink>Brave Browser</ExternalLink>
+      <ExternalLink href="https://brave.com/rez638" isAffiliateLink>
+        Brave Browser
+      </ExternalLink>
     </li>
     <li>
       <b>Email:</b>
-      <ExternalLink href="https://www.thunderbird.net/">Thunderbird</ExternalLink>
+      <ExternalLink href="https://www.thunderbird.net/">
+        Thunderbird
+      </ExternalLink>
     </li>
     <li>
       <b>Music:</b>
@@ -93,11 +101,15 @@
     </li>
     <li>
       <b>Speakers:</b>
-      <ExternalLink href="https://amzn.to/2BsWj2v" isAffiliateLink>Yamaha HS7</ExternalLink>
+      <ExternalLink href="https://amzn.to/2BsWj2v" isAffiliateLink>
+        Yamaha HS7
+      </ExternalLink>
     </li>
     <li>
       <b>Monitors:</b>
-      <ExternalLink href="https://amzn.to/2BT495t" isAffiliateLink>BenQ GL2580H</ExternalLink>
+      <ExternalLink href="https://amzn.to/2BT495t" isAffiliateLink>
+        BenQ GL2580H
+      </ExternalLink>
     </li>
     <li>
       <b>Audio interface:</b>
@@ -111,7 +123,13 @@
 
   <p>
     Buy me a coffee:
-    <ExternalLink href="https://www.buymeacoffee.com/mhatvan">mhatvan</ExternalLink>
+    <ExternalLink href="https://www.buymeacoffee.com/mhatvan">
+      mhatvan
+    </ExternalLink>
+  </p>
+  <p>
+    PayPal:
+    <ExternalLink href="https://paypal.me/mhatvan">mhatvan</ExternalLink>
   </p>
 
   <p>BTC: <code>15UgBxhsGAUPmtqMQAFpkVUuqLa6e3rzGp</code></p>
