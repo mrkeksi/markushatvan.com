@@ -69,7 +69,7 @@
       </div>
       <div class="w-full my-3 lg:w-3/4">
         <p>{project.description}</p>
-        <p class="text-sm">Built with {project.techStack}</p>
+        <p class="my-0 text-sm">Built with {project.techStack}</p>
       </div>
     </div>
   {/each}

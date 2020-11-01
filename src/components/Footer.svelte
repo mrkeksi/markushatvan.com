@@ -15,9 +15,14 @@
 </script>
 
 <footer class="text-teal-200 border-t-4 border-teal-700 applause-gradient">
-  <div class="container flex flex-wrap items-baseline justify-between px-3 py-5 mx-auto">
+  <div
+    class="container flex flex-wrap items-baseline justify-between px-3 py-5 mx-auto"
+  >
     <div class="w-full mb-6 sm:mb-0 sm:w-1/3">Markus Hatvan</div>
-    <nav aria-label="Left footer navigation" class="w-full mb-6 sm:mb-0 sm:w-1/3">
+    <nav
+      aria-label="Left footer navigation"
+      class="w-full mb-6 sm:mb-0 sm:w-1/3"
+    >
       <a
         rel="prefetch"
         aria-current="{segment === 'blog' ? 'page' : undefined}"
@@ -45,7 +50,10 @@
         </a>
       </div>
     </nav>
-    <nav aria-label="Right footer navigation" class="w-full mb-6 sm:mb-0 sm:w-1/3">
+    <nav
+      aria-label="Right footer navigation"
+      class="w-full mb-6 sm:mb-0 sm:w-1/3"
+    >
       <a
         rel="prefetch"
         aria-current="{segment === 'about' ? 'page' : undefined}"
@@ -82,7 +90,7 @@
 
     <nav class="w-full mt-6 sm:w-2/3">
       <ExternalLink
-        href="mailto:markus_hatvan@aon.at"
+        href="mailto:contact@markushatvan.com"
         ariaLabel="Write me a mail"
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
       >
@@ -158,7 +166,8 @@
 
     <div class="w-full mt-0 sm:w-1/3 sm:mt-6">
       <small class="text-sm">
-        <span class="hidden md:inline">Copyright</span> © 2020 Markus Hatvan
+        <span class="hidden md:inline">Copyright</span>
+        © 2020 Markus Hatvan
       </small>
     </div>
   </div>

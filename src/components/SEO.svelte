@@ -31,7 +31,7 @@
   const authorJSONLD = {
     '@type': 'Person',
     name: 'Markus Hatvan',
-    email: 'markus_hatvan@aon.at',
+    email: 'contact@markushatvan.com',
     address: 'Vienna, Austria',
   };
 

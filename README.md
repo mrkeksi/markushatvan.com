@@ -10,7 +10,7 @@ The main focus of the website is to provide value to visitors through the [blog]
 
 ## Author
 
-👤 **Markus Hatvan <markus_hatvan@aon.at>**
+👤 **Markus Hatvan <contact@markushatvan.com>**
 
 - [Website](https://markushatvan.com)
 - [GitHub](https://github.com/mhatvan)

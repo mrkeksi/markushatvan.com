@@ -1,18 +1,3 @@
-<style>
-  .header-box-shadow {
-    box-shadow: 0 -0.2rem 0.9rem 0.2rem rgba(0, 0, 0, 0.5);
-  }
-
-  [aria-current] {
-    font-weight: bold;
-  }
-
-  header {
-    z-index: 1;
-    padding: 2px 0;
-  }
-</style>
-
 <script>
   // @ts-nocheck
   import Icon from 'svelte-awesome/components/Icon.svelte';
@@ -30,7 +15,9 @@
 </script>
 
 <header class="fixed top-0 w-full bg-white header-box-shadow">
-  <div class="container flex flex-wrap items-baseline justify-between p-3 mx-auto bg-white">
+  <div
+    class="container flex flex-wrap items-baseline justify-between p-3 mx-auto bg-white"
+  >
     <div class="flex">
       <a
         rel="prefetch"
@@ -45,6 +32,7 @@
       <ClickOutside on:clickoutside="{() => (open = false)}">
         <button
           class="flex items-center px-3 py-2 text-teal-700 border border-gray-400 hover:text-teal-800 hover:border-gray-500"
+          aria-label="Hamburger menu"
           on:click="{toggleHamburgerMenu}"
         >
           <Icon data="{faBars}" />
@@ -100,3 +88,18 @@
     </nav>
   </div>
 </header>
+
+<style>
+  .header-box-shadow {
+    box-shadow: 0 -0.2rem 0.9rem 0.2rem rgba(0, 0, 0, 0.5);
+  }
+
+  [aria-current] {
+    font-weight: bold;
+  }
+
+  header {
+    z-index: 1;
+    padding: 2px 0;
+  }
+</style>

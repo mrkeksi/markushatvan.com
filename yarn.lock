@@ -1460,10 +1460,10 @@
     "@types/node" "*"
     "@types/trouter" "*"
 
-"@types/prismjs@^1.16.1":
-  version "1.16.1"
-  resolved "https://registry.yarnpkg.com/@types/prismjs/-/prismjs-1.16.1.tgz#50b82947207847db6abcbcd14caa89e3b897c259"
-  integrity sha512-RNgcK3FEc1GpeOkamGDq42EYkb6yZW5OWQwTS56NJIB8WL0QGISQglA7En7NUx9RGP8AC52DOe+squqbAckXlA==
+"@types/prismjs@^1.16.2":
+  version "1.16.2"
+  resolved "https://registry.yarnpkg.com/@types/prismjs/-/prismjs-1.16.2.tgz#c130c977191c988cb35e97585da5d580948cc2d2"
+  integrity sha512-1M/j21xgTde7RPtpJVQebW5rzrquj7S+wnqt4x9uWrIPpr0Ya/uXypcqC2aUQL5gtLXFCKSH7GnjfAijMdfbuA==
 
 "@types/pug@^2.0.4":
   version "2.0.4"
@@ -4699,10 +4699,10 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^2.32.1:
-  version "2.32.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.32.1.tgz#625a92c54f5b4d28ada12d618641491d4dbb548c"
-  integrity sha512-Op2vWTpvK7t6/Qnm1TTh7VjEZZkN8RWgf0DHbkKzQBwNf748YhXbozHVefqpPp/Fuyk/PQPAnYsBxAEtlMvpUw==
+rollup@^2.33.0:
+  version "2.33.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.33.0.tgz#dc105b312e2817f996d0b6a192b7033f607ef08d"
+  integrity sha512-7jFrmKgQj1GOWlC8rExHaPcv2SQnWMv1BFUyH/xWS5w80h6132wBUWp/qTvQkAbnlqGvi13T6iP2kHo9Sb2HxA==
   optionalDependencies:
     fsevents "~2.1.2"
 
@@ -4877,10 +4877,10 @@ slice-ansi@^2.1.0:
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
 
-slugify@^1.4.5:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.4.5.tgz#a7517acf5f4c02a4df41e735354b660a4ed1efcf"
-  integrity sha512-WpECLAgYaxHoEAJ8Q1Lo8HOs1ngn7LN7QjXgOLbmmfkcWvosyk4ZTXkTzKyhngK640USTZUlgoQJfED1kz5fnQ==
+slugify@^1.4.6:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.4.6.tgz#ef288d920a47fb01c2be56b3487b6722f5e34ace"
+  integrity sha512-ZdJIgv9gdrYwhXqxsH9pv7nXxjUEyQ6nqhngRxoAAOlmMGA28FDq5O4/5US4G2/Nod7d1ovNcgURQJ7kHq50KQ==
 
 source-map-support@~0.5.12:
   version "0.5.19"
@@ -5111,10 +5111,10 @@ svelte-awesome@^2.3.0:
   dependencies:
     svelte "^3.15.0"
 
-svelte-check@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-1.1.2.tgz#c5788021b53562e3aad83ea5d9add6d53bcf7472"
-  integrity sha512-5DcbE0/c0WC+E9Vixy+vteA4i0zWMFNgFowEvs5SP63/bNCe2OMwMani8G2/L5ZHL1JT2xJAyU3yx1eOXiVOLA==
+svelte-check@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-1.1.6.tgz#705fea71a757511f47894cdfa1ffab6e5c5cab4d"
+  integrity sha512-9CTehTTy02B4b7hsSp/F0JO8LrI3hNAgXfBtQ2JkxbDSLqlMPM5d2wcMrSzws9QQg6clRfBnn44wx3h/XYWWmg==
   dependencies:
     chalk "^4.0.0"
     chokidar "^3.4.1"

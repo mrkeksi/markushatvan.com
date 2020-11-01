@@ -1,7 +1,15 @@
 <script>
   import Icon from 'svelte-awesome/components/Icon.svelte';
-  import { faTwitter, faMedium, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-  import { faEnvelope, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+  import {
+    faTwitter,
+    faMedium,
+    faGithub,
+    faLinkedin,
+  } from '@fortawesome/free-brands-svg-icons';
+  import {
+    faEnvelope,
+    faExternalLinkAlt,
+  } from '@fortawesome/free-solid-svg-icons';
   import SEO from '../components/SEO.svelte';
   import ExternalLink from '../components/ExternalLink.svelte';
 </script>
@@ -22,14 +30,17 @@
 
   <p>Want to get in touch?</p>
   <p>There is always something to discuss.</p>
-  <p>If you want to say hello, the best way you can reach me is through these channels below.</p>
+  <p>
+    If you want to say hello, the best way you can reach me is through these
+    channels below.
+  </p>
 
   <header>
     <h2>Let's get in touch!</h2>
   </header>
   <div class="flex flex-wrap mb-6">
     <ExternalLink
-      href="mailto:markus_hatvan@aon.at"
+      href="mailto:contact@markushatvan.com"
       ariaLabel="Write me a mail"
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
@@ -78,7 +89,6 @@
         Submit issue
         <Icon data="{faExternalLinkAlt}" class="mt-1 ml-2" />
       </ExternalLink>
-
     </div>
     <div class="w-full sm:w-1/3">
       <h3>Improvements for the website?</h3>
