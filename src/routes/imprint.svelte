@@ -24,7 +24,7 @@
   <p>
     Full name: Markus Hatvan
     <br />
-    Address: Rüdigergasse 25, 1050 Vienna, Austria
+    Address: St.-Veit-Gasse 20, 1130 Vienna, Austria
     <br />
     Email:
     <a href="mailto:contact@markushatvan.com">contact@markushatvan.com</a>

@@ -26,7 +26,6 @@ app
           scriptSrc: ["'self' 'unsafe-eval'", (_req, res) => `'nonce-${res.locals.nonce}'`],
           // Has to be unsafe-inline currently, because svelte-awesome & svelte-image sets inline style
           styleSrc: ["'self' 'unsafe-inline'"],
-          frameAncestors: 'frame.bloglovin.com',
           // data: needed for svelte-image placeholders and svelte-awesome icons
           imgSrc: ["'self'", 'data:'],
           // localhost:10000 needed by __sapper__ itself

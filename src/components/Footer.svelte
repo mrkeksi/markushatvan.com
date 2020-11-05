@@ -8,7 +8,7 @@
     faDev,
     faReddit,
   } from '@fortawesome/free-brands-svg-icons';
-  import { faBlog, faEnvelope, faRss } from '@fortawesome/free-solid-svg-icons';
+  import { faEnvelope, faRss } from '@fortawesome/free-solid-svg-icons';
   import ExternalLink from './ExternalLink.svelte';
 
   export let segment: string;
@@ -145,14 +145,6 @@
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
       >
         <Icon data="{faReddit}" class="mr-3" scale="{1.5}" />
-      </ExternalLink>
-
-      <ExternalLink
-        href="https://www.bloglovin.com/blog/20634177/?claim=dgqenakg8xy"
-        ariaLabel="Follow my blog on Bloglovin"
-        customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
-      >
-        <Icon data="{faBlog}" class="mr-3" scale="{1.5}" />
       </ExternalLink>
 
       <ExternalLink

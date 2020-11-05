@@ -6,6 +6,7 @@ module.exports = {
     browser: true,
     node: true,
     commonjs: true,
+    jest: true,
   },
   extends: ['eslint:recommended'],
   parserOptions: {

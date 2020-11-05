@@ -18,8 +18,8 @@
     "sourceMap": true,
     "noImplicitThis": false,
     "strict": true,
-    "types": ["svelte", "@sapper"],
-    "typeRoots": ["types"],
+    "types": ["svelte", "@sapper", "jest"],
+    "typeRoots": ["types", "node_modules/@types"],
     "skipLibCheck": true
   },
   "include": ["src/**/*", "src/node_modules/**/*"],
