@@ -18,12 +18,11 @@ const renderXmlRssFeed = (posts: Post[]): string => `<?xml version="1.0" encodin
       .map(
         (post: Post) => `
     <item>
-      <title>${post.title}</title>
+      <title><![CDATA[${post.title}]]></title>
       <description><![CDATA[${post.excerpt}]]></description>
       <link>${siteUrl}/blog/${post.slug}</link>
       <guid isPermaLink="false">${siteUrl}/blog/${post.slug}</guid>
       <pubDate>${new Date(post.creationDate).toUTCString()}</pubDate>
-      <content:encoded><![CDATA[${post.excerpt}]]></content:encoded>
     </item>
     `,
       )

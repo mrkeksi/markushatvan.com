@@ -14,12 +14,16 @@
   <div class="flex flex-wrap -m-2">
     {#each filteredPosts as post}
       <div class="flex items-stretch w-full p-2 sm:w-1/2 lg:w-1/3">
-        <BlogPostCard {post} />
+        <BlogPostCard post="{post}" />
       </div>
     {/each}
   </div>
 
-  <a rel="prefetch" href="/blog" class="inline-flex mt-8 font-bold rounded text-md btn-primary">
+  <a
+    rel="prefetch"
+    href="/blog"
+    class="inline-flex items-center mt-8 font-bold rounded text-md btn-primary"
+  >
     View all blog posts
     <Icon data="{faAngleRight}" class="ml-3" scale="{1.5}" />
   </a>

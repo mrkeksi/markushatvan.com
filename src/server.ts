@@ -29,7 +29,7 @@ app
           // data: needed for svelte-image placeholders and svelte-awesome icons
           imgSrc: ["'self'", 'data:'],
           // localhost:10000 needed by __sapper__ itself
-          connectSrc: ["'self'", 'http://localhost:10000'],
+          connectSrc: ["'self'", 'http://localhost:10000', 'https://webmention.io'],
         },
       },
     }),

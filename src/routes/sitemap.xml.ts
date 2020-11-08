@@ -15,8 +15,6 @@ fs.readdirSync('./src/routes').forEach((file) => {
     file.charAt(0) !== '_' &&
     file !== 'sitemap' &&
     file !== 'index' &&
-    file !== 'categories' &&
-    file !== 'tags' &&
     file !== 'rss'
   ) {
     pages.push(file);

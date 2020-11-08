@@ -1,8 +1,14 @@
 <script context="module">
-  export async function preload() {
+  export async function preload({ params }) {
     try {
       const blog = await this.fetch(`blog.json`);
       const posts = await blog.json();
+
+      // const webmentions = await this.fetch(
+      //   `https://webmention.io/api/count.json?target=${params.slug}`,
+      // );
+      // const webmentionCounts = await webmentions.json();
+
       return { posts };
     } catch (error) {
       console.error(error);
@@ -23,6 +29,7 @@
   import SEO from '../../components/SEO.svelte';
   import { afterUpdate } from 'svelte';
   import slugify from 'slugify';
+  // import Webmentions from '../../components/Webmentions.svelte';
   // import type { Post } from '../../models/post';
 
   // adding types throws compiler error for some reason
@@ -111,6 +118,8 @@
         previousArticle="{previousArticle}"
         nextArticle="{nextArticle}"
       />
+
+      <!-- <Webmentions webmentionCounts="{webmentionCounts}" /> -->
 
       <ReplyBox />
     </article>

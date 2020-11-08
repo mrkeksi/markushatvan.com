@@ -8,13 +8,13 @@
 </script>
 
 <a
-  {href}
+  href="{href}"
   target="_blank"
   rel="noopener noreferrer {rel}"
   class="cursor-pointer {customClass}"
-  {title}
+  title="{title}"
   aria-label="{ariaLabel}"
 >
-  <slot />
-  {isAffiliateLink ? '*' : ''}
+  <!-- prettier-ignore -->
+  <slot />{isAffiliateLink ? '*' : ''}
 </a>
