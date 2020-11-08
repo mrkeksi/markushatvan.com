@@ -47,7 +47,7 @@ const generateTags = () => {
   return flattenedTags
     .map(
       (flattenedTag: string) => `
-    <url><loc>${BASE_URL}/tags/${convertToSlug(flattenedTag), { lower: true }}/</loc><priority>0.85</priority></url>
+    <url><loc>${BASE_URL}/tags/${convertToSlug(flattenedTag)}/</loc><priority>0.85</priority></url>
       `,
     )
     .join('\n');
