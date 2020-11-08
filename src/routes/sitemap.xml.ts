@@ -2,7 +2,8 @@
 import posts from './blog/_posts';
 
 import flatten from 'flatten';
-import slugify from 'slugify';
+import { convertToSlug } from '../helpers/utils';
+
 import fs from 'fs';
 import type { Post } from '../models/post';
 
@@ -29,7 +30,7 @@ const generateCategories = () => {
   return uniqueCategories
     .map(
       (uniqueCategory: string) => `
-      <url><loc>${BASE_URL}/categories/${slugify(
+      <url><loc>${BASE_URL}/categories/${convertToSlug(
         uniqueCategory,
       )}/</loc><priority>0.85</priority></url>
         `,
@@ -46,7 +47,7 @@ const generateTags = () => {
   return flattenedTags
     .map(
       (flattenedTag: string) => `
-    <url><loc>${BASE_URL}/tags/${slugify(flattenedTag)}/</loc><priority>0.85</priority></url>
+    <url><loc>${BASE_URL}/tags/${convertToSlug(flattenedTag), { lower: true }}/</loc><priority>0.85</priority></url>
       `,
     )
     .join('\n');

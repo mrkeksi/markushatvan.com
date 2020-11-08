@@ -79,7 +79,6 @@
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-visualizer": "^4.2.0",
     "sapper": "^0.28.10",
-    "slugify": "^1.4.6",
     "svelte": "^3.29.4",
     "svelte-awesome": "^2.3.0",
     "svelte-check": "^1.1.8",

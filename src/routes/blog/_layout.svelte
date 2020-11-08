@@ -28,7 +28,8 @@
   import BlogPostFilters from '../../components/BlogPostFilters.svelte';
   import SEO from '../../components/SEO.svelte';
   import { afterUpdate } from 'svelte';
-  import slugify from 'slugify';
+  import { convertToSlug } from '../../helpers/utils.js';
+
   // import Webmentions from '../../components/Webmentions.svelte';
   // import type { Post } from '../../models/post';
 
@@ -60,11 +61,11 @@
 
     headings.forEach((heading) => {
       const headingVal = heading.innerHTML;
-      const slug = slugify(headingVal, {
-        remove: /[\d.?!:',/]/g,
-      });
+      const slug = convertToSlug(headingVal);
 
-      heading.innerHTML = `${headingVal} <a href="/blog/${post.slug}#${slug}" class="anchor-link" title="Copy anchor link">#</a>`;
+      const cleanedSlug = slug.replace(/\d-/, '').replace(/[.?!:',/]/g, '');
+
+      heading.innerHTML = `${headingVal} <a href="/blog/${post.slug}#${cleanedSlug}" class="anchor-link" title="Copy anchor link">#</a>`;
       heading.id = slug;
     });
 
