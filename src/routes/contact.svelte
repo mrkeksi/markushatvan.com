@@ -19,15 +19,7 @@
 
   let didSubmit = false;
 
-  const {
-    form,
-    errors,
-    isValid,
-    isSubmitting,
-    handleChange,
-    handleReset,
-    handleSubmit,
-  } = createForm({
+  const { form, errors, isValid, isSubmitting, handleChange } = createForm({
     initialValues: {
       name: '',
       email: '',
@@ -47,10 +39,6 @@
         .required('Email is a required field.'),
       comment: yup.string().required('Comment is a required field.'),
     }),
-    onSubmit: () => {
-      handleReset();
-      didSubmit = true;
-    },
   });
 </script>
 
@@ -71,12 +59,12 @@
   <p>Want to get in touch? There is always something to discuss.</p>
 
   <form
-    on:submit="{handleSubmit}"
     method="post"
     name="contact"
     class="mt-3 mb-8"
     netlify-honeypot="bot-field"
     data-netlify="true"
+    action="/contact"
   >
     <div class="flex flex-wrap p-3 bg-gray-200 border border-gray-500 rounded">
       <input type="hidden" name="form-name" value="contact" />
