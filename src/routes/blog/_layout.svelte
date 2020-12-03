@@ -21,7 +21,6 @@
   import BlogPostHeader from '../../components/BlogPostHeader.svelte';
   import BlogPostSidebar from '../../components/BlogPostSidebar.svelte';
   import ShareButtons from '../../components/ShareButtons.svelte';
-  import ReplyBox from '../../components/ReplyBox.svelte';
   import PrevNextArticle from '../../components/PrevNextArticle.svelte';
   import BackToBlogOverviewBtn from '../../components/BackToBlogOverviewBtn.svelte';
   import BlogOverviewHeader from '../../components/BlogOverviewHeader.svelte';
@@ -65,7 +64,7 @@
 
       const cleanedSlug = slug.replace(/\d-/, '').replace(/[.?!:',/]/g, '');
 
-      heading.innerHTML = `${headingVal} <a href="/blog/${post.slug}#${cleanedSlug}" class="anchor-link" title="Copy anchor link">#</a>`;
+      heading.innerHTML = `<a href="/blog/${post.slug}#${cleanedSlug}" class="anchor-link" title="Copy anchor link">#</a> ${headingVal}`;
       heading.id = slug;
     });
 
@@ -103,11 +102,11 @@
   <BlogPostHeader post="{post}" />
 
   <section class="container flex flex-wrap mh-container">
-    <article class="w-full pb-12 blog lg:w-9/12 lg:pr-16">
+    <article class="w-full pb-12 prose-lg lg:prose-xl blog lg:w-9/12 lg:pr-16">
       <slot />
 
       <div class="p-5 my-8 text-center border-4 border-teal-700">
-        <p><b>If you liked this post, share it:</b></p>
+        <p class="mt-0 mb-4"><b>If you liked this post, share it:</b></p>
         <ShareButtons post="{post}" />
       </div>
 
@@ -121,8 +120,6 @@
       />
 
       <!-- <Webmentions webmentionCounts="{webmentionCounts}" /> -->
-
-      <ReplyBox />
     </article>
 
     <aside class="w-full mt-8 lg:mt-0 lg:w-3/12">
