@@ -1,4 +1,3 @@
-import { spawn } from 'child_process';
 import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 import commonjs from '@rollup/plugin-commonjs';
@@ -105,53 +104,6 @@ export default {
         terser({
           module: true,
         }),
-
-      (() => {
-        let builder;
-        let rebuildNeeded = false;
-
-        const buildGlobalCSS = () => {
-          if (builder) {
-            rebuildNeeded = true;
-            return;
-          }
-          rebuildNeeded = false;
-
-          try {
-            builder = spawn('node', [
-              '--experimental-modules',
-              '--unhandled-rejections=strict',
-              'build-global-css.mjs',
-              sourcemap,
-            ]);
-            builder.stdout.pipe(process.stdout);
-            builder.stderr.pipe(process.stderr);
-
-            builder.on('close', (code) => {
-              if (code !== 0) {
-                console.error(`global css builder exited with code ${code}`);
-              }
-
-              builder = undefined;
-
-              if (rebuildNeeded) {
-                buildGlobalCSS();
-              }
-            });
-          } catch (err) {
-            console.error(err);
-          }
-        };
-
-        return {
-          name: 'build-global-css',
-          buildStart() {
-            buildGlobalCSS();
-            globalCSSWatchFiles.forEach((file) => this.addWatchFile(file));
-          },
-          generateBundle: buildGlobalCSS,
-        };
-      })(),
 
       // analyze({
       //   summaryOnly: true,
