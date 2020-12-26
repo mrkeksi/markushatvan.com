@@ -35,18 +35,18 @@
     Austria
   </p>
 
-  <!-- <p>
+  <p>
     <b>Business purpose:</b>
     IT services
     <br />
 
     <b>Tax identification number:</b>
-    ATU12345678
+    ATU76197125
     <br />
 
-    <b>Register number:</b>
+    <!-- <b>Register number:</b>
     123
-    <br />
+    <br /> -->
 
     <b>Commercial Register Court:</b>
     Handelsgericht Wien
@@ -55,7 +55,7 @@
     <b>Company headquarters:</b>
     St.-Veit-Gasse 20/4, 1130 Vienna, Austria
     <br />
-  </p> -->
+  </p>
 
   <p>
     <b>Phone:</b>

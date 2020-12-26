@@ -56,7 +56,37 @@
 <section class="container mh-container">
   <h1>Contact</h1>
 
-  <p>Want to get in touch? There is always something to discuss.</p>
+  <p>
+    Want to get in touch? There is always something to discuss as long as you
+    are not trying to trick me with
+    <ExternalLink
+      href="https://www.cnbc.com/2019/04/18/nigerian-prince-scams-still-rake-in-over-700000-dollars-a-year.html"
+    >
+      the "Nigerian prince" email scam.
+    </ExternalLink>
+  </p>
+
+  <h2>For business inquiries</h2>
+
+  <p>
+    I am mainly looking for clients which provide projects with a modern
+    Javascript tech stack, a duration of 1-3 months, (ideally with follow-up
+    projects), remote only and are comfortable with Central European developer
+    rates.
+  </p>
+
+  <p>Please include answers to the following questions in the form below:</p>
+
+  <ul>
+    <li>How many hours are needed?</li>
+    <li>Approximate deadline?</li>
+    <li>Type of company? (Startup, Midsize or large corporation)</li>
+    <li>Years in business?</li>
+    <li>How did you hear about us?</li>
+    <li>Why did you decide to work with us?</li>
+  </ul>
+
+  <p>I will guarantee to get back to you within 48 hours.</p>
 
   <form
     method="post"

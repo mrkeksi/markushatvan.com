@@ -1,7 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 import posts from './blog/_posts';
-
-import flatten from 'flatten';
 import { convertToSlug } from '../helpers/utils';
 
 import fs from 'fs';
@@ -40,21 +38,6 @@ const generateCategories = () => {
     .join('\n');
 };
 
-const generateTags = () => {
-  const allTags = posts.map((post: Post) => post.tags);
-  const flattenedTags = flatten(allTags).filter(
-    (tag: string, idx: number, arr: string[]) => arr.indexOf(tag) === idx,
-  );
-
-  return flattenedTags
-    .map(
-      (flattenedTag: string) => `
-    <url><loc>${BASE_URL}/tags/${convertToSlug(flattenedTag)}/</loc><priority>0.85</priority></url>
-      `,
-    )
-    .join('\n');
-};
-
 const render = (pages: string[], posts: Post[]) => `<?xml version="1.0" encoding="UTF-8" ?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   ${pages
@@ -75,7 +58,6 @@ const render = (pages: string[], posts: Post[]) => `<?xml version="1.0" encoding
     )
     .join('\n')}
     ${generateCategories()}
-    ${generateTags()}
 </urlset>
 `;
 

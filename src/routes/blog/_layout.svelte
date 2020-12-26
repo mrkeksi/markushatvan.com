@@ -64,7 +64,7 @@
 
       const cleanedSlug = slug.replace(/\d-/, '').replace(/[.?!:',/]/g, '');
 
-      heading.innerHTML = `<a href="/blog/${post.slug}#${cleanedSlug}" class="anchor-link" title="Copy anchor link">#</a> ${headingVal}`;
+      heading.innerHTML = `${headingVal} <a href="/blog/${post.slug}#${cleanedSlug}" class="anchor-link" title="Copy anchor link">#</a>`;
       heading.id = slug;
     });
 

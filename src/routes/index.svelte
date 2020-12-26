@@ -12,7 +12,7 @@
 
 <script>
   import Introduction from '../components/Introduction.svelte';
-  // import Applause from '../components/Applause.svelte';
+  import Applause from '../components/Applause.svelte';
   import InspirationalQuote from '../components/InspirationalQuote.svelte';
   import OSSContributions from '../components/OSSContributions.svelte';
   import CurrentProjects from '../components/CurrentProjects.svelte';
@@ -40,9 +40,9 @@
 
 <InspirationalQuote />
 
-<!-- <Applause /> -->
-
 <CurrentProjects />
+
+<Applause />
 
 <OSSContributions />
 

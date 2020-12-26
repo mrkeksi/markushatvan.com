@@ -34,13 +34,6 @@ const preprocess = [
   }),
 ];
 
-// Changes in these files will trigger a rebuild of the global CSS
-const globalCSSWatchFiles = [
-  'postcss.config.js',
-  'tailwind.config.js',
-  'src/global.pcss',
-];
-
 const onwarn = (warning, onwarn) =>
   (warning.code === 'MISSING_EXPORT' && /'preload'/.test(warning.message)) ||
   (warning.code === 'CIRCULAR_DEPENDENCY' &&
