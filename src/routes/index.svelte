@@ -20,12 +20,13 @@
   import RecentPosts from '../components/RecentPosts.svelte';
   import SEO from '../components/SEO.svelte';
   import type { Post } from '../models/post';
+  import ServicesCallToAction from '../components/ServicesCallToAction.svelte';
 
   export let posts: Post[];
 </script>
 
 <svelte:head>
-  <title>Markus Hatvan - Full Stack Developer</title>
+  <title>Markus Hatvan - On your side for your site</title>
   <meta
     name="description"
     content="Personal website and blog written from scratch with SapperJS and TailwindCSS."
@@ -38,12 +39,14 @@
 
 <RecentPosts posts="{posts}" />
 
-<InspirationalQuote />
+<ServicesCallToAction />
 
 <CurrentProjects />
 
 <Applause />
 
 <OSSContributions />
+
+<InspirationalQuote />
 
 <Talks />

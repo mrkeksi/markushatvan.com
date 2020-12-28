@@ -11,6 +11,7 @@
 
 <section class="container mh-container">
   <h1>Resume</h1>
+  <p>Last updated: 27.12.2020</p>
 
   <embed src="CV_MarkusHatvan.pdf" type="application/pdf" />
 </section>

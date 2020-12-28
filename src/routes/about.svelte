@@ -23,18 +23,33 @@
   </div>
 
   <p>
-    Hey, I am Markus Hatvan, a full stack developer, Calisthenics enthusiast,
-    craft beer lover, and biohacker. I created this website to be visible on the
-    web as a developer and to share the knowledge that I gathered over the
-    years. I care a lot about website performance, accessibility and clean code
-    practices like linting and formatting.
+    Hey, I am Markus, a freelance Full Stack Web Developer, Calisthenics
+    enthusiast, craft beer lover, and biohacker.
   </p>
 
   <p>
-    I want to provide value to the public and share my thoughts. I wrote an
-    article explaining
+    I created this website to be visible on the web as a developer and to share
+    the knowledge that I gathered over the years. I want to provide value to the
+    public and share my thoughts. I wrote an article explaining
     <a rel="prefetch" href="/blog/6-reasons-why-i-started-this-blog">
       my reasons why I started this blog</a>.
+  </p>
+
+  <p>
+    The topics that I am especially passionate about are application performance
+    optimization, dependency upgrades, code quality, technical SEO and
+    accessibility.
+  </p>
+  <p>
+    I love open source software and made code contributions to libraries like
+    Microsoft WebTemplateStudio, Svelte, react-boilerplate, Ethereum and
+    eslint-plugin-unicorn in the past.
+  </p>
+
+  <p>
+    Additionally, I write technical articles which are published on platforms
+    like freeCodeCamp, Hacker Noon, Medium and codeburst or hold presentations
+    at meetups.
   </p>
 
   <h2>Facts about me</h2>

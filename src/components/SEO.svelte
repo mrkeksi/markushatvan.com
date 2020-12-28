@@ -18,7 +18,7 @@
     cover?: string;
   } = {};
 
-  const fallbackTitle = 'Markus Hatvan - Full Stack Developer';
+  const fallbackTitle = 'Markus Hatvan - On your side for your site';
   const fallbackDescription =
     'Personal website and blog written from scratch with SapperJS and TailwindCSS.';
 

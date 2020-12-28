@@ -70,20 +70,19 @@
       </a>
       <a
         rel="prefetch"
+        aria-current="{segment === 'services' ? 'page' : undefined}"
+        href="/services"
+        class="nav-link sm:inline-block sm:mt-0"
+      >
+        Services
+      </a>
+      <a
+        rel="prefetch"
         aria-current="{segment === 'contact' ? 'page' : undefined}"
         href="/contact"
         class="nav-link sm:inline-block sm:mt-0"
       >
         Contact
-      </a>
-      <a
-        href="https://github.com/mhatvan"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="mr-0 nav-link sm:inline-block sm:mt-0"
-      >
-        GitHub
-        <Icon data="{faGithub}" class="ml-2 -mt-1" />
       </a>
     </nav>
   </div>

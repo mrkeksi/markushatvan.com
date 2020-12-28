@@ -17,8 +17,9 @@
   </div>
   <h2 class="text-center">Markus Hatvan</h2>
   <p>
-    Full stack developer, Calisthenics enthusiast, craft beer lover, and
-    biohacker. If you like my content, please consider supporting me and
+    Freelance Full Stack Web Developer, Calisthenics enthusiast, craft beer
+    lover, and biohacker. If you like my content, please consider supporting me
+    and
     <ExternalLink href="https://www.buymeacoffee.com/mhatvan">
       buy me a coffee
     </ExternalLink>!

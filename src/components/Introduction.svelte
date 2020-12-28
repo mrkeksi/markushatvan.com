@@ -1,9 +1,3 @@
-<style>
-  .max-width {
-    max-width: 250px;
-  }
-</style>
-
 <script>
   import Image from 'svelte-image';
 </script>
@@ -15,15 +9,16 @@
     >
       <div class="w-full md:w-2/3 md:pr-10">
         <h1>Hey there, I'm Markus.</h1>
+
         <p>
-          I am a web developer based in Vienna, Austria. Welcome to my personal website, get ready
-          for some great tips on programming, biohacking, and life in general. Enjoy!
+          I am a freelance Full Stack Web Developer based in Vienna, Austria.
+          Welcome to my personal website, get ready for some great tips on
+          programming, biohacking, and life in general. Enjoy!
         </p>
 
         <p>
-          Check out my
-          <a href="https://github.com/mhatvan" target="_blank" rel="noopener noreferrer">
-            latest activity on GitHub</a>!
+          But first, let me tell you more
+          <a href="/about" rel="prefetch"> about me</a>!
         </p>
       </div>
       <div class="w-full mx-auto max-width sm:w-1/2 md:w-1/3">
@@ -37,3 +32,9 @@
     </div>
   </div>
 </section>
+
+<style>
+  .max-width {
+    max-width: 250px;
+  }
+</style>

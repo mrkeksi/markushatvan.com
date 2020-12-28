@@ -10,6 +10,7 @@
   } from '@fortawesome/free-brands-svg-icons';
   import { faEnvelope, faRss } from '@fortawesome/free-solid-svg-icons';
   import ExternalLink from './ExternalLink.svelte';
+  import SpeedlifyFooter from './SpeedlifyFooter.svelte';
 
   export let segment: string;
 </script>
@@ -18,7 +19,12 @@
   <div
     class="container flex flex-wrap items-baseline justify-between px-3 py-5 mx-auto"
   >
-    <div class="w-full mb-6 sm:mb-0 sm:w-1/3">Markus Hatvan</div>
+    <div class="w-full mb-6 sm:mb-0 sm:w-1/3">
+      <h2 class="mb-8">Markus Hatvan</h2>
+
+      <SpeedlifyFooter />
+    </div>
+
     <nav
       aria-label="Left footer navigation"
       class="w-full mb-6 sm:mb-0 sm:w-1/3"

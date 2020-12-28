@@ -54,26 +54,24 @@
 <SEO />
 
 <section class="container mh-container">
-  <h1>Contact</h1>
+  <h1>Contact for business inquiries</h1>
 
   <p>
-    Want to get in touch? There is always something to discuss as long as you
-    are not trying to trick me with
-    <ExternalLink
-      href="https://www.cnbc.com/2019/04/18/nigerian-prince-scams-still-rake-in-over-700000-dollars-a-year.html"
-    >
-      the "Nigerian prince" email scam.
-    </ExternalLink>
+    I'm currently available full-time to take on new projects. You can find an
+    overview of the services that I offer under the
+    <a href="/services" rel="prefetch">Services</a>
+    tab.
   </p>
 
-  <h2>For business inquiries</h2>
+  <h2>What projects am I looking for?</h2>
 
-  <p>
-    I am mainly looking for clients which provide projects with a modern
-    Javascript tech stack, a duration of 1-3 months, (ideally with follow-up
-    projects), remote only and are comfortable with Central European developer
-    rates.
-  </p>
+  <p>I am mainly looking for clients with projects:</p>
+  <ul>
+    <li>with a modern Javascript tech stack</li>
+    <li>project duration of 1-3 months (ideally with follow-up projects)</li>
+    <li>remote only or in the vicinity of Vienna, Austria</li>
+    <li>comfortable with common Central European developer rates</li>
+  </ul>
 
   <p>Please include answers to the following questions in the form below:</p>
 
@@ -86,8 +84,8 @@
     <li>Why did you decide to work with us?</li>
   </ul>
 
+  <h2>Let's get in touch!</h2>
   <p>I will guarantee to get back to you within 48 hours.</p>
-
   <form
     method="post"
     name="contact"
@@ -177,13 +175,37 @@
     </div>
   </form>
 
-  <header>
-    <h2>Let's get in touch!</h2>
-  </header>
+  <h2>Not convinced yet?</h2>
   <p>
-    If you want to say hello, the best way you can reach me is through these
-    channels below.
+    You can find my up-to-date CV under
+    <a rel="prefetch" href="/resume">Resume</a>
+    for all my professional references and experience.
   </p>
+  <p>
+    If you rather have a short meeting instead of writing emails, you can book a
+    short meeting with me through
+    <ExternalLink href="https://calendly.com/markushatvan/15min">
+      Calendly.
+    </ExternalLink>
+  </p>
+
+  <p>
+    There is always something to discuss as long as you are not trying to trick
+    me with
+    <ExternalLink
+      href="https://www.cnbc.com/2019/04/18/nigerian-prince-scams-still-rake-in-over-700000-dollars-a-year.html"
+    >
+      the "Nigerian prince" email scam.
+    </ExternalLink>
+    ;)
+  </p>
+
+  <h2>Across the web</h2>
+  <p>
+    If you just want to say hello, the best way you can reach me is through
+    these channels below.
+  </p>
+
   <div class="flex flex-wrap mb-6">
     <ExternalLink
       href="mailto:contact@markushatvan.com"
