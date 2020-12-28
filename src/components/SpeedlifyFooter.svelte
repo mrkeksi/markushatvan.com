@@ -1,11 +1,12 @@
-<div class="speedlify-score-wrapper">
+<p>Lighthouse Score</p>
+<div class="mt-3 speedlify-score-wrapper">
   <span class="speedlify-score" title="Performance">99</span>
   <span class="speedlify-score" title="Accessibility">100</span>
   <span class="speedlify-score" title="Best practices">93</span>
   <span class="speedlify-score" title="SEO">98</span>
 </div>
 
-<p class="mt-3 font-bold">https://markushatvan.com</p>
+<p class="mt-3">https://markushatvan.com</p>
 
 <style>
   .speedlify-score-wrapper {

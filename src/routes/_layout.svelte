@@ -53,6 +53,6 @@
 <style>
   main {
     /* Offset fixed navbar */
-    min-height: calc(100vh - 335px);
+    /* min-height: calc(100vh - 335px); */
   }
 </style>

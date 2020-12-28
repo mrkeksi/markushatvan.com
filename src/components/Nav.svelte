@@ -16,7 +16,7 @@
 
 <header class="fixed top-0 w-full bg-white header-box-shadow">
   <div
-    class="container flex flex-wrap items-baseline justify-between p-3 mx-auto bg-white"
+    class="container flex flex-wrap items-center justify-between p-3 mx-auto bg-white"
   >
     <div class="flex">
       <a
@@ -25,7 +25,7 @@
         href="."
         class="mt-0 text-xl font-semibold tracking-tight nav-link sm:inline-block"
       >
-        Markus Hatvan
+        <img class="h-8" src="mh-logo.jpeg" alt="Markus Hatvan" />
       </a>
     </div>
     <div class="ml-auto sm:hidden">

@@ -20,8 +20,6 @@
     class="container flex flex-wrap items-baseline justify-between px-3 py-5 mx-auto"
   >
     <div class="w-full mb-6 sm:mb-0 sm:w-1/3">
-      <h2 class="mb-8">Markus Hatvan</h2>
-
       <SpeedlifyFooter />
     </div>
 
@@ -29,6 +27,14 @@
       aria-label="Left footer navigation"
       class="w-full mb-6 sm:mb-0 sm:w-1/3"
     >
+      <a
+        rel="prefetch"
+        aria-current="{segment === 'about' ? 'page' : undefined}"
+        href="/about"
+        class="footer-link"
+      >
+        About
+      </a>
       <a
         rel="prefetch"
         aria-current="{segment === 'blog' ? 'page' : undefined}"
@@ -42,7 +48,7 @@
           rel="prefetch"
           aria-current="{segment === 'programming' ? 'page' : undefined}"
           href="/categories/programming"
-          class="text-sm footer-link"
+          class="italic footer-link"
         >
           Programming
         </a>
@@ -50,11 +56,19 @@
           rel="prefetch"
           aria-current="{segment === 'lifestyle' ? 'page' : undefined}"
           href="/categories/lifestyle"
-          class="text-sm footer-link"
+          class="italic footer-link"
         >
           Lifestyle
         </a>
       </div>
+      <a
+        rel="prefetch"
+        aria-current="{segment === 'recommendations' ? 'page' : undefined}"
+        href="/recommendations"
+        class="footer-link"
+      >
+        Recommendations
+      </a>
     </nav>
     <nav
       aria-label="Right footer navigation"
@@ -62,11 +76,11 @@
     >
       <a
         rel="prefetch"
-        aria-current="{segment === 'about' ? 'page' : undefined}"
-        href="/about"
+        aria-current="{segment === 'services' ? 'page' : undefined}"
+        href="/services"
         class="footer-link"
       >
-        About
+        Services
       </a>
       <a
         rel="prefetch"
