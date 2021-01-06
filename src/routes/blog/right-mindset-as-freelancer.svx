@@ -1,0 +1,46 @@
+---
+title: 'Right mindset as a freelancer'
+slug: 'right-mindset-as-freelancer'
+creationDate: '2021-01-05'
+category: 'Lifestyle'
+excerpt: 'ASDF.'
+cover: assorted-book-lot.jpg
+tags:
+  - Productivity
+  - Tools
+hidden: true
+---
+
+- might need to handle delay of projects and find other ways to make money in between breaks
+
+- have own terms and conditions ready to be signed, so client knows how meetings are billed and what the baseline is
+
+- clarify if witholding VAT or VAT included
+
+## Think globally
+
+Do you worry that now is not the right time to start your freelance business because of COVID-19? Wrong.
+
+More businesses than ever have to embrace digitalization for their workflows and processes and there is a huge demand for web developers. [According to Sifted,](https://sifted.eu/articles/coding-skills-lockdown/) there is actually "an ongoing situation of basically negative unemployment for developers" and [PRWeb found out](https://www.prweb.com/releases/new_research_shows_impact_of_global_pandemic_on_demand_for_web_design_software_and_app_development_services_designrush/prweb17486470.htm) that "81.8% of software and app development companies reported an increase in demand for at least one area of their services".
+
+Nowadays, it is easy to work from home office or remote in any area with acceptable broadband internet speed.This enables us to work on any project, from a small startup from Rome to a big multi-million dollar corporation from New York. Instead of choosing a boring or low-paying project in your region, you can compete internationally and enjoy the biggest selection of project offers that are available. More potential available projects means we have more leverage to compare multiple offers and choose the best one based on our own requirements and expectations.
+
+Especially when you are working from an area with a low cost of living you can make a lot of money by trying to secure projects from countries with a high cost of living like Switzerland or Germany.
+
+## Fine tune your worth
+
+When you are just starting out, I recommend you to look for projects with a duration of one to three, maximum six months. This is because you can pile up a lot of projects for your CV as references fast and still have to fine tune and find your ideal hourly rate. Make sure to ask for more than you are comfortable with and know the reasons why. You don't want to sign up for a 1+ year project and then realize that other projects would earn you double the amount of money.
+
+## Find your niche
+
+Although there is a huge demand for web developers, you still have to compete with a lot of talented developers worldwide. The best way to be one step ahead of your competitors is to specialize on a certain topic, programming language or framework instead of being a jack of all trades.
+
+To give you an idea about potential topics, these could be application performance optimization, technical SEO, accessibility or web scraping.
+
+When I was brainstorming about what my niche should be, it was immediately clear to me that I want to present myself as Svelte expert. On the one hand, I have the advantage that there are not many developers out who have worked professionally with Svelte in a production environment or used the framework at all. On the other hand, there is less demand for a smaller framework than if you would specialize in React.
+
+So far, it has worked well for me and all my clients needed me to either develop a prototype or continue the work on a tech stack with a Svelte or Sapper application. Once you have established a reputation and secured a couple of good references, you will have a significant advantage in the playing field against competing freelancers.
+
+## Helpful resources
+
+- [How to Avoid Problem Clients](https://nicholasreese.com/problem-clients/)
