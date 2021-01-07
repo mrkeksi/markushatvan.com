@@ -28,6 +28,7 @@
   import SEO from '../../components/SEO.svelte';
   import { afterUpdate } from 'svelte';
   import { convertToSlug } from '../../helpers/utils.js';
+  import ExternalLink from '../../components/ExternalLink.svelte';
 
   // import Webmentions from '../../components/Webmentions.svelte';
   // import type { Post } from '../../models/post';
@@ -62,10 +63,10 @@
       const headingVal = heading.innerHTML;
       const slug = convertToSlug(headingVal);
 
-      const cleanedSlug = slug.replace(/\d-/, '').replace(/[.?!:',/]/g, '');
+      const cleanedSlug = slug.replace(/\d-/, '').replace(/[.?!:',/#]/g, '');
 
       heading.innerHTML = `${headingVal} <a href="/blog/${post.slug}#${cleanedSlug}" class="anchor-link" title="Copy anchor link">#</a>`;
-      heading.id = slug;
+      heading.id = cleanedSlug;
     });
 
     const locationWithoutHash = window.location.hash.slice(1);

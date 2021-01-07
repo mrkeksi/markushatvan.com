@@ -3,6 +3,7 @@
   import { createForm } from 'svelte-forms-lib';
   import * as yup from 'yup';
   import Icon from 'svelte-awesome/components/Icon.svelte';
+  import axios from 'axios';
   import {
     faTwitter,
     faMedium,
@@ -19,7 +20,22 @@
 
   let didSubmit = false;
 
-  const { form, errors, isValid, isSubmitting, handleChange } = createForm({
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]),
+      )
+      .join('&');
+  };
+
+  const {
+    form,
+    errors,
+    isValid,
+    isSubmitting,
+    handleChange,
+    handleSubmit,
+  } = createForm({
     initialValues: {
       name: '',
       email: '',
@@ -39,6 +55,19 @@
         .required('Email is a required field.'),
       comment: yup.string().required('Comment is a required field.'),
     }),
+    onSubmit: (values) => {
+      axios
+        .post('/', encode({ 'form-name': 'contact', ...values }), {
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        })
+        .then(() => {
+          didSubmit = true;
+          setTimeout(() => {
+            didSubmit = false;
+          }, 5000);
+        })
+        .catch((error) => alert(error));
+    },
   });
 </script>
 
@@ -87,12 +116,12 @@
   <h2>Let's get in touch!</h2>
   <p>I will guarantee to get back to you within 48 hours.</p>
   <form
-    method="post"
     name="contact"
     class="mt-3 mb-8"
     netlify-honeypot="bot-field"
     data-netlify="true"
-    action="/contact"
+    data-netlify-recaptcha="true"
+    on:submit|preventDefault="{handleSubmit}"
   >
     <div class="flex flex-wrap p-3 bg-gray-200 border border-gray-500 rounded">
       <input type="hidden" name="form-name" value="contact" />
@@ -151,6 +180,7 @@
       </div>
 
       <div class="w-full px-2 my-2">
+        <div data-netlify-recaptcha="true"></div>
         <button
           type="submit"
           class="w-full text-lg rounded disabled:cursor-not-allowed disabled:opacity-50 btn-primary"
@@ -161,7 +191,7 @@
       </div>
 
       {#if didSubmit}
-        <div class="w-full px-2 my-2">
+        <div class="w-full px-2 my-2" transition:fade>
           <div class="alert-success">
             <Icon
               data="{faCheckCircle}"

@@ -39,7 +39,9 @@
   <h2>Interested in a collaboration?</h2>
   <p>
     You can send me a message through the
-    <a href="/contact" rel="prefetch">contact</a>
+    <a href="/contact" rel="prefetch">Contact</a>
+    page. Additionally, my CV is available and can be downloaded on the
+    <a href="/resume" rel="prefetch">Resume</a>
     page.
   </p>
 

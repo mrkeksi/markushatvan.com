@@ -11,6 +11,10 @@
 
 <section class="container mh-container">
   <h1>Resume</h1>
+  <p>
+    In case you are interested in hiring me for a project, my CV should give you
+    all the necessary information!
+  </p>
   <p>Last updated: 27.12.2020</p>
 
   <embed src="CV_MarkusHatvan.pdf" type="application/pdf" />

@@ -24,6 +24,10 @@ tags:
   </figcaption>
 </figure>
 
+<p class="text-sm italic text-gray-700" role="alert">
+  UPDATE: This article has been translated to Korean and published to <a href="https://medium.com/code-states/%EC%98%A4%ED%94%88-%EC%86%8C%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90-%EA%B8%B0%EC%97%AC%ED%95%B4%EC%95%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0-8274ef576a10">Medium</a> by a happy reader from the community!
+</p>
+
 You might not be aware of it, but you use some form of open source software every single day.
 
 Every time you start an app on your phone or launch a program on your computer, you profit from the code that someone has written for free.
