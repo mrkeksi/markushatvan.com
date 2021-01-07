@@ -120,7 +120,6 @@
     class="mt-3 mb-8"
     netlify-honeypot="bot-field"
     data-netlify="true"
-    data-netlify-recaptcha="true"
     on:submit|preventDefault="{handleSubmit}"
   >
     <div class="flex flex-wrap p-3 bg-gray-200 border border-gray-500 rounded">
@@ -180,7 +179,6 @@
       </div>
 
       <div class="w-full px-2 my-2">
-        <div data-netlify-recaptcha="true"></div>
         <button
           type="submit"
           class="w-full text-lg rounded disabled:cursor-not-allowed disabled:opacity-50 btn-primary"
