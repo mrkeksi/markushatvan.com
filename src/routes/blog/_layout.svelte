@@ -28,7 +28,6 @@
   import SEO from '../../components/SEO.svelte';
   import { afterUpdate } from 'svelte';
   import { convertToSlug } from '../../helpers/utils.js';
-  import ExternalLink from '../../components/ExternalLink.svelte';
 
   // import Webmentions from '../../components/Webmentions.svelte';
   // import type { Post } from '../../models/post';

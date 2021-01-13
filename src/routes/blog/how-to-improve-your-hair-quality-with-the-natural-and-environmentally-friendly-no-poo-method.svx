@@ -1,13 +1,14 @@
 ---
-title: 'No Poo'
-slug: 'no-poo'
-creationDate: '2020-08-18'
+title: 'How To Improve Your Hair Quality With the Natural and Environmentally Friendly “No Poo” Method'
+slug: 'how-to-improve-your-hair-quality-with-the-natural-and-environmentally-friendly-no-poo-method'
+creationDate: '2021-01-11'
 category: 'Lifestyle'
 excerpt: 'ASDF.'
 tags:
-  - Alternative
   - Zero waste
-  - Hack
+  - Biohack
+  - Alternative
+  - Awareness
 hidden: true
 ---
 

@@ -26,13 +26,13 @@ tags:
 
 After working as an employee for different companies during the last four years, I am finally doing it and becoming my own boss!
 
-It is certainly a challenging adventure to switch from the secure and predictable path as a member of a company working at a full time job to running your own business with all of its complexities and requirements.
+It is certainly a challenging adventure to switch from the secure and predictable path as a member of a company working at a full-time job to running your own business with all of its complexities and requirements.
 
 As a newbie web development freelancer, you will often have to ask yourself this one most daunting question in the beginning:
 
 ## How Do I Even Find a Promising Client if No One Knows About Me?
 
-Although I didn't start as a freelancer officially until January 2021, I was already able to establish myself on the market and win multiple international clients two months prior my start as a sole proprietor. As cherry on top of this, all these projects were built on a modern tech-stack and included fun and challenging tasks throughout.
+Although I didn't start as a freelancer officially until January 2021, I was already able to establish myself on the market and win multiple international clients two months prior my start as a sole proprietor. As the cherry on top of this, all these projects were built on a modern tech stack and included fun and challenging tasks throughout.
 
 Instead of relying on a single source for fresh freelance project leads, I tried out various possible ways of finding new work opportunities, some of which work efficiently and others that don't. As a successful freelance web developer, it is especially important to spend most of the time doing actual paid work and to avoid unpaid side tasks like looking for a new client.
 
@@ -40,23 +40,22 @@ In this article, I want to show you what I learned so far about promising ways t
 
 ## Talk to Your Network of Peers, Friends and Family
 
-Before searching for project offers in any other way, try to leverage your network and reach out to your connections.
-Interesting leads and project offers that you receive through word of mouth have one big advantage: the prospective clients are introduced to you through social proof and are more likely to consider you than if you had contacted them through cold outreach.
+Before searching for project offers in any other way, try to leverage your network and reach out to your connections. Interesting leads and project offers that you receive through word-of-mouth have one big advantage: the prospective clients are introduced to you through social proof and are more likely to consider you than if you had contacted them through cold outreach.
 
 Always ask the client for follow-up projects or referrals to other potential clients to keep the flow of projects going whenever you finish a project. The social proof of getting recommended can work in your favor again. Additionally, don't forget to demand a testimonial from a happy client that you can put up on your website to improve your credibility and market value.
 
 ## Receive Inbound Offers From Recruiters on LinkedIn
 
-You might think that social media is a waste of time like me, but there is one exception: LinkedIn works like a charm for potential offers and work-related connections. You can create a good profile for yourself, put the "open for work" label on it, lean back and wait for the offers to come rolling into your message inbox. There were certain days where I got five offers in 24 hours, and I am not even updating my profile or posting much content for improved visibility.
+You might think like me that social media is a waste of time, but there is one exception: LinkedIn works like a charm for potential offers and work-related connections. You can create a good profile for yourself, put the "open for work" label on it, then lean back and wait for the offers to come rolling in to your message inbox. There were certain days where I got five offers in 24 hours, and I am not even updating my profile or posting much content for improved visibility.
 
-Unfortunately, a lot of times recruiters will just spam their standard phrases and send you offers for permanent positions. It might be annoying to you and your first intuition is to not respond to them, but I highly recommend you to do so! I usually thank them for their nice offer and tell them that freelancers are only interested in project-based offers but if they ever have something that could be relevant to me, they should get back at me. Because as a matter of fact, most recruiters and software agencies have both jobs AND freelance projects to offer. It happened more than once that the recruiter sent me a different offer or invited me to sign up for a freelance developer talent pool at a company. You can also shortcut the process and go to the company website of the recruiter and check for project offers that are relevant and bookmark them for later use.
+Unfortunately, a lot of times recruiters will just spam their standard phrases and send you offers for permanent positions. It might be annoying to you and your first intuition is to not respond to them, but I highly recommend you to do so! I usually thank them for their nice offer and tell them that freelancers are only interested in project-based offers, but if they ever have something that could be relevant to me, they should get back at me. Because as a matter of fact, most recruiters and software agencies have both jobs and freelance projects to offer. It happened more than once that the recruiter sent me a different offer or invited me to sign up for a freelance developer talent pool at a company. You can also shortcut the process and go to the company website of the recruiter, check for project offers that are relevant, and bookmark them for later use.
 
 ## Get Approved on Curated Freelancing Platforms
 
-There are a lot of them out there and it's not easy to separate the good ones from the bad ones, but two of the freelance platforms that I use most are [ExpertLead](https://www.expertlead.com/) and [Gun.io](https://gun.io/).
-Expertlead requires an initial get-to-know interview, a short project showcase and a coding interview with a peer freelancer to become a member. On Gun.io, you will have to set up a nice profile including a short video introduction and pass a test of three different algorithm coding challenges. After you get accepted, both can deliver interesting and relevant projects on a regular basis for you.
+There are a lot of them out there, and it's not easy to separate the good ones from the bad ones, but two of the freelance platforms that I use most are [ExpertLead](https://www.expertlead.com/) and [Gun.io](https://gun.io/).
+Expertlead requires an initial get-to-know interview, a short project showcase, and a coding interview with a peer freelancer to become a member. On Gun.io, you will have to set up a nice profile, including a short video introduction, and pass a test of three different algorithm coding challenges. After you get accepted, both can deliver interesting and relevant projects on a regular basis for you.
 
-One of the most well-known freelance platform that I haven't applied to yet is [Toptal](https://www.toptal.com/). Their time-consuming multi-step process and the strict vetting of allowing "only 3% of top talent" in - according to their marketing - kept me from trying to get accepted so far. Still, Toptal has a very good reputation in the industry and will be able to provide you with a steady stream of high value clients.
+One of the most well-known freelance platform that I haven't applied to yet is [Toptal](https://www.toptal.com/). Their time-consuming multi-step process and the strict vetting of allowing "only 3% of top talent" in - according to their marketing - kept me from trying to get accepted so far. Still, Toptal has a very good reputation in the industry and will be able to provide you with a steady stream of high-value clients.
 
 ## Browse Job Boards the Old School Way
 
@@ -66,17 +65,17 @@ The job boards that I found especially helpful in regard to finding freelance of
 
 One issue that I found with a lot of job platforms is that they are lacking useful filtering options to easily discover project-based work. Additionally, it is hard to tell from a lot of job descriptions if they are supposed to be for a person looking for a permanent position or a freelance contract.
 
-## Use Lesser Known Ways of Finding Qualified Leads
+## Use Lesser-Known Ways of Finding Qualified Leads
 
-It can be a hit or miss but holding a presentation at a meetup or conference can lead to unexpected offers and connections. Especially after the presentation of the talk, it can be the perfect opportunity to mingle with the crowd and to get into contact with prospective clients who saw you on stage.
+It can be a hit or miss, but holding a presentation at a meetup or conference can lead to unexpected offers and connections. Especially after the presentation of the talk, it can be the perfect opportunity to mingle with the crowd and to get into contact with prospective clients who saw you on stage.
 
-Another way to find potential clients is to simply search on a messaging services like Twitter for a term like "freelancer wanted" globally and you will get a long list of past posts by users.
+Another way to find potential clients is to simply search on a messaging services like Twitter for a term like "freelancer wanted", and you will get a long list of past posts by users.
 
-The same trick works for Facebook: there is a huge selection of worldwide Facebook groups for job seekers and freelancers. Try to keep away from the ones with large amounts of members though, they tend to get spammed with low quality content, and they have too much international competition.
+The same trick works for Facebook: there is a huge selection of worldwide Facebook groups for job seekers and freelancers. Try to keep away from the ones with large numbers of members though, because they tend to get spammed with low-quality content and they have too much international competition.
 
-If you don't want to lift a finger to find freelance jobs, simply lean back and enjoy the service of a website like [RemoteLeads](https://remoteleads.io/) which scrapes thousands of sources and delivers the best matching projects right into your mailbox. It works like a charm. If you know of any similar services, let me know.
+If you don't want to lift a finger to find freelance jobs, simply lean back and enjoy the service of a website like [RemoteLeads](https://remoteleads.io/), which scrapes thousands of sources and delivers the best matching projects right into your mailbox. It works like a charm. If you know of any similar services, let me know.
 
-Another rather underground source for projects is the website [HN Hiring](http://www.hnhiring.me/) which aggregates all posts from the monthly Hacker News thread "Ask HN: Freelancer? Seeking freelancer?" into a useful listicle.
+Another rather underground source for projects is the website [HN Hiring](http://www.hnhiring.me/), which aggregates all posts from the monthly Hacker News thread "Ask HN: Freelancer? Seeking freelancer?" into a useful listicle.
 
 If you like to work with startups and smaller businesses, you can take a look at job-related groups on [Indie Hackers](https://www.indiehackers.com/) or join Slack groups for freelancers.
 
@@ -86,30 +85,30 @@ You have to get a bit creative with your thinking but there are a myriad of ways
 
 ## So How Did I Find My First Clients?
 
-With 4+ years of experience in web development, code contributions in well-known open source projects and technical articles released on big web development publications, I would say that many recruiters and HR departments of companies would be interested to get me on board.
+With my four-plus years of experience in web development, code contributions in well-known open source projects, and technical articles released on big web development publications, I would say that many recruiters and HR departments of companies would be interested to get me on board.
 
 Since I made sure to collect all project offers in bookmarks, I can provide you with an exact breakdown of the numbers and how the customer acquisition funnel worked in my case.
 
 Between October 2020 and January 2021, I spent endless hours searching for clients:
 
-- I bookmarked ~65 different websites as sources for finding freelance offers
-- I applied to ~45 projects found on websites like [HN Hiring](http://www.hnhiring.me/), [We Work Remotely](https://weworkremotely.com/remote-contract-jobs#job-listings), [Computer Futures](https://www.computerfutures.com/de-de/job-search/?type=Freelance&country=Deutschland), [Freelancermap](https://www.freelancermap.com/), [Gun.io](https://gun.io/), [GitHub Jobs](https://jobs.github.com/positions?utf8=%E2%9C%93&description=JavaScript&location=remote), [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=freelance) and many more
-- I received a response from approximately 20 projects regarding a cooperation
-- I had a total of 11 project interviews through remote calls
-- I ended up with 4 international customers which will provide me with projects regularly
+- I bookmarked ~65 different websites as sources for finding freelance offers.
+- I applied to ~45 projects found on websites like [HN Hiring](http://www.hnhiring.me/), [We Work Remotely](https://weworkremotely.com/remote-contract-jobs#job-listings), [Computer Futures](https://www.computerfutures.com/de-de/job-search/?type=Freelance&country=Deutschland), [Freelancermap](https://www.freelancermap.com/), [Gun.io](https://gun.io/), [GitHub Jobs](https://jobs.github.com/positions?utf8=%E2%9C%93&description=JavaScript&location=remote), [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=freelance), and many more.
+- I received a response from approximately 20 projects regarding a cooperation.
+- I had a total of 11 project interviews through remote calls.
+- I ended up with four international customers which will provide me with projects regularly.
 
-Although I have such a large amount of different websites and sources for finding clients, in the end it turned out that:
+Although I have such a large amount of different websites and sources for finding clients, in the end, it turned out that:
 
 - I found two of my clients through the [Svelte Discord](https://discord.com/invite/yy75DKs) #jobs channel
-- one client found me through the Austrian job center database and approached me per mail
-- another one re-engaged me due to a [Issuehunt](https://issuehunt.io/) bounty that I solved a while ago
+- One client found me through the Austrian job center database and approached me per mail
+- Another one re-engaged me due to a [Issuehunt](https://issuehunt.io/) bounty that I solved a while ago.
 
 ## Wrapping Up
 
-No matter how good your skills, your portfolio or your references are: there will be a lot of unanswered emails, turned down offers and disappointing client decisions until you will be able to secure your first customer. After all, it's a numbers game and landing clients without prior connections can be hard. But it doesn't have to be.
+No matter how good your skills, your portfolio or your references are, there will be a lot of unanswered emails, turned-down offers and disappointing client decisions until you will be able to secure your first customer. After all, it's a numbers game, and landing clients without prior connections can be hard. But it doesn't have to be.
 
-When you start looking for your first project, use the great variety of sources and tools out there from word-of-mouth advertising to inbound project newsletters. Try to think out of the box and you might discover new ideas about finding businesses in need. My experience was that there is a huge amount of freelance web development projects out there, they are just hard to find.
+When you start looking for your first project, use the great variety of sources and tools out there, from word-of-mouth advertising to inbound project newsletters. Try to think out-of-the-box and you might discover new ideas about finding businesses in need. My experience was that there are a huge amount of freelance web development projects out there; they are just hard to find.
 
-Make sure to set useful bookmarks on websites with the correct filters applied to save you time. You can find a sub selection of websites that I bookmarked with freelance filters enabled throughout the article.
+Make sure to set useful bookmarks on websites, with the correct filters applied, to save you time. You can find a sub-selection of websites that I bookmarked with freelance filters enabled throughout the article.
 
-With the right steps, you will find a company to work for in no time and always remember: one long term client can already be enough to bring in enough money for the whole year and make you become a successful freelancer!
+With the right steps, you will find a company to work for in no time. Always remember: one long-term client can be enough to bring in enough money for the whole year and make you a successful freelancer!

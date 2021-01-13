@@ -35,6 +35,7 @@
     isSubmitting,
     handleChange,
     handleSubmit,
+    handleReset,
   } = createForm({
     initialValues: {
       name: '',
@@ -61,6 +62,7 @@
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         })
         .then(() => {
+          handleReset();
           didSubmit = true;
           setTimeout(() => {
             didSubmit = false;
