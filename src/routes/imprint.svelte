@@ -44,9 +44,9 @@
     ATU76197125
     <br />
 
-    <!-- <b>Register number:</b>
-    123
-    <br /> -->
+    <b>Register number:</b>
+    9110029413963
+    <br />
 
     <b>Commercial Register Court:</b>
     Handelsgericht Wien
@@ -132,12 +132,10 @@
     responsible. According to
     <ExternalLink
       href="https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Bundesnormen&Dokumentnummer=NOR40025813&tid=221137263"
-    >
-      § 17 ECG
-    </ExternalLink>, we are not liable for linked websites, because we had and
-    have no knowledge of illegal activities, we have not noticed any such
-    illegality and we would remove links immediately if we became aware of any
-    illegality.
+    >§ 17 ECG</ExternalLink>, we are not liable for linked websites, because we
+    had and have no knowledge of illegal activities, we have not noticed any
+    such illegality and we would remove links immediately if we became aware of
+    any illegality.
   </p>
 
   <p>
