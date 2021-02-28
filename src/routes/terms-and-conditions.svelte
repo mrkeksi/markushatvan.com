@@ -11,16 +11,20 @@
 </script>
 
 <svelte:head>
-  <title>Privacy Policy | Markus Hatvan</title>
+  <title>Terms and conditions | Markus Hatvan</title>
 
-  <meta name="description" content="Privacy policy for markushatvan.com" />
+  <meta
+    name="description"
+    content="Terms and conditions for markushatvan.com"
+  />
 </svelte:head>
 
 <SEO />
+
 <span>
   <a
-    href="https://www.iubenda.com/privacy-policy/82646403"
-    class="iubenda-white no-brand iubenda-embed iub-legal-only iub-body-embed"
-    title="Privacy Policy">Privacy Policy</a
+    href="https://www.iubenda.com/terms-and-conditions/82646403"
+    class="iubenda-white no-brand iubenda-embed iub-body-embed"
+    title="Terms and Conditions">Terms and Conditions</a
   >
 </span>

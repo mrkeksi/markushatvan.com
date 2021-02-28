@@ -6,10 +6,8 @@
 
 <div class="mt-3 text-sm">
   {#each tags as tag}
-    <a
-      rel="prefetch"
-      class="info-tag"
-      href="/tags/{convertToSlug(tag)}"
-    >{tag}</a>
+    <a sapper:prefetch class="info-tag" href="/tags/{convertToSlug(tag)}"
+      >{tag}</a
+    >
   {/each}
 </div>

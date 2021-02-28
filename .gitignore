@@ -14,6 +14,7 @@ static/g
 stats.html
 static/global.css
 static/global.css.map
+.env
 
 # Local Netlify folder
 .netlify

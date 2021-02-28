@@ -20,7 +20,7 @@
   </div>
 
   <a
-    rel="prefetch"
+    sapper:prefetch
     href="/blog"
     class="inline-flex items-center mt-8 font-bold rounded text-md btn-primary"
   >

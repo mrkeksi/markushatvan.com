@@ -31,8 +31,9 @@
     I created this website to be visible on the web as a developer and to share
     the knowledge that I gathered over the years. I want to provide value to the
     public and share my thoughts. I wrote an article explaining
-    <a rel="prefetch" href="/blog/6-reasons-why-i-started-this-blog">
-      my reasons why I started this blog</a>.
+    <a sapper:prefetch href="/blog/6-reasons-why-i-started-this-blog">
+      my reasons why I started this blog</a
+    >.
   </p>
 
   <p>
@@ -57,8 +58,9 @@
     <li>does 16-8 intermittent fasting pretty much every day 🍏</li>
     <li>
       keeps a growing
-      <a href="/blog/the-beer-bucket-list-for-the-aspiring-connoisseur">list of
-        over ~100 beers</a>
+      <a href="/blog/the-beer-bucket-list-for-the-aspiring-connoisseur"
+        >list of over ~100 beers</a
+      >
       that he drank 🍺
     </li>
     <li>did a smoothie cleanse for 10 days 🥤</li>

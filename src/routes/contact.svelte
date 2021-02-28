@@ -56,7 +56,7 @@
         .required('Email is a required field.'),
       comment: yup.string().required('Comment is a required field.'),
     }),
-    onSubmit: (values) => {
+    onSubmit: (values: { name: string; email: string; comment: string }) => {
       axios
         .post('/', encode({ 'form-name': 'contact', ...values }), {
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -90,7 +90,7 @@
   <p>
     I'm currently available full-time to take on new projects. You can find an
     overview of the services that I offer under the
-    <a href="/services" rel="prefetch">Services</a>
+    <a href="/services" sapper:prefetch>Services</a>
     tab.
   </p>
 
@@ -130,8 +130,8 @@
       <div class="w-1/2 px-2 my-2">
         <label
           for="name"
-          class="mb-2 text-sm font-bold tracking-wide text-gray-700"
-        >Name</label>
+          class="mb-2 text-sm font-bold tracking-wide text-gray-700">Name</label
+        >
         <input
           type="text"
           name="name"
@@ -148,7 +148,8 @@
         <label
           for="email"
           class="mb-2 text-sm font-bold tracking-wide text-gray-700"
-        >Email</label>
+          >Email</label
+        >
         <input
           type="text"
           name="email"
@@ -165,7 +166,8 @@
         <label
           for="comment"
           class="mb-2 text-sm font-bold tracking-wide text-gray-700"
-        >Comment</label>
+          >Comment</label
+        >
         <textarea
           rows="5"
           name="comment"
@@ -173,8 +175,7 @@
           class="w-full text-gray-700 border border-gray-400 rounded hover:border-gray-500"
           on:blur="{handleChange}"
           on:change="{handleChange}"
-          bind:value="{$form.comment}"
-        ></textarea>
+          bind:value="{$form.comment}"></textarea>
         {#if $errors.comment}
           <small transition:fade>{$errors.comment}</small>
         {/if}
@@ -208,7 +209,7 @@
   <h2>Not convinced yet?</h2>
   <p>
     You can find my up-to-date CV under
-    <a rel="prefetch" href="/resume">Resume</a>
+    <a sapper:prefetch href="/resume">Resume</a>
     for all my professional references and experience.
   </p>
   <p>

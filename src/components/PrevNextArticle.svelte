@@ -14,7 +14,7 @@
         </small>
         <b>
           <a
-            rel="prefetch"
+            sapper:prefetch
             href="blog/{previousArticle.slug}"
             class="text-xl no-underline hover:underline link-inherit"
             style="font-weight: 700;"
@@ -33,7 +33,7 @@
         </small>
         <b>
           <a
-            rel="prefetch"
+            sapper:prefetch
             href="blog/{nextArticle.slug}"
             class="text-xl no-underline hover:underline link-inherit"
             style="font-weight: 700;"

@@ -92,7 +92,9 @@
   <title>{segment ? pageTitle : 'Blog | Markus Hatvan'}</title>
   <meta
     name="description"
-    content="{segment ? post && post.excerpt : 'Opinions and viewpoints about Programming, Lifestyle and other topics.'}"
+    content="{segment
+      ? post && post.excerpt
+      : 'Opinions and viewpoints about Programming, Lifestyle and other topics.'}"
   />
 </svelte:head>
 
@@ -134,10 +136,10 @@
       <h1>Blog</h1>
       <p>
         Opinions and viewpoints about
-        <a href="/categories/programming" rel="prefetch">Programming</a>,
-        <a href="/categories/lifestyle" rel="prefetch">Lifestyle</a>
-        and other topics. I am here to share my knowledge in an expressive
-        manner and there will be guest authors from time to time.
+        <a href="/categories/programming" sapper:prefetch>Programming</a>,
+        <a href="/categories/lifestyle" sapper:prefetch>Lifestyle</a>
+        and other topics. I am here to share my knowledge in an expressive manner
+        and there will be guest authors from time to time.
       </p>
       <h2>Got a blog post topic proposal?</h2>
       <p>

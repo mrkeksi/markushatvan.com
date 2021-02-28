@@ -20,15 +20,15 @@
   >
     <div class="flex">
       <a
-        rel="prefetch"
+        sapper:prefetch
         aria-current="{segment === undefined ? 'page' : undefined}"
         href="."
-        class="mt-0 text-xl font-semibold tracking-tight nav-link sm:inline-block"
+        class="mt-0 text-xl font-semibold tracking-tight nav-link md:inline-block"
       >
         <img class="h-8" src="mh-logo.jpeg" alt="Markus Hatvan" />
       </a>
     </div>
-    <div class="ml-auto sm:hidden">
+    <div class="ml-auto md:hidden">
       <ClickOutside on:clickoutside="{() => (open = false)}">
         <button
           class="flex items-center px-3 py-2 text-teal-700 border border-gray-400 hover:text-teal-800 hover:border-gray-500"
@@ -42,45 +42,45 @@
     <nav
       aria-label="Header navigation"
       class:hidden="{!open}"
-      class="w-full ml-auto sm:flex sm:w-auto"
+      class="w-full ml-auto md:flex md:w-auto"
     >
       <a
-        rel="prefetch"
+        sapper:prefetch
         aria-current="{segment === 'about' ? 'page' : undefined}"
         href="/about"
-        class="nav-link sm:inline-block sm:mt-0"
+        class="nav-link md:inline-block md:mt-0"
       >
         About
       </a>
       <a
-        rel="prefetch"
+        sapper:prefetch
         aria-current="{segment === 'blog' ? 'page' : undefined}"
         href="/blog"
-        class="nav-link sm:inline-block sm:mt-0"
+        class="nav-link md:inline-block md:mt-0"
       >
         Blog
       </a>
       <a
-        rel="prefetch"
+        sapper:prefetch
         aria-current="{segment === 'recommendations' ? 'page' : undefined}"
         href="/recommendations"
-        class="nav-link sm:inline-block sm:mt-0"
+        class="nav-link md:inline-block md:mt-0"
       >
         Recommendations
       </a>
       <a
-        rel="prefetch"
+        sapper:prefetch
         aria-current="{segment === 'services' ? 'page' : undefined}"
         href="/services"
-        class="nav-link sm:inline-block sm:mt-0"
+        class="nav-link md:inline-block md:mt-0"
       >
         Services
       </a>
       <a
-        rel="prefetch"
+        sapper:prefetch
         aria-current="{segment === 'contact' ? 'page' : undefined}"
         href="/contact"
-        class="nav-link sm:inline-block sm:mt-0"
+        class="nav-link md:inline-block md:mt-0"
       >
         Contact
       </a>

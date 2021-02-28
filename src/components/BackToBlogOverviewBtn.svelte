@@ -5,7 +5,7 @@
 </script>
 
 <a
-  rel="prefetch"
+  sapper:prefetch
   href="/blog"
   class="inline-flex no-underline rounded hover:underline"
 >

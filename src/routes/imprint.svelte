@@ -132,10 +132,10 @@
     responsible. According to
     <ExternalLink
       href="https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Bundesnormen&Dokumentnummer=NOR40025813&tid=221137263"
-    >§ 17 ECG</ExternalLink>, we are not liable for linked websites, because we
-    had and have no knowledge of illegal activities, we have not noticed any
-    such illegality and we would remove links immediately if we became aware of
-    any illegality.
+      >§ 17 ECG</ExternalLink
+    >, we are not liable for linked websites, because we had and have no
+    knowledge of illegal activities, we have not noticed any such illegality and
+    we would remove links immediately if we became aware of any illegality.
   </p>
 
   <p>
@@ -176,7 +176,7 @@
   <h2>Privacy policy</h2>
   <p>
     Information on data protection can be found on our
-    <a rel="prefetch" href="/privacy-policy">Privacy Policy</a>
+    <a sapper:prefetch href="/privacy-policy">Privacy Policy</a>
     page.
   </p>
 </div>

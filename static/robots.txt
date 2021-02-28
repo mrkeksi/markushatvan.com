@@ -1,3 +1,3 @@
 User-agent: *
 
-sitemap: https://markushatvan.com/sitemap.xml
+Sitemap: https://markushatvan.com/sitemap.xml

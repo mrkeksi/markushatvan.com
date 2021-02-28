@@ -48,6 +48,7 @@ export default {
       replace({
         'process.browser': true,
         'process.env.NODE_ENV': JSON.stringify(mode),
+        preventAssignment: true,
       }),
       svelte({
         compilerOptions: {
@@ -116,6 +117,7 @@ export default {
         'process.browser': false,
         'process.env.NODE_ENV': JSON.stringify(mode),
         'module.require': 'require',
+        preventAssignment: true,
       }),
       svelte({
         compilerOptions: {

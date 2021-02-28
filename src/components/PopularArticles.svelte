@@ -14,9 +14,11 @@
 
   {#each popularPosts as post}
     <div class="py-4 border-b border-gray-600">
-      <InfoTags {post} />
+      <InfoTags post="{post}" />
       <br />
-      <a rel="prefetch" href="blog/{post.slug}" class="text-gray-800">{post.title}</a>
+      <a sapper:prefetch href="blog/{post.slug}" class="text-gray-800"
+        >{post.title}</a
+      >
     </div>
   {/each}
 </div>

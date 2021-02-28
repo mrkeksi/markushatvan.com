@@ -10,8 +10,6 @@
 &middot;
 <span class="text-teal-700">{post.readingTime}</span>
 &middot;
-<a
-  rel="prefetch"
-  href="/categories/{convertToSlug(post.category)}"
->{post.category}
+<a sapper:prefetch href="/categories/{convertToSlug(post.category)}"
+  >{post.category}
 </a>
