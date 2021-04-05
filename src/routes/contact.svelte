@@ -1,9 +1,9 @@
-<script>
+<script lang="ts">
   import { fade } from 'svelte/transition';
   import { createForm } from 'svelte-forms-lib';
   import * as yup from 'yup';
   import Icon from 'svelte-awesome/components/Icon.svelte';
-  import axios from 'axios';
+  import axios from 'redaxios';
   import {
     faTwitter,
     faMedium,
@@ -15,8 +15,8 @@
     faExternalLinkAlt,
     faCheckCircle,
   } from '@fortawesome/free-solid-svg-icons';
-  import SEO from '../components/SEO.svelte';
-  import ExternalLink from '../components/ExternalLink.svelte';
+  import SEO from '$lib/SEO.svelte';
+  import ExternalLink from '$lib/ExternalLink.svelte';
 
   let didSubmit = false;
 
@@ -36,6 +36,7 @@
     handleChange,
     handleSubmit,
     handleReset,
+    values,
   } = createForm({
     initialValues: {
       name: '',
@@ -68,7 +69,7 @@
             didSubmit = false;
           }, 5000);
         })
-        .catch((error) => alert(error));
+        .catch((error) => console.error(error));
     },
   });
 </script>
@@ -90,7 +91,7 @@
   <p>
     I'm currently available full-time to take on new projects. You can find an
     overview of the services that I offer under the
-    <a href="/services" sapper:prefetch>Services</a>
+    <a href="/services" sveltekit:prefetch>Services</a>
     tab.
   </p>
 
@@ -122,7 +123,7 @@
     class="mt-3 mb-8"
     netlify-honeypot="bot-field"
     data-netlify="true"
-    on:submit|preventDefault="{handleSubmit}"
+    on:submit="{handleSubmit}"
   >
     <div class="flex flex-wrap p-3 bg-gray-200 border border-gray-500 rounded">
       <input type="hidden" name="form-name" value="contact" />
@@ -209,7 +210,7 @@
   <h2>Not convinced yet?</h2>
   <p>
     You can find my up-to-date CV under
-    <a sapper:prefetch href="/resume">Resume</a>
+    <a sveltekit:prefetch href="/resume">Resume</a>
     for all my professional references and experience.
   </p>
   <p>

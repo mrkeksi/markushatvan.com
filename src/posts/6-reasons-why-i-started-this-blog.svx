@@ -1,0 +1,167 @@
+---
+title: '6 Reasons Why I Started This Blog'
+slug: '6-reasons-why-i-started-this-blog'
+creationDate: '2020-06-12'
+category: 'Lifestyle'
+excerpt: 'In contrast to blogs who focus on a single topic, I want to write about and cover these topics in depth.'
+cover: pen-writing-on-a-paper.jpeg
+tags:
+  - Hustle
+  - Creativity
+  - Writing
+  - Personal development
+  - Blogging
+---
+
+<figure class="mb-10">
+  <img src="/pen-writing-on-a-paper.jpeg" alt="Writer's journey" loading="lazy" loading="lazy"  />
+  <figcaption class="text-center">
+    Let's start this journey! - Photo by
+    <a href="https://unsplash.com/@alvaroserrano" target="_blank" rel="noopener noreferrer">
+      Álvaro Serrano
+    </a>
+    on
+    <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>
+  </figcaption>
+</figure>
+
+It is kind of ironic, I always made fun of bloggers and influencers thinking that they should get a real job.
+
+Now I've decided to become one myself!
+
+## Let me explain
+
+Due to encountering the right people at the right time, I have always been an out-of-the-box thinker.
+
+I recently noticed that I have collected some valuable and unconventional knowledge over the years.
+
+I regularly share ideas and new experiences with friends but through blogging, many more people can profit from me openly **sharing ideas, thought processes, and being resourceful**.
+
+These can be found in my upcoming blog posts.
+
+## Challenges ahead
+
+Since I am specialized as a programmer, it will be a challenge to dive into a variety of new topics and skills necessary to acquire when writing a blog like:
+
+- promoting myself and building a network
+- writing posts that can reach audiences of different cultures & backgrounds
+- getting discovered through good content marketing and SEO
+
+Learning these skills is one part where I am afraid I might fail as I don't have much experience in these topics, but I am also looking forward to achieving them.
+
+After quitting my last job, it gave me the chance to re-think my goals and how to **invest my time most efficiently**.
+
+When you suddenly have more time on your hands, it can either drag you down into being lazy or it can be a time to reflect, try out new things, and make goals for the future.
+
+As I am a naturally motivated person, this allowed me to start this blog and I hope that you can benefit from the topics that I will cover.
+
+The rest of this article will explain my reasons for starting it.
+
+## 1) Write articles about a wide array of topics
+
+In contrast to blogs which focus on a single topic, I want to cover these and potential more topics:
+
+- Programming
+
+  - JavaScript Frameworks e.g. React or Svelte
+  - Code quality tools like ESLint or Prettier
+  - UI Framework comparison
+  - My coding setup
+
+- Productivity
+
+  - Chrome extensions & bookmarks workflow
+  - Efficiency with Google Calendar
+  - Inbox zero
+  - Saving articles on the go
+
+- Life hacks
+
+  - Ice swimming and exposure to cold
+  - Barefoot shoes
+  - My morning routine
+  - Shampoo alternatives
+
+- Software recommendations
+
+  - Rambox
+  - Gravit Designer
+  - Spark Mail
+  - Boostnote
+
+## 2) Share knowledge about more underground topics
+
+**Soap nuts?**
+
+**Gomad milk diet?**
+
+**Robin foods?**
+
+You have probably never heard about any of these terms.
+
+I don't want to spoil too much, but there will be plenty of posts coming up about underground topics.
+
+Through the avid reading of articles and newsletters every day, I gather knowledge that I am happy to share with you at any time.
+
+## 3) Write posts with clear and highly detailed instructions
+
+Oftentimes, I read through posts about programming tricks, framework documentation, or even cooking recipes and there is information missing that I would need to proceed.
+
+Especially for life hacks, I will be very detailed about "how many minutes of this", "mix 2 tbsp with that", etc.
+
+I think we have all experienced, that sometimes it takes much more research effort on a topic just because there is a tiny but essential detail missing.
+
+I will be writing my posts with great detail so that you don't have to go through that extensive research process to find the correct answer that you are looking for.
+
+## 4) Document my thoughts and processes within a certain time frame
+
+It will always be fun to look back and see what I wrote e.g. 5 years ago and how I developed as a person.
+
+Who knows where the road will lead to?
+
+For me, the bottom line will always be: **Produce rather than consume**.
+
+What I mean by that is to stop wasting endless hours on social media or TV shows where you will have forgotten most of what happened in a short amount of time anyways.
+
+Instead, live on the other end:
+
+- write a blog
+- make a movie
+- code a website
+- start painting
+
+Whatever your pursuit is, content creation will leave you more satisfied in the long term than content consumption and you can (hopefully) be proud of what you created from scratch.
+
+## 5) Generate potential side income with own ideas
+
+No matter how much you earn, **diversifying your income** is key.
+
+This blog enables me to potentially generate some money with my ideas and with created content about topics that I choose myself and enjoy writing about.
+
+The blood, sweat, and tears that I will put into the content will not be inherited by a company that I work for.
+
+Every written article could still generate income in a few years through affiliate links or ad revenue, without any extra effort.
+
+Today, as the web is such an important medium, the **access to an almost infinite stream of information is available** and many people have found smart ways of making money apart from the classic 9-5 job.
+
+Generating a side income through blogging is part of the **work smarter, not harder** mantra that I follow and I recommend you to watch [The 4 Hour Work Week by Tim Ferriss](https://www.youtube.com/watch?v=AICVkm1txUU) for inspiration.
+
+It is all about finding income sources that can grow exponentially compared to a fixed salary in a job with limited leverage.
+
+## 6) Become a brand name
+
+After deciding that I want to become a freelancer in the area of web development, I also realized that I would need a website to be able to **market myself better**.
+
+So when I already have to set up a website, why not just have a blog as well?
+
+There is **a beautiful synergy** that could emerge between doing contract work, attracting and generating new clients through the website and convincing them to seal the deal through well-written blog posts on interesting topics, so let's do exactly that!
+
+## Now what do you think?
+
+Did this post inspire you to start a blog too?
+
+Cool, contact me about it, and let's start a discussion!
+
+Are there any topics that you want me to cover in the upcoming posts?
+
+You can leave a comment below or contact me through email or my socials.

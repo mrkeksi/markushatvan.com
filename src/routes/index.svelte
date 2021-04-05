@@ -1,26 +1,28 @@
 <script context="module">
-  export async function preload() {
-    try {
-      const blog = await this.fetch(`blog.json`);
-      const posts = await blog.json();
-      return { posts };
-    } catch (error) {
-      console.error(error);
-    }
+  export async function load({ fetch }: LoadInput) {
+    const blog = await fetch(`/blog.json`);
+    const posts = await blog.json();
+
+    return {
+      props: {
+        posts,
+      },
+    };
   }
 </script>
 
-<script>
-  import Introduction from '../components/Introduction.svelte';
-  import Applause from '../components/Applause.svelte';
-  import InspirationalQuote from '../components/InspirationalQuote.svelte';
-  import OSSContributions from '../components/OSSContributions.svelte';
-  import CurrentProjects from '../components/CurrentProjects.svelte';
-  import Talks from '../components/Talks.svelte';
-  import RecentPosts from '../components/RecentPosts.svelte';
-  import SEO from '../components/SEO.svelte';
+<script lang="ts">
+  import Introduction from '$lib/Introduction.svelte';
+  import Applause from '$lib/Applause.svelte';
+  import InspirationalQuote from '$lib/InspirationalQuote.svelte';
+  import OSSContributions from '$lib/OSSContributions.svelte';
+  import CurrentProjects from '$lib/CurrentProjects.svelte';
+  import Talks from '$lib/Talks.svelte';
+  import RecentPosts from '$lib/RecentPosts.svelte';
+  import SEO from '$lib/SEO.svelte';
   import type { Post } from '../models/post';
-  import ServicesCallToAction from '../components/ServicesCallToAction.svelte';
+  import ServicesCallToAction from '$lib/ServicesCallToAction.svelte';
+  import type { LoadInput } from '@sveltejs/kit/types.internal';
 
   export let posts: Post[];
 </script>
@@ -29,7 +31,7 @@
   <title>Markus Hatvan - On your side for your site</title>
   <meta
     name="description"
-    content="Personal website and blog written from scratch with SapperJS and TailwindCSS."
+    content="Personal website and blog written from scratch with SvelteKit and TailwindCSS."
   />
 </svelte:head>
 
