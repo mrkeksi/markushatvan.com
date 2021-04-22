@@ -19,6 +19,7 @@ const preprocess = [
   mdsvex({ extensions: extensions }),
 ];
 
+/** @type {import('@sveltejs/kit').Config} */
 module.exports = {
   extensions: extensions,
   // options passed to svelte.preprocess (https://svelte.dev/docs#svelte_preprocess)
@@ -27,9 +28,6 @@ module.exports = {
     adapter: static(),
     target: '#svelte',
     vite: {
-      ssr: {
-        noExternal: Object.keys(pkg.dependencies || {}),
-      },
       plugins: [imagetools({ force: true })],
     },
   },
