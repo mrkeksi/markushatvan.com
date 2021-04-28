@@ -1,5 +1,4 @@
 <script>
-  // @ts-nocheck
   import Icon from 'svelte-awesome/components/Icon.svelte';
   import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 </script>

@@ -15,7 +15,7 @@
   import { afterUpdate } from 'svelte';
   import BreakpointHelper from '$lib/BreakpointHelper.svelte';
   import CookieNotice from '$lib/CookieNotice.svelte';
-  // import NProgress from '$lib/NProgress.svelte';
+  import NProgress from '$lib/NProgress.svelte';
   import Nav from '$lib/Nav.svelte';
   import Footer from '$lib/Footer.svelte';
   import { isDev } from '../stores';
@@ -37,7 +37,7 @@
 
 <BreakpointHelper />
 
-<!-- <NProgress /> -->
+<NProgress />
 
 <Nav />
 
@@ -50,3 +50,9 @@
 {#if !$isDev}
   <CookieNotice />
 {/if}
+
+<style>
+  main {
+    min-height: calc(100vh - 428px);
+  }
+</style>

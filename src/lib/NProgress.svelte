@@ -9,7 +9,7 @@
   });
 
   $: if (browser) {
-    navigating ? NProgress.start() : NProgress.done();
+    $navigating ? NProgress.start() : NProgress.done();
   }
 </script>
 
