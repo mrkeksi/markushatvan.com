@@ -51,7 +51,7 @@ Without further ado, these are the top ten reasons why I recommend Svelte to eve
 
 If you have never seen the Svelte syntax before, this is how a simple example would look like:
 
-```html
+```svelte
 <style>
   h1 {
     color: green;
@@ -83,7 +83,7 @@ Rich Harris, the genius creator of Svelte provided some good comparisons with Re
 
 Whenever you want your variable values to update and recompute based on other variables, you can use reactive declarations. Just put a dollar sign in front of the variable that you want to be reactive and you're good to go!
 
-```html
+```svelte
 <script>
   let count = 0;
   $: doubled = count * 2;
@@ -115,7 +115,7 @@ export const isDev = writable(NODE_ENV === 'development');
 
 And use it in any `.svelte` file prefixed with a `$` sign.
 
-```html
+```svelte
 <!-- Main.svelte -->
 <script>
   import { isDev } from '../helpers/stores.js';
@@ -123,7 +123,7 @@ And use it in any `.svelte` file prefixed with a `$` sign.
 </script>
 
 {#if !$isDev}
-<CookieNotice />
+  <CookieNotice />
 {/if}
 ```
 
@@ -151,13 +151,13 @@ Similar to [CSS-in-JS](https://webdesign.tutsplus.com/articles/an-introduction-t
 
 With most web applications, you will need to handle asynchronous data to display useful stats to your users.
 
-```html
+```svelte
 {#await promise}
-<p>...waiting</p>
+  <p>...waiting</p>
 {:then number}
-<p>The number is {number}</p>
+  <p>The number is {number}</p>
 {:catch error}
-<p style="color: red">{error.message}</p>
+  <p style="color: red">{error.message}</p>
 {/await}
 ```
 
@@ -167,7 +167,7 @@ The advantage of `{#await}` blocks is that you don't have to define an extra sta
 
 In case there's a prop name that is the same as a variable name, we can pass it to the component as a shorthand attribute like `{message}` below. There is no advantage over using `message="{message}"`, but it's more concise and again, less code to write!
 
-```html
+```svelte
 <!-- Parent.svelte -->
 <script>
   let message = 'hello child!';
@@ -178,7 +178,7 @@ In case there's a prop name that is the same as a variable name, we can pass it 
 
 We can also use a shorthand for assigning classes:
 
-```html
+```svelte
 <!-- Child.svelte -->
 <script>
   let round = true;
@@ -221,15 +221,15 @@ On one hand, we profit from `.svelte` files being default exported automatically
 
 For displaying conditional logic, Svelte uses a syntax that resembles the well-known [Handlebars](https://handlebarsjs.com/guide/builtin-helpers.html#if) templating syntax.
 
-```html
+```svelte
 <script>
   let value = 5;
 </script>
 
 {#if value > 10}
-<p>{value} is greater than 10</p>
+  <p>{value} is greater than 10</p>
 {:else}
-<p>{value} is smaller than 10</p>
+  <p>{value} is smaller than 10</p>
 {/if}
 ```
 
@@ -239,7 +239,7 @@ I didn't encounter any issues with this way of writing logic, but I would prefer
 
 When you want to pass values from the parent to the child component, you need to pass a value as an attribute and receive it by using `export let` with a matching variable name.
 
-```html
+```svelte
 <!-- Parent.svelte -->
 <Child message="hello child!" />
 

@@ -22,7 +22,7 @@
   import SEO from '$lib/SEO.svelte';
   import type { Post } from '../models/post';
   import ServicesCallToAction from '$lib/ServicesCallToAction.svelte';
-  import type { LoadInput } from '@sveltejs/kit/types.internal';
+  import type { LoadInput } from '@sveltejs/kit/types/page';
 
   export let posts: Post[];
 </script>

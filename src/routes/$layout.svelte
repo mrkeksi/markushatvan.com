@@ -19,7 +19,7 @@
   import Nav from '$lib/Nav.svelte';
   import Footer from '$lib/Footer.svelte';
   import { isDev } from '../stores';
-  import type { LoadInput } from '@sveltejs/kit/types.internal';
+  import type { LoadInput } from '@sveltejs/kit/types/page';
 
   import 'prismjs/themes/prism-tomorrow.css';
 

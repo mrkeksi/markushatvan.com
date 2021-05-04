@@ -23,4 +23,9 @@ module.exports = {
     node: true,
     jest: true,
   },
+  rules: {
+    "@typescript-eslint/no-inferrable-types": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "off"
+  }
 };

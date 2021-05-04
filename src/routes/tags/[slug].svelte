@@ -27,7 +27,7 @@
   import BlogPostFilters from '$lib/BlogPostFilters.svelte';
   import SEO from '$lib/SEO.svelte';
   import type { Post } from '../../models/post';
-  import type { LoadInput } from '@sveltejs/kit/types.internal';
+  import type { LoadInput } from '@sveltejs/kit/types/page';
 
   export let postsByTag: Post[];
   export let slug: string;

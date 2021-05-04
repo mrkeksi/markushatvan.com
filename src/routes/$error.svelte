@@ -9,8 +9,8 @@
 <script lang="ts">
   import { isDev } from '../stores';
 
-  export let error;
-  export let status;
+  export let error: Error;
+  export let status: number;
 </script>
 
 <svelte:head>

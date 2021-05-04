@@ -4,11 +4,6 @@
       const blog = await fetch(`/blog.json`);
       const posts = await blog.json();
 
-      // const webmentions = await fetch(
-      //   `https://webmention.io/api/count.json?target=${params.slug}`,
-      // );
-      // const webmentionCounts = await webmentions.json();
-
       return { props: { posts } };
     } catch (error) {
       console.error(error);
@@ -22,7 +17,7 @@
   import BlogPostFilters from '$lib/BlogPostFilters.svelte';
   import BlogPostSidebar from '$lib/BlogPostSidebar.svelte';
   import SEO from '$lib/SEO.svelte';
-  import type { LoadInput } from '@sveltejs/kit/types.internal';
+  import type { LoadInput } from '@sveltejs/kit/types/page';
   import type { Post } from '../../models/post';
 
   export let posts: Post[];

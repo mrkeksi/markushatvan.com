@@ -20,7 +20,7 @@
 
   let didSubmit = false;
 
-  const encode = (data) => {
+  const encode = (data: any) => {
     return Object.keys(data)
       .map(
         (key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]),
@@ -36,7 +36,6 @@
     handleChange,
     handleSubmit,
     handleReset,
-    values,
   } = createForm({
     initialValues: {
       name: '',

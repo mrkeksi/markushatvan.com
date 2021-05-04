@@ -1,5 +1,5 @@
 <script context="module">
-  export async function load({ page, fetch }) {
+  export async function load({ fetch }) {
     const res = await fetch(`/blog.json`);
     return {
       props: {
@@ -57,7 +57,6 @@
       previousArticle="{previousArticle}"
       nextArticle="{nextArticle}"
     />
-    <!-- <Webmentions webmentionCounts="{webmentionCounts}" /> -->
   </article>
   <aside class="w-full mt-8 lg:mt-0 lg:w-3/12">
     <BlogPostSidebar posts="{posts}" />
