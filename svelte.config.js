@@ -28,7 +28,7 @@ const config = {
     vite: {
       plugins: [imagetools({ force: true })],
     },
-    trailingSlash: 'always',
+    trailingSlash: 'ignore',
   },
 };
 
