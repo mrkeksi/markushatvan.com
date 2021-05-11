@@ -1,9 +1,7 @@
-const sveltePreprocess = require('svelte-preprocess');
-const static = require('@sveltejs/adapter-static');
-const pkg = require('./package.json');
-const postcss = require('./postcss.config.cjs');
-const { mdsvex } = require(`mdsvex`);
-const { imagetools } = require('vite-imagetools');
+import sveltePreprocess from 'svelte-preprocess';
+import adapter from '@sveltejs/adapter-static';
+import { mdsvex } from 'mdsvex';
+import { imagetools } from 'vite-imagetools';
 
 const extensions = [`.svelte`, '.svx'];
 
@@ -13,22 +11,25 @@ const preprocess = [
       script: 'typescript',
       style: 'postcss',
     },
-    postcss,
+    postcss: true,
     preserve: ['ld+json'],
   }),
   mdsvex({ extensions: extensions }),
 ];
 
 /** @type {import('@sveltejs/kit').Config} */
-module.exports = {
+const config = {
   extensions: extensions,
   // options passed to svelte.preprocess (https://svelte.dev/docs#svelte_preprocess)
   preprocess: preprocess,
   kit: {
-    adapter: static(),
+    adapter: adapter(),
     target: '#svelte',
     vite: {
       plugins: [imagetools({ force: true })],
     },
+    trailingSlash: 'always',
   },
 };
+
+export default config;

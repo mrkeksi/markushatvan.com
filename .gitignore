@@ -13,7 +13,7 @@ stats.html
 static/global.css
 static/global.css.map
 .env
-.svelte
+.svelte-kit
 build
 
 # Local Netlify folder

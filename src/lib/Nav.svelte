@@ -17,7 +17,7 @@
     <div class="flex">
       <a
         sveltekit:prefetch
-        href="."
+        href="/"
         class="mt-0 text-xl font-semibold tracking-tight nav-link md:inline-block"
       >
         <img class="h-8" src="/mh-logo.jpeg" alt="Markus Hatvan" />
