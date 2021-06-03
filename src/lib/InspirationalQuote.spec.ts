@@ -1,3 +1,6 @@
+/**
+ * @jest-environment jsdom
+ */
 import InspirationalQuote from './InspirationalQuote.svelte';
 import { render } from '@testing-library/svelte';
 
