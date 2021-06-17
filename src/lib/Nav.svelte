@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Icon from 'svelte-awesome/components/Icon.svelte';
+  import Icon from 'svelte-awesome';
   import { faBars } from '@fortawesome/free-solid-svg-icons';
   import ClickOutside from 'svelte-click-outside';
 
@@ -8,6 +8,7 @@
   const toggleHamburgerMenu = () => {
     open = !open;
   };
+
 </script>
 
 <header class="fixed top-0 w-full bg-white header-box-shadow">
@@ -86,4 +87,5 @@
   header {
     z-index: 1;
   }
+
 </style>

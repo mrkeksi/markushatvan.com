@@ -2,7 +2,7 @@
   import { fade } from 'svelte/transition';
   import { createForm } from 'svelte-forms-lib';
   import * as yup from 'yup';
-  import Icon from 'svelte-awesome/components/Icon.svelte';
+  import Icon from 'svelte-awesome';
   import axios from 'redaxios';
   import {
     faTwitter,
@@ -71,6 +71,7 @@
         .catch((error) => console.error(error));
     },
   });
+
 </script>
 
 <svelte:head>
@@ -316,4 +317,5 @@
   small {
     @apply text-red-600;
   }
+
 </style>

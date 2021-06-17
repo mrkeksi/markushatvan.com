@@ -1,5 +1,5 @@
 <script>
-  import Icon from 'svelte-awesome/components/Icon.svelte';
+  import Icon from 'svelte-awesome';
   import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
   import ExternalLink from './ExternalLink.svelte';
 
@@ -8,25 +8,23 @@
       founder: 'Robin Wieruch',
       websiteRaw: 'robinwieruch.de',
       websiteLink: 'https://www.robinwieruch.de/',
-      text:
-        'I highly recommend Markus as an exceptional developer — who is dedicated to producing quality code. He completes his tasks beyond expectations, adds thoughtful discussions to the greater picture of a project, and cares about the projects he works for. It would be a pleasure to work with him again in the future.',
+      text: 'I highly recommend Markus as an exceptional developer — who is dedicated to producing quality code. He completes his tasks beyond expectations, adds thoughtful discussions to the greater picture of a project, and cares about the projects he works for. It would be a pleasure to work with him again in the future.',
     },
     {
       founder: 'Jeremy Lefèbre',
       websiteRaw: 'slowlettuce.io',
       websiteLink: 'https://slowlettuce.io/',
-      text:
-        'Markus is an excellent developer and certainly produced great work for us. He’s also a great team player: reliable, communicating well and proposing solutions. As project complexity increases, this second part can be a real life saver.',
+      text: 'Markus is an excellent developer and certainly produced great work for us. He’s also a great team player: reliable, communicating well and proposing solutions. As project complexity increases, this second part can be a real life saver.',
     },
     {
       founder: 'Justice Conder',
       websiteRaw: 'singularityhacker.com',
       websiteLink: 'https://singularityhacker.com/',
-      text:
-        'I’ve worked with many engineers over the past ten years, and Markus is a beast. He’s self-directed, thoughtful, and fast. He has excellent written and verbal communication skills and is candid and direct when his opinion is asked. I reached out to him for some unorthodox app development based on his GitHub profile and what I feared would take weeks and thousands of dollars was complete in days and far beyond my expectations. My only hesitation in writing this review for him is that I want all his time for myself and have no doubt that he will be in high demand, given his skill set and personal qualities. Grab this guy quick because he’s about to be in limited supply.',
+      text: 'I’ve worked with many engineers over the past ten years, and Markus is a beast. He’s self-directed, thoughtful, and fast. He has excellent written and verbal communication skills and is candid and direct when his opinion is asked. I reached out to him for some unorthodox app development based on his GitHub profile and what I feared would take weeks and thousands of dollars was complete in days and far beyond my expectations. My only hesitation in writing this review for him is that I want all his time for myself and have no doubt that he will be in high demand, given his skill set and personal qualities. Grab this guy quick because he’s about to be in limited supply.',
       hasLotsOfText: true,
     },
   ];
+
 </script>
 
 <section class="applause-gradient">

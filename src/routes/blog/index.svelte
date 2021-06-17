@@ -9,6 +9,7 @@
       console.error(error);
     }
   }
+
 </script>
 
 <script lang="ts">
@@ -17,10 +18,11 @@
   import BlogPostFilters from '$lib/BlogPostFilters.svelte';
   import BlogPostSidebar from '$lib/BlogPostSidebar.svelte';
   import SEO from '$lib/SEO.svelte';
-  import type { LoadInput } from '@sveltejs/kit/types/page';
+  import type { LoadInput } from '@sveltejs/kit';
   import type { Post } from '../../models/post';
 
   export let posts: Post[];
+
 </script>
 
 <svelte:head>

@@ -1,5 +1,5 @@
 <script context="module">
-  export async function load({ fetch }) {
+  export async function load({ fetch }: LoadInput) {
     const res = await fetch(`/blog.json`);
     return {
       props: {
@@ -7,6 +7,7 @@
       },
     };
   }
+
 </script>
 
 <script lang="ts">
@@ -18,6 +19,7 @@
   import type { Post } from 'src/models/post';
   import { page } from '$app/stores';
   import SEO from '$lib/SEO.svelte';
+  import type { LoadInput } from '@sveltejs/kit';
 
   export let posts: Post[];
 
@@ -35,6 +37,7 @@
         cover: post.cover,
       }
     : {};
+
 </script>
 
 <svelte:head>
@@ -42,23 +45,26 @@
 </svelte:head>
 
 <SEO blogPostInfo="{blogPostInfo}" />
-<BlogPostHeader post="{post}" />
-<section class="container flex flex-wrap mh-container">
-  <article class="w-full pb-12 prose-lg lg:prose-xl blog lg:w-9/12 lg:pr-16">
-    {@html post.html}
-    <div class="p-5 my-8 text-center border-4 border-teal-700">
-      <p class="mt-0 mb-4"><b>If you liked this post, share it:</b></p>
-      <ShareButtons post="{post}" />
-    </div>
-    <div class="flex items-center my-8">
-      <BackToBlogOverviewBtn />
-    </div>
-    <PrevNextArticle
-      previousArticle="{previousArticle}"
-      nextArticle="{nextArticle}"
-    />
-  </article>
-  <aside class="w-full mt-8 lg:mt-0 lg:w-3/12">
-    <BlogPostSidebar posts="{posts}" />
-  </aside>
-</section>
+
+{#if post}
+  <BlogPostHeader post="{post}" />
+  <section class="container flex flex-wrap mh-container">
+    <article class="w-full pb-12 prose-lg lg:prose-xl blog lg:w-9/12 lg:pr-16">
+      {@html post.html}
+      <div class="p-5 my-8 text-center border-4 border-teal-700">
+        <p class="mt-0 mb-4"><b>If you liked this post, share it:</b></p>
+        <ShareButtons post="{post}" />
+      </div>
+      <div class="flex items-center my-8">
+        <BackToBlogOverviewBtn />
+      </div>
+      <PrevNextArticle
+        previousArticle="{previousArticle}"
+        nextArticle="{nextArticle}"
+      />
+    </article>
+    <aside class="w-full mt-8 lg:mt-0 lg:w-3/12">
+      <BlogPostSidebar posts="{posts}" />
+    </aside>
+  </section>
+{/if}

@@ -1,5 +1,5 @@
 <script>
-  import Icon from 'svelte-awesome/components/Icon.svelte';
+  import Icon from 'svelte-awesome';
   import {
     faReddit,
     faPinterest,
@@ -18,6 +18,7 @@
   const encodedPostExcerpt = encodeURIComponent(post.excerpt);
 
   const shareButtonStyle = 'inline-flex text-teal-700 hover:text-teal-800';
+
 </script>
 
 <a

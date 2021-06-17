@@ -16,9 +16,11 @@
       console.error(error);
     }
   }
+
 </script>
 
 <script lang="ts">
+  import { afterUpdate } from 'svelte';
   import BlogOverviewHeader from '$lib/BlogOverviewHeader.svelte';
   import BlogPostSidebar from '$lib/BlogPostSidebar.svelte';
   import BlogPostFilters from '$lib/BlogPostFilters.svelte';
@@ -26,12 +28,17 @@
   import SEO from '$lib/SEO.svelte';
   import { page } from '$app/stores';
   import type { Post } from '../../models/post';
-  import type { LoadInput } from '@sveltejs/kit/types/page';
+  import type { LoadInput } from '@sveltejs/kit';
 
   export let postsByCategory: Post[];
   export let posts: Post[];
 
-  $: readableSlug = convertToSentenceCase($page.params.slug);
+  let readableSlug = '';
+
+  afterUpdate(() => {
+    readableSlug = convertToSentenceCase($page.params.slug);
+  });
+
 </script>
 
 <svelte:head>

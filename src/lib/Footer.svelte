@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Icon from 'svelte-awesome/components/Icon.svelte';
+  import Icon from 'svelte-awesome';
   import {
     faTwitter,
     faMedium,
@@ -11,6 +11,7 @@
   import { faEnvelope, faRss } from '@fortawesome/free-solid-svg-icons';
   import ExternalLink from './ExternalLink.svelte';
   import SpeedlifyFooter from './SpeedlifyFooter.svelte';
+
 </script>
 
 <footer class="text-teal-200 border-t-4 border-teal-700 applause-gradient">

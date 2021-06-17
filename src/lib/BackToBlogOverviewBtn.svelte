@@ -1,6 +1,7 @@
 <script>
-  import Icon from 'svelte-awesome/components/Icon.svelte';
+  import Icon from 'svelte-awesome';
   import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
+
 </script>
 
 <a

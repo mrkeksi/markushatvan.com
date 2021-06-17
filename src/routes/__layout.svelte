@@ -9,6 +9,7 @@
       console.error(error);
     }
   }
+
 </script>
 
 <script lang="ts">
@@ -19,7 +20,7 @@
   import Nav from '$lib/Nav.svelte';
   import Footer from '$lib/Footer.svelte';
   import { isDev } from '../stores';
-  import type { LoadInput } from '@sveltejs/kit/types/page';
+  import type { LoadInput } from '@sveltejs/kit';
 
   import 'prismjs/themes/prism-tomorrow.css';
 
@@ -29,6 +30,7 @@
     let tmpURL = window.location.href;
     fullURL = tmpURL[tmpURL.length - 1] === '/' ? tmpURL : tmpURL + '/';
   });
+
 </script>
 
 <svelte:head>
@@ -47,7 +49,7 @@
 
 <Footer />
 
-{#if !$isDev}
+{#if $isDev && !$isDev}
   <CookieNotice />
 {/if}
 
@@ -55,4 +57,5 @@
   main {
     min-height: calc(100vh - 428px);
   }
+
 </style>

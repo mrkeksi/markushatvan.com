@@ -6,8 +6,9 @@
     var s = document.createElement('script'),
       tag = document.getElementsByTagName('script')[0];
     s.src = 'https://cdn.iubenda.com/iubenda.js';
-    tag.parentNode.insertBefore(s, tag);
+    tag && tag.parentNode && tag.parentNode.insertBefore(s, tag);
   });
+
 </script>
 
 <svelte:head>
@@ -17,6 +18,7 @@
 </svelte:head>
 
 <SEO />
+
 <span>
   <a
     href="https://www.iubenda.com/privacy-policy/82646403"

@@ -6,3 +6,4 @@
 declare module 'flatten';
 declare module 'svelte-click-outside';
 declare module 'svelte-forms-lib';
+declare module 'svelte-awesome';

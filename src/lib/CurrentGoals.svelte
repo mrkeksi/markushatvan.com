@@ -1,7 +1,7 @@
 <script>
   import CodeReview from '../../static/code-review.png';
   import IntoTheNight from '../../static/into-the-night.png';
-  import Icon from 'svelte-awesome/components/Icon.svelte';
+  import Icon from 'svelte-awesome';
   import { faCheck } from '@fortawesome/free-solid-svg-icons';
   import { faClock } from '@fortawesome/free-regular-svg-icons';
 
@@ -57,6 +57,7 @@
 
   $: isProgrammingCategory = readableSlug === 'Programming';
   $: goals = isProgrammingCategory ? programmingGoals : lifestyleGoals;
+
 </script>
 
 <div class="w-full md:w-2/4">
@@ -75,13 +76,15 @@
   {/each}
 </div>
 <div class="w-full md:w-2/4">
-  {#if isProgrammingCategory}
-    <img srcset="{CodeReview}" type="image/webp" alt="Man with code editor" />
-  {:else}
-    <img
-      srcset="{IntoTheNight}"
-      type="image/webp"
-      alt="Man sitting next to campfire"
-    />
+  {#if readableSlug}
+    {#if isProgrammingCategory}
+      <img srcset="{CodeReview}" type="image/webp" alt="Man with code editor" />
+    {:else}
+      <img
+        srcset="{IntoTheNight}"
+        type="image/webp"
+        alt="Man sitting next to campfire"
+      />
+    {/if}
   {/if}
 </div>

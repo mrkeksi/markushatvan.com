@@ -1,16 +1,19 @@
 <script context="module">
-  export function load({ error, status }) {
+  export function load({ error, status }: ErrorLoadInput) {
     return {
       props: { error, status },
     };
   }
+
 </script>
 
 <script lang="ts">
   import { isDev } from '../stores';
+  import type { ErrorLoadInput } from '@sveltejs/kit';
 
   export let error: Error;
   export let status: number;
+
 </script>
 
 <svelte:head>
@@ -48,4 +51,5 @@
       font-size: 4em;
     }
   }
+
 </style>
