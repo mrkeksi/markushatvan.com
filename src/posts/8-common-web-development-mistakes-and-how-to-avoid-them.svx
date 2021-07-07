@@ -217,3 +217,7 @@ The minimal amount of time that you save just by duplicating code snippets and h
 It will not always be possible to write the cleanest code, but don't let that discourage you. **After all, we are just human beings and make mistakes**.
 
 Have you made any of these or similar mistakes before? Leave a comment below!
+
+## Helpful resources
+
+- [The 10 Most Common Mistakes Web Developers Make: A Tutorial for Developers](https://www.toptal.com/web/top-10-mistakes-that-web-developers-make)

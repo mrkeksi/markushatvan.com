@@ -8,7 +8,6 @@ cover: assorted-book-lot.jpg
 tags:
   - Productivity
   - Tools
-hasAffiliateLink: true
 ---
 
 <figure class="mb-10">
@@ -192,3 +191,7 @@ I hope this article has been helpful to you and let me know if there are any ope
 If you liked the software & tool recommendations, I compiled a detailed list of all [my personal recommendations](/recommendations).
 
 Thank you for reading!
+
+## Helpful resources
+
+- [How to Overcome Information Overload: Complete Guide 101](https://ivypanda.com/blog/information-overload-101/)
