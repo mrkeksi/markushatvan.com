@@ -28,6 +28,13 @@
       websiteLink: 'https://codecove.at/',
       text: 'On every project I worked on together with Markus, he was an essential part of the team. With his high demand for software quality and a smooth development workflow, he has always contributed significantly to the success of the projects. He is constantly learning and using the latest technologies and is very good at passing on these learnings to the team. He always keeps the bigger picture in mind and his calm but direct manner is conducive to strengthening the team spirit and creating a good working atmosphere.',
     },
+    {
+      founder: 'Dmytro Mezhenskyi',
+      role: 'Author',
+      websiteRaw: 'Decoded Frontend',
+      websiteLink: 'https://youtube.com/DecodedFrontend',
+      text: 'I am glad that twice I had a chance to work with Markus in one team! I can highlight his aspiration of clean code, maintainability, and automation. Markus is very open to new technologies and tries to understand how things are working in-depth rather than just cover basics. Aside from his impressive tech skills, he is also a nice person to chatting with, and he can always recommend a great craft beer!',
+    },
   ];
 </script>
 
@@ -43,7 +50,7 @@
             {testimonial.text}
           </p>
           <h3>
-            {testimonial.founder}, Founder of
+            {testimonial.founder}, {testimonial?.role || 'Founder'} of
             <ExternalLink
               href="{testimonial.websiteLink}"
               customClass="link-inherit underline"

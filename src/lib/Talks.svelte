@@ -15,8 +15,7 @@
       logo: faJsSquare,
       logoColor: 'text-yellow-500',
       videoLink: 'https://youtu.be/CBgN-jcO4OU?t=14280',
-      slidesLink:
-        'https://www.beautiful.ai/player/-MWKF2YJqj_rDUv0ldRG/Why-I-Recommend-Svelte-to-Every-New-Web-Developer',
+      slidesLink: 'https://www.beautiful.ai/player/-MWKF2YJqj_rDUv0ldRG',
       organizer: 'WeAreDevelopers Live Days',
       organizerLink: 'https://www.wearedevelopers.com/event/live-days-01',
       location: 'Remote',
@@ -27,8 +26,7 @@
       logo: faJsSquare,
       logoColor: 'text-yellow-500',
       videoLink: 'https://www.youtube.com/watch?v=8rm12dGk03g',
-      slidesLink:
-        'https://www.beautiful.ai/player/-MI0JqYe0oPmQRIf08NQ/How-I-built-a-Sapper-blog-with-all-the-must-have-features',
+      slidesLink: 'https://www.beautiful.ai/player/-MI0JqYe0oPmQRIf08NQ',
       organizer: 'MMT Tech',
       organizerLink: 'https://www.mmtdigital.co.uk/',
       location: 'Remote',
@@ -57,15 +55,14 @@
       location: 'Vienna, Austria',
     },
     {
-      title: 'Best practices for open source contributions',
+      title: 'Contributing To Open Source Projects The Right Way',
       date: '2021-07-20',
       logo: faJsSquare,
       logoColor: 'text-yellow-500',
       videoLink: '',
-      slidesLink:
-        'https://www.beautiful.ai/player/-MCCJc2bhl1Tizg5YvKe/Best-practices-for-open-source-contributions',
-      organizer: 'freeCodeCamp Vienna',
-      organizerLink: 'https://www.meetup.com/de-DE/fccvienna/',
+      slidesLink: 'https://www.beautiful.ai/player/-MCCJc2bhl1Tizg5YvKe',
+      organizer: 'Vienna.js',
+      organizerLink: 'https://www.meetup.com/de-DE/viennajs/',
       location: 'Vienna, Austria',
     },
   ];
