@@ -1,6 +1,5 @@
 <script lang="ts">
   import BlogPostCard from './BlogPostCard.svelte';
-  import flatten from 'flatten';
   import type { Post } from '../models/post';
 
   export let posts: Post[];
@@ -15,9 +14,11 @@
     );
 
   const allTags: string[][] = posts.map((post: Post) => post.tags);
-  const uniqueTags: string[] = flatten(allTags).filter(
-    (tag: string, idx: number, arr: string[]) => arr.indexOf(tag) === idx,
-  );
+  const uniqueTags: string[] = allTags
+    .reduce((a, b) => a.concat(b), [])
+    .filter(
+      (tag: string, idx: number, arr: string[]) => arr.indexOf(tag) === idx,
+    );
 
   let textSearch: string = '';
   let categorySearch: string = '';

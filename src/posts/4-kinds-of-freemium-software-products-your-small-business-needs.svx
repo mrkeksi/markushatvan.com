@@ -1,0 +1,51 @@
+---
+title: '4 Kinds of “Freemium” Software Products Your Small Business Needs'
+slug: '4-kinds-of-freemium-software-products-your-small-business-needs'
+creationDate: '2021-08-18'
+guestAuthor: Vanessa Holwell
+category: 'Lifestyle'
+excerpt: 'Let’s take a look at some free tools you should check out that will help you run a smoother, more reliable business'
+cover: 4-kinds-of-freemium-software-products-your-small-business-needs.jpg
+tags:
+  - Tools
+  - Productivity
+  - Hustle
+  - Success
+---
+
+<figure class="mb-10">
+  <img src="/4-kinds-of-freemium-software-products-your-small-business-needs.jpg" alt="Tablet showing dashboard with visitors overview" loading="lazy" />
+  <figcaption class="text-center">Photo by <a href="https://www.pexels.com/photo/black-samsung-tablet-computer-106344/" target="_blank" rel="noopener noreferrer">PhotoMIX Company</a> from <a href="https://www.pexels.com" target="_blank" rel="noopener noreferrer">Pexels</a></figcaption>
+</figure>
+
+Small-business owners know that in order to be successful, they need to turn a profit -- and that means making and sticking to a budget. There are a lot of software options for keeping your company afloat -- but what are the best free versions of these tools? How do you create efficiencies within your processes and make sure you’re operating at optimum capacity?
+
+Let’s take a look at some free tools you should check out that will help you run a smoother, more reliable business:
+
+## 1. Web conferencing apps
+
+In the world of virtual meetings and global deals, you need to have a way to talk to folks across the world -- not just the ones who are close. There are a lot of free versions of online web conferencing software, but tools like [Skype](https://www.skype.com/) and [Zoom](https://zoom.us/) are increasingly more useful as businesses continue to adopt them.
+
+## 2. Data storage products
+
+As a business exchanging money and goods, you will also need a place to store your electronic files and other important documents. Storage apps like [Dropbox](https://www.dropbox.com/), [Box](https://www.box.com/), and [Google Drive](https://drive.google.com/) are all secure places to store invoices, records, and tax documents you’ll need at the end of the fiscal year. Some of these products have free versions and paid versions, each to different strengths. The paid version of Dropbox, for instance, allows you to store even more files.
+
+## 3. Web development products
+
+Any good business needs an effective website. Being a website developer like Markus might not be in your cards, but using the tools available to you can still give you a leg up on your competition. Website builders like [WordPress](https://wordpress.com/), [Wix](https://www.wix.com/), and [Weebly](https://www.weebly.com/) are all available as free products that you can put your personal branding on and use as an online hub for your business. (And, if you want to invest money in custom CSS, hiring a freelance web developer is something you should consider doing, since you’re saving money on the other parts of your website).
+
+## 4. Design tools
+
+Every small-business owner needs a good marketing arm -- even if your marketing team consists of just you. That means you need the ability to design crisp, engaging imagery that will draw potential customers to your business. Free design tools like [Paint.NET](https://www.getpaint.net/) and [Canva](https://www.canva.com/) are great options if you want the sleek, stylish brand elements the professionals create. You can also always try out email marketing tools like [MailChimp](https://mailchimp.com/), which allows you to send branded newsletters to an audience to keep them engaged about your product.
+
+## When to get out the checkbook
+
+No matter how successful you are at using the free versions of software, there will come a time when you need to invest money in products that will net you even greater achievements. For example, as your company grows, it’s essential to stay organized by using accounting and business management software like [QuickBooks Enterprise](https://quickbooks.intuit.com/desktop/enterprise/), which grants you ERP functionality without the headaches you may be used to from tools like this. You can integrate across workflows, track and manage inventory, and take care of payroll all from an easy-to-use software app.
+
+Sometimes, “freemium” apps don’t offer the features you want, and you’ll need to invest in the paid version. You may need better support, or more analytics capabilities. For instance, the free version of social media management tool [Hootsuite](https://www.hootsuite.com/) only allows you to schedule one post per social account you have, and it doesn’t offer any analytics insights. This would be a case where you could invest in the paid version and it would benefit you immensely in the long run.
+
+For more information about software, hiring freelance web developers, and other informative content, take a look around Markus' website!
+
+<div class="alert-gray" role="alert">
+  <em>Vanessa Holwell and her husband, Rick, created <a href="https://www.hiringsquad.net" target="_blank">HiringSquad.net</a> after losing their jobs during the financial crisis in 2008. The site is designed to be a forum for people to share advice on how to get hired, provide job search resources, and give you the tools you need to get the job you want.</em>
+</div>

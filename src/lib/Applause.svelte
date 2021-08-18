@@ -35,6 +35,12 @@
       websiteLink: 'https://youtube.com/DecodedFrontend',
       text: 'I am glad that twice I had a chance to work with Markus in one team! I can highlight his aspiration of clean code, maintainability, and automation. Markus is very open to new technologies and tries to understand how things are working in-depth rather than just cover basics. Aside from his impressive tech skills, he is also a nice person to chatting with, and he can always recommend a great craft beer!',
     },
+    {
+      founder: 'Francois Lamotte',
+      websiteRaw: 'pageverify.me',
+      websiteLink: 'https://www.pageverify.me',
+      text: 'Markus Hatvan is a great front-end Svelte developer. He did an excellent job for our company, and he was also a valuable team member. He communicated well, was reliable, and could be counted on to be available when needed. I would recommend him to anyone in need of a front-end developer!',
+    },
   ];
 </script>
 

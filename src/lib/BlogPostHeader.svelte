@@ -16,6 +16,10 @@
       <div class="w-full">
         <h1>{post.title}</h1>
 
+        {#if post.guestAuthor}
+          <p>By {post.guestAuthor}</p>
+        {/if}
+
         <InfoTags post="{post}" />
 
         <BlogPostTag tags="{post.tags}" />

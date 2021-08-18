@@ -18,7 +18,6 @@
   import NProgress from '$lib/NProgress.svelte';
   import Nav from '$lib/Nav.svelte';
   import Footer from '$lib/Footer.svelte';
-  import { isDev } from '../stores';
   import type { LoadInput } from '@sveltejs/kit';
 
   import 'prismjs/themes/prism-tomorrow.css';
@@ -47,9 +46,7 @@
 
 <Footer />
 
-{#if !$isDev}
-  <CookieNotice />
-{/if}
+<CookieNotice />
 
 <style>
   main {
