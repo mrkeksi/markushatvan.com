@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { isDev } from '../stores';
 </script>
 

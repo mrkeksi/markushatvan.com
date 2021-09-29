@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import SEO from '$lib/SEO.svelte';
   import ExternalLink from '$lib/ExternalLink.svelte';
   import AffiliateNotice from '$lib/AffiliateNotice.svelte';

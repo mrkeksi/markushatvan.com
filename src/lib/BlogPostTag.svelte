@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { convertToSlug } from '../utils';
 
   export let tags: string[];

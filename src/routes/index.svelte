@@ -1,4 +1,4 @@
-<script context="module">
+<script context="module" lang="ts">
   export async function load({ fetch }: LoadInput) {
     const blog = await fetch(`/blog.json`);
     const posts = await blog.json();
@@ -9,7 +9,6 @@
       },
     };
   }
-
 </script>
 
 <script lang="ts">
@@ -26,7 +25,6 @@
   import type { LoadInput } from '@sveltejs/kit';
 
   export let posts: Post[];
-
 </script>
 
 <svelte:head>

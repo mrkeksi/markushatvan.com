@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import Icon from 'svelte-awesome';
   import {
     faTwitter,
@@ -10,7 +10,6 @@
   } from '@fortawesome/free-brands-svg-icons';
   import { faRss } from '@fortawesome/free-solid-svg-icons';
   import ExternalLink from './ExternalLink.svelte';
-
 </script>
 
 <div class="mb-16">

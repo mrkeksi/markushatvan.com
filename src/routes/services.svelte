@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import ExternalLink from '$lib/ExternalLink.svelte';
   import SEO from '$lib/SEO.svelte';
 </script>

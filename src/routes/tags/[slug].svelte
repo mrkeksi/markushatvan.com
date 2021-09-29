@@ -1,4 +1,4 @@
-<script context="module">
+<script context="module" lang="ts">
   import { convertToSentenceCase } from '../../utils';
 
   export async function load({ page, fetch }: LoadInput) {
@@ -19,7 +19,6 @@
       console.error(error);
     }
   }
-
 </script>
 
 <script lang="ts">
@@ -35,7 +34,6 @@
   export let posts: Post[];
 
   const readableSlug = convertToSentenceCase(slug);
-
 </script>
 
 <svelte:head>

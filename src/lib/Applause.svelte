@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import Icon from 'svelte-awesome';
   import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
   import ExternalLink from './ExternalLink.svelte';

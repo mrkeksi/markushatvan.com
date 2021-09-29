@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { onMount } from 'svelte';
   import SEO from '$lib/SEO.svelte';
 
@@ -8,7 +8,6 @@
     s.src = 'https://cdn.iubenda.com/iubenda.js';
     tag && tag.parentNode && tag.parentNode.insertBefore(s, tag);
   });
-
 </script>
 
 <svelte:head>

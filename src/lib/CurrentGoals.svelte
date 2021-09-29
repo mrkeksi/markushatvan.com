@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import CodeReview from '../../static/code-review.png';
   import IntoTheNight from '../../static/into-the-night.png';
   import Icon from 'svelte-awesome';
@@ -57,7 +57,6 @@
 
   $: isProgrammingCategory = readableSlug === 'Programming';
   $: goals = isProgrammingCategory ? programmingGoals : lifestyleGoals;
-
 </script>
 
 <div class="w-full md:w-2/4">

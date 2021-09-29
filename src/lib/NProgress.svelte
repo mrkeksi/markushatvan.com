@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import NProgress from 'nprogress';
   import { navigating } from '$app/stores';
   import { browser } from '$app/env';

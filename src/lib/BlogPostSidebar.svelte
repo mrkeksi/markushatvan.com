@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import AboutMe from './AboutMe.svelte';
   import PopularArticles from './PopularArticles.svelte';
   import SubscribeAndFollow from './SubscribeAndFollow.svelte';
@@ -13,8 +13,8 @@
 
 <Newsletter />
 
-<PopularArticles {posts} />
+<PopularArticles posts="{posts}" />
 
-<Categories {posts} />
+<Categories posts="{posts}" />
 
 <SubscribeAndFollow />

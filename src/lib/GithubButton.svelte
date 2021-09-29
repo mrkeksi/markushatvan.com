@@ -1,7 +1,6 @@
-<script>
+<script lang="ts">
   export let count: string;
   export let urlSlug: string;
-
 </script>
 
 <span class="github-btn github-stargazers github-btn-large">
@@ -147,5 +146,4 @@
     margin-top: -7px;
     border-width: 7px 7px 7px 0;
   }
-
 </style>

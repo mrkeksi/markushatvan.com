@@ -1,4 +1,4 @@
-<script context="module">
+<script context="module" lang="ts">
   export async function load({ fetch }: LoadInput) {
     try {
       await fetch('/sitemap.xml');

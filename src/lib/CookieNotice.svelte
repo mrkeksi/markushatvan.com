@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { onMount } from 'svelte';
   import cookies from 'js-cookie';
   import ExternalLink from './ExternalLink.svelte';
@@ -10,10 +10,8 @@
   export let consentGiven = false;
 
   onMount(() => {
-    const hasDNTEnabled =
-      navigator.doNotTrack === '1' || window.doNotTrack === '1';
-    // Hide cookie notice if the opt-out cookie exists or user has DNT enabled
-    if (cookies.get('didOptOut') === 'true' || hasDNTEnabled) {
+    // Hide cookie notice if the opt-out cookie exists
+    if (cookies.get('didOptOut') === 'true') {
       didOptOut = true;
     } else {
       // Cookie notice is shown when no sb_uid cookie from Splitbee (user didn't accept or decline yet

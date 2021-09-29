@@ -1,4 +1,4 @@
-<script context="module">
+<script context="module" lang="ts">
   export async function load({ fetch }: LoadInput) {
     try {
       const blog = await fetch(`/blog.json`);
@@ -9,7 +9,6 @@
       console.error(error);
     }
   }
-
 </script>
 
 <script lang="ts">
@@ -22,7 +21,6 @@
   import type { Post } from '../../models/post';
 
   export let posts: Post[];
-
 </script>
 
 <svelte:head>

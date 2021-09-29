@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import Icon from 'svelte-awesome';
   import { faGithub } from '@fortawesome/free-brands-svg-icons';
   import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
@@ -28,7 +28,6 @@
       githubLink: 'https://github.com/mhatvan/markushatvan.com',
     },
   ];
-
 </script>
 
 <section class="container mh-container">

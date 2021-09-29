@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import Icon from 'svelte-awesome';
   import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
   import BlogPostCard from './BlogPostCard.svelte';
@@ -6,7 +6,6 @@
 
   export let posts: Post[];
   const filteredPosts = posts.filter((_post: Post, idx: number) => idx < 3);
-
 </script>
 
 <section class="container mh-container">

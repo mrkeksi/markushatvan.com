@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import GithubButton from './GithubButton.svelte';
 
   // Unfortunately have to add the repos manually, since I would be running into rate limiting of GitHub API all the time

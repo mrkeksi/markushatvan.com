@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import Image from '../../static/markus-hatvan.jpeg';
   import ExternalLink from './ExternalLink.svelte';
 </script>

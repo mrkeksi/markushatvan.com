@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import Icon from 'svelte-awesome';
   import {
     faReddit,
@@ -18,7 +18,6 @@
   const encodedPostExcerpt = encodeURIComponent(post.excerpt);
 
   const shareButtonStyle = 'inline-flex text-teal-700 hover:text-teal-800';
-
 </script>
 
 <a

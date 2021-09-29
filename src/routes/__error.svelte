@@ -1,10 +1,9 @@
-<script context="module">
+<script context="module" lang="ts">
   export function load({ error, status }: ErrorLoadInput) {
     return {
       props: { error, status },
     };
   }
-
 </script>
 
 <script lang="ts">
@@ -13,7 +12,6 @@
 
   export let error: Error;
   export let status: number;
-
 </script>
 
 <svelte:head>
@@ -51,5 +49,4 @@
       font-size: 4em;
     }
   }
-
 </style>

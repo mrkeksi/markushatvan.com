@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import type { Post } from '../models/post';
   import { convertToSlug } from '../utils';
 

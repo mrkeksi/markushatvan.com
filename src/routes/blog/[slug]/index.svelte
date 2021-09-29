@@ -1,4 +1,4 @@
-<script context="module">
+<script context="module" lang="ts">
   export async function load({ fetch }: LoadInput) {
     const res = await fetch(`/blog.json`);
     return {
@@ -7,7 +7,6 @@
       },
     };
   }
-
 </script>
 
 <script lang="ts">
@@ -37,7 +36,6 @@
         cover: post.cover,
       }
     : {};
-
 </script>
 
 <svelte:head>
