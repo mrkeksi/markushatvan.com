@@ -17,7 +17,7 @@
   </p>
   <p>Last updated: 04.10.2021</p>
 
-  <embed src="CV_MarkusHatvan.pdf" type="application/pdf" />
+  <embed src="/CV_MarkusHatvan.pdf" type="application/pdf" />
 </section>
 
 <style>
