@@ -43,7 +43,7 @@
   </p>
   <p>
     I love open source software and made code contributions to libraries like
-    Microsoft WebTemplateStudio, Svelte, react-boilerplate, Ethereum and
+    Microsoft WebTemplateStudio, Svelte, Ferdi, react-boilerplate, Ethereum and
     eslint-plugin-unicorn in the past.
   </p>
 
@@ -78,7 +78,7 @@
   <ul>
     <li>
       <b>Computer:</b>
-      <ExternalLink href="https://ubuntu.com/">Ubuntu 20.04</ExternalLink>
+      <ExternalLink href="https://ubuntu.com/">Ubuntu 21.10</ExternalLink>
       &
       <ExternalLink href="https://www.microsoft.com/">Windows 10</ExternalLink>
       dual-boot
@@ -91,7 +91,7 @@
     </li>
     <li>
       <b>Application management:</b>
-      <ExternalLink href="https://rambox.pro/">Rambox</ExternalLink>
+      <ExternalLink href="https://getferdi.com/">Ferdi</ExternalLink>
     </li>
     <li>
       <b>Browser:</b>

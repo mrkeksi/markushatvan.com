@@ -15,16 +15,16 @@
       reached: true,
     },
     {
-      text: 'Work with Flutter',
-      reached: false,
-    },
-    {
-      text: 'Get better at algorithm challenges',
+      text: 'Start freelancing',
       reached: true,
     },
     {
       text: 'Contribute to Svelte and Sapper',
       reached: true,
+    },
+    {
+      text: 'Get better at algorithm challenges',
+      reached: false,
     },
     {
       text: 'Start UI framework comparison website',

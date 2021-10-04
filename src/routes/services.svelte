@@ -1,6 +1,15 @@
 <script lang="ts">
   import ExternalLink from '$lib/ExternalLink.svelte';
   import SEO from '$lib/SEO.svelte';
+  import {
+    faChalkboardTeacher,
+    faClipboardList,
+    faComments,
+    faDraftingCompass,
+    faHandshake,
+    faPenFancy,
+  } from '@fortawesome/free-solid-svg-icons';
+  import Icon from 'svelte-awesome';
 </script>
 
 <svelte:head>
@@ -21,10 +30,13 @@
     like you to improve page performance and save time and stress on the long
     run. I work fast and efficient according to best practices in my area of
     expertise. I also contribute to open source projects on a regular basis and
-    therefore can get started and accustomed to new projects quickly. I
-    understand that finding the perfect candidate for your project is not easy,
-    but when working with me, you can be sure that I will always make sure to
-    treat your project as if it would be my own!
+    therefore can get started and accustomed to new projects quickly.
+  </p>
+
+  <p>
+    I understand that finding the perfect candidate for your project is not
+    easy, but when working with me, you can be sure that I will always make sure
+    to treat your project as if it would be my own!
   </p>
 
   <h2>I create next-level web solutions customized for your needs.</h2>
@@ -49,7 +61,7 @@
     <div class="flex w-full p-2 lg:w-1/2">
       <div class="px-6 py-4 card">
         <h2>
-          <!-- <Icon data="{faDraftingCompass}" class="mr-3" scale="{2}" /> -->
+          <Icon data="{faDraftingCompass}" class="mr-3" scale="{2}" />
           Prototyping your idea
         </h2>
 
@@ -66,7 +78,7 @@
     <div class="flex w-full p-2 lg:w-1/2">
       <div class="px-6 py-4 card">
         <h2>
-          <!-- <Icon data="{faClipboardList}" class="mr-3" scale="{2}" /> -->
+          <Icon data="{faClipboardList}" class="mr-3" scale="{2}" />
           Continue development on an existing product
         </h2>
 
@@ -85,7 +97,7 @@
     <div class="flex w-full p-2 lg:w-1/2">
       <div class="px-6 py-4 card">
         <h2>
-          <!-- <Icon data="{faChalkboardTeacher}" class="mr-3" scale="{2}" /> -->
+          <Icon data="{faChalkboardTeacher}" class="mr-3" scale="{2}" />
           Project review
         </h2>
 
@@ -110,7 +122,7 @@
     <div class="flex w-full p-2 lg:w-1/2">
       <div class="px-6 py-4 card">
         <h2>
-          <!-- <Icon data="{faPenFancy}" class="mr-3" scale="{2}" /> -->
+          <Icon data="{faPenFancy}" class="mr-3" scale="{2}" />
           Technical writing
         </h2>
 
@@ -162,7 +174,7 @@
     <div class="flex w-full p-2 lg:w-1/2">
       <div class="px-6 py-4 card">
         <h2>
-          <!-- <Icon data="{faComments}" class="mr-3" scale="{2}" /> -->
+          <Icon data="{faComments}" class="mr-3" scale="{2}" />
           Public speaking
         </h2>
         <p>
@@ -178,7 +190,7 @@
     <div class="flex w-full p-2 lg:w-1/2">
       <div class="px-6 py-4 card">
         <h2>
-          <!-- <Icon data="{faHandshake}" class="mr-3" scale="{2}" /> -->
+          <Icon data="{faHandshake}" class="mr-3" scale="{2}" />
           Coaching/Consulting
         </h2>
 

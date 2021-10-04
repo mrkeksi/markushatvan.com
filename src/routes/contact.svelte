@@ -88,7 +88,7 @@
   <h1>Contact for business inquiries</h1>
 
   <p>
-    I'm currently available full-time to take on new projects. You can find an
+    I am currently available full-time to take on new projects. You can find an
     overview of the services that I offer under the
     <a href="/services" sveltekit:prefetch>Services</a>
     tab.
@@ -99,9 +99,9 @@
   <p>I am mainly looking for clients with projects:</p>
   <ul>
     <li>with a modern Javascript tech stack</li>
-    <li>project duration of 1-3 months (ideally with follow-up projects)</li>
-    <li>remote only or in the vicinity of Vienna, Austria</li>
-    <li>comfortable with common Central European developer rates</li>
+    <li>with a duration of up to 3 months (ideally with follow-up projects)</li>
+    <li>which are remote only or in the vicinity of Vienna, Austria</li>
+    <li>that pay competitive Central European developer rates</li>
   </ul>
 
   <p>Please include answers to the following questions in the form below:</p>
@@ -114,6 +114,30 @@
     <li>How did you hear about us?</li>
     <li>Why did you decide to work with us?</li>
   </ul>
+
+  <h2>Not convinced yet?</h2>
+  <p>
+    You can find my up-to-date CV under
+    <a sveltekit:prefetch href="/resume">Resume</a>
+    for all my professional references and experience.
+  </p>
+  <p>
+    If you rather have a short meeting instead of writing emails, you can book a
+    short meeting with me through
+    <ExternalLink href="https://calendly.com/markushatvan/15min">
+      Calendly.
+    </ExternalLink>
+  </p>
+  <p>
+    There is always something to discuss as long as you are not trying to trick
+    me with
+    <ExternalLink
+      href="https://www.cnbc.com/2019/04/18/nigerian-prince-scams-still-rake-in-over-700000-dollars-a-year.html"
+    >
+      the "Nigerian prince" email scam.
+    </ExternalLink>
+    ;)
+  </p>
 
   <h2>Let's get in touch!</h2>
   <p>I will guarantee to get back to you within 48 hours.</p>
@@ -205,31 +229,6 @@
       {/if}
     </div>
   </form>
-
-  <h2>Not convinced yet?</h2>
-  <p>
-    You can find my up-to-date CV under
-    <a sveltekit:prefetch href="/resume">Resume</a>
-    for all my professional references and experience.
-  </p>
-  <p>
-    If you rather have a short meeting instead of writing emails, you can book a
-    short meeting with me through
-    <ExternalLink href="https://calendly.com/markushatvan/15min">
-      Calendly.
-    </ExternalLink>
-  </p>
-
-  <p>
-    There is always something to discuss as long as you are not trying to trick
-    me with
-    <ExternalLink
-      href="https://www.cnbc.com/2019/04/18/nigerian-prince-scams-still-rake-in-over-700000-dollars-a-year.html"
-    >
-      the "Nigerian prince" email scam.
-    </ExternalLink>
-    ;)
-  </p>
 
   <h2>Across the web</h2>
   <p>

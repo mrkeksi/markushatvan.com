@@ -30,18 +30,17 @@
     a wide variety of community-supported extensions.
   </p>
   <p>
-    <b>Rambox:</b>
+    <b>Ferdi:</b>
     I actually used
     <ExternalLink href="https://meetfranz.com/">Franz</ExternalLink>
     for a couple of years, but it is not regularly and actively maintained anymore,
     so I switched over to
-    <ExternalLink href="https://rambox.pro/">
-      Rambox Community Edition
-    </ExternalLink>
+    <ExternalLink href="https://getferdi.com/">Ferdi</ExternalLink>
     for that reason. I am very happy with it because it does exactly what it is supposed
     to: having multiple services like Google Calendar, Telegram, Discord, and more
     within a single application window. It is easy to switch between applications
-    and acting on notifications, so you never miss any messages.
+    and acting on notifications, so you never miss any messages. I am also actively
+    contributing to the project as developer.
   </p>
 
   <p>
@@ -67,7 +66,9 @@
     Qwant over the most popular privacy-focused search engine
     <ExternalLink href="https://duckduckgo.com/">DuckDuckGo</ExternalLink>,
     because Qwant is based in France and therefore has to conform to European
-    GDPR data regulations.
+    GDPR data regulations. Another great up-and-coming alternative is <ExternalLink
+      href="https://search.brave.com/">Brave Search</ExternalLink
+    >.
   </p>
 
   <p>

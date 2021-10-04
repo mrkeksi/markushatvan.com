@@ -5,14 +5,14 @@
 
   const projects = [
     {
-      name: 'MediaMarktSaturn',
-      description: `Europe's number one consumer electronics retailer`,
+      name: 'injury.com',
+      description: `Simplifying the injury legal process to make it as painless as possible`,
       techStack:
-        'React, Typescript, GraphQL, Styled Components, Node.js, Contentful CMS, Storybook, Jira, Confluence',
-      websiteLink: 'https://www.mediamarkt.com/',
+        'Next.js, React, TypeScript, Chakra UI, Storybook, Node.js, Firebase, AWS, Figma, Netlify',
+      websiteLink: 'https://injury.com/',
     },
     {
-      name: 'SlowLettuce',
+      name: 'slowlettuce.io',
       description: 'Berlin’s UX design agency for early-stage tech startups',
       techStack:
         'SapperJS, Svelte, Bulma, NodeJS, Rollup, Markdown, Github, Netlify, Asana',
@@ -23,7 +23,7 @@
       description:
         'Personal website and blog written from scratch with SvelteKit and TailwindCSS.',
       techStack:
-        'SvelteKit, Svelte, TailwindCSS, NodeJS, Rollup, Markdown, GitHub, Netlify',
+        'SvelteKit, Svelte, TypeScript, TailwindCSS, NodeJS, Rollup, Markdown, GitHub, Netlify',
       websiteLink: 'https://markushatvan.com',
       githubLink: 'https://github.com/mhatvan/markushatvan.com',
     },
