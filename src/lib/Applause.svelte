@@ -37,16 +37,22 @@
       text: 'I highly recommend Markus as an exceptional developer — who is dedicated to producing quality code. He completes his tasks beyond expectations, adds thoughtful discussions to the greater picture of a project, and cares about the projects he works for. It would be a pleasure to work with him again in the future.',
     },
     {
-      founder: 'Jeremy Lefèbre',
-      websiteRaw: 'SlowLettuce',
-      websiteLink: 'https://slowlettuce.io/',
-      text: 'Markus is an excellent developer and certainly produced great work for us. He’s also a great team player: reliable, communicating well, and proposing solutions. As project complexity increases, this second part can be a real lifesaver.',
+      founder: 'Jonathan Häberle',
+      websiteRaw: 'Alm Engineering GmbH',
+      websiteLink: 'https://alm.sh',
+      text: 'I had the pleasure of working with Markus on a large e-commerce project. He has very strong technical background knowledge, with which he has significantly improved the development experience for a team of over a hundred developers. I will be very happy to work with him again at the next opportunity and can recommend him unreservedly.',
     },
     {
       founder: 'Francois Lamotte',
       websiteRaw: 'Pageverify',
       websiteLink: 'https://www.pageverify.me',
       text: 'Markus Hatvan is a great front-end Svelte developer. He did an excellent job for our company, and he was also a valuable team member. He communicated well, was reliable, and could be counted on to be available when needed. I would recommend him to anyone in need of a front-end developer!',
+    },
+    {
+      founder: 'Jeremy Lefèbre',
+      websiteRaw: 'SlowLettuce',
+      websiteLink: 'https://slowlettuce.io/',
+      text: 'Markus is an excellent developer and certainly produced great work for us. He’s also a great team player: reliable, communicating well, and proposing solutions. As project complexity increases, this second part can be a real lifesaver.',
     },
   ];
 </script>
