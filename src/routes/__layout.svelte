@@ -14,7 +14,6 @@
 <script lang="ts">
   import { afterUpdate } from 'svelte';
   import BreakpointHelper from '$lib/BreakpointHelper.svelte';
-  import CookieNotice from '$lib/CookieNotice.svelte';
   import NProgress from '$lib/NProgress.svelte';
   import Nav from '$lib/Nav.svelte';
   import Footer from '$lib/Footer.svelte';
@@ -45,8 +44,6 @@
 </main>
 
 <Footer />
-
-<CookieNotice />
 
 <style>
   main {
