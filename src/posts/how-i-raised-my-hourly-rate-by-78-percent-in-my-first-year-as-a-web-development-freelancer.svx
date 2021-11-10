@@ -1,0 +1,90 @@
+---
+title: 'How I Raised My Hourly Rate by 78% in My First Year as a Web Development Freelancer'
+slug: 'how-i-raised-my-hourly-rate-by-78-percent-in-my-first-year-as-a-web-development-freelancer'
+creationDate: '2021-11-10'
+category: 'Programming'
+excerpt: 'There are many great ways of how you can begin building your confidence and showing your clients why they should pay you a higher hourly wage.'
+cover: how-i-raised-my-hourly-rate-by-78-percent-in-my-first-year-as-a-web-development-freelancer.jpg
+tags:
+  - Web development
+  - Success
+  - Hustle
+---
+
+<figure class="mb-10">
+  <img src="/how-i-raised-my-hourly-rate-by-78-percent-in-my-first-year-as-a-web-development-freelancer.jpg" alt="Business men discussing calculations in front of their laptops" loading="lazy"  />
+  <figcaption class="text-center">
+    There better be some money left at the end of the year! - Photo by Author
+  </figcaption>
+</figure>
+
+Many freelancers struggle with the question of how to raise their hourly rate. One of the main reasons why self-employed workers are hesitant to increase their rates is because they are afraid that they will scare away potential clients. This fear often comes from a lack of confidence in themselves and being able to articulate what sets them apart from other skilled freelancers. As the freelance market is getting more competitive, it is becoming harder for freelancers to ask for higher rates without providing good reasons to do so.
+
+An important question to start with is “are you charging enough for your services?”.
+
+There are many great ways of how you can begin building your confidence and showing your clients why they should pay you a higher hourly wage. This can be done by making small improvements in your workflow. Since COVID-19 massively sped up the digitization process for companies, currently there is an abundance of businesses who are looking for web development professionals, no matter the experience level.
+
+If you are just starting out in your freelance career like I did at the beginning of 2021, the rest of this article will share some of my best advice on how I was able to raise my hourly rate by 78% in one year:
+
+## Generate multiple sources for incoming project offers
+
+When you start out as a complete newbie in the freelance industry without any business connections, it is most important to find a variety of channels that can provide you with project leads. This is crucial because once you have multiple interesting project offers available to choose from, you will automatically learn how to bid for jobs more effectively and stay relaxed during the interview process.
+
+To find potential clients, I researched and found websites where companies in my target market (Switzerland, Northern Europe, USA) were looking for freelance workers. Nowadays, it is easy to find remote positions across the globe, so you are not restricted to the country you live in. Think globally!
+
+I talked about my process of winning new clients in detail in my previous article about [How To Win Your First Clients as a Freelance Web Developer](https://markushatvan.com/blog/how-to-win-your-first-clients-as-a-freelance-web-developer), and I can tell you, it was a lot of upfront effort that luckily paid off in the end.
+
+## Keep talking to recruiters even when you are fully booked
+
+Although it is better to sign a deal with a company directly, you will usually have to go through some intermediary like a recruitment agency or freelancing platform. Many of the bigger and more prestigious companies completely outsource the recruitment (and billing) for independent contractors, so you wouldn't have a chance to get in contact with them anyway except through these third party agencies. The recruiters usually cooperate with many companies in parallel, so it makes sense to stay in contact and respond when you are receiving calls or emails from them.
+
+Whenever I was contacted if I was available for a project, I would ask for basic information like the projected duration of the project, hourly rate, tech stack and more, even though I was already busy with a project and didn't plan on taking on a new one. By regularly staying in touch with the recruiters, you can get a better feel for the most in-demand skills in your area and which companies are offering to pay for it.
+
+## Update your online freelance profiles regularly
+
+This is probably one of the key aspects to keep in mind when trying to achieve a higher hourly rate. Whenever I had a bit of time available, I made sure to go over all the freelance platforms where I registered and update them regularly. It is tedious at first because you never know if someone will actually discover your profile, but it is definitely worth it in the long run.
+
+In my case, I was lucky enough to get contacted by the co-founder of a new invite-only freelance platform who found me through [Remote OK](https://remoteok.io/). I didn't even know that they existed, so that provided me with a great source for high value project offers.
+
+## Showcase your passion through an active GitHub profile
+
+It is not a hard requirement to work on web development projects outside of your work, but it definitely helps to be able to showcase a GitHub profile with reasonable activity. Opening issues, fixing bugs and adding new features to open source libraries shows that you are passionate about web development and that your code contributions are of high quality to others. The social proof of having contributed to well-known companies will improve your intrinsic value as a freelancer immensely, and you will be able to ask for better rates.
+
+Lifelong learning and training is the way to go to be highly successful.
+
+## Move on to the next project regularly
+
+<figure class="my-10">
+  <img src="/hourly-rate-increase-over-time.png" alt="Line chart displaying hourly rate increase over time" loading="lazy"/>
+  <figcaption class="text-center">
+    Photo by author
+  </figcaption>
+</figure>
+
+As you can see in the graph above, I have switched between projects quite a bit. This was an important factor for raising my hourly rate quickly, since it was unclear at the beginning how to estimate the value of my services without any prior clients. I recommend setting the initial hourly rate based on the median rate that is common in your area.
+
+It might sound a bit harsh at first, but as a full-time freelancer you are not a permanent employee and therefore a long-lasting cooperation with the company is also not expected from you in the first place. Don't make the mistake of relying on a single client and then sticking around with them for years. It can be quite comfortable to have a client that provides you with a steady income, but whenever you receive a better project offer than your current one, brainstorm if it would be worth the hassle of switching.
+
+You will definitely have an easier time increasing your hourly rate if you decide to choose a new project rather than asking for a raise at the current one. As a rule of thumb, I like to pick a new project every few months, but this is entirely up to you and your desired growth rate as well as relationship, satisfaction and success with a client.
+
+Note that since you are part of the external workforce of a business, you should also be aware of the fact that you could get kicked out of a project at any time as well, so this can go both ways.
+
+## Pick a project that can advance your skill set
+
+You might disagree with me on this one, but I believe that it is better to offer a broader skill set in the market of web development rather than to become highly specialized in one topic. Whenever I decide on a new project, I take a good look at the tech stack that is used and other facts, rather than the hourly rate alone.
+
+With this in mind, I have recently been able to add modern and in-demand technologies like Next.js, Playwright and Electron to my skill set, which improves my value to potential clients, and it is also always great fun to learn new skills.
+
+I started bidding on jobs that were at a higher level than what I was comfortable with and slowly increased the complexity of the projects that I took on. In the end, I was always able to keep up with the pace. In the worst case, I would need to learn a bit in my free time to be able to get up to speed with the project.
+
+## Try to move on from every client with a positive impression
+
+Once you've made a successful pitch, make sure you do everything you can to make your client happy. If they are satisfied, they will be more likely to hire you again for any future projects. You never know which business connections can come in handy at a later stage in your career.
+
+Oftentimes, it is not simply about having great skills in your freelance position as a software developer, but clients also want to cooperate with a freelancer who is reliable, feels connected with the project at hand and has a good eye for design and user experience. Specifically small businesses use word-of-mouth advertising and could provide you with an unexpected follow-up client.
+
+## Conclusion
+
+We should all negotiate for higher rates in our careers as freelance business owners whenever possible, or we will find ourselves working for lower rates than we deserve. With a decent annual income, we can improve our work-life balance as well as spend newly-found free time with friends and family or focus on other productive tasks.
+
+The market demand for freelance services is there, so build up the confidence, go ahead and make the most of it! I hope that you can take my advice to heart and apply it! Let me know if there are any open questions left or explanations to add.
