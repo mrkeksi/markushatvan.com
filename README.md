@@ -18,7 +18,6 @@ The main focus of the website is to provide value to visitors through the [blog]
 - [Medium](https://medium.com/@markushatvan)
 - [LinkedIn](https://www.linkedin.com/in/markus-hatvan-b912b91aa/)
 - [Twitter](https://twitter.com/HatvanMarkus)
-- [Reddit](https://www.reddit.com/user/chimpcmder)
 
 ## 🤝 Contributing
 

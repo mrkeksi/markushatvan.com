@@ -6,7 +6,6 @@
     faGithub,
     faLinkedin,
     faDev,
-    faReddit,
   } from '@fortawesome/free-brands-svg-icons';
   import { faRss } from '@fortawesome/free-solid-svg-icons';
   import ExternalLink from './ExternalLink.svelte';
@@ -55,14 +54,6 @@
       customClass="inline-flex text-teal-900 hover:text-teal-700"
     >
       <Icon data="{faMedium}" class="m-3" scale="{2}" />
-    </ExternalLink>
-
-    <ExternalLink
-      href="https://www.reddit.com/user/chimpcmder"
-      ariaLabel="Follow me Reddit"
-      customClass="inline-flex text-teal-900 hover:text-teal-700"
-    >
-      <Icon data="{faReddit}" class="m-3" scale="{2}" />
     </ExternalLink>
 
     <ExternalLink

@@ -1,6 +1,6 @@
 import fs from 'fs';
 import frontMatter from 'front-matter';
-import marked from 'marked';
+import { marked } from 'marked';
 import Prism from 'prismjs';
 import 'prism-svelte';
 import loadLanguages from 'prismjs/components/index.js';
@@ -25,14 +25,14 @@ const posts = fs
       return `<pre class='language-${lang}'><code class='language-${lang}'>${html}</code></pre>`;
     };
 
-    const html = marked(postFrontMatter.body, { renderer });
+    const html = marked.parse(postFrontMatter.body, { renderer });
 
     const readingTimeDuration = readingTime(postFrontMatter.body).text;
 
     return {
       // @ts-expect-error Spread types may only be created from object types.
       ...postFrontMatter.attributes,
-      html: marked(html),
+      html: marked.parse(html),
       readingTime: readingTimeDuration,
     };
   });

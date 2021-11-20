@@ -6,12 +6,10 @@
     faGithub,
     faLinkedin,
     faDev,
-    faReddit,
   } from '@fortawesome/free-brands-svg-icons';
   import { faEnvelope, faRss } from '@fortawesome/free-solid-svg-icons';
   import ExternalLink from './ExternalLink.svelte';
   import SpeedlifyFooter from './SpeedlifyFooter.svelte';
-
 </script>
 
 <footer class="text-teal-200 border-t-4 border-teal-700 applause-gradient">
@@ -113,14 +111,6 @@
         customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
       >
         <Icon data="{faMedium}" class="mr-3" scale="{1.5}" />
-      </ExternalLink>
-
-      <ExternalLink
-        href="https://www.reddit.com/user/chimpcmder"
-        ariaLabel="Follow me Reddit"
-        customClass="inline-flex mt-4 lg:mt-0 hover:text-white"
-      >
-        <Icon data="{faReddit}" class="mr-3" scale="{1.5}" />
       </ExternalLink>
 
       <ExternalLink

@@ -21,7 +21,7 @@
     {#if post.excerpt}
       <p class="mt-3 mb-12">
         {post.excerpt.length > 100
-          ? `${post.excerpt.substr(0, 100)}...`
+          ? `${post.excerpt.slice(0, 100)}...`
           : post.excerpt}
       </p>
     {/if}
