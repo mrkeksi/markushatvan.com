@@ -23,6 +23,7 @@ tags:
      role="alert">
   Syntax highlighting and formatting for code blocks might not be 100% correct due to experimental Svelte support.
 </div>
+
 Although the initial release of [Svelte](https://svelte.dev/) was back in November 2016, it's still more of an underdog amongst the JavaScript front end frameworks and just recently started to get its well deserved attention by the community.
 
 After working with various JavaScript frameworks over the years including Angular, React and Vue.js, I think I have a good overall impression about how writing code can be enjoyable and how it can be frustrating.
