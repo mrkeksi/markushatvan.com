@@ -24,6 +24,12 @@
       text: 'On every project I worked on together with Markus, he was an essential part of the team. With his high demand for software quality and a smooth development workflow, he has always contributed significantly to the success of the projects. He is constantly learning and using the latest technologies and is very good at passing on these learnings to the team. He always keeps the bigger picture in mind and his calm but direct manner is conducive to strengthening the team spirit and creating a good working atmosphere.',
     },
     {
+      founder: 'Noah Blumenthal',
+      websiteRaw: 'Injury.com',
+      websiteLink: 'https://www.injury.com/',
+      text: 'Markus is a very reliable and attentive developer who plays an important role in creating our frontend MVP for injury.com. He is in charge of pull request reviews, modernizing the codebase, and keeps dependencies up to date. Additionally, he is responsible for implementing and pushing forward e2e and unit tests to provide test coverage for the entire project. We value his excellent work and he is a great addition to the team!',
+    },
+    {
       founder: 'Dmytro Mezhenskyi',
       role: 'Author',
       websiteRaw: 'Decoded Frontend',
