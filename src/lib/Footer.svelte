@@ -12,7 +12,7 @@
   import SpeedlifyFooter from './SpeedlifyFooter.svelte';
 </script>
 
-<footer class="text-teal-200 border-t-4 border-teal-700 applause-gradient">
+<footer class="text-teal-100 border-t-4 border-teal-700 applause-gradient">
   <div
     class="container flex flex-wrap items-baseline justify-between px-3 py-5 mx-auto"
   >

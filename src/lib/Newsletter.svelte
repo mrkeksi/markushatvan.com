@@ -4,7 +4,7 @@
 
 <!-- Mailchimp Signup Form -->
 <section
-  class="container mb-16 text-center bg-gray-200 border-t-4 border-teal-700 mh-container"
+  class="container mb-16 text-center bg-gray-100 border-t-4 border-teal-700 mh-container"
 >
   <div id="mc_embed_signup">
     <form

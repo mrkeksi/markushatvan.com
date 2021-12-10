@@ -31,7 +31,7 @@ body {
 }
 
 .mh a:hover {
-  @apply underline text-teal-800;
+  @apply underline text-teal-900;
 }
 
 .mh h1 {
@@ -71,7 +71,7 @@ body {
 }
 
 .mh ul ul {
-  @apply mb-4 ml-8 text-gray-800 list-circle;
+  @apply mb-4 ml-8 text-gray-800 list-disc;
 }
 
 .mh blockquote {
@@ -139,11 +139,11 @@ body {
 }
 
 .nav-link:hover {
-  @apply text-teal-800;
+  @apply text-teal-900;
 }
 
 .footer-link {
-  @apply block text-teal-200 mt-4 mr-4;
+  @apply block text-teal-100 mt-4 mr-4;
 }
 
 .footer-link:hover {
@@ -176,11 +176,11 @@ body {
 }
 
 .mh .info-tag {
-  @apply inline-flex items-center bg-gray-200 rounded py-1 my-1 text-sm font-semibold mr-2 px-3;
+  @apply inline-flex items-center bg-gray-100 rounded py-1 my-1 text-sm font-semibold mr-2 px-3;
 }
 
 .mh .alert-gray {
-  @apply p-4 text-gray-700 bg-gray-300 border-l-4 border-gray-500;
+  @apply p-4 text-gray-700 bg-gray-100 border-l-4 border-gray-400;
 }
 
 .mh .alert-success {
@@ -236,4 +236,9 @@ body {
 .prose-lg ul > li,
 .lg\:prose-xl ul > li {
   padding-left: 0 !important;
+}
+
+.prose-lg ul,
+.lg\:prose-xl ul {
+  margin-left: 0 !important;
 }

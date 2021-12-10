@@ -148,7 +148,7 @@
     data-netlify="true"
     on:submit="{handleSubmit}"
   >
-    <div class="flex flex-wrap p-3 bg-gray-200 border border-gray-500 rounded">
+    <div class="flex flex-wrap p-3 bg-gray-100 border border-gray-500 rounded">
       <input type="hidden" name="form-name" value="contact" />
       <input type="text" name="bot-field" class="hidden" />
       <div class="w-1/2 px-2 my-2">

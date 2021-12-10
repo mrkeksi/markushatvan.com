@@ -8,7 +8,6 @@
   const toggleHamburgerMenu = () => {
     open = !open;
   };
-
 </script>
 
 <header class="fixed top-0 w-full bg-white header-box-shadow">
@@ -27,7 +26,7 @@
     <div class="ml-auto md:hidden">
       <ClickOutside on:clickoutside="{() => (open = false)}">
         <button
-          class="flex items-center px-3 py-2 text-teal-700 border border-gray-400 hover:text-teal-800 hover:border-gray-500"
+          class="flex items-center px-3 py-2 text-teal-700 border border-gray-400 hover:text-teal-900 hover:border-gray-500"
           aria-label="Hamburger menu"
           on:click="{toggleHamburgerMenu}"
         >
@@ -87,5 +86,4 @@
   header {
     z-index: 1;
   }
-
 </style>
