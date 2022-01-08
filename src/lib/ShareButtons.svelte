@@ -12,7 +12,7 @@
 
   export let post: Post;
 
-  const fullURL = `https://markushatvan.com${$page.path}`;
+  const fullURL = `https://markushatvan.com${$page.url.pathname}`;
   const encodedURL = encodeURIComponent(fullURL);
   const encodedPostTitle = encodeURIComponent(post.title);
   const encodedPostExcerpt = encodeURIComponent(post.excerpt);

@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 import posts from './blog/_posts';
 import { convertToSlug } from '../utils';
 

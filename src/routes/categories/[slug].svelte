@@ -1,17 +1,16 @@
 <script context="module" lang="ts">
   import { convertToSentenceCase } from '../../utils';
 
-  export async function load({ page, fetch }: LoadInput) {
+  export async function load({ params, fetch }: LoadInput) {
     try {
       const allPosts = await fetch(`/blog.json`);
       const posts = await allPosts.json();
 
       const postsByCategory = posts.filter(
-        (post: Post) =>
-          post.category === convertToSentenceCase(page.params.slug),
+        (post: Post) => post.category === convertToSentenceCase(params.slug),
       );
 
-      return { props: { posts, postsByCategory, slug: page.params.slug } };
+      return { props: { posts, postsByCategory, slug: params.slug } };
     } catch (error) {
       console.error(error);
     }

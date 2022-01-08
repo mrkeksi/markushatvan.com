@@ -4,7 +4,7 @@
 
   const baseURL = `https://markushatvan.com`;
 
-  const fullURL = `${baseURL}${$page.path}`;
+  const fullURL = `${baseURL}${$page.url.pathname}`;
 
   const siteLogo = `${baseURL}/mh-logo.jpeg`;
 

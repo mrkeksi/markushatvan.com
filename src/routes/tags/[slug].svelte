@@ -1,7 +1,7 @@
 <script context="module" lang="ts">
   import { convertToSentenceCase } from '../../utils';
 
-  export async function load({ page, fetch }: LoadInput) {
+  export async function load({ params, fetch }: LoadInput) {
     try {
       const allPosts = await fetch(`/blog.json`);
       const posts: Post[] = await allPosts.json();
@@ -11,10 +11,10 @@
           return [];
         }
         const regex = new RegExp(post.tags.join('|'), 'i');
-        return regex.test(convertToSentenceCase(page.params.slug));
+        return regex.test(convertToSentenceCase(params.slug));
       });
 
-      return { props: { posts, postsByTag, slug: page.params.slug } };
+      return { props: { posts, postsByTag, slug: params.slug } };
     } catch (error) {
       console.error(error);
     }
