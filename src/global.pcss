@@ -2,27 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Lato Regular'), local('Lato-Regular'),
-    url('./fonts/lato-v17-latin-regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Lato Bold'), local('Lato-Bold'),
-    url('./fonts/lato-v17-latin-700.woff2') format('woff2');
-}
-
 body {
-  font-family: 'Lato', sans-serif;
-  padding-top: 56px;
+  font-family: sans-serif;
   @apply relative leading-relaxed text-lg;
 }
 
@@ -134,12 +115,19 @@ body {
   @apply no-underline;
 }
 
-.nav-link {
-  @apply block text-teal-700 mt-4 mr-4;
+@supports ((-webkit-backdrop-filter:none) or (backdrop-filter:none)) {
+.sticky {
+-webkit-backdrop-filter: saturate(180%) blur(20px);
+backdrop-filter: saturate(180%) blur(20px);
+}
 }
 
-.nav-link:hover {
-  @apply text-teal-900;
+.nav-link {
+  @apply block mt-4 mr-4 flex-1 text-center;
+}
+
+nav>a:hover {
+  @apply text-sky-400;
 }
 
 .footer-link {
@@ -224,7 +212,7 @@ body {
       rgba(145, 145, 145, 0.05) 66.666%,
       rgba(145, 145, 145, 0.05) 99.999%
     ),
-    linear-gradient(90deg, rgb(9, 201, 186), rgb(18, 131, 221));
+    linear-gradient(to right, rgb(9, 134, 201), rgb(18, 85, 221));
 }
 
 /* @tailwindcss/typography overwrites */

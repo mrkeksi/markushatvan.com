@@ -10,19 +10,21 @@
   };
 </script>
 
-<header class="fixed top-0 w-full bg-white header-box-shadow">
-  <div
-    class="container flex flex-wrap items-center justify-between p-3 mx-auto bg-white"
-  >
-    <div class="flex">
-      <a
-        sveltekit:prefetch
-        href="/"
-        class="mt-0 text-xl font-semibold tracking-tight nav-link md:inline-block"
-      >
-        <img class="h-8" src="/mh-logo.jpeg" alt="Markus Hatvan" />
-      </a>
-    </div>
+<header class="w-full dark:bg-slate-800">
+<div class="bg-blue-400 text-white py-1">
+<div class="container mx-auto"><p>test</p></div>
+</div>
+<div class="container flex flex-wrap mx-auto py-3">
+<div>
+<a sveltekit:prefetch href="/" class="mt-0 text-xl font-semibold tracking-tight nav-link" >
+  <img class="h-38" src="/rst_logo-head.webp" alt="rst Logo" />
+</a>
+</div>
+</div>
+</header>
+
+<div class="sticky top-0 shadow-lg bg-gray-600/90">
+  <div class="container items-center justify-between p-3 mx-auto">
     <div class="ml-auto md:hidden">
       <ClickOutside on:clickoutside="{() => (open = false)}">
         <button
@@ -37,46 +39,26 @@
     <nav
       aria-label="Header navigation"
       class:hidden="{!open}"
-      class="w-full ml-auto md:flex md:w-auto"
+      class="w-full ml-auto md:flex md:items-center md:w-auto text-white"
     >
-      <a
-        sveltekit:prefetch
-        href="/about"
-        class="nav-link md:inline-block md:mt-0"
-      >
+      <a sveltekit:prefetch href="/about" class="nav-link md:mt-0" >
         About
       </a>
-      <a
-        sveltekit:prefetch
-        href="/blog"
-        class="nav-link md:inline-block md:mt-0"
-      >
+      <a sveltekit:prefetch href="/blog" class="nav-link md:mt-0" >
         Blog
       </a>
-      <a
-        sveltekit:prefetch
-        href="/recommendations"
-        class="nav-link md:inline-block md:mt-0"
-      >
+      <a sveltekit:prefetch href="/recommendations" class="nav-link md:mt-0" >
         Recommendations
       </a>
-      <a
-        sveltekit:prefetch
-        href="/services"
-        class="nav-link md:inline-block md:mt-0"
-      >
+      <a sveltekit:prefetch href="/services" class="nav-link md:mt-0" >
         Services
       </a>
-      <a
-        sveltekit:prefetch
-        href="/contact"
-        class="nav-link md:inline-block md:mt-0"
-      >
+      <a sveltekit:prefetch href="/contact" class="nav-link md:mt-0" >
         Contact
       </a>
     </nav>
   </div>
-</header>
+  </div>
 
 <style>
   .header-box-shadow {
